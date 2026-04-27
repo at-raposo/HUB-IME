@@ -53,7 +53,7 @@ export function Footer() {
 
                     <div>
                         <h4 className="font-bold text-white mb-6 uppercase text-xs tracking-wider border-l-4 border-white/40 pl-3">Responsável pelo site</h4>
-                        <ul className="space-y-3">
+                        <ul className="space-y-4">
                             <li className="flex items-start gap-3 text-sm text-white/60">
                                 <span className="material-symbols-outlined text-[20px] w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5 text-brand-blue-accent">person</span>
                                 <div>
@@ -71,7 +71,23 @@ export function Footer() {
                                     </button>
                                 </div>
                             </li>
-
+                            <li className="flex items-start gap-3 text-sm text-white/60">
+                                <span className="material-symbols-outlined text-[20px] w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5 text-brand-blue-accent">person</span>
+                                <div>
+                                    <p className="font-medium text-white">João Stangorlini</p>
+                                    <button
+                                        onClick={() => {
+                                            const email = "joaopaulostangorlini@usp.br";
+                                            navigator.clipboard.writeText(email);
+                                            import('react-hot-toast').then(m => m.toast.success('E-mail copiado!'));
+                                            window.location.href = `mailto:${email}`;
+                                        }}
+                                        className="hover:text-brand-blue-accent transition-colors text-left"
+                                    >
+                                        joaopaulostangorlini@usp.br
+                                    </button>
+                                </div>
+                            </li>
                         </ul>
                     </div>
 
