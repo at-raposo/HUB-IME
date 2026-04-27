@@ -1,7 +1,7 @@
 export const CATEGORIES = [
     'Todos',
-    'Lab-Div',
-    'Mentorados Lab-Div',
+    'HUB IME',
+    'Mentorados HUB IME',
     'Laboratórios',
     'Pesquisadores',
     'Bastidores da Ciência',
@@ -25,7 +25,7 @@ export const CATEGORY_STYLES: Record<string, {
     filterInactive: string;
     cardBadge: string;
 }> = {
-    'Lab-Div': {
+    'HUB IME': {
         bg: 'bg-brand-blue',
         hover: 'hover:bg-brand-darkBlue',
         text: 'text-white',
@@ -34,7 +34,7 @@ export const CATEGORY_STYLES: Record<string, {
         filterInactive: 'bg-white dark:bg-form-dark text-gray-600 dark:text-gray-300 hover:bg-brand-blue/5 dark:hover:bg-brand-blue/10 hover:text-brand-blue border-gray-200 dark:border-gray-700 hover:border-brand-blue',
         cardBadge: 'bg-brand-blue/90 text-white shadow-brand-blue/50'
     },
-    'Mentorados Lab-Div': {
+    'Mentorados HUB IME': {
         bg: 'bg-brand-yellow',
         hover: 'hover:opacity-90',
         text: 'text-black',

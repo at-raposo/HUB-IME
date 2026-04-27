@@ -48,7 +48,7 @@ const profileSchema = z.object({
     seeking_assistant: z.boolean().default(false),
     interest_area: z.string().max(100).optional(),
 }).superRefine((data, ctx) => {
-    const isUsp = data.email?.endsWith('@usp.br') || data.email?.endsWith('@if.usp.br');
+    const isUsp = data.email?.endsWith('@usp.br') || data.email?.endsWith('@ime.usp.br');
     if (isUsp) {
         if (!data.institute || data.institute.trim() === '') {
             ctx.addIssue({ code: z.ZodIssueCode.custom, message: "Selecione um instituto", path: ["institute"] });
@@ -144,7 +144,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
     const selectedInstitute = watch('institute');
 
     const formEmail = watch('email');
-    const isUspUser = formEmail ? (formEmail.endsWith('@usp.br') || formEmail.endsWith('@if.usp.br')) : false;
+    const isUspUser = formEmail ? (formEmail.endsWith('@usp.br') || formEmail.endsWith('@ime.usp.br')) : false;
 
     const institutes = ['IF-USP', 'IME-USP', 'IQ-USP', 'FFLCH-USP', 'Outros'];
     const ifCourses = ['Bacharelado', 'Licenciatura', 'Física Médica'];
@@ -366,7 +366,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
                         {adminMode && (
                             <div className="grid grid-cols-2 gap-4 p-4 bg-brand-red/5 border border-brand-red/10 rounded-2xl">
                                 <div className="flex items-center justify-between">
-                                    <span className="text-[10px] font-black uppercase tracking-widest text-brand-red">Membro Lab-Div</span>
+                                    <span className="text-[10px] font-black uppercase tracking-widest text-brand-red">Membro HUB IME</span>
                                     <label className="relative inline-flex items-center cursor-pointer">
                                         <input
                                             type="checkbox"
@@ -453,7 +453,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
                                         <span className="text-xs font-black text-gray-900 dark:text-white uppercase tracking-tight">
                                             {watch('user_category').replace('_', ' ')}
                                         </span>
-                                        <span className="text-[8px] font-black bg-brand-blue/10 text-brand-blue px-2 py-0.5 rounded uppercase font-mono">ID LabDiv</span>
+                                        <span className="text-[8px] font-black bg-brand-blue/10 text-brand-blue px-2 py-0.5 rounded uppercase font-mono">ID HUB IME</span>
                                     </div>
                                 )}
                             </div>
@@ -814,7 +814,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
                                                         <div className="text-2xl">🎓</div>
                                                         <div className="text-xs font-black uppercase tracking-tight text-brand-blue">Mentor</div>
                                                         <p className="text-[9px] text-gray-400 leading-relaxed">
-                                                            {canMentor ? 'Adote um bixo e guie-o pelo IFUSP' : 'Requer 2+ anos de curso'}
+                                                            {canMentor ? 'Adote um bixo e guie-o pelo USP' : 'Requer 2+ anos de curso'}
                                                         </p>
                                                         <div className={`mt-2 w-full h-1 rounded-full ${isMentor ? 'bg-brand-blue' : 'bg-gray-700'} transition-all`} />
                                                     </div>
@@ -862,7 +862,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
                                         />
                                         {profileData?.usp_proof_url && !proofFile && (
                                             <p className="text-[9px] text-brand-red font-bold uppercase mt-1 flex items-center gap-1">
-                                                <ShieldCheck className="w-3 h-3" /> Validado no LabDiv
+                                                <ShieldCheck className="w-3 h-3" /> Validado no HUB IME
                                             </p>
                                         )}
                                     </div>

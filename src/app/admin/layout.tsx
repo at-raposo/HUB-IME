@@ -49,7 +49,7 @@ export default function AdminLayout({
         { name: 'Central de Anomalias', href: '/admin/reports', icon: 'bug_report' },
         { name: 'Trilhas de Aprendizagem', href: '/admin/trilhas', icon: 'route', adminOnly: true },
         { name: 'Oportunidades', href: '/admin/oportunidades', icon: 'event' },
-        { name: 'Logs do IFUSP', href: '/admin/drops', icon: 'forum' },
+        { name: 'Logs do USP', href: '/admin/drops', icon: 'forum' },
         { name: 'Configurações Admin', href: '/admin/config', icon: 'admin_panel_settings', adminOnly: true },
     ];
 
@@ -96,7 +96,7 @@ export default function AdminLayout({
                             </div>
                             <div className="flex flex-col overflow-hidden">
                                 <h1 className="text-white text-lg font-bold leading-tight truncate">Admin<span className="text-brand-yellow">Panel</span></h1>
-                                <p className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold mt-0.5">Lab-Div v3.1.5</p>
+                                <p className="text-[10px] text-gray-400 uppercase tracking-widest font-semibold mt-0.5">HUB IME v3.1.5</p>
                             </div>
                         </Link>
                     </div>

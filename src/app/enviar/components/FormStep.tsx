@@ -55,7 +55,7 @@ export function FormStep() {
     const uploadToCloudinary = async (file: File) => {
         const formData = new FormData();
         formData.append('file', file);
-        formData.append('upload_preset', process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET || 'ifusp_uploads');
+        formData.append('upload_preset', process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET || 'USP_uploads');
         formData.append('folder', 'submissions');
 
         const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;

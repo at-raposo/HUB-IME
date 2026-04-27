@@ -81,12 +81,12 @@ export default function SubmitPage() {
                         {/* Branding */}
                         <Link href="/" className="flex items-center gap-3 group hover:opacity-80 transition-all">
                             <div className="relative group-hover:scale-105 transition-transform">
-                                <Image src="/labdiv-logo.png" alt="Hub Lab-Div" width={32} height={32} className="relative w-8 h-8 object-contain rounded-lg" priority />
+                                <Image src="/HUB IME-logo.png" alt="Hub HUB IME" width={32} height={32} className="relative w-8 h-8 object-contain rounded-lg" priority />
                             </div>
                             <div className="flex flex-col leading-none">
                                 <div className="text-lg font-[900] tracking-tighter uppercase flex items-center gap-0.5">
                                     <span className="text-gray-900 dark:text-white">HUB</span>
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">LAB-DIV</span>
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">HUB IME</span>
                                 </div>
                                 <span className="text-[8px] font-bold text-gray-400 uppercase tracking-widest">Instituto de Física</span>
                             </div>
@@ -121,7 +121,7 @@ export default function SubmitPage() {
                                 >
                                     <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-red/10 dark:bg-brand-red/20 border border-brand-red/20 text-brand-red text-[10px] font-black uppercase tracking-[0.2em]">
                                         <span className="material-symbols-outlined text-sm">bolt</span>
-                                        Arquivo Lab-Div
+                                        Arquivo HUB IME
                                     </div>
                                     <h1 className="text-4xl md:text-6xl font-display font-black tracking-tight text-gray-900 dark:text-white">
                                         Conte a história da <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-red to-brand-yellow">Ciência</span>

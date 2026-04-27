@@ -115,7 +115,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         : `Contribuição de ${submission.authors} na categoria ${submission.category}.`;
 
     return {
-        title: `${submission.title} — Hub Lab-Div`,
+        title: `${submission.title} — Hub HUB IME`,
         description: cleanDescription,
         alternates: {
             canonical: `https://if-usp-ciencia.vercel.app/arquivo/${id}`,
@@ -127,7 +127,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             type: 'article',
             publishedTime: submission.created_at,
             authors: [submission.authors],
-            siteName: 'Hub de Comunicação Científica Lab-Div'
+            siteName: 'Hub de Comunicação Científica HUB IME'
         },
         twitter: {
             card: 'summary_large_image',
@@ -195,7 +195,7 @@ export default async function ArquivoItemPage({ params }: PageProps) {
     const { data: { user } } = await serverSupabase.auth.getUser();
 
     const breadcrumbItems = [
-        { label: 'Arquivo Lab-Div', href: '/arquivo-labdiv' },
+        { label: 'Arquivo HUB IME', href: '/arquivo-ime' },
         { label: submission.category, href: `/?collection=${encodeURIComponent(submission.category)}` },
         { label: submission.title }
     ];

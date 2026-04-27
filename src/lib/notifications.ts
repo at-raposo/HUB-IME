@@ -151,20 +151,20 @@ export async function sendAdminNotification(data: NotificationData) {
 
     const finalHtml = `
         <div style="max-width: 600px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border: 1px solid #eaeaea; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <div style="background-color: #0F4780; padding: 32px 24px; text-align: center;">
+            <div style="background-color: #A51C30; padding: 32px 24px; text-align: center;">
                 <h1 style="color: #ffffff; margin: 0; font-size: 28px; font-weight: 900; letter-spacing: -0.5px;">LAB-DIV HUB</h1>
                 <p style="color: #8bb8e8; margin: 6px 0 0 0; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px;">Instituto de Física | USP</p>
             </div>
             <div style="padding: 40px 32px; background-color: #ffffff;">
                 ${emailTemplate}
                 <div style="text-align: center; margin-top: 48px;">
-                    <a href="${dashboardLink}" style="display: inline-block; padding: 14px 32px; background-color: #0F4780; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 15px; box-shadow: 0 4px 6px rgba(0,66,130,0.2);">
+                    <a href="${dashboardLink}" style="display: inline-block; padding: 14px 32px; background-color: #A51C30; color: #ffffff; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 15px; box-shadow: 0 4px 6px rgba(0,66,130,0.2);">
                         Acessar Painel Admin
                     </a>
                 </div>
             </div>
             <div style="background-color: #f8f9fa; padding: 24px; text-align: center; border-top: 1px solid #eaeaea;">
-                <p style="color: #6c757d; margin: 0; font-size: 12px; line-height: 1.5;">Este é um e-mail automático enviado pelo Hub de Comunicação Científica do Lab-Div.<br>Por favor, não responda diretamente a este endereço.</p>
+                <p style="color: #6c757d; margin: 0; font-size: 12px; line-height: 1.5;">Este é um e-mail automático enviado pelo Hub de Comunicação Científica do HUB IME.<br>Por favor, não responda diretamente a este endereço.</p>
             </div>
         </div>
     `;
@@ -174,7 +174,7 @@ export async function sendAdminNotification(data: NotificationData) {
         const results = await Promise.allSettled(
             adminEmails.map(email =>
                 resend.emails.send({
-                    from: 'Hub Lab-Div <onboarding@resend.dev>',
+                    from: 'Hub HUB IME <onboarding@resend.dev>',
                     to: [email],
                     subject: subject,
                     html: finalHtml,

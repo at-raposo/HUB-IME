@@ -32,8 +32,8 @@ import { useNavigationStore } from '@/store/useNavigationStore';
 
 const mainLinks = [
     { name: 'Comunidade', href: '/', icon: <span className="material-symbols-outlined text-2xl">groups</span>, color: 'brand-red' },
-    { name: 'GCIF', href: '/gcif', icon: <ColisorIcon className="w-6 h-6" />, color: 'brand-blue' },
-    { name: 'LabDiv', href: '/labdiv', icon: <span className="material-symbols-outlined text-2xl">info</span>, color: 'brand-yellow' },
+    { name: 'GCIME', href: '/gcime', icon: <ColisorIcon className="w-6 h-6" />, color: 'brand-blue' },
+    { name: 'HUB IME', href: '/HUB IME', icon: <span className="material-symbols-outlined text-2xl">info</span>, color: 'brand-yellow' },
 ];
 
 const categoryLinks = [
@@ -80,7 +80,7 @@ export const SidebarLeft = ({ userId }: { userId?: string }) => {
                     .single();
                 
                 const category = profileData?.user_category;
-                const isUspMember = profileData?.is_usp_member || userEmail?.endsWith('@usp.br') || userEmail?.endsWith('@if.usp.br');
+                const isUspMember = profileData?.is_usp_member || userEmail?.endsWith('@usp.br') || userEmail?.endsWith('@ime.usp.br') || userEmail?.endsWith('@ime.usp.br');
                 
                 if (['pesquisador', 'docente_pesquisador'].includes(category)) {
                     setUserCategory('pesquisador');

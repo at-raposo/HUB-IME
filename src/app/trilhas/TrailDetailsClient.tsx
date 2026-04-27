@@ -222,7 +222,7 @@ export default function TrailDetailsClient({
                                     <cfg.icon size={20} style={{ color: cfg.color }} />
                                 </div>
                                 <span className="font-mono text-[10px] tracking-[0.2em]" style={{ color: cfg.color }}>
-                                    {trail.course_code || 'LABDIV-CORE'} // {cfg.label.toUpperCase()}
+                                    {trail.course_code || 'HUB IME-CORE'} // {cfg.label.toUpperCase()}
                                 </span>
                                 {trail.category && (
                                     <span className="font-mono text-[9px] px-2 py-0.5 rounded border border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400 uppercase min-h-[28px] flex items-center">
@@ -774,7 +774,7 @@ export default function TrailDetailsClient({
                                         <div>
                                             <span className="block text-[10px] text-gray-500 font-mono underline uppercase mb-1 underline-offset-4">Objetivo Curricular</span>
                                             <p className="text-[11px] text-gray-400 font-mono leading-relaxed">
-                                                Integralização do núcleo {trail.axis === 'comum' ? 'básico' : 'específico'} conforme manual IFUSP 2025.
+                                                Integralização do núcleo {trail.axis === 'comum' ? 'básico' : 'específico'} conforme manual USP 2025.
                                             </p>
                                         </div>
                                     </div>

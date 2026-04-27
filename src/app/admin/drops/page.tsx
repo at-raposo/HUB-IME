@@ -124,7 +124,7 @@ export default function AdminDropsPage() {
                         </div>
                         <span className="underline decoration-brand-red/50 decoration-8 underline-offset-4">GERENCIAMENTO DE LOGS</span>
                     </h1>
-                    <p className="text-gray-500 mt-4 font-medium max-w-xl border-l-4 border-brand-red/30 pl-4">Aprove, destaque ou modere as comunicações científicas em tempo real com o motor de transparência IFUSP.</p>
+                    <p className="text-gray-500 mt-4 font-medium max-w-xl border-l-4 border-brand-red/30 pl-4">Aprove, destaque ou modere as comunicações científicas em tempo real com o motor de transparência USP.</p>
                 </div>
 
                 <div className="flex flex-wrap gap-2 p-1.5 bg-[#1E1E1E] rounded-2xl border border-white/5 shadow-2xl self-start max-w-full">
@@ -276,9 +276,9 @@ function DropAdminCard({ drop, handleAction }: { drop: Drop, handleAction: (id: 
                         <p className="text-[10px] uppercase font-mono tracking-[0.25em] text-brand-red font-black opacity-70 italic">@{drop.profiles?.handle || 'anônimo'}</p>
                         <span className="text-[9px] text-gray-500 uppercase tracking-widest font-black italic mt-1">
                             {drop.profiles?.user_category === 'pesquisador' 
-                                ? (drop.profiles?.research_line || 'Pesquisador IFUSP')
+                                ? (drop.profiles?.research_line || 'Pesquisador USP')
                                 : drop.profiles?.user_category === 'aluno_usp'
-                                    ? (drop.profiles?.course || 'Graduação IFUSP')
+                                    ? (drop.profiles?.course || 'Graduação USP')
                                     : (drop.profiles?.interest_area || 'Curioso / Entusiasta')}
                         </span>
                     </div>

@@ -43,7 +43,7 @@ export async function fetchClassmates(subjectCode: string) {
             id: 'dummy-alice', 
             full_name: 'Alice Oliveira (Beta)', 
             role: 'student', 
-            bio: 'Estudante de Física (IFUSP). Curto astronomia e estou procurando grupo para ' + subjectCode,
+            bio: 'Estudante de Física (USP). Curto astronomia e estou procurando grupo para ' + subjectCode,
             avatar_url: null,
             user_category: 'aluno_usp',
             entrance_year: 2024

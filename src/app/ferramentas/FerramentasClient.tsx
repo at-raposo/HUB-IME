@@ -630,7 +630,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                     padding: 8px 20px !important;
                     background-color: rgba(15, 71, 128, 0.1) !important;
                     border: 1px solid rgba(15, 71, 128, 0.2) !important;
-                    color: #0F4780 !important;
+                    color: #A51C30 !important;
                     margin: 0 6px !important;
                     transition: all 0.2s;
                     display: flex !important;
@@ -638,7 +638,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                     justify-content: center !important;
                 }
                 .fc-toolbar-chunk .fc-button:hover, .fc-button-active {
-                    background-color: #0F4780 !important;
+                    background-color: #A51C30 !important;
                     color: white !important;
                 }
                 .fc-toolbar-title {
@@ -809,7 +809,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                     <h1 className="text-4xl font-display font-black text-gray-900 dark:text-white uppercase tracking-tighter">
                         Grade <span className="text-brand-blue">Horária</span>
                     </h1>
-                    <p className="text-gray-400 font-medium italic">Seu cockpit de navegação pelo IFUSP.</p>
+                    <p className="text-gray-400 font-medium italic">Seu cockpit de navegação pelo USP.</p>
                 </div>
 
             </header>
@@ -984,7 +984,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                                                         borderColor: `${colorData.bg}30`
                                                     }}
                                                 >
-                                                    <div className="text-[10px] font-black uppercase mb-1" style={{ color: colorData.bg }}>{p.course_code || 'IFUSP'}</div>
+                                                    <div className="text-[10px] font-black uppercase mb-1" style={{ color: colorData.bg }}>{p.course_code || 'USP'}</div>
                                                     <div className="text-xs font-bold text-gray-800 dark:text-white line-clamp-1 group-hover:text-brand-blue transition-colors">
                                                         {fixEncoding(p.learning_trails?.title) || 'Disciplina'}
                                                     </div>
@@ -1151,7 +1151,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                                                 const timeB = new Date(b.start).getHours() * 60 + new Date(b.start).getMinutes();
                                                 return timeA - timeB;
                                             });
-                                            const dayColor = dayIdx === 0 ? '#888' : (dayIdx % 3 === 1 ? '#0F4780' : (dayIdx % 3 === 2 ? '#F14343' : '#FFCC00'));
+                                            const dayColor = dayIdx === 0 ? '#888' : (dayIdx % 3 === 1 ? '#A51C30' : (dayIdx % 3 === 2 ? '#F14343' : '#FFCC00'));
                                             
                                             return (
                                                 <div key={dayName} className="flex flex-col gap-4 min-w-[280px] bg-gray-50/80 dark:bg-white/[0.03] rounded-[32px] p-5 border border-transparent dark:border-white/[0.05] snap-start">
@@ -1518,7 +1518,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                             </button>
                             <button 
                                 onClick={() => {
-                                    const icsContent = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//IFUSP//Hub LabDiv//PT',...events.map(e => ['BEGIN:VEVENT',`SUMMARY:${e.title}`,`DTSTART:${new Date(e.start).toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,`DTEND:${new Date(e.end || new Date(e.start).getTime() + 7200000).toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,'END:VEVENT'].join('\n')),'END:VCALENDAR'].join('\n');
+                                    const icsContent = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//USP//Hub HUB IME//PT',...events.map(e => ['BEGIN:VEVENT',`SUMMARY:${e.title}`,`DTSTART:${new Date(e.start).toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,`DTEND:${new Date(e.end || new Date(e.start).getTime() + 7200000).toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,'END:VEVENT'].join('\n')),'END:VCALENDAR'].join('\n');
                                     const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
                                     const url = window.URL.createObjectURL(blob);
                                     const link = document.createElement('a');

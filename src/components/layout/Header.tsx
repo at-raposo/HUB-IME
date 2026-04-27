@@ -16,7 +16,7 @@ import { Avatar } from '../ui/Avatar';
 import { UserMinimalDTO } from '@/types/navigation';
 import { useAuth } from '@/providers/AuthProvider';
 import { useTelemetry } from '@/hooks/useTelemetry';
-import { IFUSPLogo } from '../icons/IFUSPLogo';
+import { IMELogo } from '../icons/IMELogo';
 
 /**
  * V8.0 Header - Fort Knox Edition
@@ -111,30 +111,30 @@ export function Header() {
                             <div className="flex flex-col -space-y-1">
                                 <div className="text-xl font-bukra font-bold tracking-tight flex items-baseline gap-1.5 leading-tight">
                                     <span className="text-gray-900 dark:text-white uppercase">HUB</span>
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-red to-brand-blue font-black">LabDiv</span>
+                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-red to-brand-blue font-black">IME</span>
                                     <div className="flex flex-col items-center opacity-80">
-                                        <span className="text-[7px] sm:text-[8px] font-black px-1.5 py-0.5 rounded bg-brand-blue/10 dark:bg-white/10 text-brand-blue dark:text-gray-400/80 ml-1">V3.2.0</span>
+                                        <span className="text-[7px] sm:text-[8px] font-black px-1.5 py-0.5 rounded bg-brand-blue/10 dark:bg-white/10 text-brand-blue dark:text-gray-400/80 ml-1">V1.0.0</span>
                                         <span className="text-[8px] font-black uppercase tracking-tighter ml-1 text-brand-blue dark:text-gray-500">(BETA)</span>
                                     </div>
                                 </div>
-                                <span className="text-[7px] sm:text-[9px] font-bukra font-bold text-gray-400 uppercase tracking-widest whitespace-nowrap">IFUSP</span>
+                                <span className="text-[7px] sm:text-[9px] font-bukra font-bold text-gray-400 uppercase tracking-widest whitespace-nowrap">USP</span>
                             </div>
                             <div className="flex items-center gap-2.5 ml-1">
                                 <div className="w-px h-7 bg-gray-200 dark:bg-white/15"></div>
-                                <IFUSPLogo size={42} className="text-brand-blue dark:text-brand-blue opacity-80 group-hover:opacity-100 transition-opacity" />
+                                <IMELogo size={42} className="opacity-80 group-hover:opacity-100 transition-opacity" />
                             </div>
                         </div>
                     </Link>
 
                     {/* Middle: Nav Tabs + Search (The Notch) - Hardened V8.1 with Static Centering */}
                     <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 top-0 z-50">
-                        <div className="bg-[#0F4780] rounded-b-[24px] px-8 py-3 flex items-center gap-1.5 shadow-[0_8px_32px_rgba(0,0,0,0.5)] border-x border-b border-white/10 backdrop-blur-xl">
+                        <div className="bg-[#A51C30] rounded-b-[24px] px-8 py-3 flex items-center gap-1.5 shadow-[0_8px_32px_rgba(0,0,0,0.5)] border-x border-b border-white/10 backdrop-blur-xl">
                             {[
                                 { label: 'Comunidade', href: '/', color: '#F14343' },
-                                { label: 'GCIF', href: '/gcif', color: '#1F9FCF' },
-                                { label: 'LabDiv', href: '/labdiv', color: '#FFCC00' },
+                                { label: 'GCIF', href: '/gcime', color: '#C00000' },
+                                { label: 'HUB IME', href: '/HUB IME', color: '#FFCC00' },
                                 { label: 'Ferramentas', href: '/ferramentas', color: '#F14343' },
-                                { label: 'Interações', href: '/interacao', color: '#1F9FCF' },
+                                { label: 'Interações', href: '/interacao', color: '#C00000' },
                             ].map((tab) => {
                                 const isActive = pathname === tab.href || (tab.href !== '/' && pathname.startsWith(tab.href));
                                 

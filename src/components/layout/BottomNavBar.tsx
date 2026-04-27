@@ -12,7 +12,7 @@ import { ColisorIcon } from '../icons/ColisorIcon';
 
 const drawerLinks: (NavItem & { color?: string })[] = [
     { name: 'Central de Interações', href: '/interacao?tab=emaranhamento', icon: 'hub', isPrimary: true, color: 'brand-blue' },
-    { name: 'LabDiv', href: '/labdiv', icon: 'info', color: 'brand-blue' },
+    { name: 'HUB IME', href: '/HUB IME', icon: 'info', color: 'brand-blue' },
     { name: 'Admin', href: '/admin', icon: 'analytics', color: 'brand-blue' },
 ];
 
@@ -41,7 +41,7 @@ export const BottomNavBar = () => {
                 .eq('id', authUser.id)
                 .single();
 
-            const isUspMember = profile?.is_usp_member || authUser.email?.endsWith('@usp.br') || authUser.email?.endsWith('@if.usp.br');
+            const isUspMember = profile?.is_usp_member || authUser.email?.endsWith('@usp.br') || authUser.email?.endsWith('@ime.usp.br');
             const category = profile?.user_category;
 
             if (['pesquisador', 'docente_pesquisador'].includes(category)) {
@@ -58,7 +58,7 @@ export const BottomNavBar = () => {
 
     const dynamicNavItems = [
         { name: 'Comunidade', href: '/', icon: 'groups', color: 'brand-red' },
-        { name: 'GCIF', href: '/gcif', icon: 'colisor', color: 'brand-blue' },
+        { name: 'GCIF', href: '/gcime', icon: 'colisor', color: 'brand-blue' },
         { name: 'Lançar à Órbita', href: AppRoutes.ENVAR, icon: 'rocket_launch', isAction: true, color: 'brand-blue' },
         ...(userCategory === 'pesquisador' 
             ? [{ name: 'Pesquisa', href: '/arena', icon: 'visibility', color: 'brand-red' }]

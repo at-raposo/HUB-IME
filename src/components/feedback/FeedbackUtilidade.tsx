@@ -33,7 +33,7 @@ export function FeedbackUtilidade({ postId, title }: FeedbackUtilidadeProps) {
             <div className="mt-12 p-6 rounded-2xl bg-white/5 border border-white/10 flex flex-col items-center justify-center animate-in fade-in zoom-in duration-500">
                 <span className="material-symbols-outlined text-brand-blue text-4xl mb-3">auto_awesome</span>
                 <p className="text-sm font-bold text-gray-300">Obrigado pelo seu feedback!</p>
-                <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-1">Ajudando a construir a jornada IFUSP.</p>
+                <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-1">Ajudando a construir a jornada USP.</p>
             </div>
         );
     }

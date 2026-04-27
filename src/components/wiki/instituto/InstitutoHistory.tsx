@@ -15,11 +15,11 @@ export function InstitutoHistory() {
             <div className="max-w-4xl mx-auto space-y-12">
                 <div className="space-y-6 text-gray-700 dark:text-gray-300">
                     <p className="text-lg leading-relaxed">
-                        A história do Instituto de Física da Universidade de São Paulo (IFUSP) é indissociável da própria história da ciência no Brasil. Criado oficialmente em 1934, o Departamento de Física da Faculdade de Filosofia, Ciências e Letras (FFCL) nasceu com a missão de estabelecer as bases da pesquisa científica fundamental no país.
+                        A história do Instituto de Física da Universidade de São Paulo (USP) é indissociável da própria história da ciência no Brasil. Criado oficialmente em 1934, o Departamento de Física da Faculdade de Filosofia, Ciências e Letras (FFCL) nasceu com a missão de estabelecer as bases da pesquisa científica fundamental no país.
                     </p>
                     
                     <div className="pl-6 border-l-2 border-brand-blue/30 py-4 italic text-gray-500 dark:text-gray-400">
-                        "O IFUSP não apenas ensina física; ele molda os cientistas que definirão o futuro tecnológico e acadêmico da nossa nação."
+                        "O USP não apenas ensina física; ele molda os cientistas que definirão o futuro tecnológico e acadêmico da nossa nação."
                     </div>
 
                     <p className="leading-relaxed">
@@ -27,13 +27,13 @@ export function InstitutoHistory() {
                     </p>
 
                     <p className="leading-relaxed">
-                        Hoje, o IFUSP é uma potência acadêmica com infraestrutura de nível global. Seus laboratórios e pesquisadores participam ativamente de grandes colaborações internacionais, como o CERN, contribuindo para descobertas que vão desde o Boson de Higgs até avanços fundamentais em física da matéria condensada e astrofísica.
+                        Hoje, o USP é uma potência acadêmica com infraestrutura de nível global. Seus laboratórios e pesquisadores participam ativamente de grandes colaborações internacionais, como o CERN, contribuindo para descobertas que vão desde o Boson de Higgs até avanços fundamentais em física da matéria condensada e astrofísica.
                     </p>
 
                     <div className="flex items-start gap-3 p-5 rounded-2xl bg-brand-red/5 border border-brand-red/10 mt-4">
                         <span className="material-symbols-outlined text-brand-red text-xl shrink-0 mt-0.5">archive</span>
                         <p className="text-sm leading-relaxed text-gray-600 dark:text-gray-400">
-                            <strong className="text-gray-200">Esta seção foi produzida em parceria com o Acervo Histórico do Instituto de Física da USP.</strong> Para informações mais detalhadas, fotografias de época, documentos originais e depoimentos, visite o <a href="https://portal.if.usp.br/ifusp/acervo" target="_blank" rel="noopener noreferrer" className="text-brand-red hover:underline font-bold">Acervo Histórico do IF</a>.
+                            <strong className="text-gray-200">Esta seção foi produzida em parceria com o Acervo Histórico do Instituto de Física da USP.</strong> Para informações mais detalhadas, fotografias de época, documentos originais e depoimentos, visite o <a href="https://portal.ime.usp.br/USP/acervo" target="_blank" rel="noopener noreferrer" className="text-brand-red hover:underline font-bold">Acervo Histórico do IF</a>.
                         </p>
                     </div>
                 </div>

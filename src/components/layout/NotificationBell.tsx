@@ -122,7 +122,7 @@ export const NotificationBell = ({ userId }: { userId: string | undefined }) => 
                                     href="/login"
                                     className="block w-full py-3 bg-brand-blue text-white text-xs font-black rounded-2xl hover:bg-blue-700 transition-all shadow-md active:scale-95"
                                 >
-                                    ENTRAR NO LAB-DIV
+                                    ENTRAR NO HUB IME
                                 </Link>
                             </div>
                         ) : (

@@ -84,7 +84,7 @@ const pageContent: Record<string, any> = {
         dates: [],
         actions: [
             { label: 'Por em Prática', icon: <Zap className="w-4 h-4" />, href: '/enviar' },
-            { label: 'Ver Exemplos', icon: <Telescope className="w-4 h-4" />, href: '/arquivo-labdiv#catalogo' }
+            { label: 'Ver Exemplos', icon: <Telescope className="w-4 h-4" />, href: '/arquivo-ime#catalogo' }
         ]
     },
     'calouro': {
@@ -129,9 +129,9 @@ const pageContent: Record<string, any> = {
                                 </div>
                                 <h5 className="text-gray-900 dark:text-white text-lg font-black uppercase italic mb-3">O seu Instituto por Dentro</h5>
                                 <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
-                                    Mergulhe na história do IFUSP e entenda como um dos institutos de física mais respeitados do mundo é organizado atualmente. Descubra o legado, os departamentos e a estrutura de governança do nosso instituto.
+                                    Mergulhe na história do USP e entenda como um dos institutos de física mais respeitados do mundo é organizado atualmente. Descubra o legado, os departamentos e a estrutura de governança do nosso instituto.
                                 </p>
-                                <ActionButton label="Aprender sobre o IFUSP" icon={<Landmark className="w-4 h-4" />} href="/wiki/instituto" variant="primary" />
+                                <ActionButton label="Aprender sobre o USP" icon={<Landmark className="w-4 h-4" />} href="/wiki/instituto" variant="primary" />
                             </div>
                         </div>
                     </div>
@@ -142,11 +142,11 @@ const pageContent: Record<string, any> = {
         actions: [
             { label: 'Acessar Júpiter', icon: <ExternalLink className="w-4 h-4" />, href: 'https://jupiterweb.usp.br' },
             { label: 'Mapa da USP', icon: <Download className="w-4 h-4" />, href: 'https://www.puspc.usp.br/wp-content/uploads/sites/159/2016/08/Mapa-do-Campus-abril-de-2019.pdf' },
-            { label: 'Mapa do IFUSP', icon: <Download className="w-4 h-4" />, href: 'https://portal.if.usp.br/ifusp/pt-br/media-gallery/lightbox/1518/441827' },
+            { label: 'Mapa do USP', icon: <Download className="w-4 h-4" />, href: 'https://portal.ime.usp.br/ifusp/pt-br/media-gallery/lightbox/1518/441827' },
             { label: 'Mapa dos Circulares', icon: <Download className="w-4 h-4" />, href: 'https://www5.usp.br/wp-content/uploads/2011/02/Captura-de-tela-2024-09-19-065302.png' }
         ]
     },
-    'ifusp': {
+    'imeusp': {
         title: 'Estrutura da Matéria',
         subtitle: 'Evolução Acadêmica e Estágios',
         icon: <Atom className="w-12 h-12" />,
@@ -155,7 +155,7 @@ const pageContent: Record<string, any> = {
             {
                 title: 'Em Desenvolvimento',
                 fullWidth: true,
-                content: 'Esta aba está em construção. No futuro, teremos aqui um guia completo sobre a progressão dos cursos do IFUSP, incluindo os Projetos Político-Pedagógicos (PPPs), informações essenciais do manual de cada habilitação, quantidade de créditos necessários, grade de matérias, semestres, horas de Atividades de Extensão (AEx) e tudo o que você precisa saber para entender como e quando se formar.'
+                content: 'Esta aba está em construção. No futuro, teremos aqui um guia completo sobre a progressão dos cursos do USP, incluindo os Projetos Político-Pedagógicos (PPPs), informações essenciais do manual de cada habilitação, quantidade de créditos necessários, grade de matérias, semestres, horas de Atividades de Extensão (AEx) e tudo o que você precisa saber para entender como e quando se formar.'
             }
         ],
         dates: [],
@@ -320,7 +320,7 @@ const pageContent: Record<string, any> = {
     },
     'divulgacao': {
         title: 'Emissão de Luz',
-        subtitle: 'Mini-curso de Criação LabDiv',
+        subtitle: 'Mini-curso de Criação HUB IME',
         icon: <Telescope className="w-12 h-12" />,
         color: 'brand-blue',
         sections: [
@@ -337,13 +337,13 @@ const pageContent: Record<string, any> = {
                 content: 'Escreva para humanos: comece com o gancho (o "porquê" importa), explique o mecanismo e termine com o impacto. Divulgação científica é o transporte de conceitos complexos para mentes curiosas.'
             },
             {
-                title: 'Recursos Lab-Div',
+                title: 'Recursos HUB IME',
                 content: (
                     <div className="space-y-6">
                         <p>Utilize o KitDiv para assets visuais e tipografia oficial. Caso precise de suporte personalizado, agende uma Mentoria com nossa equipe técnica de comunicação.</p>
                         <div className="flex flex-wrap gap-4">
-                            <ActionButton label="Acessar KitDiv" icon={<Download className="w-4 h-4" />} href="/arquivo-labdiv#kitdiv" variant="primary" />
-                            <ActionButton label="Agendar Mentoria" icon={<Brain className="w-4 h-4" />} href="/arquivo-labdiv#mentorias" variant="secondary" />
+                            <ActionButton label="Acessar KitDiv" icon={<Download className="w-4 h-4" />} href="/arquivo-ime#kitdiv" variant="primary" />
+                            <ActionButton label="Agendar Mentoria" icon={<Brain className="w-4 h-4" />} href="/arquivo-ime#mentorias" variant="secondary" />
                         </div>
                     </div>
                 )
@@ -351,8 +351,8 @@ const pageContent: Record<string, any> = {
         ],
         dates: [],
         actions: [
-            { label: 'Acessar KitDiv', icon: <Download className="w-4 h-4" />, href: '/arquivo-labdiv' },
-            { label: 'Agendar Mentoria', icon: <Brain className="w-4 h-4" />, href: '/arquivo-labdiv' }
+            { label: 'Acessar KitDiv', icon: <Download className="w-4 h-4" />, href: '/arquivo-ime' },
+            { label: 'Agendar Mentoria', icon: <Brain className="w-4 h-4" />, href: '/arquivo-ime' }
         ]
     },
     'protecao': {
@@ -362,11 +362,11 @@ const pageContent: Record<string, any> = {
         color: 'brand-yellow',
         sections: [
             {
-                title: 'Acolhimento IFUSP',
+                title: 'Acolhimento USP',
                 content: (
                     <div className="space-y-4">
-                        <p>O Portal de Acolhimento do IFUSP é o ponto de partida para estudantes que buscam orientação, apoio em situações de conflito ou simplesmente um espaço de escuta dentro do nosso instituto.</p>
-                        <ActionButton label="Solicitar Apoio IF" icon={<Users className="w-4 h-4" />} href="https://portal.if.usp.br/ad/pt-br/node/328" variant="secondary" />
+                        <p>O Portal de Acolhimento do USP é o ponto de partida para estudantes que buscam orientação, apoio em situações de conflito ou simplesmente um espaço de escuta dentro do nosso instituto.</p>
+                        <ActionButton label="Solicitar Apoio IF" icon={<Users className="w-4 h-4" />} href="https://portal.ime.usp.br/ad/pt-br/node/328" variant="secondary" />
                     </div>
                 )
             },
@@ -375,7 +375,7 @@ const pageContent: Record<string, any> = {
                 content: (
                     <div className="space-y-4">
                         <p>Iniciativa dedicada ao suporte direto e acolhimento dos alunos do Instituto de Física, promovendo um ambiente acadêmico mais saudável e integrado.</p>
-                        <ActionButton label="Conhecer Física Acolhe" icon={<HeartHandshake className="w-4 h-4" />} href="https://portal.if.usp.br/ad/pt-br/node/380" variant="secondary" />
+                        <ActionButton label="Conhecer Física Acolhe" icon={<HeartHandshake className="w-4 h-4" />} href="https://portal.ime.usp.br/ad/pt-br/node/380" variant="secondary" />
                     </div>
                 )
             },
@@ -416,7 +416,7 @@ const pageContent: Record<string, any> = {
     },
     'extensao': {
         title: 'Interações de Fronteira',
-        subtitle: 'Mapa da Integração IFUSP',
+        subtitle: 'Mapa da Integração USP',
         icon: <Network className="w-12 h-12" />,
         color: 'brand-blue',
         sections: [
@@ -424,14 +424,14 @@ const pageContent: Record<string, any> = {
                 title: 'Mapeamento de Grupos',
                 content: (
                     <div className="space-y-6">
-                        <p>O IFUSP pulsa com coletivos que transformam a vivência acadêmica. Conheça e participe das iniciativas que moldam nossa comunidade:</p>
+                        <p>O USP pulsa com coletivos que transformam a vivência acadêmica. Conheça e participe das iniciativas que moldam nossa comunidade:</p>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <Link href="/colisor#iniciativas-espacos" className="p-4 glass-card rounded-2xl hover:bg-brand-blue/5 transition-all group border border-black/5 dark:border-white/5">
                                 <h4 className="font-black text-brand-blue uppercase text-xs mb-1">Vaca Esférica</h4>
                                 <p className="text-[10px] text-gray-700 dark:text-gray-500 group-hover:text-gray-900 dark:group-hover:text-gray-400 transition-colors">Rádio e divulgação científica feita por alunos.</p>
                             </Link>
                             <Link href="/colisor#iniciativas-espacos" className="p-4 glass-card rounded-2xl hover:bg-brand-red/5 transition-all group border border-black/5 dark:border-white/5">
-                                <h4 className="font-black text-brand-red uppercase text-xs mb-1">LabDiv</h4>
+                                <h4 className="font-black text-brand-red uppercase text-xs mb-1">HUB IME</h4>
                                 <p className="text-[10px] text-gray-700 dark:text-gray-500 group-hover:text-gray-900 dark:group-hover:text-gray-400 transition-colors">Laboratório de Design e Comunicação.</p>
                             </Link>
                             <Link href="/colisor#iniciativas-espacos" className="p-4 glass-card rounded-2xl hover:bg-brand-yellow/5 transition-all group border border-black/5 dark:border-white/5">
@@ -447,7 +447,7 @@ const pageContent: Record<string, any> = {
                 fullWidth: true,
                 content: (
                     <div className="space-y-6">
-                        <p>Para se enturmar, frequente o Aquário (vivência dos alunos) ou participe das reuniões abertas dos grupos. No IFUSP, a colaboração é a força fundamental.</p>
+                        <p>Para se enturmar, frequente o Aquário (vivência dos alunos) ou participe das reuniões abertas dos grupos. No USP, a colaboração é a força fundamental.</p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <Link href="/colisor#iniciativas-espacos" className="p-4 glass-card border-brand-blue/20 rounded-2xl hover:bg-brand-blue/5 transition-all group">
@@ -529,7 +529,7 @@ const pageContent: Record<string, any> = {
     },
     'carreira': {
         title: 'Vetores de Carreira',
-        subtitle: 'Trajetórias Pós-IFUSP',
+        subtitle: 'Trajetórias Pós-USP',
         icon: <Compass className="w-12 h-12" />,
         color: 'brand-yellow',
         sections: [
@@ -544,7 +544,7 @@ const pageContent: Record<string, any> = {
     },
     'instituto': {
         title: 'O Instituto de Física',
-        subtitle: 'Estrutura, História e Espaços IFUSP',
+        subtitle: 'Estrutura, História e Espaços USP',
         icon: <Landmark className="w-12 h-12" />,
         color: '#17739A',
         sections: [
@@ -601,13 +601,13 @@ export default function WikiSubPage() {
     const renderContent = (text: string) => {
         if (!text) return text;
         
-        const renderTextWithIFUSP = (rawText: string) => {
+        const renderTextWithUSP = (rawText: string) => {
             if (!rawText) return rawText;
-            // Force strict canonical IFUSP (remove spaces/dashes)
-            const standardized = rawText.replace(/IF-USP|IF USP/gi, 'IFUSP');
-            const parts = standardized.split(/(IFUSP)/gi);
+            // Force strict canonical USP (remove spaces/dashes)
+            const standardized = rawText.replace(/IF-USP|IF USP/gi, 'USP');
+            const parts = standardized.split(/(USP)/gi);
             return parts.map((part, i) => {
-                if (part.toUpperCase() === 'IFUSP') {
+                if (part.toUpperCase() === 'USP') {
                     return (
                         <span key={i} className="inline font-black tracking-tighter">
                             <span className="text-brand-yellow">IF</span><span className="text-brand-blue">USP</span>
@@ -618,7 +618,7 @@ export default function WikiSubPage() {
             });
         };
 
-        if (!highlightTerm) return <>{renderTextWithIFUSP(text)}</>;
+        if (!highlightTerm) return <>{renderTextWithUSP(text)}</>;
         
         const parts = text.split(new RegExp(`(${highlightTerm})`, 'gi'));
         return (
@@ -628,7 +628,7 @@ export default function WikiSubPage() {
                         <mark key={i} className="bg-brand-yellow/30 text-gray-900 dark:text-white rounded-sm px-0.5 border-b border-brand-yellow/50">
                             {part}
                         </mark>
-                    ) : <React.Fragment key={i}>{renderTextWithIFUSP(part)}</React.Fragment>
+                    ) : <React.Fragment key={i}>{renderTextWithUSP(part)}</React.Fragment>
                 )}
             </>
         );

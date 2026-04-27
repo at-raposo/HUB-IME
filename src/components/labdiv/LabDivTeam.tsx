@@ -34,7 +34,7 @@ const creators = [
     }
 ];
 
-export function LabDivTeam() {
+export function HUB IMETeam() {
     const scrollContainerRef = useRef<HTMLDivElement>(null);
 
     const scroll = (direction: 'left' | 'right') => {

@@ -20,14 +20,14 @@ const wikiEntries = [
         href: '/wiki/divulgacao',
         desc: 'Toolkit de divulgação: VR, posters, design e impacto visual.',
         keywords: ['divulgação', 'design', '360', 'vr', 'poster', 'mídia', 'comunicação', 'impacto', 'toolkit'],
-        content: 'Fotografia Essencial Regra dos Terços intersecções grade equilíbrio ângulos tridimensionalidade equipamentos Iluminação Modo Pro ISO baixo 100-400 ruído Tempo Obturador congelar fenômenos alta energia celular bloqueio foco exposição Redação Divulgação gancho porquê mecanismo impacto Divulgação científica transporte conceitos complexos mentes curiosas Recursos Lab-Div KitDiv assets visuais tipografia oficial Mentoria equipe técnica comunicação',
+        content: 'Fotografia Essencial Regra dos Terços intersecções grade equilíbrio ângulos tridimensionalidade equipamentos Iluminação Modo Pro ISO baixo 100-400 ruído Tempo Obturador congelar fenômenos alta energia celular bloqueio foco exposição Redação Divulgação gancho porquê mecanismo impacto Divulgação científica transporte conceitos complexos mentes curiosas Recursos HUB IME KitDiv assets visuais tipografia oficial Mentoria equipe técnica comunicação',
     },
     {
         title: 'Interações de Fronteira — Extensão',
         href: '/wiki/extensao',
         desc: 'Extensão: grupos, eventos Física para Todos e projetos culturais.',
         keywords: ['extensão', 'cultura', 'eventos', 'física para todos', 'grupos', 'projetos'],
-        content: 'Mapeamento Grupos IFUSP coletivos transformam vivência acadêmica Vaca Esférica Rádio divulgação científica alunos LabDiv Laboratório Design Comunicação Show de Física experimentos público escolar Guia Integração Aquário vivência reuniões abertas colaboração força fundamental Amélia Império espaço Colisor HS Humanidades Debates éticos Síncrotron Pontes Docentes IC Professores pesquisadores Iniciação Científica proatividade email formal apresentar interesse sala conversar brevemente',
+        content: 'Mapeamento Grupos USP coletivos transformam vivência acadêmica Vaca Esférica Rádio divulgação científica alunos HUB IME Laboratório Design Comunicação Show de Física experimentos público escolar Guia Integração Aquário vivência reuniões abertas colaboração força fundamental Amélia Império espaço Colisor HS Humanidades Debates éticos Síncrotron Pontes Docentes IC Professores pesquisadores Iniciação Científica proatividade email formal apresentar interesse sala conversar brevemente',
     },
     {
         title: 'Iniciação de Partículas — Calouro',
@@ -41,12 +41,12 @@ const wikiEntries = [
         href: '/wiki/protecao',
         desc: 'Saúde mental, neurodiversidade (TEA), acolhimento e inclusão.',
         keywords: ['proteção', 'saúde mental', 'tea', 'neurodiversidade', 'acolhimento', 'suporte', 'inclusão', 'bem-estar', 'pcd', 'psicológico'],
-        content: 'Acolhimento IFUSP Portal orientação apoio conflito escuta instituto Física Acolhe iniciativa suporte direto alunos ambiente acadêmico saudável integrado Direitos Inclusão Autismo TEA Portaria PRIP 059 avaliações salas separadas fones ouvido abafadores ruído conforto sensorial Programa ECOS Bandejão Central escuta acolhimento conflitos orientação institucional escutas pontuais comunidade Sistema USP Acolhimento SUA PRIP denúncias assédio discriminação violações direitos humanos Hospital Universitário HU acompanhamento psiquiátrico comunidade USP triagem encaminhamento consulta',
+        content: 'Acolhimento USP Portal orientação apoio conflito escuta instituto Física Acolhe iniciativa suporte direto alunos ambiente acadêmico saudável integrado Direitos Inclusão Autismo TEA Portaria PRIP 059 avaliações salas separadas fones ouvido abafadores ruído conforto sensorial Programa ECOS Bandejão Central escuta acolhimento conflitos orientação institucional escutas pontuais comunidade Sistema USP Acolhimento SUA PRIP denúncias assédio discriminação violações direitos humanos Hospital Universitário HU acompanhamento psiquiátrico comunidade USP triagem encaminhamento consulta',
     },
     {
         title: 'Vetores de Carreira',
         href: '/wiki/carreira',
-        desc: 'Trajetórias pós-IFUSP: academia, indústria, física médica e educação.',
+        desc: 'Trajetórias pós-USP: academia, indústria, física médica e educação.',
         keywords: ['carreira', 'futuro', 'trabalho', 'indústria', 'academia', 'pós-graduação', 'ensino', 'vagas'],
         content: 'em desenvolvimento caminhos graduação formação carreiras acadêmicas mercado trabalho novas fronteiras físicos',
     },
@@ -65,8 +65,8 @@ const wikiEntries = [
         content: 'PAPFE Programa Apoio Permanência Formação Estudantil auxílios fundamentais alimentação transporte manutenção vulnerabilidade socioeconômica inscrição anual PRIP CRUSP Moradia Estudantil Conjunto Residencial USP moradia gratuita campus convivência suporte Bolsas Docência Licenciatura PIBID iniciação docência escolas públicas PROIAD monitoria apoio pedagógico SEDUC rede estadual São Paulo PEEG Programa Estímulo Ensino Graduação monitoria acadêmica materiais didáticos PUB Programa Unificado Bolsas Ensino Pesquisa Extensão Cultura PIBIC Pesquisa Acadêmica iniciação científica metodologia pensamento crítico PIBITI Inovação Desenvolvimento Tecnológico protótipos Pro-Aluno apoios institucionais Seção Alunos PRIP Pró-Reitoria Inclusão Pertencimento editais chamadas abertas',
     },
     {
-        title: 'Estrutura da Matéria — Cursos IFUSP',
-        href: '/wiki/ifusp',
+        title: 'Estrutura da Matéria — Cursos USP',
+        href: '/wiki/USP',
         desc: 'Cursos, PPPs, departamentos e estrutura curricular.',
         keywords: ['ppp', 'bacharelado', 'licenciatura', 'física médica', 'grade', 'optativas', 'atpa', 'comissão'],
         content: 'em desenvolvimento Projetos Político-Pedagógicos PPPs manual habilitação créditos necessários grade matérias semestres horas Atividades Extensão AEx formar',
@@ -74,14 +74,14 @@ const wikiEntries = [
     {
         title: 'O Instituto de Física',
         href: '/wiki/instituto',
-        desc: 'História, departamentos, espaços e organização do IFUSP.',
-        keywords: ['ifusp', 'instituto', 'física', 'departamento', 'auditório', 'história', 'mapa'],
+        desc: 'História, departamentos, espaços e organização do USP.',
+        keywords: ['USP', 'instituto', 'física', 'departamento', 'auditório', 'história', 'mapa'],
         content: 'em desenvolvimento organização Instituto Física Diretoria Conselhos Comissões história pioneirismo excelência departamentos centros pesquisa cotidiano',
     },
     {
         title: 'Quiz — Teste de Radiação',
         href: '/wiki/quiz',
-        desc: 'Desafie seus conhecimentos sobre o IFUSP e a física.',
+        desc: 'Desafie seus conhecimentos sobre o USP e a física.',
         keywords: ['quiz', 'teste', 'desafio', 'conhecimento', 'ranking'],
         content: 'Contador Geiger questões técnicas históricas explodir perfil Hub colidido impacto comunidade Curiosidades IF acelerador Pelletron inaugurado 1972 patrimônio científico Rua Matão Desafios Física problemas conceituais rápidos neurônios colisões mentais',
     },
@@ -91,7 +91,7 @@ const wikiEntries = [
 const navRoutes = [
     { label: 'Grade Horária / Cronograma', href: '/ferramentas', icon: 'calendar_month', color: 'text-brand-blue-accent', desc: 'Monte seu cronograma semestral do Júpiter' },
     { label: 'Trilhas de Aprendizado', href: '/trilhas', icon: 'auto_stories', color: 'text-brand-yellow', desc: 'Descubra a ordem ideal de matérias' },
-    { label: 'GCIF (Grande Colisor do IF)', href: '/gcif', icon: 'hub', color: 'text-brand-blue-accent', desc: 'Oportunidades de pesquisa e projetos' },
+    { label: 'GCIF (Grande Colisor do IF)', href: '/gcime', icon: 'hub', color: 'text-brand-blue-accent', desc: 'Oportunidades de pesquisa e projetos' },
     { label: 'Meu Laboratório / Perfil', href: '/lab', icon: 'science', color: 'text-brand-red', desc: 'XP, conquistas e painel pessoal' },
     { label: 'Comunidade & Interações', href: '/', icon: 'forum', color: 'text-brand-red', desc: 'Mural público e networking' },
     { label: 'Submeter ou Editar Wiki', href: '/interacao', icon: 'edit_square', color: 'text-brand-blue-accent', desc: 'Colabore criando novas páginas' },
@@ -381,7 +381,7 @@ export function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
 
                         {/* Footer Hint */}
                         <div className="px-5 py-3 border-t border-white/5 flex items-center justify-between text-[10px] text-gray-600">
-                            <span className="font-bold uppercase tracking-widest">Hub Lab-Div — Busca Global</span>
+                            <span className="font-bold uppercase tracking-widest">Hub HUB IME — Busca Global</span>
                             <div className="flex items-center gap-3">
                                 <span className="flex items-center gap-1"><kbd className="px-1.5 py-0.5 bg-white/5 rounded font-mono">↑↓</kbd> navegar</span>
                                 <span className="flex items-center gap-1"><kbd className="px-1.5 py-0.5 bg-white/5 rounded font-mono">↵</kbd> abrir</span>

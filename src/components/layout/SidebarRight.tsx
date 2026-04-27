@@ -281,10 +281,10 @@ export const SidebarRight = ({ tags: propTags, authors: propAuthors }: SidebarRi
 
             {/* Footer Links */}
             <div className="px-5 py-2 flex flex-wrap gap-x-4 gap-y-1 text-[10px] text-gray-400 font-medium">
-                <Link href="/labdiv" className="hover:underline">Privacidade</Link>
-                <Link href="/labdiv" className="hover:underline">Termos</Link>
-                <Link href="/labdiv" className="hover:underline">Cookies</Link>
-                <span>© 2026 IFUSP Lab-Div - Hub de Comunicação Científica</span>
+                <Link href="/HUB IME" className="hover:underline">Privacidade</Link>
+                <Link href="/HUB IME" className="hover:underline">Termos</Link>
+                <Link href="/HUB IME" className="hover:underline">Cookies</Link>
+                <span>© 2026 USP HUB IME - Hub de Comunicação Científica</span>
             </div>
         </div>
     );

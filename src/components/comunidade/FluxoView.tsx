@@ -155,7 +155,7 @@ export const FluxoView = ({
         }
     };
 
-    const categories = ['Todos', 'Lab-Div', 'Mentorados Lab-Div', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
+    const categories = ['Todos', 'HUB IME', 'Mentorados HUB IME', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
     const currentYear = 2026;
     const years = ['Todos', ...Array.from({ length: currentYear - 1934 + 1 }, (_, i) => (currentYear - i).toString())];
 
@@ -239,12 +239,12 @@ export const FluxoView = ({
             {/* New Blue Logs-style Header for Fluxo */}
             <div className="flex flex-col gap-3 relative mb-12">
                 <div className="absolute -top-10 -left-10 w-40 h-40 bg-brand-blue/5 rounded-full blur-[60px] pointer-events-none"></div>
-                <h1 className="text-5xl font-black uppercase italic tracking-tighter text-[#1F9FCF] flex items-center gap-4 relative z-10">
-                    <Zap className="w-12 h-12 fill-[#1F9FCF]" />
+                <h1 className="text-5xl font-black uppercase italic tracking-tighter text-[#C00000] flex items-center gap-4 relative z-10">
+                    <Zap className="w-12 h-12 fill-[#C00000]" />
                     FLUXO
                 </h1>
                 <p className="text-gray-500 font-bold uppercase tracking-widest text-[10px] border-l-2 border-brand-blue-accent pl-4 max-w-lg">
-                    O ecossistema IFUSP em movimento. Documentação colaborativa e registro histórico da nossa ciência.
+                    O ecossistema USP em movimento. Documentação colaborativa e registro histórico da nossa ciência.
                 </p>
             </div>
 
@@ -390,7 +390,7 @@ export const FluxoView = ({
                         <div className="relative w-10 h-10 flex items-center justify-center">
                             <motion.div animate={{ rotate: 360 }} transition={{ duration: 4, repeat: Infinity, ease: "linear" }} className="absolute inset-0 border border-brand-blue-accent/30 rounded-full" />
                             <div className="relative">
-                                <motion.div animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 1, repeat: Infinity }} className="w-2 h-2 bg-brand-blue-accent rounded-full shadow-[0_0_10px_#1F9FCF]" />
+                                <motion.div animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 1, repeat: Infinity }} className="w-2 h-2 bg-brand-blue-accent rounded-full shadow-[0_0_10px_#C00000]" />
                                 <Atom className="absolute -top-3 -left-3 w-8 h-8 text-white/10 animate-pulse" />
                             </div>
                         </div>
@@ -399,7 +399,7 @@ export const FluxoView = ({
                             <p className="text-[8px] font-mono text-gray-400 uppercase tracking-widest leading-none">Atualizando_Partículas...</p>
                         </div>
                         <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/5 rounded-b-2xl overflow-hidden">
-                            <motion.div initial={{ width: 0 }} animate={{ width: "100%" }} transition={{ duration: 4, ease: "linear" }} className="h-full bg-brand-blue-accent shadow-[0_0_10px_#1F9FCF]" />
+                            <motion.div initial={{ width: 0 }} animate={{ width: "100%" }} transition={{ duration: 4, ease: "linear" }} className="h-full bg-brand-blue-accent shadow-[0_0_10px_#C00000]" />
                         </div>
                     </motion.div>
                 )}

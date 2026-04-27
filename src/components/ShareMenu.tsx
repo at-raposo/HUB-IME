@@ -73,7 +73,7 @@ export const ShareMenu = ({ id, title, author, onClose }: ShareMenuProps) => {
             try {
                 await navigator.share({
                     title: title,
-                    text: `Confira este trabalho de ${author} no Hub Lab-Div`,
+                    text: `Confira este trabalho de ${author} no Hub HUB IME`,
                     url: url,
                 });
                 onClose();

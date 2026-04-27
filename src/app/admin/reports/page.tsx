@@ -79,7 +79,7 @@ export default function AdminReportsPage() {
                             </div>
                             <h1 className="text-3xl font-black italic uppercase tracking-tighter">Central de Anomalias</h1>
                         </div>
-                        <p className="text-gray-500 font-bold uppercase text-[10px] tracking-[0.2em]">Gestão de Feedback e Bugs Hub Lab-Div</p>
+                        <p className="text-gray-500 font-bold uppercase text-[10px] tracking-[0.2em]">Gestão de Feedback e Bugs Hub HUB IME</p>
                     </div>
 
                     <div className="flex gap-2 bg-gray-100/50 dark:bg-white/5 p-1.5 rounded-2xl border border-gray-200 dark:border-white/5 backdrop-blur-md">

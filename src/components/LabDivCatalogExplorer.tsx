@@ -9,8 +9,8 @@ import { Star, Users, Trophy } from 'lucide-react';
 import { institutoData } from '@/data/institutoData';
 import { PostDTO } from '@/dtos/media';
 
-export function LabDivCatalogExplorer() {
-    const [labDivItems, setLabDivItems] = useState<MediaCardProps[]>([]);
+export function HUB IMECatalogExplorer() {
+    const [HUB IMEItems, setHUB IMEItems] = useState<MediaCardProps[]>([]);
     const [mentoredItems, setMentoredItems] = useState<MediaCardProps[]>([]);
     const [isLoading, setIsLoading] = useState(true);
 
@@ -53,16 +53,16 @@ export function LabDivCatalogExplorer() {
         const loadData = async () => {
             setIsLoading(true);
             try {
-                // Fetch Lab-Div produced material
-                const labDivRes = await fetchSubmissions({
+                // Fetch HUB IME produced material
+                const HUB IMERes = await fetchSubmissions({
                     page: 1,
                     limit: 10,
                     query: '',
-                    categories: ['Lab-Div'],
+                    categories: ['HUB IME'],
                     sort: 'recentes'
                 });
-                // Force golden standard on ALL Lab-Div catalog items
-                setLabDivItems(labDivRes.items.map(item => ({
+                // Force golden standard on ALL HUB IME catalog items
+                setHUB IMEItems(HUB IMERes.items.map(item => ({
                     ...item,
                     post: { ...item.post, isGoldenStandard: true }
                 })));
@@ -72,7 +72,7 @@ export function LabDivCatalogExplorer() {
                     page: 1,
                     limit: 10,
                     query: '',
-                    categories: ['Mentorados Lab-Div'],
+                    categories: ['Mentorados HUB IME'],
                     sort: 'recentes'
                 });
                 // Force golden standard on ALL Mentorados catalog items
@@ -81,7 +81,7 @@ export function LabDivCatalogExplorer() {
                     post: { ...item.post, isGoldenStandard: true }
                 })));
             } catch (error) {
-                console.error('Error loading Lab-Div catalog:', error);
+                console.error('Error loading HUB IME catalog:', error);
             } finally {
                 setIsLoading(false);
             }
@@ -107,7 +107,7 @@ export function LabDivCatalogExplorer() {
 
     return (
         <div className="space-y-20 py-12">
-            {/* Produzido pelo Lab-Div */}
+            {/* Produzido pelo HUB IME */}
             <section>
                 <div className="flex items-center gap-3 mb-8 px-4 sm:px-0">
                     <div className="p-2 bg-brand-yellow/10 rounded-xl border border-brand-yellow/20">
@@ -117,14 +117,14 @@ export function LabDivCatalogExplorer() {
                         <h2 className="text-2xl font-black uppercase tracking-widest text-gray-900 dark:text-white leading-tight">
                             Catálogo <span className="text-brand-yellow">Padrão Ouro</span>
                         </h2>
-                        <p className="text-xs font-bold text-gray-500 uppercase tracking-tighter">Produzido pelo Lab-Div: Conteúdo proprietário e oficial</p>
+                        <p className="text-xs font-bold text-gray-500 uppercase tracking-tighter">Produzido pelo HUB IME: Conteúdo proprietário e oficial</p>
                     </div>
                 </div>
-                {labDivItems.length > 0 ? (
-                    <FeaturedCarousel items={labDivItems} hideTitle={true} />
+                {HUB IMEItems.length > 0 ? (
+                    <FeaturedCarousel items={HUB IMEItems} hideTitle={true} />
                 ) : (
                     <div className="px-4 py-12 border-2 border-dashed border-gray-100 dark:border-gray-800 rounded-[40px] flex flex-col items-center justify-center text-center opacity-50">
-                        <p className="text-gray-400 font-bold uppercase tracking-widest">Nenhum rastro detectado com #LabDiv</p>
+                        <p className="text-gray-400 font-bold uppercase tracking-widest">Nenhum rastro detectado com #HUB IME</p>
                     </div>
                 )}
             </section>

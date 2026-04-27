@@ -307,7 +307,7 @@ export function OptionalDetailsStep({ onSubmit, isLoading }: { onSubmit: (data: 
                     Seu Depoimento de Sucesso
                     <HelpTooltip text="Seu relato humaniza a ciência e inspira novos alunos a participarem do Hub." />
                 </h3>
-                <textarea rows={4} {...register('testimonial')} className="w-full bg-gray-50 dark:bg-form-dark/50 border-2 border-dashed border-gray-200 dark:border-gray-700 rounded-3xl px-6 py-4 outline-none italic" placeholder="O Hub de comunicação científica do LabDiv me ajudou a..." />
+                <textarea rows={4} {...register('testimonial')} className="w-full bg-gray-50 dark:bg-form-dark/50 border-2 border-dashed border-gray-200 dark:border-gray-700 rounded-3xl px-6 py-4 outline-none italic" placeholder="O Hub de comunicação científica do HUB IME me ajudou a..." />
             </div>
 
             {/* Mini Quiz Section */}
@@ -403,9 +403,9 @@ export function OptionalDetailsStep({ onSubmit, isLoading }: { onSubmit: (data: 
                     onClick={() => {
                         console.log("Submit button clicked");
                         handleSubmit((data) => {
-                            const isLabDiv = profile?.role && ['admin', 'labdiv', 'moderator', 'labdiv adm'].includes(profile.role);
+                            const isLabDiv = profile?.role && ['admin', 'HUB IME', 'moderator', 'HUB IME adm'].includes(profile.role);
                             
-                            if (category === 'Lab-Div' && isLabDiv) {
+                            if (category === 'HUB IME' && isLabDiv) {
                                 setStep('curator');
                             } else {
                                 onSubmit(data);
@@ -420,8 +420,8 @@ export function OptionalDetailsStep({ onSubmit, isLoading }: { onSubmit: (data: 
                     }}
                     className="bg-gradient-to-r from-brand-blue via-brand-yellow to-brand-red px-12 py-5 rounded-2xl font-black text-white uppercase tracking-widest shadow-2xl hover:-translate-y-1 transition-all flex items-center gap-3 disabled:opacity-50"
                 >
-                    {isLoading ? 'Aguarde...' : ((category === 'Lab-Div' && profile?.role && ['admin', 'labdiv', 'moderator', 'labdiv adm'].includes(profile.role)) ? 'Etapa Curadoria' : 'Concluir Envio')}
-                    {!isLoading && <span className="material-symbols-outlined">{(category === 'Lab-Div' && profile?.role && ['admin', 'labdiv', 'moderator', 'labdiv adm'].includes(profile.role)) ? 'admin_panel_settings' : 'rocket_launch'}</span>}
+                    {isLoading ? 'Aguarde...' : ((category === 'HUB IME' && profile?.role && ['admin', 'HUB IME', 'moderator', 'HUB IME adm'].includes(profile.role)) ? 'Etapa Curadoria' : 'Concluir Envio')}
+                    {!isLoading && <span className="material-symbols-outlined">{(category === 'HUB IME' && profile?.role && ['admin', 'HUB IME', 'moderator', 'HUB IME adm'].includes(profile.role)) ? 'admin_panel_settings' : 'rocket_launch'}</span>}
                 </button>
             </div>
         </div>

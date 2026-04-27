@@ -7,7 +7,7 @@ import { Zap, Brain, Lock, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { wikiCells, institutoCell } from '@/components/wiki/WikiView'; // Reuse cells from Wiki view
 
-const LOCKED_CELLS = ['pesquisa', 'carreira', 'ifusp', 'instituto'];
+const LOCKED_CELLS = ['pesquisa', 'carreira', 'USP', 'instituto'];
 
 export default function QuizHubPage() {
     // Combine all cells
@@ -32,7 +32,7 @@ export default function QuizHubPage() {
                         </h1>
 
                         <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed text-sm md:text-base font-medium">
-                            Selecione uma área da base de dados para extrair Radiação Específica, ou encare o Teste Geral para provar seu conhecimento integral do ecossistema IFUSP.
+                            Selecione uma área da base de dados para extrair Radiação Específica, ou encare o Teste Geral para provar seu conhecimento integral do ecossistema USP.
                         </p>
                     </div>
 
@@ -46,7 +46,7 @@ export default function QuizHubPage() {
                                 </div>
                                 <div>
                                     <h2 className="text-3xl font-black text-gray-900 dark:text-white italic uppercase tracking-tighter mb-2">Teste Geral</h2>
-                                    <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">10 perguntas aleatórias cobrindo todo o Hub IFUSP. O teste definitivo para Veteranos e Exploradores.</p>
+                                    <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">10 perguntas aleatórias cobrindo todo o Hub USP. O teste definitivo para Veteranos e Exploradores.</p>
                                 </div>
                             </div>
                         </Link>

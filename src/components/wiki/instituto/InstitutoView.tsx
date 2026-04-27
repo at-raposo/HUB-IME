@@ -57,7 +57,7 @@ export function InstitutoView({ mapItems }: InstitutoViewProps) {
             <footer className="py-20 border-t border-white/5 text-center mt-12">
                  <p className="text-xs font-black text-gray-500 uppercase tracking-[0.4em] mb-4">Mapeamento Concluído</p>
                  <p className="text-sm text-gray-400 max-w-lg mx-auto leading-relaxed">
-                    Este é documento vivo. O mapeamento do Instituto de Física é expandido pela própria comunidade através do Hub Lab-Div.
+                    Este é documento vivo. O mapeamento do Instituto de Física é expandido pela própria comunidade através do Hub HUB IME.
                  </p>
             </footer>
         </div>

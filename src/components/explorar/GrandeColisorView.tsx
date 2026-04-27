@@ -238,17 +238,17 @@ export function GrandeColisorView({ oportunidades, mapItems }: GrandeColisorView
                         title="Iniciativas de Impacto" 
                         icon={<div className="p-2 bg-brand-blue/10 rounded-xl text-brand-blue"><ColisorIcon size={20} animate={false} /></div>}
                     >
-                        {/* Lab-Div Card */}
+                        {/* HUB IME Card */}
                         <div className="snap-center shrink-0 w-[300px] md:w-[400px] bg-white dark:bg-[#1E1E1E] rounded-[40px] p-10 border border-gray-200 dark:border-white/5 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)] dark:shadow-none relative overflow-hidden group flex flex-col">
                             <div className="absolute top-0 right-0 p-6 opacity-5 group-hover:opacity-20 transition-opacity">
                                 <Landmark className="w-32 h-32 text-gray-900 dark:text-white" />
                             </div>
                             <div className="size-20 bg-gray-100 dark:bg-white rounded-3xl p-4 mb-8">
-                                <img src="/labdiv-logo.png" alt="Lab-Div" className="w-full h-full object-contain" />
+                                <img src="/HUB IME-logo.png" alt="HUB IME" className="w-full h-full object-contain" />
                             </div>
-                            <h3 className="text-2xl font-black italic uppercase mb-4 text-brand-blue">Lab-Div</h3>
+                            <h3 className="text-2xl font-black italic uppercase mb-4 text-brand-blue">HUB IME</h3>
                             <p className="text-gray-600 dark:text-gray-400 font-medium leading-relaxed mb-8">Comunicação científica inspirada no MIT. Tutoria entre pares, escrita e design.</p>
-                            <Link href="/arquivo-labdiv" className="mt-auto px-8 py-4 bg-brand-blue text-white rounded-2xl font-black uppercase tracking-widest text-[10px] text-center group-hover:scale-105 transition-transform">Explorar Acervo</Link>
+                            <Link href="/arquivo-HUB IME" className="mt-auto px-8 py-4 bg-brand-blue text-white rounded-2xl font-black uppercase tracking-widest text-[10px] text-center group-hover:scale-105 transition-transform">Explorar Acervo</Link>
                         </div>
 
                         {/* Boletim Supernova */}
@@ -261,14 +261,14 @@ export function GrandeColisorView({ oportunidades, mapItems }: GrandeColisorView
                             <a href="https://cefisma.com.br" target="_blank" className="mt-auto px-8 py-4 border border-brand-blue/20 text-brand-blue rounded-2xl font-black uppercase tracking-widest text-[10px] text-center hover:bg-brand-blue/10 transition-colors">Ler Supernova</a>
                         </div>
 
-                        {/* BIFUSP */}
+                        {/* BUSP */}
                         <div className="snap-center shrink-0 w-[300px] md:w-[350px] bg-white dark:bg-[#1E1E1E] rounded-[40px] p-10 border border-gray-200 dark:border-white/5 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07)] dark:shadow-none flex flex-col group">
                             <div className="size-16 bg-brand-blue/10 rounded-2xl flex items-center justify-center text-brand-blue mb-8">
                                 <span className="material-symbols-outlined text-4xl">library_books</span>
                             </div>
-                            <h3 className="text-2xl font-black italic uppercase mb-4 tracking-tighter text-gray-900 dark:text-white">BIFUSP</h3>
+                            <h3 className="text-2xl font-black italic uppercase mb-4 tracking-tighter text-gray-900 dark:text-white">BUSP</h3>
                             <p className="text-gray-600 dark:text-gray-400 font-medium leading-relaxed mb-8">A base de dados física. Biblioteca central do Instituto.</p>
-                            <a href="https://portal.if.usp.br/biblioteca/" target="_blank" className="mt-auto px-8 py-4 border border-brand-blue/20 text-brand-blue rounded-2xl font-black uppercase tracking-widest text-[10px] text-center hover:bg-brand-blue/10 transition-colors">Consultar</a>
+                            <a href="https://portal.ime.usp.br/biblioteca/" target="_blank" className="mt-auto px-8 py-4 border border-brand-blue/20 text-brand-blue rounded-2xl font-black uppercase tracking-widest text-[10px] text-center hover:bg-brand-blue/10 transition-colors">Consultar</a>
                         </div>
                     </NetflixFeed>
                 </div>
@@ -288,7 +288,7 @@ export function GrandeColisorView({ oportunidades, mapItems }: GrandeColisorView
                             </div>
                             <h3 className="text-xl font-black uppercase mb-3 text-gray-900 dark:text-gray-200">Hackerspace</h3>
                             <p className="text-sm text-gray-600 dark:text-gray-500 leading-relaxed mb-8 font-medium">Cultura maker no IF. Arduinos, 3D e colaboração radical.</p>
-                            <a href="https://hackerspace.if.usp.br" target="_blank" className="mt-auto text-brand-blue font-black uppercase tracking-tighter flex items-center gap-2 hover:underline font-bold">Visitar <ArrowRight className="w-4 h-4" /></a>
+                            <a href="https://hackerspace.ime.usp.br" target="_blank" className="mt-auto text-brand-blue font-black uppercase tracking-tighter flex items-center gap-2 hover:underline font-bold">Visitar <ArrowRight className="w-4 h-4" /></a>
                         </div>
 
                         {/* DigitalLab - Espaço no Inova */}
@@ -320,7 +320,7 @@ export function GrandeColisorView({ oportunidades, mapItems }: GrandeColisorView
                             </div>
                             <h3 className="text-xl font-black uppercase mb-3 text-gray-900 dark:text-gray-200">Lab Demo</h3>
                             <p className="text-sm text-gray-600 dark:text-gray-500 leading-relaxed mb-8 font-medium">Demonstrações lúdicas e experimentos interativos.</p>
-                            <a href="https://portal.if.usp.br/demonstracoes/" target="_blank" className="mt-auto text-brand-red font-black uppercase tracking-tighter flex items-center gap-2 hover:underline">Ver Fenômenos <ArrowRight className="w-4 h-4" /></a>
+                            <a href="https://portal.ime.usp.br/demonstracoes/" target="_blank" className="mt-auto text-brand-red font-black uppercase tracking-tighter flex items-center gap-2 hover:underline">Ver Fenômenos <ArrowRight className="w-4 h-4" /></a>
                         </div>
 
                         {/* Parque CienTec */}

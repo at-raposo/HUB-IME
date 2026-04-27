@@ -47,7 +47,7 @@ export function LevelUpNotification() {
                                         particleCount: 200,
                                         spread: 100,
                                         origin: { y: 0.5 },
-                                        colors: ['#0F4780', '#F14343', '#FFCC00', '#1F9FCF']
+                                        colors: ['#A51C30', '#F14343', '#FFCC00', '#C00000']
                                     });
 
                                     // Second wave
@@ -57,14 +57,14 @@ export function LevelUpNotification() {
                                             angle: 60,
                                             spread: 55,
                                             origin: { x: 0 },
-                                            colors: ['#0F4780', '#FFCC00']
+                                            colors: ['#A51C30', '#FFCC00']
                                         });
                                         confetti({
                                             particleCount: 100,
                                             angle: 120,
                                             spread: 55,
                                             origin: { x: 1 },
-                                            colors: ['#F14343', '#0F4780']
+                                            colors: ['#F14343', '#A51C30']
                                         });
                                     }, 400);
                                 }, 2500);

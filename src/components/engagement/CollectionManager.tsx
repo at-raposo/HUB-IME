@@ -68,7 +68,7 @@ export const CollectionManager = ({ submissionId, userId, onClose }: CollectionM
                 <div className="p-6 border-b border-gray-100 dark:border-gray-800 flex items-center justify-between">
                     <div>
                         <h3 className="text-xl font-black text-gray-900 dark:text-white">Salvar em Pasta</h3>
-                        <p className="text-xs text-gray-500 font-medium">Organize seu acervo pessoal no Lab-Div.</p>
+                        <p className="text-xs text-gray-500 font-medium">Organize seu acervo pessoal no HUB IME.</p>
                     </div>
                     <button onClick={onClose} className="size-8 flex items-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
                         <span className="material-symbols-outlined text-[20px]">close</span>

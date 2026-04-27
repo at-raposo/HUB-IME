@@ -11,7 +11,7 @@ export enum AppRoutes {
     MAPA = '/mapa',
     ADMIN = '/admin',
     PERGUNTAS = '/perguntas',
-    ARQUIVO_LABDIV = '/arquivo-labdiv',
+    ARQUIVO_LABDIV = '/arquivo-ime',
     WIKI = '/wiki',
     EMARANHAMENTO = '/emaranhamento',
     COMUNIDADE = '/',

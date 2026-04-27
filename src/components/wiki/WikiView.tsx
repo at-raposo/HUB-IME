@@ -43,17 +43,17 @@ export const wikiCells = [
     {
         id: 'divulgacao',
         title: 'Emissão de Luz',
-        subtitle: 'Toolkit de Divulgação LabDiv.',
+        subtitle: 'Toolkit de Divulgação HUB IME.',
         icon: <Telescope className="w-8 h-8" />,
         color: 'brand-blue',
         href: '/wiki/divulgacao',
         description: 'Metodologia e ferramentas para transformar dados técnicos em impacto visual.',
         details: [
             'Mapeamento 360°, VR e vídeos imersivos',
-            'Guia Visual LabDiv (Azul Elétrico) e MIT Style',
+            'Guia Visual HUB IME (Azul Elétrico) e MIT Style',
             'Toolkit de design para posters e redes sociais'
         ],
-        keywords: ['divulgação', 'design', 'labdiv', '360', 'vr', 'poster', 'mídia', 'comunicação', 'impacto', 'toolkit'],
+        keywords: ['divulgação', 'design', 'HUB IME', '360', 'vr', 'poster', 'mídia', 'comunicação', 'impacto', 'toolkit'],
         cta: 'Gerar Impacto'
     },
     {
@@ -65,7 +65,7 @@ export const wikiCells = [
         href: '/wiki/extensao',
         description: 'Catálogo de grupos de extensão, eventos "Física para Todos" e projetos de cultura.',
         details: [
-            'Catálogo de Grupos de Extensão IFUSP',
+            'Catálogo de Grupos de Extensão USP',
             'Eventos: Física para Todos e Palestras',
             'Projetos de Cultura e Proposição de Ações'
         ],
@@ -101,7 +101,7 @@ export const wikiCells = [
         details: [
             'Neurodiversidade: Guia Portaria PRIP 059/2024 (TEA)',
             'Apoio Psicológico: Rotas de acolhimento (IP-USP)',
-            'Canais de Escuta e Grupos de Afinidade IFUSP'
+            'Canais de Escuta e Grupos de Afinidade USP'
         ],
         keywords: ['proteção', 'saúde mental', 'tea', 'neurodiversidade', 'acolhimento', 'prip', 'suporte', 'ajuda', 'inclusão', 'bem-estar', 'pcd'],
         cta: 'Solicitar Suporte'
@@ -109,7 +109,7 @@ export const wikiCells = [
     {
         id: 'carreira',
         title: 'Vetores de Carreira',
-        subtitle: 'O Futuro Pós-IFUSP.',
+        subtitle: 'O Futuro Pós-USP.',
         icon: <Compass className="w-8 h-8" />,
         color: 'brand-yellow',
         href: '/wiki/carreira',
@@ -131,7 +131,7 @@ export const wikiCells = [
         icon: <Microscope className="w-8 h-8" />,
         color: 'brand-red',
         href: '/wiki/pesquisa',
-        description: 'Guia de Iniciação Científica, Laboratórios do IFUSP e navegação no sistema Ateneu.',
+        description: 'Guia de Iniciação Científica, Laboratórios do USP e navegação no sistema Ateneu.',
         details: [
             'Como encontrar um orientador de IC',
             'Laboratórios de Pesquisa e Infraestrutura',
@@ -157,12 +157,12 @@ export const wikiCells = [
         cta: 'Ver Editais Ativos'
     },
     {
-        id: 'ifusp',
+        id: 'USP',
         title: 'Estrutura da Matéria',
         subtitle: 'Cursos, PPPs e Departamentos.',
         icon: <Atom className="w-8 h-8" />,
         color: 'brand-red',
-        href: '/wiki/ifusp',
+        href: '/wiki/USP',
         description: 'Guia acadêmico sobre os cursos, governança e estrutura curricular do instituto.',
         details: [
             'Bacharelado, Licenciatura e Física Médica (PPP 2025)',
@@ -179,16 +179,16 @@ export const institutoCell = {
     title: 'O Instituto de Física',
     subtitle: 'Estrutura, História e Espaços.',
     icon: <Landmark className="w-8 h-8" />,
-    color: 'brand-blue-ifusp',
+    color: 'brand-blue-USP',
     href: '/wiki/instituto',
-    description: 'Mergulhe na história do IFUSP e entenda como um dos institutos de física mais respeitados do mundo é organizado atualmente.',
+    description: 'Mergulhe na história do USP e entenda como um dos institutos de física mais respeitados do mundo é organizado atualmente.',
     details: [
         'Organização: Diretoria, Conselhos e Comissões',
         'História: Legado e Pioneirismo na Ciência',
         'Departamentos e Centros de Pesquisa'
     ],
-    keywords: ['ifusp', 'instituto', 'física', 'departamento', 'auditório', 'história', 'alimentação', 'convivência', 'mapa'],
-    cta: 'Aprender sobre o IFUSP'
+    keywords: ['USP', 'instituto', 'física', 'departamento', 'auditório', 'história', 'alimentação', 'convivência', 'mapa'],
+    cta: 'Aprender sobre o USP'
 };
 
 const quizCell = {
@@ -200,7 +200,7 @@ const quizCell = {
     href: '/wiki/quiz',
     description: 'Desafie seus conhecimentos e exploda o contador Geiger ao acertar os desafios.',
     details: [
-        'Curiosidades históricas do IFUSP',
+        'Curiosidades históricas do USP',
         'Desafios de física e divulgação',
         'Ranking de colisão da comunidade'
     ],
@@ -209,12 +209,12 @@ const quizCell = {
 };
 
 
-const renderIFUSP = (text: string) => {
+const renderUSP = (text: string) => {
     if (!text) return text;
-    const standardized = text.replace(/IF-USP|IF USP/gi, 'IFUSP');
-    const parts = standardized.split(/(IFUSP)/gi);
+    const standardized = text.replace(/IF-USP|IF USP/gi, 'USP');
+    const parts = standardized.split(/(USP)/gi);
     return parts.map((part, i) => {
-        if (part.toUpperCase() === 'IFUSP') {
+        if (part.toUpperCase() === 'USP') {
             return (
                 <span key={i} className="inline font-black tracking-tighter">
                     <span className="text-brand-yellow">IF</span><span className="text-brand-blue">USP</span>
@@ -241,7 +241,7 @@ export function WikiView() {
                                 WIKI <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">HUB</span>
                             </h1>
                             <p className="text-gray-400 text-lg max-w-xl font-medium leading-relaxed">
-                                {renderIFUSP('O Síncrotron de Conhecimento do IFUSP. O repositório definitivo para sobrevivência, ética e divulgação científica.')}
+                                {renderUSP('O Síncrotron de Conhecimento do USP. O repositório definitivo para sobrevivência, ética e divulgação científica.')}
                             </p>
                         </motion.div>
 
@@ -283,13 +283,13 @@ export function WikiView() {
                                             </div>
                                         </div>
                                         <h3 className={`text-2xl font-black text-gray-900 dark:text-white mb-1 group-hover:text-${cell.color} transition-colors italic uppercase tracking-tighter`}>
-                                            {renderIFUSP(cell.title)}
+                                            {renderUSP(cell.title)}
                                         </h3>
                                         <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">
                                             {cell.subtitle}
                                         </p>
                                         <p className="text-sm text-gray-400 font-medium leading-relaxed mb-6 line-clamp-2">
-                                            {renderIFUSP(cell.description)}
+                                            {renderUSP(cell.description)}
                                         </p>
                                         <div className="space-y-2 mb-8">
                                             {cell.details.map((detail: string, dIdx: number) => (
@@ -321,30 +321,30 @@ export function WikiView() {
                     transition={{ duration: 0.8, delay: 0.5 }}
                     className="relative group w-full mb-12"
                 >
-                    <div className="absolute -inset-0.5 bg-brand-blue-ifusp/30 rounded-[32px] blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                    <div className="absolute -inset-0.5 bg-brand-blue-USP/30 rounded-[32px] blur opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     <Link
                         href={institutoCell.href}
-                        className="relative flex flex-col md:flex-row items-center justify-between w-full p-8 md:p-12 rounded-[32px] bg-gradient-to-r from-brand-blue-ifusp/20 to-brand-blue/10 backdrop-blur-2xl border border-white/5 hover:border-brand-blue-ifusp/40 transition-all overflow-hidden text-left"
+                        className="relative flex flex-col md:flex-row items-center justify-between w-full p-8 md:p-12 rounded-[32px] bg-gradient-to-r from-brand-blue-USP/20 to-brand-blue/10 backdrop-blur-2xl border border-white/5 hover:border-brand-blue-USP/40 transition-all overflow-hidden text-left"
                     >
-                        <div className="absolute top-0 right-0 w-64 h-64 bg-brand-blue-ifusp/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/4"></div>
+                        <div className="absolute top-0 right-0 w-64 h-64 bg-brand-blue-USP/5 rounded-full blur-[100px] -translate-y-1/2 translate-x-1/4"></div>
                         <div className="flex flex-col md:flex-row items-center gap-8 relative z-10">
-                            <div className="size-20 bg-brand-blue-ifusp/10 text-brand-blue-ifusp rounded-[28px] flex items-center justify-center ring-1 ring-brand-blue-ifusp/20 group-hover:scale-110 transition-all duration-700 shadow-2xl shadow-brand-blue-ifusp/20">
+                            <div className="size-20 bg-brand-blue-USP/10 text-brand-blue-USP rounded-[28px] flex items-center justify-center ring-1 ring-brand-blue-USP/20 group-hover:scale-110 transition-all duration-700 shadow-2xl shadow-brand-blue-USP/20">
                                 {institutoCell.icon}
                             </div>
                             <div className="text-center md:text-left">
                                 <div className="flex items-center justify-center md:justify-start gap-4 mb-2">
                                     <h3 className="text-3xl md:text-4xl font-black text-gray-900 dark:text-white italic uppercase tracking-tighter">
-                                        {renderIFUSP(institutoCell.title)}
+                                        {renderUSP(institutoCell.title)}
                                     </h3>
-                                    <span className="hidden md:block px-3 py-1 bg-brand-blue-ifusp/20 border border-brand-blue-ifusp/30 text-brand-blue-ifusp text-[10px] font-black uppercase rounded-full italic">Institucional</span>
+                                    <span className="hidden md:block px-3 py-1 bg-brand-blue-USP/20 border border-brand-blue-USP/30 text-brand-blue-USP text-[10px] font-black uppercase rounded-full italic">Institucional</span>
                                 </div>
                                 <p className="text-gray-400 font-medium max-w-md">
-                                    {renderIFUSP(institutoCell.description)}
+                                    {renderUSP(institutoCell.description)}
                                 </p>
                             </div>
                         </div>
                         <div className="mt-8 md:mt-0 relative z-10">
-                            <div className="px-12 py-5 bg-brand-blue-ifusp text-white font-black rounded-[24px] group-hover:scale-105 active:scale-95 transition-all text-sm uppercase tracking-widest flex items-center gap-4 shadow-2xl shadow-brand-blue-ifusp/30">
+                            <div className="px-12 py-5 bg-brand-blue-USP text-white font-black rounded-[24px] group-hover:scale-105 active:scale-95 transition-all text-sm uppercase tracking-widest flex items-center gap-4 shadow-2xl shadow-brand-blue-USP/30">
                                 {institutoCell.cta} <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </div>
                         </div>

@@ -46,7 +46,7 @@ export function ShareButtons({ title, id }: ShareButtonsProps) {
             try {
                 await navigator.share({
                     title: title,
-                    text: `Confira este trabalho no Hub Lab-Div`,
+                    text: `Confira este trabalho no Hub HUB IME`,
                     url: getUrl(),
                 });
             } catch (err) {
@@ -56,8 +56,8 @@ export function ShareButtons({ title, id }: ShareButtonsProps) {
     };
 
     const shareOptions = isMounted ? [
-        { name: 'WhatsApp', icon: 'chat_bubble', color: 'bg-green-500', link: `https://wa.me/?text=${encodeURIComponent(`${title} — Hub Lab-Div\n${getUrl()}`)}` },
-        { name: 'X (Twitter)', icon: 'close', color: 'bg-black', link: `https://twitter.com/intent/tweet?text=${encodeURIComponent(`${title} — Hub Lab-Div`)}&url=${encodeURIComponent(getUrl())}` },
+        { name: 'WhatsApp', icon: 'chat_bubble', color: 'bg-green-500', link: `https://wa.me/?text=${encodeURIComponent(`${title} — Hub HUB IME\n${getUrl()}`)}` },
+        { name: 'X (Twitter)', icon: 'close', color: 'bg-black', link: `https://twitter.com/intent/tweet?text=${encodeURIComponent(`${title} — Hub HUB IME`)}&url=${encodeURIComponent(getUrl())}` },
         { name: 'Telegram', icon: 'send', color: 'bg-blue-400', link: `https://t.me/share/url?url=${encodeURIComponent(getUrl())}&text=${encodeURIComponent(title)}` },
     ] : [];
     

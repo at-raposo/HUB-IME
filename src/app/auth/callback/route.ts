@@ -38,7 +38,7 @@ export async function GET(request: NextRequest) {
             const track = searchParams.get('track');
             const categoryHint = searchParams.get('category');
             const email = session.user.email || '';
-            const isUspDomain = email.endsWith('@usp.br') || email.endsWith('@alumni.usp.br') || email.endsWith('@if.usp.br');
+            const isUspDomain = email.endsWith('@usp.br') || email.endsWith('@alumni.usp.br') || email.endsWith('@ime.usp.br');
 
             if (track === 'usp' && !isUspDomain) {
                 if (process.env.NODE_ENV === 'development') {

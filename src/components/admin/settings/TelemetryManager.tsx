@@ -403,7 +403,7 @@ export function TelemetryManager() {
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.setAttribute('download', `telemetria_ifusp_${new Date().toISOString().split('T')[0]}.csv`);
+    link.setAttribute('download', `telemetria_USP_${new Date().toISOString().split('T')[0]}.csv`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -776,7 +776,7 @@ export function TelemetryManager() {
               <div className="bg-white/[0.03] p-10 rounded-[48px] border border-white/5 shadow-2xl">
                 <div className="flex items-center gap-4 mb-10">
                   <Trophy className="w-8 h-8 text-brand-yellow" />
-                  <h3 className="text-2xl font-black text-white uppercase tracking-tighter">O Olimpo do IFUSP</h3>
+                  <h3 className="text-2xl font-black text-white uppercase tracking-tighter">O Olimpo do USP</h3>
                 </div>
 
                 <div className="grid grid-cols-1 gap-4">

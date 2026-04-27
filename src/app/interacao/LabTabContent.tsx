@@ -168,7 +168,7 @@ export function LabTabContent() {
                             {topInterest && <span className="px-2 py-0.5 bg-brand-blue/20 text-brand-blue text-[9px] font-black rounded border border-brand-blue/30 flex items-center gap-1 uppercase tracking-tight"><Star className="size-3 fill-current" /> Foco: {topInterest}</span>}
                             {viewedProfile.course && <span className="px-2 py-0.5 bg-brand-yellow/10 text-brand-yellow text-[9px] font-bold rounded border border-brand-yellow/20 uppercase">{viewedProfile.course}</span>}
                             {viewedProfile.institute && <span className="px-2 py-0.5 bg-brand-blue/10 text-brand-blue text-[9px] font-bold rounded border border-brand-blue/20 uppercase">{viewedProfile.institute}</span>}
-                            {viewedProfile.is_labdiv && <span className="px-2 py-0.5 bg-brand-yellow text-black text-[9px] font-black rounded border border-brand-yellow/30 uppercase flex items-center gap-1"><ShieldCheck className="size-3" /> Membro Lab-Div</span>}
+                            {viewedProfile.is_labdiv && <span className="px-2 py-0.5 bg-brand-yellow text-black text-[9px] font-black rounded border border-brand-yellow/30 uppercase flex items-center gap-1"><ShieldCheck className="size-3" /> Membro HUB IME</span>}
                         </div>
 
                         <p className="text-gray-500 dark:text-gray-300 italic text-sm leading-relaxed max-w-xl line-clamp-3">

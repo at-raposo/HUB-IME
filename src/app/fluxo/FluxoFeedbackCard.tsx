@@ -12,9 +12,9 @@ export function FluxoFeedbackCard({ className }: { className?: string }) {
 
   return (
     <ContextFeedbackCard
-      title="O Pulso do IFUSP"
+      title="O Pulso do USP"
       icon={<span className="material-symbols-outlined text-2xl text-brand-blue">grain</span>}
-      description="Este é o pulso do IFUSP em tempo real. Com a agilidade de uma rede social e o rigor da academia, aqui a divulgação passiva se transforma em comunicação científica interativa. O ecossistema está em construção: como podemos melhorar seu fluxo?"
+      description="Este é o pulso do USP em tempo real. Com a agilidade de uma rede social e o rigor da academia, aqui a divulgação passiva se transforma em comunicação científica interativa. O ecossistema está em construção: como podemos melhorar seu fluxo?"
       betaTag={true}
       onFeedbackClick={handleFeedbackClick}
       className={className}

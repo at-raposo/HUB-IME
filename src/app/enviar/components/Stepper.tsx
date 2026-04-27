@@ -19,7 +19,7 @@ export function Stepper({ currentStep }: StepperProps) {
     const { category } = useSubmissionStore();
     
     const steps = [...baseSteps];
-    if (category === 'Lab-Div') {
+    if (category === 'HUB IME') {
         steps.push({ id: 'curator', label: 'Curadoria' });
     }
 

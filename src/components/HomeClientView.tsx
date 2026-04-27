@@ -162,7 +162,7 @@ export const HomeClientView = ({
         }
     };
 
-    const categories = ['Todos', 'Lab-Div', 'Mentorados Lab-Div', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
+    const categories = ['Todos', 'HUB IME', 'Mentorados HUB IME', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
     const currentYear = 2026; // Fixed for Hub 3.1.5 context
     const years = ['Todos', ...Array.from({ length: currentYear - 1934 + 1 }, (_, i) => (currentYear - i).toString())];
 
@@ -270,7 +270,7 @@ export const HomeClientView = ({
                         style={{ animationDelay: '0.1s' }}
                     >
                         Hub de Comunicação Científica <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-yellow to-brand-red">Lab-Div</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-blue via-brand-yellow to-brand-red">HUB IME</span>
                     </h1>
 
                     {/* Mobile Feedback Card - Pós H1 */}
@@ -280,7 +280,7 @@ export const HomeClientView = ({
                         className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-in-up"
                         style={{ animationDelay: '0.2s' }}
                     >
-                        Hub de Comunicação Científica do Lab-Div - Um projeto para melhorar a comunicação do IF-USP e reunir em um FLUXO interativo o arquivo de material de divulgação do Lab-Div e de toda a comunidade — de dentro e fora do instituto.
+                        Hub de Comunicação Científica do HUB IME - Um projeto para melhorar a comunicação do IF-USP e reunir em um FLUXO interativo o arquivo de material de divulgação do HUB IME e de toda a comunidade — de dentro e fora do instituto.
                     </p>
                 </div>
             </header>
@@ -396,7 +396,7 @@ export const HomeClientView = ({
                 </div>
             </section>
 
-            {/* EM ÓRBITA NO IFUSP (Trending Horizontal - Mover abaixo dos filtros) */}
+            {/* EM ÓRBITA NO USP (Trending Horizontal - Mover abaixo dos filtros) */}
             {!debouncedQuery && selectedCategories.includes('Todos') && trendingItems.length > 0 && (
                 <section className="w-full py-8 bg-white dark:bg-card-dark rounded-[40px] border border-gray-100 dark:border-gray-800/50 shadow-sm mb-12">
                     <div className="px-8">
@@ -404,7 +404,7 @@ export const HomeClientView = ({
                             <div className="flex flex-col">
                                 <h2 className="text-xl font-black uppercase tracking-widest text-gray-900 dark:text-white flex items-center gap-2">
                                     <Satellite className="w-5 h-5 text-brand-blue" />
-                                    Em Órbita no <span className="text-brand-blue">IFUSP</span>
+                                    Em Órbita no <span className="text-brand-blue">USP</span>
                                 </h2>
                                 <p className="text-[10px] font-bold text-gray-400 uppercase tracking-tighter mt-1">Contribuições em destaque na comunidade</p>
                             </div>
@@ -551,7 +551,7 @@ export const HomeClientView = ({
                                 <motion.div
                                     animate={{ scale: [1, 1.2, 1] }}
                                     transition={{ duration: 1, repeat: Infinity }}
-                                    className="w-2 h-2 bg-brand-blue-accent rounded-full shadow-[0_0_10px_#1F9FCF]"
+                                    className="w-2 h-2 bg-brand-blue-accent rounded-full shadow-[0_0_10px_#C00000]"
                                 />
                                 <Atom className="absolute -top-3 -left-3 w-8 h-8 text-white/10 animate-pulse" />
                             </div>
@@ -561,7 +561,7 @@ export const HomeClientView = ({
                                 Sinc_Atômico
                             </h2>
                             <p className="text-[8px] font-mono text-gray-400 uppercase tracking-widest leading-none">
-                                Atualizando_Comunidade_IFUSP...
+                                Atualizando_Comunidade_USP...
                             </p>
                         </div>
 
@@ -571,7 +571,7 @@ export const HomeClientView = ({
                                 initial={{ width: 0 }}
                                 animate={{ width: "100%" }}
                                 transition={{ duration: 4, ease: "linear" }}
-                                className="h-full bg-brand-blue-accent shadow-[0_0_10px_#1F9FCF]"
+                                className="h-full bg-brand-blue-accent shadow-[0_0_10px_#C00000]"
                             />
                         </div>
                     </motion.div>

@@ -82,7 +82,7 @@ export default async function AutorPage({ params }: { params: Promise<{ nome: st
                         </div>
                         <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Nenhuma publicação encontrada</h3>
                         <p className="text-gray-500 dark:text-gray-400 max-w-md">
-                            Este autor ainda não possui arquivos ou projetos aprovados no catálogo público do Lab-Div.
+                            Este autor ainda não possui arquivos ou projetos aprovados no catálogo público do HUB IME.
                         </p>
                     </div>
                 )}

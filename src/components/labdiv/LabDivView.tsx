@@ -1,12 +1,12 @@
 'use client';
 
 import React from 'react';
-import { LabDivCatalogExplorer } from "@/components/LabDivCatalogExplorer";
-import { LabDivTeam } from "@/components/labdiv/LabDivTeam";
+import { HUB IMECatalogExplorer } from "@/components/HUB IMECatalogExplorer";
+import { HUB IMETeam } from "@/components/HUB IME/HUB IMETeam";
 import Link from "next/link";
-import { LabDivFeedbackCard } from "@/app/arquivo-labdiv/LabDivFeedbackCard";
+import { HUB IMEFeedbackCard } from "@/app/arquivo-HUB IME/HUB IMEFeedbackCard";
 
-export function LabDivView() {
+export function HUB IMEView() {
     return (
         <div className="flex-1 w-full animate-in fade-in duration-700 pt-8 pb-12">
             {/* Hero */}
@@ -14,7 +14,7 @@ export function LabDivView() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center gap-8">
                     <div className="flex-1">
                         <h1 className="font-display font-bold text-4xl md:text-5xl tracking-tight mb-4 text-gray-900 dark:text-white">
-                            O que é o <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">Lab-Div</span>?
+                            O que é o <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">HUB IME</span>?
                         </h1>
                         <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-2xl">
                             É um laboratório de divulgação científica que produz, reúne e ajuda a criar material de divulgação científica para melhorar a divulgação científica do IF.
@@ -48,9 +48,9 @@ export function LabDivView() {
                         </div>
                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Kit Div</h2>
                         <p className="text-sm text-gray-600 dark:text-gray-400 mb-8 max-w-sm">
-                            Ferramentas exclusivas, templates de design, guias de linguagem e assets audiovisuais da marca do IFUSP para acelerar suas produções.
+                            Ferramentas exclusivas, templates de design, guias de linguagem e assets audiovisuais da marca do USP para acelerar suas produções.
                         </p>
-                        <a href="https://labdiv.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
+                        <a href="https://HUB IME.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
                             Explorar Kit Div
                             <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                         </a>
@@ -66,7 +66,7 @@ export function LabDivView() {
                         </div>
                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Mentoria Premium</h2>
                         <p className="text-sm text-gray-600 dark:text-gray-400 mb-8 max-w-sm relative z-10">
-                            Agende reuniões individuais com Veteranos do Lab-Div para revisar roteiros, artigos, refinar a didática e traçar planos de divulgação para suas pesquisas.
+                            Agende reuniões individuais com Veteranos do HUB IME para revisar roteiros, artigos, refinar a didática e traçar planos de divulgação para suas pesquisas.
                         </p>
                         <Link href="/perguntas" className="mt-auto relative z-10 px-6 py-3 bg-brand-blue text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-blue/20">
                             Solicitar Mentoria
@@ -84,7 +84,7 @@ export function LabDivView() {
                         </div>
                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Faça Parte da Equipe</h2>
                         <p className="text-sm text-gray-600 dark:text-gray-400 mb-8 max-w-sm relative z-10">
-                            Quer contribuir com a divulgação científica do IFUSP? Junte-se ao Lab-Div como colaborador, roteirista, designer ou desenvolvedor. Vamos construir juntos.
+                            Quer contribuir com a divulgação científica do USP? Junte-se ao HUB IME como colaborador, roteirista, designer ou desenvolvedor. Vamos construir juntos.
                         </p>
                         <a href="#equipe" className="mt-auto relative z-10 px-6 py-3 bg-brand-yellow text-gray-900 text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-yellow/20">
                             Quero Participar
@@ -102,9 +102,9 @@ export function LabDivView() {
                         </div>
                         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Espaço Novo Milênio</h2>
                         <p className="text-sm text-gray-600 dark:text-gray-400 mb-8 max-w-sm relative z-10">
-                            Um espaço multimídia do IFUSP disponível para gravações, reuniões e eventos acadêmicos. Agende a utilização e transforme suas ideias em produções profissionais.
+                            Um espaço multimídia do USP disponível para gravações, reuniões e eventos acadêmicos. Agende a utilização e transforme suas ideias em produções profissionais.
                         </p>
-                        <a href="https://labdiv.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto relative z-10 px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
+                        <a href="https://HUB IME.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto relative z-10 px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
                             Agendar Espaço
                             <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                         </a>
@@ -121,7 +121,7 @@ export function LabDivView() {
                     <div className="h-1.5 w-24 rounded-full mb-2 bg-brand-yellow"></div>
                 </div>
 
-                <LabDivCatalogExplorer />
+                <HUB IMECatalogExplorer />
             </section>
 
             <section id="equipe" className="py-12 max-w-7xl mx-auto px-4 border-t border-gray-100 dark:border-gray-800">
@@ -132,7 +132,7 @@ export function LabDivView() {
                     <div className="h-1.5 w-24 rounded-full mb-2 bg-brand-blue-accent"></div>
                 </div>
 
-                <LabDivTeam />
+                <HUB IMETeam />
             </section>
         </div>
     );

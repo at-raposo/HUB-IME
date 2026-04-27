@@ -18,7 +18,7 @@ export function InstitutoHero() {
                         <Landmark className="w-8 h-8 text-brand-blue" />
                     </div>
                     <span className="text-xs font-black uppercase tracking-[0.3em] text-brand-blue">
-                        Excelência Acadêmica IFUSP
+                        Excelência Acadêmica USP
                     </span>
                 </div>
 
@@ -31,7 +31,7 @@ export function InstitutoHero() {
 
                 <div className="max-w-3xl">
                     <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed font-medium mb-6">
-                        Referência mundial e pioneiro no ensino, o IFUSP é o maior centro de física do Brasil, onde tradição encontra a vanguarda das fronteiras do conhecimento científico.
+                        Referência mundial e pioneiro no ensino, o USP é o maior centro de física do Brasil, onde tradição encontra a vanguarda das fronteiras do conhecimento científico.
                     </p>
                     
                     <div className="glass-card p-8 rounded-[40px] border-gray-100 dark:border-white/5 bg-white/50 dark:bg-[#1E1E1E]/50 backdrop-blur-sm">
@@ -42,7 +42,7 @@ export function InstitutoHero() {
                     </div>
 
                     <a 
-                        href="https://portal.if.usp.br/ifusp/usuarios/todos"
+                        href="https://portal.ime.usp.br/USP/usuarios/todos"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-8 flex items-center justify-center gap-3 px-8 py-4 bg-brand-blue/10 hover:bg-brand-blue/20 border border-brand-blue/30 rounded-2xl text-brand-blue text-[10px] font-black uppercase tracking-[0.2em] transition-all hover:scale-[1.02] active:scale-[0.98] group shadow-lg shadow-brand-blue/5 w-fit"

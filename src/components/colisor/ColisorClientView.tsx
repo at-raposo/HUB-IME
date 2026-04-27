@@ -194,26 +194,26 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
-                    {/* Lab-Div Card */}
+                    {/* HUB IME Card */}
                     <div className="bg-white dark:bg-card-dark rounded-3xl md:rounded-[32px] p-5 md:p-8 border border-gray-100 dark:border-gray-800 shadow-xl shadow-gray-200/5 hover:-translate-y-1 transition-transform group relative overflow-hidden flex flex-col">
                         <div className="absolute top-0 right-0 p-3 md:p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                             <span className="material-symbols-outlined text-4xl md:text-6xl text-brand-blue">science</span>
                         </div>
                         <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-4 md:mb-6 overflow-hidden">
-                            <img src="/labdiv-logo.png" alt="Logo do Lab-Div" className="w-full h-full object-contain" />
+                            <img src="/HUB IME-logo.png" alt="Logo do HUB IME" className="w-full h-full object-contain" />
                         </div>
                         <h2 className="text-xl md:text-2xl font-black tracking-tight mb-2 md:mb-3">
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">Lab-Div</span>
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">HUB IME</span>
                         </h2>
                         <p className="text-[10px] md:text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 md:mb-6">
-                            Inspirada no CommLab do MIT, foca na comunicação científica no IFUSP. Oferece tutoria entre pares para escrita científica, apresentações e design.
+                            Inspirada no CommLab do MIT, foca na comunicação científica no USP. Oferece tutoria entre pares para escrita científica, apresentações e design.
                         </p>
-                        <Link href="/labdiv?tab=labdiv" className="text-brand-blue font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
+                        <Link href="/HUB IME?tab=HUB IME" className="text-brand-blue font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
                             Explorar <span className="hidden sm:inline">Acervo</span> <span className="material-symbols-outlined text-sm md:text-base">arrow_forward</span>
                         </Link>
                     </div>
 
-                    {/* Hackerspace IFUSP Card */}
+                    {/* Hackerspace USP Card */}
                     <div className="bg-white dark:bg-card-dark rounded-3xl md:rounded-[32px] p-5 md:p-8 border border-gray-100 dark:border-gray-800 shadow-xl shadow-gray-200/5 hover:-translate-y-1 transition-transform group relative overflow-hidden flex flex-col">
                         <div className="absolute top-0 right-0 p-3 md:p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                             <span className="material-symbols-outlined text-4xl md:text-6xl text-brand-green">memory</span>
@@ -221,11 +221,11 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         <div className="w-12 h-12 md:w-16 md:h-16 bg-brand-green/10 rounded-2xl flex items-center justify-center mb-4 md:mb-6">
                             <span className="material-symbols-outlined text-3xl md:text-4xl text-brand-green">memory</span>
                         </div>
-                        <h2 className="text-xl md:text-2xl font-black text-gray-900 dark:text-white tracking-tight mb-2 md:mb-3">Hackerspace IFUSP</h2>
+                        <h2 className="text-xl md:text-2xl font-black text-gray-900 dark:text-white tracking-tight mb-2 md:mb-3">Hackerspace USP</h2>
                         <p className="text-[10px] md:text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 md:mb-6">
                             Laboratório aberto e colaborativo. Oferece Arduinos, Raspberry Pis, impressoras 3D e eletrônica para projetos de física e robótica.
                         </p>
-                        <a href="https://hackerspace.if.usp.br" target="_blank" rel="noopener noreferrer" className="text-brand-green font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
+                        <a href="https://hackerspace.ime.usp.br" target="_blank" rel="noopener noreferrer" className="text-brand-green font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
                             Conhecer <span className="hidden sm:inline">o Espaço</span> <span className="material-symbols-outlined text-sm md:text-base">arrow_forward</span>
                         </a>
                     </div>
@@ -240,14 +240,14 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         </div>
                         <h2 className="text-xl md:text-2xl font-black text-gray-900 dark:text-white tracking-tight mb-2 md:mb-3">Boletim Supernova</h2>
                         <p className="text-[10px] md:text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 md:mb-6">
-                            Publicação do CEFISMA que serve como espaço de diálogo crítico e cultural no IFUSP. Traz textos de estudantes, artigos de opinião e artes.
+                            Publicação do CEFISMA que serve como espaço de diálogo crítico e cultural no USP. Traz textos de estudantes, artigos de opinião e artes.
                         </p>
                         <a href="https://cefisma.com.br" target="_blank" rel="noopener noreferrer" className="text-brand-yellow font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
                             Ler <span className="hidden sm:inline">Boletim</span> <span className="material-symbols-outlined text-sm md:text-base">arrow_forward</span>
                         </a>
                     </div>
 
-                    {/* BIFUSP Card */}
+                    {/* BUSP Card */}
                     <div className="bg-white dark:bg-card-dark rounded-3xl md:rounded-[32px] p-5 md:p-8 border border-gray-100 dark:border-gray-800 shadow-xl shadow-gray-200/5 hover:-translate-y-1 transition-transform group relative overflow-hidden flex flex-col">
                         <div className="absolute top-0 right-0 p-3 md:p-4 opacity-10 group-hover:opacity-20 transition-opacity">
                             <span className="material-symbols-outlined text-4xl md:text-6xl text-brand-blue">library_books</span>
@@ -255,11 +255,11 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         <div className="w-12 h-12 md:w-16 md:h-16 bg-brand-blue/10 rounded-2xl flex items-center justify-center mb-4 md:mb-6">
                             <span className="material-symbols-outlined text-3xl md:text-4xl text-brand-blue">library_books</span>
                         </div>
-                        <h2 className="text-xl md:text-2xl font-black text-gray-900 dark:text-white tracking-tight mb-2 md:mb-3">BIFUSP</h2>
+                        <h2 className="text-xl md:text-2xl font-black text-gray-900 dark:text-white tracking-tight mb-2 md:mb-3">BUSP</h2>
                         <p className="text-[10px] md:text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 md:mb-6">
                             A Biblioteca do Instituto de Física. Um acervo vasto de livros, periódicos e teses, oferecendo suporte essencial para o estudo e a pesquisa acadêmica de excelência.
                         </p>
-                        <a href="https://portal.if.usp.br/biblioteca/" target="_blank" rel="noopener noreferrer" className="text-brand-blue font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
+                        <a href="https://portal.ime.usp.br/biblioteca/" target="_blank" rel="noopener noreferrer" className="text-brand-blue font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
                             Acessar <span className="hidden sm:inline">Biblioteca</span> <span className="material-symbols-outlined text-sm md:text-base">arrow_forward</span>
                         </a>
                     </div>
@@ -276,7 +276,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         <p className="text-[10px] md:text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 md:mb-6">
                             Laboratório de Demonstrações Ernst Wolfgang Hamburger. Espaço dedicado à experimentação física e demonstrações lúdicas que aproximam a ciência do cotidiano.
                         </p>
-                        <a href="https://portal.if.usp.br/demonstracoes/" target="_blank" rel="noopener noreferrer" className="text-brand-red font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
+                        <a href="https://portal.ime.usp.br/demonstracoes/" target="_blank" rel="noopener noreferrer" className="text-brand-red font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
                             Ver <span className="hidden sm:inline">Experimentos</span> <span className="material-symbols-outlined text-sm md:text-base">arrow_forward</span>
                         </a>
                     </div>

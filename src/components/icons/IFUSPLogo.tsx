@@ -3,16 +3,16 @@
 import React from "react";
 import { cn } from "@/lib/utils";
 
-interface IFUSPLogoProps {
+interface USPLogoProps {
   className?: string;
   size?: number | string;
 }
 
 /**
- * IFUSPLogo - Logotipo Oficial do Instituto de Física da USP.
+ * USPLogo - Logotipo Oficial do Instituto de Física da USP.
  * Reconstrução SVG fiel ao manual de identidade visual.
  */
-export function IFUSPLogo({ className, size = 32 }: IFUSPLogoProps) {
+export function USPLogo({ className, size = 32 }: USPLogoProps) {
   return (
     <svg
       width={size}

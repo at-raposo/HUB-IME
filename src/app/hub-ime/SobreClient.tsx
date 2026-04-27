@@ -9,7 +9,7 @@ import { Megaphone, ArrowRight, UserPlus, Award, Star, ExternalLink, BookOpen, R
 import { SobreFeedbackCard } from './SobreFeedbackCard';
 import { Profile } from '@/types';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { LabDivView } from '@/components/labdiv/LabDivView';
+import { HUB IMEView } from '@/components/HUB IME/HUB IMEView';
 import { useTelemetry } from '@/hooks/useTelemetry';
 
 interface SobreClientProps {
@@ -25,21 +25,21 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
     const { trackEvent } = useTelemetry();
     const scrollContainerRef = React.useRef<HTMLDivElement>(null);
     const [activePersonaOverride, setActivePersonaOverride] = React.useState<PersonaType | null>(null);
-    const [activeTab, setActiveTab] = React.useState<'sobre' | 'labdiv'>('labdiv');
+    const [activeTab, setActiveTab] = React.useState<'sobre' | 'HUB IME'>('HUB IME');
 
     // Sync state with URL
     React.useEffect(() => {
         const tab = searchParams.get('tab');
-        if (tab === 'sobre' || tab === 'labdiv') {
+        if (tab === 'sobre' || tab === 'HUB IME') {
             setActiveTab(tab);
         }
     }, [searchParams]);
 
-    const handleTabChange = (tab: 'sobre' | 'labdiv') => {
+    const handleTabChange = (tab: 'sobre' | 'HUB IME') => {
         setActiveTab(tab);
         const params = new URLSearchParams(searchParams);
         params.set('tab', tab);
-        router.push(`/labdiv?${params.toString()}`, { scroll: false });
+        router.push(`/HUB IME?${params.toString()}`, { scroll: false });
         trackEvent('TAB_CHANGE', { tab, hub: 'institucional' });
     };
 
@@ -73,15 +73,15 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                 <div className="flex justify-center mb-12 sticky top-16 z-40 py-2">
                     <div className="bg-white/80 dark:bg-[#1e1e1e]/80 backdrop-blur-xl p-1 rounded-2xl border border-gray-200/50 dark:border-white/5 flex gap-1 shadow-lg">
                         <button
-                            onClick={() => handleTabChange('labdiv')}
+                            onClick={() => handleTabChange('HUB IME')}
                             className={`flex items-center gap-2 px-8 py-3 rounded-xl text-xs font-black uppercase tracking-widest transition-all ${
-                                activeTab === 'labdiv'
+                                activeTab === 'HUB IME'
                                     ? 'bg-brand-blue text-white shadow-lg shadow-brand-blue/20'
                                     : 'text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-white/5'
                             }`}
                         >
                             <Library className="w-4 h-4" />
-                            Lab-Div
+                            HUB IME
                         </button>
                         <button
                             onClick={() => handleTabChange('sobre')}
@@ -126,7 +126,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gray-500/10 text-gray-500 text-[10px] font-black uppercase tracking-widest">
                                         Visitante
                                     </div>
-                                    <h2 className="text-3xl font-black uppercase italic tracking-tighter">O IFUSP ao seu alcance</h2>
+                                    <h2 className="text-3xl font-black uppercase italic tracking-tighter">O USP ao seu alcance</h2>
                                     <p className="text-gray-600 dark:text-gray-400">Entre na plataforma para desbloquear ferramentas exclusivas, acompanhar trilhas e contribuir com a divulgação científica oficial.</p>
                                     <Link href="/login" className="inline-flex items-center gap-2 text-brand-blue font-bold hover:underline">
                                         Fazer Login / Criar Conta <ArrowRight className="w-4 h-4" />
@@ -185,7 +185,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-red/10 text-brand-red text-[10px] font-black uppercase tracking-widest">
                                         Persona: Curioso
                                     </div>
-                                    <h2 className="text-3xl font-black uppercase italic tracking-tighter">Quer entrar no IFUSP?</h2>
+                                    <h2 className="text-3xl font-black uppercase italic tracking-tighter">Quer entrar no USP?</h2>
                                     <p className="text-gray-600 dark:text-gray-400">Explore nossa aba <Link href="/ingresso" className="text-brand-red font-bold underline decoration-brand-red/30 hover:decoration-brand-red decoration-2 underline-offset-4">Como ingressar</Link> e tire suas dúvidas diretamente com quem já estuda aqui através do sistema de perguntas.</p>
                                     <div className="flex flex-wrap gap-4 pt-4">
                                         <div className="flex items-center gap-3 bg-white/5 p-4 rounded-2xl border border-white/5">
@@ -238,7 +238,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h3 className="text-2xl font-bold mb-4">Apoio aos Influenciadores</h3>
                     <p className="text-gray-600 dark:text-gray-400 flex-1 leading-relaxed">
-                        Mapeamos e integramos a rede de influenciadores e criadores de conteúdo vinculados ao instituto. O hub serve como uma vitrine para amplificar as vozes daqueles que já traduzem a ciência complexa do IFUSP em materiais acessíveis ao grande público, como vídeos, podcasts e posts em redes sociais.
+                        Mapeamos e integramos a rede de influenciadores e criadores de conteúdo vinculados ao instituto. O hub serve como uma vitrine para amplificar as vozes daqueles que já traduzem a ciência complexa do USP em materiais acessíveis ao grande público, como vídeos, podcasts e posts em redes sociais.
                     </p>
                     <Link href="/colisor" className="mt-6 text-brand-red font-semibold hover:underline flex items-center gap-1">
                         Conheça os influenciadores <ArrowRight className="w-4 h-4" />
@@ -254,7 +254,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     <p className="text-gray-600 dark:text-gray-400 flex-1 leading-relaxed">
                         O coração do projeto é a construção de um grande Arquivo visual. Capturamos o cotidiano dos laboratórios, o maquinário e os bastidores das pesquisas de forma profissional. Nosso objetivo é ter um banco de imagens institucionais de alta qualidade, pronto para suprir demandas de jornalistas, designers e pesquisadores.
                     </p>
-                    <Link href="/arquivo-labdiv" className="mt-6 text-brand-yellow font-semibold hover:underline flex items-center gap-1">
+                    <Link href="/arquivo-HUB IME" className="mt-6 text-brand-yellow font-semibold hover:underline flex items-center gap-1">
                         Explore o acervo <ArrowRight className="w-4 h-4" />
                     </Link>
                 </div>
@@ -266,7 +266,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h3 className="text-2xl font-bold mb-4">Envios da Comunidade</h3>
                     <p className="text-gray-600 dark:text-gray-400 flex-1 leading-relaxed">
-                        O Hub é colaborativo! Estudantes, técnicos e docentes do IFUSP podem submeter registros visuais do cotidiano de seus laboratórios. Integramos o conhecimento de base em uma rede viva de registros autênticos.
+                        O Hub é colaborativo! Estudantes, técnicos e docentes do USP podem submeter registros visuais do cotidiano de seus laboratórios. Integramos o conhecimento de base em uma rede viva de registros autênticos.
                     </p>
                     <Link href="/enviar" className="mt-6 text-brand-yellow font-semibold hover:underline flex items-center gap-1">
                         Envie seu material <ArrowRight className="w-4 h-4" />
@@ -286,12 +286,12 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                             A Comunidade <span className="text-brand-blue text-transparent bg-clip-text bg-gradient-to-r from-brand-blue to-brand-red">Interativa</span>
                         </h2>
                         <p className="text-lg text-gray-600 dark:text-gray-400 font-medium leading-relaxed mb-6">
-                            Não somos apenas uma vitrine; somos uma conversa viva. A **Comunidade** integra o material produzido pelo Lab-Div, a excelência das nossas mentorias e a espontaneidade da rede em uma timeline dinâmica.
+                            Não somos apenas uma vitrine; somos uma conversa viva. A **Comunidade** integra o material produzido pelo HUB IME, a excelência das nossas mentorias e a espontaneidade da rede em uma timeline dinâmica.
                         </p>
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                             <div className="p-4 rounded-2xl bg-gray-50 dark:bg-white/5 border border-white/5 hover:border-brand-blue/20 transition-colors">
                                 <h4 className="text-brand-blue font-black uppercase tracking-widest text-[9px] mb-2">Padrão Ouro</h4>
-                                <p className="text-xs text-gray-500">Material oficial produzido com o rigor visual do Lab-Div.</p>
+                                <p className="text-xs text-gray-500">Material oficial produzido com o rigor visual do HUB IME.</p>
                             </div>
                             <div className="p-4 rounded-2xl bg-gray-50 dark:bg-white/5 border border-white/5 hover:border-brand-red/20 transition-colors">
                                 <h4 className="text-brand-red font-black uppercase tracking-widest text-[9px] mb-2">Mentorados</h4>
@@ -299,7 +299,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                             </div>
                             <div className="p-4 rounded-2xl bg-gray-50 dark:bg-white/5 border border-white/5 hover:border-brand-yellow/20 transition-colors">
                                 <h4 className="text-brand-yellow font-black uppercase tracking-widest text-[9px] mb-2">Comunidade</h4>
-                                <p className="text-xs text-gray-500">Os bastidores reais do IFUSP contados por quem os vive.</p>
+                                <p className="text-xs text-gray-500">Os bastidores reais do USP contados por quem os vive.</p>
                             </div>
                         </div>
                     </div>
@@ -322,12 +322,12 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                         </h2>
                         <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 font-medium leading-relaxed">
                             <p>
-                                O Hub Lab-Div não é apenas um repositório; é um motor de visibilidade. Nosso objetivo é transformar a ciência "invisível" que acontece nos laboratórios em narrativas visuais potentes.
+                                O Hub HUB IME não é apenas um repositório; é um motor de visibilidade. Nosso objetivo é transformar a ciência "invisível" que acontece nos laboratórios em narrativas visuais potentes.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-6 border-t border-gray-100 dark:border-gray-800">
                                 <div>
                                     <h4 className="text-brand-red font-black uppercase tracking-widest text-xs mb-3">Nossa Missão</h4>
-                                    <p className="text-sm">Humanizar a ciência do IFUSP através de conteúdos autênticos, aproximando pesquisadores e sociedade.</p>
+                                    <p className="text-sm">Humanizar a ciência do USP através de conteúdos autênticos, aproximando pesquisadores e sociedade.</p>
                                 </div>
                                 <div>
                                     <h4 className="text-brand-yellow font-black uppercase tracking-widest text-xs mb-3">Nossa Meta 2026</h4>
@@ -354,25 +354,25 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                 </div>
             </div>
 
-            {/* Section About Lab-Div */}
+            {/* Section About HUB IME */}
             <div className="bg-gradient-to-br from-brand-blue/5 to-brand-red/5 dark:from-blue-900/10 dark:to-red-900/10 rounded-3xl p-8 md:p-12 border border-brand-blue/10 mb-20">
                 <div className="flex flex-col md:flex-row items-center gap-10">
                     <div className="flex-1">
                         <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white uppercase italic tracking-tighter">
-                            O Papel do <span className="text-brand-blue">Lab-Div</span>
+                            O Papel do <span className="text-brand-blue">HUB IME</span>
                         </h2>
                         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                            O Laboratório de Divulgação Científica do IFUSP atua como o motor técnico e curatorial desta plataforma. Inspirado no modelo do <strong>MIT Comm Lab</strong>, nosso trabalho se estende da produção de conteúdo "Padrão Ouro" à moderação, suporte e mentoria contínua para garantir a qualidade da comunicação.
+                            O Laboratório de Divulgação Científica do USP atua como o motor técnico e curatorial desta plataforma. Inspirado no modelo do <strong>MIT Comm Lab</strong>, nosso trabalho se estende da produção de conteúdo "Padrão Ouro" à moderação, suporte e mentoria contínua para garantir a qualidade da comunicação.
                         </p>
                         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                             O projeto nasceu com a ideia de apenas criar material de divulgação, mas evoluiu para uma nova categoria de plataforma digital: um <strong>Hub Acadêmico</strong> que transforma a simples divulgação em comunicação viva. Unificamos alunos, curiosos e pesquisadores através de um fluxo com dinâmicas de rede social e ferramentas que auxiliam o dia a dia, como a Wiki, as Trilhas e o Cronograma inteligente.
                         </p>
-                        <Link href="/arquivo-labdiv" className="inline-flex items-center text-brand-blue font-black hover:text-brand-blue/80 transition-colors mt-8 group uppercase text-xs tracking-widest">
+                        <Link href="/arquivo-HUB IME" className="inline-flex items-center text-brand-blue font-black hover:text-brand-blue/80 transition-colors mt-8 group uppercase text-xs tracking-widest">
                             Conhecer o trabalho <ArrowRight className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" />
                         </Link>
                     </div>
                     <div className="hidden md:flex w-48 h-48 rounded-2xl items-center justify-center flex-shrink-0 overflow-hidden bg-white/50 dark:bg-white/5 p-8">
-                        <Image src="/labdiv-logo.png" alt="Logo do Lab-Div" width={192} height={192} className="object-contain" />
+                        <Image src="/HUB IME-logo.png" alt="Logo do HUB IME" width={192} height={192} className="object-contain" />
                     </div>
                 </div>
             </div>
@@ -392,7 +392,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">A Comunidade</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
-                        O pulso do IFUSP em tempo real. Uma timeline dinâmica que transforma a divulgação científica em comunicação interativa, reunindo materiais do Lab-Div, contribuições da rede e mentorados em um só lugar.
+                        O pulso do USP em tempo real. Uma timeline dinâmica que transforma a divulgação científica em comunicação interativa, reunindo materiais do HUB IME, contribuições da rede e mentorados em um só lugar.
                     </p>
                     <Link href="/" className="text-[10px] font-black uppercase tracking-widest text-brand-blue flex items-center gap-1 md:gap-2 group/link mt-auto">
                         <span className="hidden sm:inline">Ver </span>Comunidade <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
@@ -403,7 +403,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     <div className="size-10 md:size-12 rounded-xl md:rounded-2xl bg-brand-red/10 flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 transition-transform">
                         <span className="material-symbols-outlined text-brand-red text-xl md:text-2xl">list_alt</span>
                     </div>
-                    <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Logs do IFUSP</h4>
+                    <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Logs do USP</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
                         O mural da nossa gente. Um espaço informal para desabafos, avisos rápidos e aquelas fofocas de laboratório que fazem parte do dia a dia, sem o peso do rigor acadêmico ou oficial.
                     </p>
@@ -416,11 +416,11 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     <div className="size-10 md:size-12 rounded-xl md:rounded-2xl bg-brand-yellow/10 flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 transition-transform">
                         <span className="material-symbols-outlined text-brand-yellow text-xl md:text-2xl">palette</span>
                     </div>
-                    <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Lab-Div & Curadoria</h4>
+                    <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">HUB IME & Curadoria</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
                         O núcleo criativo do Hub. Aqui você acessa o catálogo Padrão Ouro, agenda mentorias de comunicação científica, conhece o KitDiv e explora a utilização do Espaço Novo Milênio.
                     </p>
-                    <Link href="/arquivo-labdiv" className="text-[10px] font-black uppercase tracking-widest text-brand-yellow flex items-center gap-1 md:gap-2 group/link mt-auto">
+                    <Link href="/arquivo-HUB IME" className="text-[10px] font-black uppercase tracking-widest text-brand-yellow flex items-center gap-1 md:gap-2 group/link mt-auto">
                         <span className="hidden sm:inline">Ver </span>Portfólio <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
                     </Link>
                 </div>
@@ -431,7 +431,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Grande Colisor</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
-                        Muito mais que um site, uma rede. O Colisor integra iniciativas como o **BiFUSP**, o **Laboratório de Demonstrações Ernst Wolfgang Hamburger**, o Parque CienTec, o Boletim Supernova e o DigitalLab, conectando espaços físicos e projetos de extensão do IFUSP e da USP em um só mapa de visibilidade.
+                        Muito mais que um site, uma rede. O Colisor integra iniciativas como o **BUSP**, o **Laboratório de Demonstrações Ernst Wolfgang Hamburger**, o Parque CienTec, o Boletim Supernova e o DigitalLab, conectando espaços físicos e projetos de extensão do USP e da USP em um só mapa de visibilidade.
                     </p>
                     <Link href="/colisor" className="text-[10px] font-black uppercase tracking-widest text-brand-red flex items-center gap-1 md:gap-2 group/link mt-auto">
                         <span className="hidden sm:inline">Explorar </span>Colisor <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
@@ -457,7 +457,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Mapa do Instituto</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
-                        A conexão entre o Hub e o mundo real. O Mapa geolocaliza a ciência do IFUSP, permitindo navegar pelos laboratórios e utilizar QR codes físicos para escanear e descobrir instantaneamente o que é produzido em cada espaço do instituto.
+                        A conexão entre o Hub e o mundo real. O Mapa geolocaliza a ciência do USP, permitindo navegar pelos laboratórios e utilizar QR codes físicos para escanear e descobrir instantaneamente o que é produzido em cada espaço do instituto.
                     </p>
                     <Link href="/mapa" className="text-[10px] font-black uppercase tracking-widest text-brand-blue flex items-center gap-1 md:gap-2 group/link mt-auto">
                         <span className="hidden sm:inline">Ver Impacto no </span>Mapa <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
@@ -470,7 +470,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Trilhas de Aprendizagem</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
-                        Roteiros organizados por disciplina que reúnem materiais, artigos e anotações da comunidade em sequências lógicas de estudo. Acompanhe seu progresso e domine os conteúdos do currículo do IFUSP com apoio colaborativo.
+                        Roteiros organizados por disciplina que reúnem materiais, artigos e anotações da comunidade em sequências lógicas de estudo. Acompanhe seu progresso e domine os conteúdos do currículo do USP com apoio colaborativo.
                     </p>
                     <Link href="/trilhas" className="text-[10px] font-black uppercase tracking-widest text-brand-red flex items-center gap-1 md:gap-2 group/link mt-auto">
                         Ver Trilhas <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
@@ -483,7 +483,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Laboratório Pessoal</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
-                        Seu espaço privado no Hub. Reúna suas publicações, acompanhe seu nível de radiação (XP), gerencie suas trilhas em andamento e visualize seu impacto na comunidade científica do IFUSP — tudo em um único painel personalizado.
+                        Seu espaço privado no Hub. Reúna suas publicações, acompanhe seu nível de radiação (XP), gerencie suas trilhas em andamento e visualize seu impacto na comunidade científica do USP — tudo em um único painel personalizado.
                     </p>
                     <Link href="/lab" className="text-[10px] font-black uppercase tracking-widest text-brand-yellow flex items-center gap-1 md:gap-2 group/link mt-auto">
                         Acessar Lab <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
@@ -494,7 +494,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     <div className="size-10 md:size-12 rounded-xl md:rounded-2xl bg-brand-blue/10 flex items-center justify-center mb-4 md:mb-6 group-hover:scale-110 transition-transform">
                         <BookOpen className="text-brand-blue w-5 h-5 md:w-6 md:h-6" />
                     </div>
-                    <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Wiki do IFUSP</h4>
+                    <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Wiki do USP</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
                         A enciclopédia colaborativa do Instituto de Física. Uma base de conhecimento construída pela comunidade com anotações, guias de sobrevivência, explicações sobre o funcionamento do instituto, seus departamentos, laboratórios e a vida acadêmica no dia a dia.
                     </p>
@@ -515,7 +515,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                             Mapeamento Arquitetural
                         </h2>
                         <p className="text-gray-500 dark:text-gray-400 text-lg md:text-xl">
-                            A anatomia atual do Hub Lab-Div e nosso roadmap de expansão.
+                            A anatomia atual do Hub HUB IME e nosso roadmap de expansão.
                         </p>
                     </div>
                     {/* Navigation Buttons for Carousel */}
@@ -567,7 +567,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-brand-blue/10 blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
                                 <span className="text-[10px] uppercase font-black tracking-widest text-brand-blue mb-2 relative z-10 flex items-center gap-2"><Rocket className="w-3 h-3" /> Roadmap Futuro</span>
                                 <h4 className="font-bold text-brand-blue mb-2 relative z-10">Expansão de Domínio</h4>
-                                <p className="text-xs text-slate-400 flex-1 relative z-10">Migração para o subdomínio oficial <code>hublabdiv.if.usp.br</code> para centralização da presença digital pública.</p>
+                                <p className="text-xs text-slate-400 flex-1 relative z-10">Migração para o subdomínio oficial <code>hubHUB IME.ime.usp.br</code> para centralização da presença digital pública.</p>
                             </div>
                         </div>
                     </div>
@@ -598,7 +598,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-brand-red/10 blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
                                 <span className="text-[10px] uppercase font-black tracking-widest text-brand-red mb-2 relative z-10 flex items-center gap-2"><Rocket className="w-3 h-3" /> Roadmap Futuro</span>
                                 <h4 className="font-bold text-brand-red mb-2 relative z-10">Conteúdo 'Padrão Ouro'</h4>
-                                <p className="text-xs text-slate-400 flex-1 relative z-10">Artigos teóricos profundos e superproduções audiovisuais institucionais gravadas em estúdio pelo Lab-Div.</p>
+                                <p className="text-xs text-slate-400 flex-1 relative z-10">Artigos teóricos profundos e superproduções audiovisuais institucionais gravadas em estúdio pelo HUB IME.</p>
                             </div>
                         </div>
                     </div>
@@ -652,7 +652,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                             <div className="bg-[#11141a] rounded-2xl p-6 border border-white/5 flex flex-col h-full">
                                 <span className="text-[10px] uppercase font-black tracking-widest text-green-400 mb-2 flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div> Status Atual</span>
                                 <h4 className="font-bold text-white mb-2">Comunidade & Catálogo Core</h4>
-                                <p className="text-xs text-slate-500 flex-1">Feed contínuo e interativo (Comunidade) aliado à estabilidade fundamental do repositório Padrão Ouro IFUSP.</p>
+                                <p className="text-xs text-slate-500 flex-1">Feed contínuo e interativo (Comunidade) aliado à estabilidade fundamental do repositório Padrão Ouro USP.</p>
                             </div>
                             <div className="bg-brand-blue/5 rounded-2xl p-6 border border-brand-blue/10 flex flex-col h-full relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-brand-blue/10 blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
@@ -709,8 +709,8 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                         <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div className="bg-[#11141a] rounded-2xl p-6 border border-white/5 flex flex-col h-full">
                                 <span className="text-[10px] uppercase font-black tracking-widest text-green-400 mb-2 flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div> Status Atual</span>
-                                <h4 className="font-bold text-white mb-2">Wiki do IFUSP</h4>
-                                <p className="text-xs text-slate-500 flex-1">Artigos curtos redigidos colaborativamente descrevendo centros, CAIF, instâncias colegiadas e mapas mentais do IFUSP.</p>
+                                <h4 className="font-bold text-white mb-2">Wiki do USP</h4>
+                                <p className="text-xs text-slate-500 flex-1">Artigos curtos redigidos colaborativamente descrevendo centros, CAIF, instâncias colegiadas e mapas mentais do USP.</p>
                             </div>
                             <div className="bg-brand-yellow/5 rounded-2xl p-6 border border-brand-yellow/10 flex flex-col h-full relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-brand-yellow/10 blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
@@ -758,7 +758,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                                 <div className="w-12 h-12 bg-white/5 rounded-2xl flex items-center justify-center text-brand-red shrink-0 group-hover:scale-110 group-hover:bg-brand-red/10 transition-all">
                                     <FileText className="w-6 h-6" />
                                 </div>
-                                <h3 className="text-2xl font-bold leading-tight">IA Curatorial IFUSP</h3>
+                                <h3 className="text-2xl font-bold leading-tight">IA Curatorial USP</h3>
                             </div>
                             <p className="text-slate-400 text-sm leading-relaxed">
                                 Apps web internos focados em facilitar o planejamento das aulas e simplificar requerimentos dos estudantes.
@@ -773,8 +773,8 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                             <div className="bg-brand-red/5 rounded-2xl p-6 border border-brand-red/10 flex flex-col h-full relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-brand-red/10 blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
                                 <span className="text-[10px] uppercase font-black tracking-widest text-brand-red mb-2 relative z-10 flex items-center gap-2"><Rocket className="w-3 h-3" /> Roadmap Futuro</span>
-                                <h4 className="font-bold text-brand-red mb-2 relative z-10">IA Curatorial IFUSP</h4>
-                                <p className="text-xs text-slate-400 flex-1 relative z-10">Integração com IA alimentada pelo banco de dados do IFUSP para auxílio em dúvidas e curadoria de conteúdo.</p>
+                                <h4 className="font-bold text-brand-red mb-2 relative z-10">IA Curatorial USP</h4>
+                                <p className="text-xs text-slate-400 flex-1 relative z-10">Integração com IA alimentada pelo banco de dados do USP para auxílio em dúvidas e curadoria de conteúdo.</p>
                             </div>
                         </div>
                     </div>
@@ -799,7 +799,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                             <div className="bg-[#11141a] rounded-2xl p-6 border border-white/5 flex flex-col h-full">
                                 <span className="text-[10px] uppercase font-black tracking-widest text-green-400 mb-2 flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div> Status Atual</span>
                                 <h4 className="font-bold text-white mb-2">Painel Curatorial</h4>
-                                <p className="text-xs text-slate-500 flex-1">Sistema de moderação fechado (RLS) para o Lab-Div aceitar, revisar e publicar fluxos submetidos pelos usuários, bloqueando fake-news.</p>
+                                <p className="text-xs text-slate-500 flex-1">Sistema de moderação fechado (RLS) para o HUB IME aceitar, revisar e publicar fluxos submetidos pelos usuários, bloqueando fake-news.</p>
                             </div>
                             <div className="bg-brand-yellow/5 rounded-2xl p-6 border border-brand-yellow/10 flex flex-col h-full relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-24 h-24 bg-brand-yellow/10 blur-2xl rounded-full translate-x-1/2 -translate-y-1/2"></div>
@@ -901,7 +901,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
             </div>
                     </div>
                 ) : (
-                    <LabDivView />
+                    <HUB IMEView />
                 )}
             </div>
         </MainLayoutWrapper>

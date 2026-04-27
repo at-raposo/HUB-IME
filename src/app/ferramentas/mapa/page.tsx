@@ -4,7 +4,7 @@ import { fetchSubmissions } from '@/app/actions/submissions';
 
 export const metadata = {
     title: 'Mapa Interativo | Ferramentas Acadêmicas',
-    description: 'Navegue pelo campus interativo do IFUSP.',
+    description: 'Navegue pelo campus interativo do USP.',
 };
 
 export const dynamic = 'force-dynamic';

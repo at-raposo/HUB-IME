@@ -68,7 +68,7 @@ export function SemanticGraph() {
 
                 <div className="mt-16 text-center max-w-2xl mx-auto">
                     <p className="text-sm text-gray-400 leading-relaxed font-medium">
-                        O Hub Lab-Div opera como um ecossistema semântico. No futuro, cada publicação será automaticamente conectada à sua infraestrutura acadêmica, permitindo uma descoberta de conhecimento fluida e contextualizada.
+                        O Hub HUB IME opera como um ecossistema semântico. No futuro, cada publicação será automaticamente conectada à sua infraestrutura acadêmica, permitindo uma descoberta de conhecimento fluida e contextualizada.
                     </p>
                 </div>
             </div>

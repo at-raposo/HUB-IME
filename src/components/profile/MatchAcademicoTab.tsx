@@ -276,7 +276,7 @@ export function MatchAcademicoTab({ profile }: MatchAcademicoTabProps) {
                                         </div>
                                         <div className="flex-1 text-left">
                                             <p className="text-gray-900 dark:text-white font-black uppercase tracking-tighter text-[11px] mb-1">Padrão de Segurança</p>
-                                            <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest opacity-60">Moderação LAB-DIV</p>
+                                            <p className="text-[10px] text-gray-500 font-bold uppercase tracking-widest opacity-60">Moderação HUB IME</p>
                                         </div>
                                     </div>
                                     <p className="mb-4 whitespace-normal text-gray-700 dark:text-gray-300 text-left">
@@ -547,7 +547,7 @@ export function MatchAcademicoTab({ profile }: MatchAcademicoTabProps) {
                                 <div className="flex flex-col md:flex-row items-center justify-between gap-6">
                                     <div className="space-y-2 text-center md:text-left">
                                         <h3 className="text-xl font-display font-black text-gray-900 dark:text-white uppercase tracking-tight">Sinalizar Interesse: IC</h3>
-                                        <p className="text-xs text-gray-500 font-bold uppercase tracking-wider">Mostre seu potencial para pesquisadores do IFUSP</p>
+                                        <p className="text-xs text-gray-500 font-bold uppercase tracking-wider">Mostre seu potencial para pesquisadores do USP</p>
                                     </div>
                                     <button
                                         onClick={() => setIsICModalOpen(true)}

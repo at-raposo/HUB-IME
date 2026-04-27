@@ -1,16 +1,16 @@
 export const CATEGORIES = [
     {
-        id: 'Lab-Div',
-        title: 'Lab-Div',
+        id: 'HUB IME',
+        title: 'HUB IME',
         description: 'Conteúdos oficiais, comunicados e projetos do Laboratório de Divulgação Científica.',
         icon: 'science',
         color: 'brand-blue',
-        examples: 'Divulgações oficiais, parcerias, comunicados Lab-Div.'
+        examples: 'Divulgações oficiais, parcerias, comunicados HUB IME.'
     },
     {
-        id: 'Mentorados Lab-Div',
-        title: 'Mentorados Lab-Div',
-        description: 'Produções desenvolvidas por alunos participantes das mentorias do Lab-Div.',
+        id: 'Mentorados HUB IME',
+        title: 'Mentorados HUB IME',
+        description: 'Produções desenvolvidas por alunos participantes das mentorias do HUB IME.',
         icon: 'psychology',
         color: 'brand-yellow',
         examples: 'Projetos de mentorados, evoluções de divulgação.'

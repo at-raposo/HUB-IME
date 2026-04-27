@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import InteracaoClient from './InteracaoClient';
 
 export const metadata = {
-    title: 'Interação | IFUSP Ciência',
+    title: 'Interação | USP Ciência',
     description: 'Hub central de interação, laboratório pessoal e emaranhamento científico.',
 };
 

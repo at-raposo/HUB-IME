@@ -39,7 +39,7 @@ export default function IngressoClient({ profile }: { profile: any }) {
                     <span className="text-[9px] font-black text-brand-blue uppercase tracking-widest">Portal do Curioso</span>
                 </div>
                 <h1 className="text-4xl md:text-6xl font-display font-black text-white uppercase tracking-tighter leading-none">
-                    Sua Jornada no <span className="text-brand-blue">IFUSP</span> Começa Aqui.
+                    Sua Jornada no <span className="text-brand-blue">USP</span> Começa Aqui.
                 </h1>
                 <p className="text-gray-400 text-lg font-medium italic">
                     Descubra os caminhos para ingressar em um dos maiores centros de física do mundo.
@@ -82,7 +82,7 @@ export default function IngressoClient({ profile }: { profile: any }) {
                             </h2>
                             <div className="space-y-4">
                                 {[
-                                    { q: "Como faço para conhecer os laboratórios?", a: "O IFUSP promove o 'Portas Abertas' e visitas agendadas via Secretaria de Cultura e Extensão." },
+                                    { q: "Como faço para conhecer os laboratórios?", a: "O USP promove o 'Portas Abertas' e visitas agendadas via Secretaria de Cultura e Extensão." },
                                     { q: "Existem bolsas de permanência para alunos?", a: "Sim, a USP oferece o programa PAPFE de auxílio permanência para estudantes em vulnerabilidade." },
                                     { q: "Posso fazer pesquisa sem ser aluno oficial?", a: "Sim, como aluno ou pesquisador visitante, sob supervisão de um docente da casa." }
                                 ].map((faq, i) => (

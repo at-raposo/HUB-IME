@@ -1,8 +1,8 @@
-# 🌌 Hub de Comunicação Científica - Lab-Div (IF-USP)
+# 🌌 Hub de Comunicação Científica - HUB IME (IF-USP)
 
 > Da gaveta do laboratório para a palma da mão da sociedade. Onde o arquivo morto ganha vida.
 
-O **Hub Lab-Div** não é apenas uma plataforma; é o novo sistema nervoso da comunicação científica do Instituto de Física da USP. Nascido da vontade de conectar a excelente pesquisa feira nos laboratórios com estudantes, pesquisadores e a esfera pública, o projeto centraliza, moderniza e distribui o conhecimento de forma viva e interativa.
+O **Hub HUB IME** não é apenas uma plataforma; é o novo sistema nervoso da comunicação científica do Instituto de Física da USP. Nascido da vontade de conectar a excelente pesquisa feira nos laboratórios com estudantes, pesquisadores e a esfera pública, o projeto centraliza, moderniza e distribui o conhecimento de forma viva e interativa.
 
 ---
 

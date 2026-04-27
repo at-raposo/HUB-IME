@@ -35,9 +35,9 @@ export async function proxy(request: NextRequest) {
     // Performance: Only refresh auth token on routes that need it
     // Public routes skip getUser() to save ~100-200ms TTFB
     const isPublicRoute = pathname === '/' ||
-        pathname.startsWith('/gcif') ||
+        pathname.startsWith('/gcime') ||
         pathname.startsWith('/comunidade') ||
-        pathname.startsWith('/labdiv') ||
+        pathname.startsWith('/hub-ime') ||
         pathname.startsWith('/fluxo') ||
         pathname.startsWith('/drops') ||
         pathname.startsWith('/api/og');

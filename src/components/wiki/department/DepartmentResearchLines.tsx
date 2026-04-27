@@ -54,7 +54,7 @@ export async function DepartmentResearchLines({ departmentId }: { departmentId: 
                     <span 
                         key={line.id}
                         className="px-4 py-2 bg-brand-green/10 border border-brand-green/20 text-brand-green font-bold text-xs uppercase tracking-widest rounded-full shadow-sm"
-                        title="Identidade Temática Global do IFUSP"
+                        title="Identidade Temática Global do USP"
                     >
                         {line.nome}
                     </span>

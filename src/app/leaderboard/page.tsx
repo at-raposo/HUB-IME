@@ -158,7 +158,7 @@ export default function LeaderboardPage() {
                             className="inline-flex items-center gap-2 px-4 py-1.5 bg-brand-blue-accent/10 text-brand-blue-accent rounded-full text-xs font-bold mb-4 border border-brand-blue-accent/20"
                         >
                             <Trophy size={14} />
-                            COMUNIDADE IFUSP
+                            COMUNIDADE USP
                         </motion.div>
                         <h1 className="text-4xl md:text-5xl font-black mb-4 dark:text-white">
                             Elite do <span className="text-brand-blue-accent">Hub Científico</span>

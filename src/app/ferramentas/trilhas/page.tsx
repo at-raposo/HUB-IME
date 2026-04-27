@@ -4,8 +4,8 @@ import TrilhasClient from '@/app/trilhas/TrilhasClient';
 export const revalidate = 0;
 
 export const metadata = {
-    title: 'Trilhas de Aprendizado | IFUSP',
-    description: 'Painel de Controle de Trilhas Curriculares do IFUSP.',
+    title: 'Trilhas de Aprendizado | USP',
+    description: 'Painel de Controle de Trilhas Curriculares do USP.',
 };
 
 async function getTrails() {

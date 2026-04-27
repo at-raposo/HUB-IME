@@ -15,7 +15,7 @@ import { TrilhasFeedbackCard } from './TrilhasFeedbackCard';
 import { JupiterEvolutionModal } from './JupiterEvolutionModal';
 
 const COURSE_MAPS = [
-    { id: 'bach', name: 'Bacharelado em Física', image: '/unnamed.jpg', pdf: '/Manual-Bacharelado-Fisica-IFUSP-2025_0.pdf' },
+    { id: 'bach', name: 'Bacharelado em Física', image: '/unnamed.jpg', pdf: '/Manual-Bacharelado-Fisica-USP-2025_0.pdf' },
     { id: 'lic', name: 'Licenciatura em Física', image: '/unnamed.jpg', pdf: '/Manual_Licenciatura_2022_0.pdf' },
     { id: 'med', name: 'Física Médica', image: '/unnamed.jpg', pdf: '/Jupiterweb-med.pdf' },
 ];
@@ -228,8 +228,8 @@ export default function TrilhasClient({
         if (!userProfile) return null;
 
         // Fallback e Verificação Estrita: Apenas IF-USP e com curso definido
-        const isIfUsp = userProfile.institute?.toUpperCase() === 'IFUSP' || userProfile.institute?.toUpperCase() === 'IF-USP';
-        if (!isIfUsp || !userProfile.course) return {
+        const isUSP = userProfile.institute?.toUpperCase() === 'USP' || userProfile.institute?.toUpperCase() === 'IF-USP';
+        if (!isUSP || !userProfile.course) return {
             percentage: 0,
             totalMandatory: 0,
             completedMandatoryCount: 0,
@@ -393,7 +393,7 @@ export default function TrilhasClient({
                                     Trilhas de Aprendizado
                                 </h1>
                                 <p className="dark:text-gray-400 text-gray-600 font-mono text-sm max-w-xl border-l-2 border-[#00A3FF] pl-4">
-                                    [ACOMPANHAMENTO_CURRICULAR] &gt; Explore as disciplinas, requisitos e o progresso do seu curso no IFUSP.
+                                    [ACOMPANHAMENTO_CURRICULAR] &gt; Explore as disciplinas, requisitos e o progresso do seu curso no USP.
                                 </p>
                             </div>
 
@@ -667,7 +667,7 @@ export default function TrilhasClient({
                                                 <>
                                                     <AlertTriangle className="mx-auto text-brand-yellow" size={24} />
                                                     <p className="text-[10px] font-mono font-black uppercase text-brand-yellow tracking-[0.2em]">Fluxo Incompleto detectado</p>
-                                                    <p className="text-xs text-gray-400 font-medium">Configure seu <span className="text-white">Curso</span> e <span className="text-white">Instituto (IFUSP)</span> nas configurações de perfil para habilitar o rastreamento dinâmico de disciplinas obrigatórias.</p>
+                                                    <p className="text-xs text-gray-400 font-medium">Configure seu <span className="text-white">Curso</span> e <span className="text-white">Instituto (USP)</span> nas configurações de perfil para habilitar o rastreamento dinâmico de disciplinas obrigatórias.</p>
                                                     <Link href="/lab" className="inline-block mt-4 px-6 py-2 bg-brand-yellow/10 hover:bg-brand-yellow/20 text-brand-yellow text-[10px] font-black uppercase tracking-widest rounded-xl transition-all border border-brand-yellow/30">
                                                         Configurar Perfil
                                                     </Link>
@@ -974,7 +974,7 @@ export default function TrilhasClient({
                                                     </div>
                                                     <div className="space-y-0.5">
                                                         <div className="font-mono text-[10px] tracking-widest uppercase dark:text-gray-500 dark:text-white/40 text-gray-400 flex items-center gap-2">
-                                                            {trail.course_code || 'LABDIV-CORE'}
+                                                            {trail.course_code || 'HUB IME-CORE'}
                                                             {hasPrereqs && (
                                                                 <div className="group/prereq relative flex items-center">
                                                                     <AlertTriangle size={12} style={{ color: `${axisCfg.color}90` }} />
@@ -1129,7 +1129,7 @@ export default function TrilhasClient({
                                 Sinc_Atômico
                             </h2>
                             <p className="text-[8px] font-mono text-gray-400 uppercase tracking-widest leading-none">
-                                Sincronizando_Grade_IFUSP...
+                                Sincronizando_Grade_USP...
                             </p>
                         </div>
 
@@ -1208,7 +1208,7 @@ export default function TrilhasClient({
                                         <div className="absolute top-8 left-8 z-10">
                                             <div className="flex items-center gap-3 px-4 py-2 bg-white/80 dark:bg-black/40 border border-gray-300 dark:border-white/10 rounded-full backdrop-blur-md">
                                                 <Sparkles className="text-brand-yellow w-3.5 h-3.5" />
-                                                <span className="text-[9px] font-black text-brand-yellow uppercase tracking-[0.2em]">Arte Curatorial IFUSP</span>
+                                                <span className="text-[9px] font-black text-brand-yellow uppercase tracking-[0.2em]">Arte Curatorial USP</span>
                                             </div>
                                         </div>
                                         

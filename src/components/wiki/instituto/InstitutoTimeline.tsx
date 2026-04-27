@@ -13,7 +13,7 @@ const milestones = [
     {
         year: '1970',
         event: 'Institucionalização',
-        description: 'Transformação do departamento no Instituto de Física da USP (IFUSP).',
+        description: 'Transformação do departamento no Instituto de Física da USP (USP).',
         color: 'brand-red'
     },
     {
@@ -31,7 +31,7 @@ const milestones = [
     {
         year: '2025',
         event: 'Liderança Global',
-        description: 'O IFUSP se mantém no topo como o maior centro de pesquisa em física do hemisfério sul.',
+        description: 'O USP se mantém no topo como o maior centro de pesquisa em física do hemisfério sul.',
         color: 'brand-blue'
     }
 ];

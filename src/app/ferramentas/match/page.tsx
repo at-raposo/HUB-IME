@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation';
 import { MatchAcademicoTab } from '@/components/profile/MatchAcademicoTab';
 
 export const metadata = {
-    title: 'Match Acadêmico | IFUSP',
+    title: 'Match Acadêmico | USP',
     description: 'Encontre colegas com interesses acadêmicos compatíveis.',
 };
 

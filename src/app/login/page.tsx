@@ -86,7 +86,7 @@ function LoginContent() {
 
                     <div className="flex flex-col items-center text-center space-y-4 mb-10">
                         <div className="mb-6">
-                            <img src="/labdiv-logo.png" alt="Hub Lab-Div" className="w-16 h-16 object-contain rounded-2xl mx-auto shadow-lg" />
+                            <img src="/HUB IME-logo.png" alt="Hub HUB IME" className="w-16 h-16 object-contain rounded-2xl mx-auto shadow-lg" />
                         </div>
                         <h1 className="text-3xl font-display font-bold text-gray-900 dark:text-white tracking-tight">
                             Bem-vindo à <span className="text-brand-blue">Comunidade</span>
@@ -152,7 +152,7 @@ function LoginContent() {
                         </div>
 
                         <p className="text-[10px] text-center text-gray-400 leading-relaxed px-4">
-                            Ao entrar, você concorda em compartilhar sua experiência acadêmica de forma ética e colaborativa com o Hub Lab-Div.
+                            Ao entrar, você concorda em compartilhar sua experiência acadêmica de forma ética e colaborativa com o Hub HUB IME.
                         </p>
                     </div>
                 </div>

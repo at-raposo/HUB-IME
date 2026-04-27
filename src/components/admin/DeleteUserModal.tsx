@@ -52,7 +52,7 @@ export function DeleteUserModal({ isOpen, onClose, onConfirm, userName }: Delete
                     <div className="text-center space-y-2">
                         <h2 className="text-xl font-black text-white uppercase tracking-widest">Atenção Crítica</h2>
                         <p className="text-sm text-gray-400">
-                            Você está prestes a deletar <span className="text-white font-bold">{userName}</span> permanentemente do sistema USP e Lab-Div.
+                            Você está prestes a deletar <span className="text-white font-bold">{userName}</span> permanentemente do sistema USP e HUB IME.
                         </p>
                         <p className="text-[10px] text-brand-red font-bold uppercase tracking-tighter bg-brand-red/10 py-1 rounded">
                             ESTA AÇÃO É IRREVERSÍVEL (FÍSICA)

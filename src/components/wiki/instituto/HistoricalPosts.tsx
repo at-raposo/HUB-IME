@@ -18,7 +18,7 @@ const archivePosts = [
     {
         year: '1938',
         title: 'Cesare Lattes e os Mésons Pi',
-        description: 'Lattes, formado pelo IFUSP, participa da descoberta dos mésons pi, um dos feitos mais importantes da física brasileira.',
+        description: 'Lattes, formado pelo USP, participa da descoberta dos mésons pi, um dos feitos mais importantes da física brasileira.',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Cesar_Lattes.jpg/220px-Cesar_Lattes.jpg',
         tag: 'Acervo Histórico',
         category: 'Descoberta'
@@ -27,7 +27,7 @@ const archivePosts = [
         year: '1950',
         title: 'Oscar Sala e os Aceleradores',
         description: 'Instalação dos primeiros aceleradores de partículas do Departamento de Física, abrindo caminho para a física nuclear experimental.',
-        image: 'https://portal.if.usp.br/ifusp/sites/portal.if.usp.br.ifusp/files/aceleradores.jpg',
+        image: 'https://portal.ime.usp.br/USP/sites/portal.ime.usp.br.USP/files/aceleradores.jpg',
         tag: 'Acervo Histórico',
         category: 'Infraestrutura'
     },
@@ -41,7 +41,7 @@ const archivePosts = [
     },
     {
         year: '1970',
-        title: 'Nasce o IFUSP',
+        title: 'Nasce o USP',
         description: 'A Reforma Universitária transforma o Departamento de Física do FFCL no Instituto de Física da USP.',
         image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=600',
         tag: 'Acervo Histórico',
@@ -50,15 +50,15 @@ const archivePosts = [
     {
         year: '1971',
         title: 'Edifícios Principais na Cidade Universitária',
-        description: 'Inauguração do campus do IFUSP no Butantã, incluindo os edifícios Ala I, Ala II e o Edifício Principal.',
-        image: 'https://portal.if.usp.br/ifusp/sites/portal.if.usp.br.ifusp/files/styles/media_gallery_thumbnail/public/Mapa%20IFUSP_2025_0.jpg?itok=1sXmy9vt',
+        description: 'Inauguração do campus do USP no Butantã, incluindo os edifícios Ala I, Ala II e o Edifício Principal.',
+        image: 'https://portal.ime.usp.br/USP/sites/portal.ime.usp.br.USP/files/styles/media_gallery_thumbnail/public/Mapa%20USP_2025_0.jpg?itok=1sXmy9vt',
         tag: 'Acervo Histórico',
         category: 'Campus'
     },
     {
         year: '1990',
         title: 'Parcerias com o CERN',
-        description: 'Pesquisadores do IFUSP integram grandes colaborações internacionais, participando de experimentos no LHC.',
+        description: 'Pesquisadores do USP integram grandes colaborações internacionais, participando de experimentos no LHC.',
         image: 'https://images.unsplash.com/photo-1628352081506-83c43123ed6d?auto=format&fit=crop&q=80&w=600',
         tag: 'Acervo Histórico',
         category: 'Colaboração'
@@ -66,7 +66,7 @@ const archivePosts = [
     {
         year: '2012',
         title: 'Descoberta do Bóson de Higgs',
-        description: 'Equipes do IFUSP contribuem para a confirmação da existência do Bóson de Higgs pelo experimento ATLAS no CERN.',
+        description: 'Equipes do USP contribuem para a confirmação da existência do Bóson de Higgs pelo experimento ATLAS no CERN.',
         image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=600',
         tag: 'Acervo Histórico',
         category: 'Descoberta'
@@ -74,17 +74,17 @@ const archivePosts = [
     {
         year: '2020',
         title: 'Pandemia e Divulgação Digital',
-        description: 'O IFUSP adapta suas atividades ao formato remoto e investe fortemente em divulgação científica nas redes.',
+        description: 'O USP adapta suas atividades ao formato remoto e investe fortemente em divulgação científica nas redes.',
         image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=600',
         tag: 'Acervo Histórico',
         category: 'Adaptação'
     },
     {
         year: '2025',
-        title: 'Hub Lab-Div é Lançado',
+        title: 'Hub HUB IME é Lançado',
         description: 'Nasce o Hub de Comunicação Científica do Instituto de Física, conectando a comunidade através de um grafo semântico.',
-        image: '/labdiv-logo.png',
-        tag: 'Lab-Div',
+        image: '/HUB IME-logo.png',
+        tag: 'HUB IME',
         category: 'Inovação'
     }
 ];
@@ -99,7 +99,7 @@ const categoryColors: Record<string, string> = {
     'Colaboração': 'bg-brand-blue/10 text-brand-blue border-brand-blue/20',
     'Adaptação': 'bg-brand-red/10 text-brand-red border-brand-red/20',
     'Inovação': 'bg-brand-yellow/10 text-brand-yellow border-brand-yellow/20',
-    'Lab-Div': 'bg-brand-blue/10 text-brand-blue border-brand-blue/20',
+    'HUB IME': 'bg-brand-blue/10 text-brand-blue border-brand-blue/20',
 };
 
 export function HistoricalPosts() {
@@ -223,7 +223,7 @@ export function HistoricalPosts() {
                                         Página Completa
                                     </Link>
                                     <a
-                                        href="https://portal.if.usp.br/ifusp/acervo"
+                                        href="https://portal.ime.usp.br/USP/acervo"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-brand-red/10 text-brand-red text-[10px] font-black uppercase tracking-wider hover:bg-brand-red/20 transition-colors"

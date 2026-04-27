@@ -179,7 +179,7 @@ export function ReportModal({ isOpen, onClose }: ReportModalProps) {
                                             <a href="https://wa.me/5511968401823" target="_blank" rel="noopener noreferrer" className="text-brand-yellow hover:scale-110 transition-transform">
                                                 <MessageCircle size={20} />
                                             </a>
-                                            <a href="mailto:contato@labdiv.com" className="text-brand-blue hover:scale-110 transition-transform">
+                                            <a href="mailto:contato@HUB IME.com" className="text-brand-blue hover:scale-110 transition-transform">
                                                 <Mail size={20} />
                                             </a>
                                         </div>

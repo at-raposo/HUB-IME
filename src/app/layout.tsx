@@ -44,18 +44,18 @@ import { TelemetryManager } from "@/components/telemetry/TelemetryManager";
  */
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:8080'),
-  title: "Hub de Comunicação Científica do Lab-Div",
-  description: "Um projeto para melhorar a comunicação do IFUSP e reunir em um FLUXO interativo o arquivo de material de divulgação do Lab-Div e de toda a comunidade — de dentro e fora do instituto.",
+  title: "Hub de Comunicação Científica - HUB IME USP",
+  description: "Um projeto para melhorar a comunicação do IME USP e reunir em um FLUXO interativo o arquivo de material de divulgação do HUB IME e de toda a comunidade — de dentro e fora do instituto.",
   openGraph: {
-    title: "Hub de Comunicação Científica do Lab-Div",
-    description: "O hub oficial de comunicação científica da Física USP (IFUSP).",
-    images: ['/api/og?title=Hub%20de%20Comunicação%20Científica&category=IFUSP'],
+    title: "Hub de Comunicação Científica - HUB IME USP",
+    description: "O hub oficial de comunicação científica do Instituto de Matemática e Estatística da USP (IME USP).",
+    images: ['/api/og?title=Hub%20de%20Comunicação%20Científica&category=IME'],
   },
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "LabDiv",
+    title: "HUB IME",
   },
 }
 

@@ -38,7 +38,7 @@ export const SearchProvider = ({ children }: { children: React.ReactNode }) => {
         switch (scope) {
             case 'WIKI': return 'Pesquisar documentação técnica...';
             case 'MAPA': return 'Pesquisar locais e mídias...';
-            default: return 'Pesquisar no Hub Lab-Div...';
+            default: return 'Pesquisar no Hub HUB IME...';
         }
     }, [scope]);
 
@@ -57,7 +57,7 @@ export const useSearch = () => {
             query: '',
             setQuery: () => {},
             scope: 'GLOBAL' as SearchScope,
-            placeholder: 'Pesquisar no Hub Lab-Div...'
+            placeholder: 'Pesquisar no Hub HUB IME...'
         };
     }
     return context;

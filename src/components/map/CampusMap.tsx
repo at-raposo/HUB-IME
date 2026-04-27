@@ -33,7 +33,7 @@ const CampusMapBase = ({ items }: CampusMapProps) => {
                 >
                     <h3 className="text-sm font-black text-gray-900 dark:text-white flex items-center gap-2 mb-0.5">
                         <MapIcon className="w-4 h-4 text-brand-blue" />
-                        Mapa IFUSP 2025
+                        Mapa USP 2025
                     </h3>
                     <p className="text-[8px] text-gray-500 dark:text-gray-400 font-bold uppercase tracking-wider">
                         Geolocalização Ativa
@@ -43,8 +43,8 @@ const CampusMapBase = ({ items }: CampusMapProps) => {
 
             {/* Interactive Image Map */}
             <m.img
-                src="/mapa-ifusp-2025.jpg"
-                alt="Mapa IFUSP 2025"
+                src="/mapa-USP-2025.jpg"
+                alt="Mapa USP 2025"
                 initial={{ opacity: 0, scale: 1.05 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}

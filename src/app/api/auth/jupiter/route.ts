@@ -115,7 +115,7 @@ export async function POST(req: NextRequest) {
         });
 
         const emailToUse = userData.email || `${nUsp}@usp.br`;
-        const generatedPassword = `${nUsp}LabDiv2024!`; // Fixed deterministic secure string since they use Júpiter to login
+        const generatedPassword = `${nUsp}HUB IME2024!`; // Fixed deterministic secure string since they use Júpiter to login
 
         // 4. Navigate to Grade Horária to sync schedule
         await page.goto('https://uspdigital.usp.br/jupiterweb/gradeHoraria?codmnu=4759', { 

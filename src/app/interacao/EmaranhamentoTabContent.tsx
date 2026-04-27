@@ -272,7 +272,7 @@ export function EmaranhamentoTabContent() {
                         <span className="material-symbols-outlined text-4xl text-brand-blue">hub</span>
                     </div>
                     <h2 className="text-2xl font-black text-gray-900 dark:text-white uppercase tracking-tighter mb-2">Nexus de Emaranhamento</h2>
-                    <p className="text-[10px] text-gray-500 uppercase tracking-[0.2em] leading-relaxed max-w-xs">Inicie conexões síncronas entre membros da rede Lab-Div.</p>
+                    <p className="text-[10px] text-gray-500 uppercase tracking-[0.2em] leading-relaxed max-w-xs">Inicie conexões síncronas entre membros da rede HUB IME.</p>
                     
                     <div className="w-full mt-10 relative group">
                          <Search className="absolute left-5 top-1/2 -translate-y-1/2 size-4 text-gray-500 group-focus-within:text-brand-blue transition-colors" />

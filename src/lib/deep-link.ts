@@ -1,5 +1,5 @@
 /**
- * Deep Linking Utility for Lab-Div Scientific Hub
+ * Deep Linking Utility for HUB IME Scientific Hub
  * Implements modern Web Text Fragments and specific media anchors.
  */
 

@@ -154,7 +154,7 @@ export function LogsView() {
                 </h1>
                 <LogsFeedbackCard className="block lg:hidden mb-8" />
                 <p className="text-gray-500 font-bold uppercase tracking-widest text-[10px] border-l-2 border-brand-red pl-4">
-                    Logs do IFUSP em tempo real. O que está acontecendo no instituto agora?
+                    Logs do USP em tempo real. O que está acontecendo no instituto agora?
                 </p>
             </div>
 

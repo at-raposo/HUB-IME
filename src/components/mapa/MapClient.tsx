@@ -9,7 +9,7 @@ import { MapaFeedbackCard } from '@/app/mapa/MapaFeedbackCard';
 const CampusMap = dynamic(() => import('@/components/map/CampusMap').then(mod => mod.CampusMap), {
     ssr: false,
     loading: () => (
-        <div className="webkit-aspect-guard w-full rounded-3xl overflow-hidden animate-shimmer-labdiv border border-gray-800 shadow-2xl" />
+        <div className="webkit-aspect-guard w-full rounded-3xl overflow-hidden animate-shimmer-HUB IME border border-gray-800 shadow-2xl" />
     )
 });
 

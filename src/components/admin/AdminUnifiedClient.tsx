@@ -103,7 +103,7 @@ export function AdminUnifiedClient() {
             toast.error(error);
         } else {
             setProfiles(prev => prev.map(p => p.id === id ? { ...p, is_labdiv: !current } : p));
-            toast.success(current ? 'Removido do Lab-Div' : 'Adicionado ao Lab-Div');
+            toast.success(current ? 'Removido do HUB IME' : 'Adicionado ao HUB IME');
         }
     };
 
@@ -536,7 +536,7 @@ export function AdminUnifiedClient() {
                                 name="preserved_emails"
                                 value={preservedEmails}
                                 onChange={(e) => setPreservedEmails(e.target.value)}
-                                placeholder="E-mails para preservar (ex: admin@usp.br, coordenacao@if.usp.br)"
+                                placeholder="E-mails para preservar (ex: admin@usp.br, coordenacao@ime.usp.br)"
                                 rows={3}
                                 required
                                 className="w-full bg-black/40 border border-white/10 rounded-2xl px-5 py-4 text-white text-sm placeholder:text-gray-700 focus:outline-none focus:border-purple-500 transition-colors"

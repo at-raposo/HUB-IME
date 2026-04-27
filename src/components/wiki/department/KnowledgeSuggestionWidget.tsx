@@ -32,7 +32,7 @@ export function KnowledgeSuggestionWidget({ departmentId, departmentName }: Prop
         });
 
         if (result.success) {
-            toast.success("Contribuição registrada! O Lab-Div analisará em breve.", {
+            toast.success("Contribuição registrada! O HUB IME analisará em breve.", {
                 icon: '💡',
                 duration: 4000
             });

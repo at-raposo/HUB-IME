@@ -41,7 +41,7 @@ export function ContentRating({ postId, contentFormat }: ContentRatingProps) {
                     Este conteúdo foi útil?
                 </h4>
                 <p className="text-[11px] text-gray-500 font-medium">
-                    Seu feedback anônimo ajuda a melhorar o arquivo do Lab-Div.
+                    Seu feedback anônimo ajuda a melhorar o arquivo do HUB IME.
                 </p>
             </div>
             

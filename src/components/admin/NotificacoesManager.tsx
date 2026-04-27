@@ -154,7 +154,7 @@ export default function NotificacoesManager() {
                     </div>
                     Central de Notificações
                 </h2>
-                <p className="text-gray-500 text-sm font-medium">Gerencie comunicados e alertas para a comunidade Lab-Div.</p>
+                <p className="text-gray-500 text-sm font-medium">Gerencie comunicados e alertas para a comunidade HUB IME.</p>
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">

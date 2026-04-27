@@ -40,7 +40,7 @@ export default function RadiationQuizPage({ params }: { params: Promise<{ catego
             } else {
                 // Teste Geral: fetch random questions from unlocked categories
                 const { data, error } = await query
-                    .neq('category', 'ifusp')
+                    .neq('category', 'imeusp')
                     .neq('category', 'instituto')
                     .neq('category', 'pesquisa')
                     .neq('category', 'carreira')

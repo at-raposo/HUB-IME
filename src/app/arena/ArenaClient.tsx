@@ -293,7 +293,7 @@ export default function ArenaClient({ profile }: { profile: any }) {
                                 <div className="flex items-start gap-3 p-4 bg-brand-yellow/5 rounded-2xl border border-brand-yellow/10">
                                     <AlertCircle className="w-4 h-4 text-brand-yellow shrink-0 mt-0.5" />
                                     <p className="text-[9px] text-gray-400 font-bold uppercase tracking-tight leading-normal">
-                                        Sugestões são processadas diretamente pela equipe de desenvolvimento do Lab-Div.
+                                        Sugestões são processadas diretamente pela equipe de desenvolvimento do HUB IME.
                                     </p>
                                 </div>
                             </div>

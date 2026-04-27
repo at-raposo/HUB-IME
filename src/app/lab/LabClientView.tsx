@@ -62,13 +62,13 @@ export function LabClientView({
     const handleShare = async () => {
         const origin = typeof window !== 'undefined' ? window.location.origin : '';
         const url = `${origin}/lab?user=${viewedProfile?.id}`;
-        const title = viewedProfile?.full_name ? `Laboratório de ${viewedProfile.full_name} | IFUSP Ciência` : 'Meu Laboratório | IFUSP Ciência';
+        const title = viewedProfile?.full_name ? `Laboratório de ${viewedProfile.full_name} | USP Ciência` : 'Meu Laboratório | USP Ciência';
         
         if (navigator.share) {
             try {
                 await navigator.share({
                     title,
-                    text: `Confira o laboratório de ${viewedProfile?.full_name || 'pesquisa'} no IFUSP Ciência!`,
+                    text: `Confira o laboratório de ${viewedProfile?.full_name || 'pesquisa'} no USP Ciência!`,
                     url
                 });
             } catch (err) {
@@ -214,7 +214,7 @@ export function LabClientView({
                                     {viewedProfile?.is_labdiv && (
                                         <span className="px-2 py-0.5 bg-brand-yellow text-black text-[10px] font-black rounded uppercase flex items-center gap-1 shadow-sm shadow-brand-yellow/20">
                                             <ShieldCheck className="w-3 h-3" />
-                                            Membro Lab-Div
+                                            Membro HUB IME
                                         </span>
                                     )}
                                     {viewedProfile?.role && (
@@ -266,7 +266,7 @@ export function LabClientView({
                                 )}
 
                                 <p className="mt-4 text-gray-500 italic text-[13px] leading-relaxed">
-                                    {viewedProfile?.bio_draft || viewedProfile?.bio || (isViewingOwn ? "Seu laboratório pessoal está quase pronto!" : "Membro da comunidade Lab-Div.")}
+                                    {viewedProfile?.bio_draft || viewedProfile?.bio || (isViewingOwn ? "Seu laboratório pessoal está quase pronto!" : "Membro da comunidade HUB IME.")}
                                 </p>
 
                                 {/* Redes Sociais e Contato */}

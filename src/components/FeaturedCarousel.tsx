@@ -60,7 +60,7 @@ export function FeaturedCarousel({ items, highlightQuery = '', hideTitle = false
                             <Star className="relative text-brand-red dark:text-brand-yellow w-6 h-6 animate-pulse fill-current" />
                         </div>
                         <h2 className="text-xl font-black uppercase tracking-[0.2em] shimmer-text">
-                            Destacados pelo Lab-Div
+                            Destacados pelo HUB IME
                         </h2>
                     </div>
 

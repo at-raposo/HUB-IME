@@ -26,7 +26,7 @@ export default function OfflinePage() {
             </Link>
 
             <p className="mt-12 text-[10px] uppercase font-black tracking-widest text-gray-400 text-brand-blue/40">
-                Lab-Div Offline Resilience V3.0
+                HUB IME Offline Resilience V3.0
             </p>
         </div>
     );

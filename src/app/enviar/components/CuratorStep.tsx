@@ -150,13 +150,13 @@ export function CuratorStep({ onSubmit, isLoading }: { onSubmit: (data: any) => 
                 
                 <div className="flex items-center gap-2 px-4 py-2 bg-brand-red/10 border border-brand-red/30 rounded-full text-brand-red text-xs font-black uppercase ring-4 ring-brand-red/5">
                     <span className="material-symbols-outlined text-sm">admin_panel_settings</span>
-                    Modo Administrativo (Lab-Div)
+                    Modo Administrativo (HUB IME)
                 </div>
             </div>
 
             <div className="bg-brand-blue/5 p-6 rounded-[32px] border border-brand-blue/10">
                 <p className="text-sm text-gray-500 leading-relaxed font-medium">
-                    Você está catalogando material premium em nome do <b>Lab-Div</b>. Use esta etapa para vincular esta submissão a nós específicos do Grafo de Conhecimento do IFUSP, garantindo que o conteúdo apareça em murais de departamentos, laboratórios e perfis de docentes.
+                    Você está catalogando material premium em nome do <b>HUB IME</b>. Use esta etapa para vincular esta submissão a nós específicos do Grafo de Conhecimento do USP, garantindo que o conteúdo apareça em murais de departamentos, laboratórios e perfis de docentes.
                 </p>
             </div>
 
@@ -193,7 +193,7 @@ export function CuratorStep({ onSubmit, isLoading }: { onSubmit: (data: any) => 
                 
                 <MultiSelect 
                     label="Departamentos" 
-                    description="Vincular aos departamentos do IFUSP."
+                    description="Vincular aos departamentos do USP."
                     items={dbDepartments} 
                     selected={selectedDepartments} 
                     onChange={setSelectedDepartments} 

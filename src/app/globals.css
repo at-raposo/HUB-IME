@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "katex/dist/katex.min.css";
 
-/* 💎 Premium Lab-Div Scrollbar Aesthetic - Global Elite Style */
+/* 💎 Premium HUB IME Scrollbar Aesthetic - Global Elite Style */
 *::-webkit-scrollbar {
   width: 6px !important;
   height: 6px !important;
@@ -76,7 +76,7 @@
 
 .dark {
   --background: #0a0a0a;
-  /* Neutral Dark for Lab-Div Identity */
+  /* Neutral Dark for HUB IME Identity */
 }
 
 
@@ -140,14 +140,14 @@ body::before {
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --color-primary: #0F4780;
+  --color-primary: #A51C30;
   --color-secondary: #2C2B2D;
   --color-brand-yellow: #FFCC00;
   --color-brand-red: #F14343;
-  --color-brand-blue: #0F4780;
-  --color-brand-blue-dark: #0F4780;
-  --color-brand-blue-ifusp: #0F6688;
-  --color-brand-blue-accent: #1F9FCF;
+  --color-brand-blue: #A51C30;
+  --color-brand-blue-dark: #8B0000;
+  --color-brand-red-imeusp: #7A0000;
+  --color-brand-blue-accent: #C00000;
   --color-brand-grey: #2C2B2D;
   
   --font-bukra: "29LT Bukra Semi Wide Bold", var(--font-bukra);
@@ -223,7 +223,7 @@ body::before {
 
   /* Premium Glassmorphism V8.0 */
   .glass-surface {
-    @apply bg-white/70 dark:bg-[#0F4780]/80 backdrop-blur-xl border border-white/20 dark:border-brand-blue/20 shadow-2xl;
+    @apply bg-white/70 dark:bg-[#7A0000]/80 backdrop-blur-xl border border-white/20 dark:border-brand-blue/20 shadow-2xl;
     isolation: isolate;
   }
 

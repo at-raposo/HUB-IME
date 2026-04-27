@@ -25,7 +25,7 @@ export async function syncJupiterEvolution(data: { concluidas: string[], cursand
         if (trailsError) throw trailsError;
 
         if (!trails || trails.length === 0) {
-            return { success: true, message: 'Foram localizadas disciplinas, mas nenhuma está mapeada no atual catálogo do Hub Lab-Div.' };
+            return { success: true, message: 'Foram localizadas disciplinas, mas nenhuma está mapeada no atual catálogo do Hub HUB IME.' };
         }
 
         const progressPayload = trails.map(trail => {
