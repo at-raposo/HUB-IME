@@ -57,17 +57,17 @@ export function Footer() {
                             <li className="flex items-start gap-3 text-sm text-white/60">
                                 <span className="material-symbols-outlined text-[20px] w-5 h-5 flex items-center justify-center flex-shrink-0 mt-0.5 text-brand-blue-accent">person</span>
                                 <div>
-                                    <p className="font-medium text-white">João Stangorlini</p>
+                                    <p className="font-medium text-white">Adrian Raposo</p>
                                     <button
                                         onClick={() => {
-                                            const email = "joaopaulostangorlini@usp.br";
+                                            const email = "andyraposo@usp.br";
                                             navigator.clipboard.writeText(email);
                                             import('react-hot-toast').then(m => m.toast.success('E-mail copiado!'));
                                             window.location.href = `mailto:${email}`;
                                         }}
                                         className="hover:text-brand-blue-accent transition-colors text-left"
                                     >
-                                        joaopaulostangorlini@usp.br
+                                        andyraposo@usp.br
                                     </button>
                                 </div>
                             </li>
