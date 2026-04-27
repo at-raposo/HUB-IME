@@ -17,7 +17,7 @@ const PRESET_COLORS = [
     '#06B6D4', // Cyan/Teal
     '#FFCC00', // Yellow
     '#F97316', // Orange
-    '#EF4444', // Red
+    '#B91C1C', // Red
 ];
 
 export function JupiterSyncModal({ isOpen, onClose, onSuccess }: JupiterSyncModalProps) {

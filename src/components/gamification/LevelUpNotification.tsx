@@ -47,7 +47,7 @@ export function LevelUpNotification() {
                                         particleCount: 200,
                                         spread: 100,
                                         origin: { y: 0.5 },
-                                        colors: ['#A51C30', '#F14343', '#FFCC00', '#C00000']
+                                        colors: ['#A51C30', '#A51C30', '#FFCC00', '#C00000']
                                     });
 
                                     // Second wave
@@ -64,7 +64,7 @@ export function LevelUpNotification() {
                                             angle: 120,
                                             spread: 55,
                                             origin: { x: 1 },
-                                            colors: ['#F14343', '#A51C30']
+                                            colors: ['#A51C30', '#A51C30']
                                         });
                                     }, 400);
                                 }, 2500);
@@ -191,7 +191,7 @@ export function LevelUpNotification() {
                                     className="space-y-2"
                                 >
                                     <m.h2
-                                        animate={{ scale: [1, 1.3, 1], color: ['#fff', '#F14343', '#FFCC00'] }}
+                                        animate={{ scale: [1, 1.3, 1], color: ['#fff', '#A51C30', '#FFCC00'] }}
                                         transition={{ duration: 0.5 }}
                                         className="text-3xl font-black uppercase"
                                     >

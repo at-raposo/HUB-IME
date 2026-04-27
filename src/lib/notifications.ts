@@ -132,7 +132,7 @@ export async function sendAdminNotification(data: NotificationData) {
             emailTemplate = `
                 <h2 style="color: #1a1a1a; margin-top: 0; font-size: 20px;">Novo Log Enviado (Drop)</h2>
                 <p style="color: #4a5568; line-height: 1.6; font-size: 15px;">O pesquisador <strong>@${data.userName}</strong> postou uma nova atualização rápida que aguarda moderação.</p>
-                <div style="background-color: #f8fafc; border-left: 4px solid #EF4444; padding: 20px; margin: 24px 0; border-radius: 8px; font-style: italic; color: #2d3748;">
+                <div style="background-color: #f8fafc; border-left: 4px solid #B91C1C; padding: 20px; margin: 24px 0; border-radius: 8px; font-style: italic; color: #2d3748;">
                     "${data.content}"
                 </div>`;
             break;

@@ -84,7 +84,7 @@ export const Avatar = ({ src, name = 'Usuário', size = 'md', className = '', cu
             from 270deg,
             #A51C30 0deg,
             #FFCC00 90deg,
-            #F14343 180deg,
+            #A51C30 180deg,
             ${tier?.hex || '#6B7280'} 180deg 360deg
         )`
     } : tier ? {

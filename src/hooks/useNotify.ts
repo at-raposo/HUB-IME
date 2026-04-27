@@ -23,7 +23,7 @@ export const useNotify = () => {
         toast.error(message, {
             icon: '❌',
             style: {
-                border: '1px solid #ef4444',
+                border: '1px solid #B91C1C',
                 background: '#450a0a',
                 color: '#fff',
             },

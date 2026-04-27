@@ -143,11 +143,11 @@ body::before {
   --color-primary: #A51C30;
   --color-secondary: #2C2B2D;
   --color-brand-yellow: #FFCC00;
-  --color-brand-red: #F14343;
+  --color-brand-red: #A51C30;
+  --color-brand-red-dark: #8B0000;
   --color-brand-blue: #A51C30;
-  --color-brand-blue-dark: #8B0000;
-  --color-brand-red-imeusp: #7A0000;
-  --color-brand-blue-accent: #C00000;
+  --color-brand-blue-dark: #7A0000;
+  --color-brand-blue-accent: #A51C30;
   --color-brand-grey: #2C2B2D;
   
   --font-bukra: "29LT Bukra Semi Wide Bold", var(--font-bukra);
@@ -365,9 +365,9 @@ body::before {
   .shimmer-text {
     background: linear-gradient(90deg,
         #FFCC00 0%,
-        #F14343 25%,
+        #A51C30 25%,
         #FFCC00 50%,
-        #F14343 75%,
+        #A51C30 75%,
         #FFCC00 100%);
     background-size: 200% auto;
     -webkit-background-clip: text;

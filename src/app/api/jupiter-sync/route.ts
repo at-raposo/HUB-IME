@@ -164,7 +164,7 @@ export async function POST(req: NextRequest) {
         const now = new Date();
         const sunday = new Date(now.getFullYear(), now.getMonth(), now.getDate() - now.getDay());
 
-        const DISCIPLINE_COLORS = ['#3B82F6', '#EF4444', '#EAB308'];
+        const DISCIPLINE_COLORS = ['#3B82F6', '#B91C1C', '#EAB308'];
         const getStableColor = (seed: string) => {
             let hash = 0;
             for (let i = 0; i < seed.length; i++) {

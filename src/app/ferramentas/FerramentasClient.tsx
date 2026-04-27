@@ -38,7 +38,7 @@ const DISCIPLINE_COLORS = [
     { bg: '#06B6D4', border: '#0891B2', name: 'cyan' },
     { bg: '#EAB308', border: '#CA8A04', name: 'yellow' },
     { bg: '#F97316', border: '#EA580C', name: 'orange' },
-    { bg: '#EF4444', border: '#DC2626', name: 'red' },
+    { bg: '#B91C1C', border: '#DC2626', name: 'red' },
 ];
 
 const getStableColor = (id: string, title?: string) => {
@@ -299,7 +299,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                 const seed = subject.codigo;
                 let hash = 0;
                 for (let i = 0; i < seed.length; i++) { hash = ((hash << 5) - hash) + seed.charCodeAt(i); hash |= 0; }
-                const colors = ['#3B82F6', '#EF4444', '#EAB308'];
+                const colors = ['#3B82F6', '#B91C1C', '#EAB308'];
                 const color = colors[Math.abs(hash) % colors.length];
 
                 const tempId = Math.random().toString();
@@ -745,7 +745,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                 
                 .fc-day-sun .fc-col-header-cell-cushion { color: #888 !important; }
                 .fc-day-mon .fc-col-header-cell-cushion, .fc-day-thu .fc-col-header-cell-cushion { color: #3b82f6 !important; }
-                .fc-day-tue .fc-col-header-cell-cushion, .fc-day-fri .fc-col-header-cell-cushion { color: #ef4444 !important; }
+                .fc-day-tue .fc-col-header-cell-cushion, .fc-day-fri .fc-col-header-cell-cushion { color: #B91C1C !important; }
                 .fc-day-wed .fc-col-header-cell-cushion, .fc-day-sat .fc-col-header-cell-cushion { color: #eab308 !important; }
 
                 .fc-timegrid-col.fc-day-sun, .fc-timegrid-col.fc-day-mon, .fc-timegrid-col.fc-day-thu { background-color: rgba(59, 130, 246, 0.25) !important; }
@@ -1151,7 +1151,7 @@ export default function FerramentasClient({ profile }: { profile: any }) {
                                                 const timeB = new Date(b.start).getHours() * 60 + new Date(b.start).getMinutes();
                                                 return timeA - timeB;
                                             });
-                                            const dayColor = dayIdx === 0 ? '#888' : (dayIdx % 3 === 1 ? '#A51C30' : (dayIdx % 3 === 2 ? '#F14343' : '#FFCC00'));
+                                            const dayColor = dayIdx === 0 ? '#888' : (dayIdx % 3 === 1 ? '#A51C30' : (dayIdx % 3 === 2 ? '#A51C30' : '#FFCC00'));
                                             
                                             return (
                                                 <div key={dayName} className="flex flex-col gap-4 min-w-[280px] bg-gray-50/80 dark:bg-white/[0.03] rounded-[32px] p-5 border border-transparent dark:border-white/[0.05] snap-start">

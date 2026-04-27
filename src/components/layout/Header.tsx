@@ -130,10 +130,10 @@ export function Header() {
                     <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 top-0 z-50">
                         <div className="bg-[#A51C30] rounded-b-[24px] px-8 py-3 flex items-center gap-1.5 shadow-[0_8px_32px_rgba(0,0,0,0.5)] border-x border-b border-white/10 backdrop-blur-xl">
                             {[
-                                { label: 'Comunidade', href: '/', color: '#F14343' },
+                                { label: 'Comunidade', href: '/', color: '#A51C30' },
                                 { label: 'GCIME', href: '/gcime', color: '#C00000' },
                                 { label: 'hub-ime', href: '/hub-ime', color: '#FFCC00' },
-                                { label: 'Ferramentas', href: '/ferramentas', color: '#F14343' },
+                                { label: 'Ferramentas', href: '/ferramentas', color: '#A51C30' },
                                 { label: 'Interações', href: '/interacao', color: '#C00000' },
                             ].map((tab) => {
                                 const isActive = pathname === tab.href || (tab.href !== '/' && pathname.startsWith(tab.href));

@@ -17,7 +17,7 @@ import {
   Legend
 } from 'recharts';
 
-const COLORS = ['#3B82F6', '#EF4444', '#EAB308', '#8B5CF6', '#10B981', '#F59E0B'];
+const COLORS = ['#3B82F6', '#B91C1C', '#EAB308', '#8B5CF6', '#10B981', '#F59E0B'];
 
 interface ChartProps {
   data: any[];
@@ -78,7 +78,7 @@ export default function TelemetryCharts({ data, type, dataKey = 'value', nameKey
             contentStyle={{ backgroundColor: '#1E1E1E', border: '1px solid #333', borderRadius: '8px' }}
             itemStyle={{ color: '#fff' }}
           />
-          <Line type="monotone" dataKey={dataKey} stroke="#EF4444" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
+          <Line type="monotone" dataKey={dataKey} stroke="#B91C1C" strokeWidth={2} dot={{ r: 4 }} activeDot={{ r: 6 }} />
         </LineChart>
       </ResponsiveContainer>
     );
