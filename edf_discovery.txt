@@ -1,0 +1,11 @@
+--- ESTADO ATUAL NO BANCO --- 
+ID: d74dda4f-4516-478c-8a27-1e52b81a1e7b | Código: EDF029296 | Título: Psicologia da Educação | Categoria: eletiva
+ID: 23e3687d-9556-418e-8e2d-cfd8afe13ed1 | Código: EDF0665 | Título: Libras | Categoria: obrigatoria
+ID: 33c1c240-bf96-46b3-9017-77c62589f429 | Código: EDF0285 | Título: Introdução aos Estudos da Educação: Enfoque Filosófico | Categoria: obrigatoria
+ID: 082fce4b-3572-4d03-8d24-f009fa29d4ed | Código: EDF0287 | Título: Introdução aos Estudos da Educação: Enfoque Histórico | Categoria: obrigatoria
+ID: 021324e8-b76c-4379-9c65-6b4fe304249c | Código: EDF0289 | Título: Introdução aos Estudos da Educação: Enfoque Sociológico | Categoria: obrigatoria
+ID: 8cb29fb0-f4b4-4c5a-aa0c-926553f1a381 | Código: EDF0290 | Título: Teorias do Desenvolvimento | Categoria: obrigatoria
+ID: 1860fe76-50cb-4191-91b7-d2327d607782 | Código: EDF0292 | Título: Psicologia Histórico-Cultural e Educação | Categoria: obrigatoria
+ID: 78428ef4-ad75-4003-b429-07ff52a3af87 | Código: EDF0296 | Título: Psicologia da Educação: Constituição do Sujeito | Categoria: obrigatoria
+ID: 6996b305-4368-4878-a02c-993c25fa9bb6 | Código: EDF0298 | Título: Psicologia da Educação I | Categoria: obrigatoria
+ID: 7078ae36-0b6b-4a22-9726-9d97ec076272 | Código: EDF0299 EDF0298 | Título: Psicologia da Educação: Desenvolvimento e Práticas | Categoria: obrigatoria

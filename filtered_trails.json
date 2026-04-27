@@ -1,0 +1,709 @@
+[
+  {
+    "id": "70e89c62-aeed-4bba-af78-26c12b026b5e",
+    "course_code": "4305828",
+    "title": "Introdução à Teoria Quântica de Camp os II",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "9344c1d3-c2e0-4ad3-9c5b-f6425aa889e9",
+    "course_code": "4302403",
+    "title": "Mecânica Quântica I",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302311",
+      "MAT0122",
+      "4302204"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "licenciatura": "eletiva",
+      "fisica_medica": "obrigatoria"
+    }
+  },
+  {
+    "id": "b1c87e93-205f-4004-b714-1770177773a9",
+    "course_code": "4300308",
+    "title": "Termodinâmica",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "0397cfee-819a-4fbe-ae64-7b53575b1eee",
+    "course_code": "4300329",
+    "title": "Física do Corpo Humano",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "542cd855-ed92-4632-943f-499acc88adce",
+    "course_code": "4300346",
+    "title": "Física da Poluição do Ar",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "c07328f3-a360-4be8-96fb-2b5a383f0b48",
+    "course_code": "4300375",
+    "title": "Detectores de Radiação",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "5e1d426a-cb10-4c1d-9c93-b7032996cb78",
+    "course_code": "4300456",
+    "title": "Produção de Material Didático",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "faf2c25d-2350-47c4-ae45-bf3d77c79b63",
+    "course_code": "4300459",
+    "title": "Tecnologias da Informação e Comunicação",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "2e4df4f7-e302-44dc-8a71-49fb3bcf141f",
+    "course_code": "4300461",
+    "title": "Tecnologia de Ensino de Física I",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "fb9960e8-bff1-4278-8ef8-295adf2c0d28",
+    "course_code": "4300490",
+    "title": "Monografia para Licenciatura em Física",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "fea730da-c122-410f-bb28-b32ea4a21433",
+    "course_code": "4300462",
+    "title": "Tecnologia de Ensino de Física II",
+    "excitation_level": 8,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "3121d862-83db-449a-824a-0d34c985a0dd",
+    "course_code": "4302303",
+    "title": "Eletromagnetismo I",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302212",
+      "MAT0216"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "licenciatura": "eletiva",
+      "fisica_medica": "obrigatoria"
+    }
+  },
+  {
+    "id": "baee90e0-11c6-4c44-92e8-96b7f9fc378b",
+    "course_code": "4300325",
+    "title": "Física do Corpo Humano",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302112",
+      "MAT2454"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "eletiva",
+      "fisica_medica": "obrigatoria"
+    }
+  },
+  {
+    "id": "b00c6ffa-2ea0-4853-aeea-2e6e80923885",
+    "course_code": "4300208",
+    "title": "Introdução à Termodinâmica",
+    "excitation_level": 2,
+    "prerequisites": [
+      "4302111"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "fisica_medica": "obrigatoria"
+    }
+  },
+  {
+    "id": "9118115c-1fb0-45c4-ad33-1195b06617c8",
+    "course_code": "4302304",
+    "title": "Eletromagnetismo II",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4302303"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "eletiva",
+      "fisica_medica": "livre"
+    }
+  },
+  {
+    "id": "eef9c7b6-8113-4c65-bb4b-9ff382daa4f6",
+    "course_code": "4302404",
+    "title": "Mecânica Quântica II",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4302403"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "eletiva",
+      "fisica_medica": "livre"
+    }
+  },
+  {
+    "id": "75e1acf8-33ca-4b99-bec0-cbbf619e7473",
+    "course_code": "4302306",
+    "title": "Mecânica II",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4302305"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "eletiva",
+      "fisica_medica": "livre"
+    }
+  },
+  {
+    "id": "1ee12bc5-0510-4220-9276-49a088c097c4",
+    "course_code": "4302405",
+    "title": "Mecânica Quântica Avançada I",
+    "excitation_level": 8,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "eletiva"
+    }
+  },
+  {
+    "id": "be386dd4-9382-4e79-90a7-43f24ddfdf82",
+    "course_code": "4305102",
+    "title": "Introdução à Teoria Quântica de Campos I",
+    "excitation_level": 7,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "eletiva"
+    }
+  },
+  {
+    "id": "33a6e26b-9914-40a9-8087-9165ce9886c3",
+    "course_code": "4302311",
+    "title": "Física Quântica",
+    "excitation_level": 8,
+    "prerequisites": [
+      "MAT0216",
+      "4302212"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "fisica_medica": "obrigatoria"
+    }
+  },
+  {
+    "id": "e8930fe0-b21f-45a9-ad3c-f8a79c705028",
+    "course_code": "4300373",
+    "title": "Laboratório de Eletromagnetismo",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4300270",
+      "4300152"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "obrigatoria"
+    }
+  },
+  {
+    "id": "6de55dca-92bf-4791-b6a4-e116fd5cb109",
+    "course_code": "4300372",
+    "title": "Eletromagnetismo",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4300271",
+      "MAT2351",
+      "4300160",
+      "MAT0105"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "obrigatoria"
+    }
+  },
+  {
+    "id": "e7280363-6dcf-4bdc-b04c-0af72bbbd41a",
+    "course_code": "MAP0214",
+    "title": "Cálculo Numérico com Aplicações em Física",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4300218",
+      "MAT2453"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "licenciatura": "eletiva",
+      "fisica_medica": "livre"
+    }
+  },
+  {
+    "id": "9df2dc83-942b-4964-b1bc-ca9e5f36c547",
+    "course_code": "4300371",
+    "title": "Introdução à Mecânica Quântica Ondulatória",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4300377"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "obrigatoria"
+    }
+  },
+  {
+    "id": "77e812cf-b3d1-4d8f-99a0-e05c5e670133",
+    "course_code": "4300441",
+    "title": "Detectores de Radiação",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302212"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "fisica_medica": "livre"
+    }
+  },
+  {
+    "id": "041df28d-0f80-42ba-a70f-8163df7e6b4c",
+    "course_code": "4302451",
+    "title": "Evolução dos Conceitos da Física",
+    "excitation_level": 9,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "obrigatoria",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    }
+  },
+  {
+    "id": "75951115-072a-446d-8e09-21511f2210c9",
+    "course_code": "4300465",
+    "title": "Evolução dos Conceitos da Física (Lic)",
+    "excitation_level": 6,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "23a04a91-cc85-4e34-9717-820f71a4dfad",
+    "course_code": "4305001",
+    "title": "Mecânica Quântica Avançada I",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "dfbb6b0c-4142-4873-b986-9a79c4c6eff8",
+    "course_code": "4305002",
+    "title": "Mecânica Quântica Avançada II",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "a7894995-9795-419f-814c-5d2c4760df00",
+    "course_code": "4305107",
+    "title": "Introdução à Teoria Quântica de Camp os I",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "4db0b290-2c24-4e20-aaac-7880118de9b5",
+    "course_code": "4305275",
+    "title": "Introdução à Teoria Quântica da Luz",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "d7696410-3ed7-49e1-905a-3667143f6990",
+    "course_code": "4305295",
+    "title": "Teoria Quântica de Muitos Corpos em  Matéria Condensada",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "f15c953d-a9e0-4152-b4ff-c6edfbfefafd",
+    "course_code": "4305343",
+    "title": "Informa ção Quântica e Ruídos Quânticos",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "c1703519-7995-4478-af86-c92688497c3b",
+    "course_code": "4305358",
+    "title": "Fenôme nos Emergentes em  Matéria Quântica Correlacionada",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "e11d972c-2729-4b8e-858f-23d77b8e26fc",
+    "course_code": "4305359",
+    "title": "Matéria Quântica Topológica e seu desafio na física",
+    "excitation_level": 1,
+    "prerequisites": [],
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "d4271427-f4d0-4ab8-aa1f-681d0087d55a",
+    "course_code": "4300377",
+    "title": "Evidências Experimentais da Natureza Quântica",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4300271",
+      "4300373"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "obrigatoria"
+    }
+  },
+  {
+    "id": "3a489977-3407-4068-84fe-89053eb8f0cb",
+    "course_code": "4300425",
+    "title": "Introdução à Teoria Quântica de Campos",
+    "excitation_level": 9,
+    "prerequisites": [
+      "4302404"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "9e9540b7-5fa2-4b92-b73f-8039c6eca9cb",
+    "course_code": "4302311_MED",
+    "title": "Física Quântica (Física Médica)",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4302212"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "58bb20ad-a0ee-40ea-8e66-4f7867edec7c",
+    "course_code": "4302305",
+    "title": "Mecânica I",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302112",
+      "MAT2454"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "licenciatura": "eletiva",
+      "fisica_medica": "obrigatoria"
+    }
+  },
+  {
+    "id": "e9eebda4-a856-4531-9788-ab72af6e9965",
+    "course_code": "4302305_MED",
+    "title": "Mecânica I (Física Médica)",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4302112",
+      "MAT0216"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "487d2c8b-0e0b-4e85-a7eb-10caacc98dad",
+    "course_code": "4302308",
+    "title": "Termodinâmica",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302112"
+    ],
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "fisica_medica": "livre"
+    }
+  }
+]

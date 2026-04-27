@@ -1,0 +1,57 @@
+[
+  {
+    "id": "33a6e26b-9914-40a9-8087-9165ce9886c3",
+    "course_code": "4302311",
+    "title": "Física Quântica",
+    "excitation_level": 8,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "9e9540b7-5fa2-4b92-b73f-8039c6eca9cb",
+    "course_code": "4302311_MED",
+    "title": "Física Quântica (Física Médica)",
+    "excitation_level": 6,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "e7e44672-c55e-4e2b-b59d-550e370c2a51",
+    "course_code": "4302314",
+    "title": "Física Experimental VI",
+    "excitation_level": 8,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "dabc768b-b502-4a03-8198-47afd700f131",
+    "course_code": "4302401",
+    "title": "Mecânica Estatística",
+    "excitation_level": 8,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "e7280363-6dcf-4bdc-b04c-0af72bbbd41a",
+    "course_code": "MAP0214",
+    "title": "Cálculo Numérico com Aplicações em Física",
+    "excitation_level": 7,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  }
+]

@@ -1,0 +1,570 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+/* 💎 Premium Lab-Div Scrollbar Aesthetic - Global Elite Style */
+*::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5) 0px, 
+    rgba(255, 255, 255, 0.5) 1px,
+    transparent 1px, 
+    transparent 3px,
+    rgba(255, 255, 255, 0.5) 3px, 
+    rgba(255, 255, 255, 0.5) 4px,
+    transparent 4px, 
+    transparent 6px,
+    rgba(255, 255, 255, 0.5) 6px, 
+    rgba(255, 255, 255, 0.5) 7px,
+    transparent 7px
+  ) !important;
+  background-size: 100% 7px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba(255, 255, 255, 0.05) !important;
+  transition: background-color 0.3s !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Specific class to force standard behavior if needed, but rarely used in this project */
+.hidden-scrollbar {
+  scrollbar-width: none !important; /* Hide standard Firefox/Edge scrollbar while keeping WebKit custom one */
+  -ms-overflow-style: none !important;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+/* 🛡️ Material Symbols - Garante renderização como ícone mesmo com CSS Layers */
+.material-symbols-outlined {
+  font-family: var(--font-material-symbols) !important;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga';
+}
+
+.material-symbols-outlined.filled {
+  font-variation-settings: 'FILL' 1;
+}
+
+:root {
+  color-scheme: light dark;
+  --background: #ffffff;
+}
+
+.dark {
+  --background: #0a0a0a;
+  /* Neutral Dark for Lab-Div Identity */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  scrollbar-color: auto var(--background);
+  scroll-behavior: smooth;
+}
+
+/* Scientific background pattern - moved to pseudo-element for visibility control */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: url('/bg-science.svg');
+  background-size: 1200px 1200px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  pointer-events: none;
+}
+
+/* Light mode: Let the SVG's natural colors show with high opacity */
+:root:not(.dark) body::before {
+  opacity: 0.8;
+  filter: contrast(1.2);
+}
+
+/* Dark mode: Make it clearly visible but not overpowering */
+.dark body::before {
+  opacity: 0.5;
+}
+
+/* Admin Mode: Restore brand colors and vibrant opacity */
+.admin-page::before {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+/* Performance: CSS-only animation replaces framer-motion in hero (no JS blocking) */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.5s ease-out both;
+}
+
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #0F4780;
+  --color-secondary: #2C2B2D;
+  --color-brand-yellow: #FFCC00;
+  --color-brand-red: #F14343;
+  --color-brand-blue: #0F4780;
+  --color-brand-blue-dark: #0F4780;
+  --color-brand-blue-ifusp: #0F6688;
+  --color-brand-blue-accent: #1F9FCF;
+  --color-brand-grey: #2C2B2D;
+  
+  --font-bukra: "29LT Bukra Semi Wide Bold", var(--font-bukra);
+  --font-display: var(--font-bukra);
+  --font-open-sans: var(--font-open-sans);
+  --font-sans: var(--font-open-sans);
+  
+  --color-card-dark: #1E1E1E;
+  --color-background-light: #F8FAFC;
+  --color-background-dark: #0a0a0a;
+  --color-background-subtle: #F1F5F9;
+  --color-form-dark: #1E1E1E;
+}
+
+@layer base {
+
+  *,
+  ::after,
+  ::before {
+    @apply border-gray-200 dark:border-gray-800;
+  }
+
+  /* 📱 iOS Safari Auto-Zoom Mitigation: Required when maximum-scale is removed */
+  input,
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-bold text-white transition-all hover:bg-secondary hover:shadow-lg active:scale-95 disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-2 border-primary/20 bg-white px-6 py-3 text-sm font-bold text-primary transition-all hover:bg-slate-50 hover:shadow-md active:scale-95 dark:border-white/10 dark:bg-card-dark dark:text-white;
+  }
+
+  .card-hover {
+    @apply transition-all duration-500 ease-in-out hover:scale-[1.03] hover:shadow-2xl hover:-translate-y-1;
+  }
+
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+}
+
+@layer utilities {
+  .card-gradient-border {
+    position: relative;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+  }
+
+  .card-gradient-border:hover {
+    border-color: var(--color-brand-blue);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+
+  /* Custom gradient text */
+  .text-gradient-brand {
+    @apply bg-gradient-to-r from-brand-yellow via-brand-red to-brand-blue bg-clip-text text-transparent;
+  }
+
+  .lab-div-gradient {
+    @apply bg-gradient-to-r from-brand-yellow via-brand-red to-brand-blue;
+  }
+
+  /* Premium Glassmorphism V8.0 */
+  .glass-surface {
+    @apply bg-white/70 dark:bg-[#0F4780]/80 backdrop-blur-xl border border-white/20 dark:border-brand-blue/20 shadow-2xl;
+    isolation: isolate;
+  }
+
+  .glass-card {
+    @apply bg-white/40 dark:bg-card-dark/40 backdrop-blur-3xl border border-black/5 dark:border-white/5 shadow-sm dark:shadow-none;
+  }
+
+  /* Animation for scroll */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @keyframes blob-bounce {
+
+    0%,
+    100% {
+      transform: scale(1);
+      opacity: 0.3;
+    }
+
+    50% {
+      transform: scale(1.5);
+      opacity: 0.6;
+    }
+  }
+
+  .animate-blob-bounce {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  @media (min-width: 768px) {
+    .animate-blob-bounce {
+      animation: blob-bounce 4s infinite ease-in-out;
+    }
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  @keyframes heart-pop {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+
+    25% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+
+    50% {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+
+
+
+  @keyframes metallic-shine {
+    0% {
+      background-position: -200% center;
+    }
+
+    100% {
+      background-position: 200% center;
+    }
+  }
+
+  .animate-metallic-shine {
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.4) 50%,
+        rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%;
+  }
+
+  @media (min-width: 768px) {
+    .animate-metallic-shine {
+      animation: metallic-shine 3s infinite linear;
+    }
+  }
+
+  @keyframes premium-glow {
+
+    0%,
+    100% {
+      filter: drop-shadow(0 0 5px rgba(255, 204, 0, 0.3));
+    }
+
+    50% {
+      filter: drop-shadow(0 0 15px rgba(255, 57, 70, 0.5));
+    }
+  }
+
+  .animate-premium-glow {
+    filter: drop-shadow(0 0 10px rgba(255, 57, 70, 0.4));
+  }
+
+  @media (min-width: 768px) {
+    .animate-premium-glow {
+      animation: premium-glow 4s infinite ease-in-out;
+    }
+  }
+
+  @keyframes shimmer-text {
+    0% {
+      background-position: 100% 0;
+    }
+
+    100% {
+      background-position: -100% 0;
+    }
+  }
+
+  .shimmer-text {
+    background: linear-gradient(90deg,
+        #FFCC00 0%,
+        #F14343 25%,
+        #FFCC00 50%,
+        #F14343 75%,
+        #FFCC00 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer-text 5s linear infinite;
+  }
+
+  /* Performance: respect user motion preferences for all infinite animations */
+  @media (prefers-reduced-motion: reduce) {
+
+    .shimmer-text,
+    .animate-blob-bounce,
+    .animate-premium-glow,
+    .animate-metallic-shine,
+    .animate-shimmer-labdiv::after {
+      animation: none !important;
+    }
+  }
+
+  /* v3.9 Golden Master: Chrono-Chromatic Sync */
+  :root {
+    --shimmer-duration: 1.5s;
+    --shimmer-base: #1E1E1E;
+    --shimmer-highlight: rgba(255, 204, 0, 0.12);
+  }
+
+  @keyframes shimmer-labdiv {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  .animate-shimmer-labdiv {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: var(--shimmer-base);
+    border-radius: 1rem;
+    isolation: isolate;
+  }
+
+  /* 🛡️ [V3.9] Hybrid Aspect Guard */
+  .webkit-aspect-guard {
+    display: block;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+
+  @supports not (aspect-ratio: 16/9) {
+    .webkit-aspect-guard {
+      height: 0;
+      padding-bottom: 56.25%;
+    }
+  }
+
+  .animate-shimmer-labdiv::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0) 0%,
+        var(--shimmer-highlight) 50%,
+        rgba(255, 255, 255, 0) 100%);
+    animation: shimmer-labdiv var(--shimmer-duration) infinite ease-in-out;
+  }
+
+  .gpu-isolate {
+    isolation: isolate;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    /* will-change removed: permanent hints consume GPU memory without benefit */
+  }
+
+  /* 🏆 Golden Frame: Padrão Ouro visual identity */
+  .golden-frame {
+    border: 2px solid #FFCC00 !important;
+    box-shadow:
+      0 0 12px 2px rgba(255, 204, 0, 0.5),
+      0 0 30px 4px rgba(255, 204, 0, 0.2),
+      inset 0 0 8px 0 rgba(255, 204, 0, 0.1);
+  }
+
+  @media (min-width: 768px) {
+    .golden-frame {
+      animation: golden-pulse 3s infinite ease-in-out;
+    }
+  }
+
+  @keyframes golden-pulse {
+    0%, 100% {
+      box-shadow:
+        0 0 12px 2px rgba(255, 204, 0, 0.5),
+        0 0 30px 4px rgba(255, 204, 0, 0.2),
+        inset 0 0 8px 0 rgba(255, 204, 0, 0.1);
+    }
+    50% {
+      box-shadow:
+        0 0 20px 4px rgba(255, 204, 0, 0.7),
+        0 0 45px 8px rgba(255, 204, 0, 0.3),
+        inset 0 0 12px 0 rgba(255, 204, 0, 0.15);
+    }
+  }
+
+  /* Module 3: Immersive Reading */
+  body.reading-focus-mode nav,
+  body.reading-focus-mode footer,
+  body.reading-focus-mode .fixed:not(.z-\[100\]):not(.focus-toolbar) {
+    display: none !important;
+  }
+
+  body.reading-focus-mode {
+    background-color: var(--color-background-dark) !important;
+  }
+
+  body.reading-focus-mode main {
+    padding-top: 2rem !important;
+    max-width: 800px !important;
+  }
+}
+
+/* ========================================
+   Module 3.5: Elegant Print Mode
+   ======================================== */
+@media print {
+
+  /* Force readable colors */
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Hide all interactive/non-content UI */
+  header,
+  footer,
+  nav,
+  [data-print-hide],
+  [class*="fixed"],
+  [class*="ShareButtons"],
+  button,
+  .fab,
+  iframe {
+    display: none !important;
+  }
+
+  /* Reset card backgrounds */
+  .dark {
+    background: white !important;
+    color: black !important;
+  }
+
+  /* Clean article layout */
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Ensure prose is legible */
+  .prose {
+    color: black !important;
+    max-width: 100% !important;
+  }
+
+  .prose a {
+    color: black !important;
+    text-decoration: underline !important;
+  }
+
+  /* Show URL after links */
+  .prose a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #666;
+  }
+
+  /* Prevent page breaks inside elements */
+  img,
+  pre,
+  blockquote,
+  table,
+  figure {
+    break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+  }
+}

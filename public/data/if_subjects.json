@@ -1,0 +1,1931 @@
+[
+    {
+        "codigo": "4300380",
+        "nome": "Ciência e Cultura",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Valéria Silva Dias"
+                ],
+                "horarios": [
+                    "ter 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300157",
+        "nome": "Ciência, Educação e Linguagem",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Cristiano Rodrigues de Mattos"
+                ],
+                "horarios": [
+                    "qua 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Cristiano Rodrigues de Mattos"
+                ],
+                "horarios": [
+                    "qua 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300458",
+        "nome": "Complementos de Mecânica Clássica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Alexandre Alarcon do Passo Suaide"
+                ],
+                "horarios": [
+                    "seg 08:00 10:00",
+                    "qui 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Saulo Gabriel Pereira Nascimento Alberton"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300270",
+        "nome": "Eletricidade e Magnetismo I",
+        "turmas": [
+            {
+                "codigo": "2026110",
+                "professores": [
+                    "Julio Antonio Larrea Jimenez"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qui 08:00 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300271",
+        "nome": "Eletricidade e Magnetismo II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Germano Maioli Penello"
+                ],
+                "horarios": [
+                    "seg 08:00 10:00",
+                    "qui 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Fabricio Marques do Carmo"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4305003",
+        "nome": "Eletrodinâmica I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Luis Raul Weber Abramo"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00",
+                    "sex 10:00 12:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302303",
+        "nome": "Eletromagnetismo I",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Luiz Gustavo Pimenta Martins"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302304",
+        "nome": "Eletromagnetismo II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Fernando Assis Garcia"
+                ],
+                "horarios": [
+                    "qua 08:00 10:00",
+                    "sex 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300437",
+        "nome": "Física das Radiações I",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Paulo Roberto Costa"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "sex 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300159",
+        "nome": "Física do Calor",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Adriano Mesquita Alencar"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00",
+                    "sex 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Fernando Silveira Navarra"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00",
+                    "sex 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Alessio Mangiarotti"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00",
+                    "sex 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Émerson Flamarion da Cruz"
+                ],
+                "horarios": [
+                    "ter 19:20 21:00",
+                    "sex 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300325",
+        "nome": "Física do Corpo Humano",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Atílio Tomazini Junior"
+                ],
+                "horarios": [
+                    "ter 16:00 18:00",
+                    "qua 16:00 18:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Atílio Tomazini Junior"
+                ],
+                "horarios": [
+                    "qua 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4305113",
+        "nome": "Física do Estado Sólido II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Eric de Castro e Andrade"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qua 10:00 12:00",
+                    "sex 10:00 12:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4323201",
+        "nome": "Física Experimental A",
+        "turmas": [
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Adilson Barros Wanderley"
+                ],
+                "horarios": [
+                    "seg 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Adilson Barros Wanderley"
+                ],
+                "horarios": [
+                    "seg 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026123",
+                "professores": [
+                    "Alain Andre Quivy"
+                ],
+                "horarios": [
+                    "seg 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026133",
+                "professores": [
+                    "Alain Andre Quivy"
+                ],
+                "horarios": [
+                    "ter 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026134",
+                "professores": [
+                    "Alain Andre Quivy"
+                ],
+                "horarios": [
+                    "ter 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026141",
+                "professores": [
+                    "Kelly Cristina Cezaretto Pires"
+                ],
+                "horarios": [
+                    "qua 07:30 11:00"
+                ]
+            },
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Alain Andre Quivy"
+                ],
+                "horarios": [
+                    "qua 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "Gennady Gusev"
+                ],
+                "horarios": [
+                    "qua 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026153",
+                "professores": [
+                    "Kelly Cristina Cezaretto Pires"
+                ],
+                "horarios": [
+                    "qui 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Leandro Romero Gasques"
+                ],
+                "horarios": [
+                    "qui 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026161",
+                "professores": [
+                    "Saulo Gabriel Pereira Nascimento Alberton"
+                ],
+                "horarios": [
+                    "sex 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026163",
+                "professores": [
+                    "Adilson Barros Wanderley"
+                ],
+                "horarios": [
+                    "sex 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026164",
+                "professores": [
+                    "Adilson Barros Wanderley"
+                ],
+                "horarios": [
+                    "sex 13:10 16:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4323301",
+        "nome": "Física Experimental C",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "qui 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "qui 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "qui 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 14:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 14:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026106",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 14:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026107",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "qui 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026108",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "qui 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026109",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "qui 08:20 12:00"
+                ]
+            },
+            {
+                "codigo": "2026110",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 14:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 14:00 17:30"
+                ]
+            },
+            {
+                "codigo": "2026112",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 14:00 17:30"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4323303",
+        "nome": "Física Experimental C",
+        "turmas": [
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 07:30 11:10"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "sex 07:30 11:10"
+                ]
+            },
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "ter 07:30 11:00"
+                ]
+            },
+            {
+                "codigo": "2026112",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "ter 07:30 11:00"
+                ]
+            },
+            {
+                "codigo": "2026113",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "ter 13:10 16:40"
+                ]
+            },
+            {
+                "codigo": "2026114",
+                "professores": [
+                    "José Helder Facundo Severo"
+                ],
+                "horarios": [
+                    "ter 13:10 16:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302113",
+        "nome": "Física Experimental I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Alexandre Lima Correia"
+                ],
+                "horarios": [
+                    "seg 14:00 16:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Alexandre Lima Correia"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Alexandre Lima Correia"
+                ],
+                "horarios": [
+                    "ter 14:00 16:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Alexandre Lima Correia"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "Zwinglio de Oliveira Guimarães Filho"
+                ],
+                "horarios": [
+                    "qua 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302213",
+        "nome": "Física Experimental III",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Nelson Carlin Filho"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00",
+                    "qua 12:00 14:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [],
+                "horarios": [
+                    "qui 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "(R) Nelson Carlin Filho"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00",
+                    "qua 12:00 14:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Giancarlo Esposito de Souza Brito"
+                ],
+                "horarios": [
+                    "qui 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026106",
+                "professores": [
+                    "Giancarlo Esposito de Souza Brito"
+                ],
+                "horarios": [
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302313",
+        "nome": "Física Experimental V",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Rosangela Itri"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00",
+                    "qua 12:00 14:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Leandro Ramos Souza Barbosa"
+                ],
+                "horarios": [
+                    "qua 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4323101",
+        "nome": "Física I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Euzi Conceicao Fernandes da Silva"
+                ],
+                "horarios": [
+                    "sex 14:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Alexandre Levine"
+                ],
+                "horarios": [
+                    "sex 14:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Euzi Conceicao Fernandes da Silva"
+                ],
+                "horarios": [
+                    "seg 08:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Alexandre Levine"
+                ],
+                "horarios": [
+                    "seg 08:20 11:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302111",
+        "nome": "Física I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Carla Goldman"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qua 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Luana Sucupira Pedroza"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00",
+                    "qua 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Luiz Carlos Camargo Miranda Nagamine"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00",
+                    "qua 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Renato Higa"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "qua 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4310145",
+        "nome": "Física I",
+        "turmas": [
+            {
+                "codigo": "2026120",
+                "professores": [
+                    "Marcelo Martinelli"
+                ],
+                "horarios": [
+                    "ter 19:00 20:40",
+                    "qui 21:00 22:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4310114",
+        "nome": "Física II",
+        "turmas": [
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "Luciana Varanda Rizzo"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qui 09:40 11:20"
+                ]
+            },
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Eduardo Tremea Casali"
+                ],
+                "horarios": [
+                    "ter 14:00 16:00",
+                    "sex 08:00 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302112",
+        "nome": "Física II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Leandro Ramos Souza Barbosa"
+                ],
+                "horarios": [
+                    "ter 12:00 14:00",
+                    "qua 18:00 19:00",
+                    "qui 18:00 19:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4323203",
+        "nome": "Física III",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Pablo Souza de Castro Melo"
+                ],
+                "horarios": [
+                    "ter 15:00 16:40",
+                    "qui 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Ana Júlia Silveira Mizher"
+                ],
+                "horarios": [
+                    "ter 13:10 14:50",
+                    "qui 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Osvaldo Camargo Botelho dos Santos"
+                ],
+                "horarios": [
+                    "ter 15:00 16:40",
+                    "qui 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Helena Maria Petrilli"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qua 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "Thaís Azevedo Enoki Liarte"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qui 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026106",
+                "professores": [
+                    "Carlos Eduardo Fiore dos Santos"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qui 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026107",
+                "professores": [
+                    "Jose Roberto Brandao de Oliveira"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026108",
+                "professores": [
+                    "Marco Aurélio Brizzotti Andrade"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qui 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026109",
+                "professores": [
+                    "Andre Paniago Lessa"
+                ],
+                "horarios": [
+                    "seg 09:20 11:00",
+                    "qua 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026110",
+                "professores": [
+                    "Andre Paniago Lessa"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "Lucas Bizarria Freitas"
+                ],
+                "horarios": [
+                    "seg 07:30 09:10",
+                    "qua 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026112",
+                "professores": [
+                    "Osvaldo Camargo Botelho dos Santos"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qua 13:10 14:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302211",
+        "nome": "Física III",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Marcio Teixeira do Nascimento Varella"
+                ],
+                "horarios": [
+                    "seg 08:00 10:00",
+                    "qua 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Gustavo Paganini Canal"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "ter 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Valdir Guimaraes"
+                ],
+                "horarios": [
+                    "seg 08:00 10:00",
+                    "qua 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Sergio Luiz Morelhao"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00",
+                    "qua 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4310245",
+        "nome": "Física III",
+        "turmas": [
+            {
+                "codigo": "2026110",
+                "professores": [
+                    "Maria Fernanda Araujo de Resende"
+                ],
+                "horarios": [
+                    "qua 08:00 09:40",
+                    "sex 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302212",
+        "nome": "Física IV",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Elcio Abdalla"
+                ],
+                "horarios": [
+                    "seg 12:00 14:00",
+                    "qua 12:00 14:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4310250",
+        "nome": "Física IV",
+        "turmas": [
+            {
+                "codigo": "2026120",
+                "professores": [
+                    "Erix Alexander Milán Garcés"
+                ],
+                "horarios": [
+                    "qua 21:00 22:40",
+                    "sex 19:00 20:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302204",
+        "nome": "Física Matemática I",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Paulo Teotonio Sobrinho"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302307",
+        "nome": "Física Matemática II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Ricardo Correa da Silva"
+                ],
+                "horarios": [
+                    "qua 10:00 12:00",
+                    "sex 08:00 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300234",
+        "nome": "Física no Ensino Fundamental",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Anne Louise Scarinci Peres"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4310190",
+        "nome": "Física para Ciências Biológicas",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Edilaine Honório da Silva"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4310183",
+        "nome": "Física para Farmácia",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Pedro Vinícius Guillaumon"
+                ],
+                "horarios": [
+                    "qui 13:00 16:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Pedro Vinícius Guillaumon"
+                ],
+                "horarios": [
+                    "qui 18:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302311",
+        "nome": "Física Quântica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Sylvio Roberto Accioly Canuto"
+                ],
+                "horarios": [
+                    "seg 08:00 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300151",
+        "nome": "Fundamentos de Mecânica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Rafael Sá de Freitas"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qui 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Marcia Carvalho de Abreu Fantini"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300409",
+        "nome": "Grupos e Tensores Aplicados à Ciência dos Materiais",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Lucy Vitoria Credidio Assali"
+                ],
+                "horarios": [
+                    "ter 14:00 16:00",
+                    "sex 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300207",
+        "nome": "Integração de Conceitos Básicos de Matemática e Física",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "(R) Renato Higa"
+                ],
+                "horarios": [
+                    "qui 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Luiz Carlos Camargo Miranda Nagamine"
+                ],
+                "horarios": [
+                    "sex 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "(R) Renato Higa"
+                ],
+                "horarios": [
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300315",
+        "nome": "Introdução à Física Atômica e Molecular",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [],
+                "horarios": [
+                    "ter 16:00 18:00",
+                    "qui 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300402",
+        "nome": "Introdução à Física do Estado Sólido",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Valentina Martelli"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00",
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300379",
+        "nome": "Introdução à Física do Estado Sólido -  Física Moderna IIB",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Daniel Reinaldo Cornejo"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300378",
+        "nome": "Introdução à Física Nuclear e de Partículas Elementares - Física Moderna IIA",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Fernando Silveira Navarra"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00",
+                    "sex 10:00 12:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300371",
+        "nome": "Introdução à Mecânica Quântica Ondulatória",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Tiago Fiorini da Silva"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00",
+                    "qui 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "(R) Marcelo Gameiro Munhoz"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300337",
+        "nome": "Introdução à Relatividade",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Gabriel Santos Menezes"
+                ],
+                "horarios": [
+                    "seg 16:00 18:00",
+                    "qua 16:00 18:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Edivaldo Moura Santos"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "sex 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4305107",
+        "nome": "Introdução à Teoria Quântica de Campos I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Oscar Jose Pinto Eboli"
+                ],
+                "horarios": [
+                    "ter 14:00 16:00",
+                    "qui 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300152",
+        "nome": "Introdução às Medidas em Física",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Cristiano Luis Pinto de Oliveira"
+                ],
+                "horarios": [
+                    "sex 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Danilo Mustafa"
+                ],
+                "horarios": [
+                    "qui 19:20 21:00"
+                ]
+            },
+            {
+                "codigo": "2026148",
+                "professores": [
+                    "Ewout ter Haar"
+                ],
+                "horarios": [
+                    "sex 19:20 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300373",
+        "nome": "Laboratório de Eletromagnetismo",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Ewout ter Haar"
+                ],
+                "horarios": [
+                    "qua 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Gennady Gusev"
+                ],
+                "horarios": [
+                    "qua 19:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4310256",
+        "nome": "Laboratório de Física",
+        "turmas": [
+            {
+                "codigo": "2026110",
+                "professores": [
+                    "Renato de Figueiredo Jardim"
+                ],
+                "horarios": [
+                    "sex 14:00 18:00"
+                ]
+            },
+            {
+                "codigo": "2026120",
+                "professores": [
+                    "Renato de Figueiredo Jardim"
+                ],
+                "horarios": [
+                    "qui 19:00 20:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300254",
+        "nome": "Laboratório de Mecânica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Renato de Figueiredo Jardim"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Renato de Figueiredo Jardim"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Alexandre Levine"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Alexandre Levine"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300255",
+        "nome": "Mecânica dos Corpos Rígidos e dos Fluidos",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Nora Lia Maidana"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qui 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Nilberto Heder Medina"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300324",
+        "nome": "Mecânica dos Fluidos",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Mauro Sergio Dorsa Cattani"
+                ],
+                "horarios": [
+                    "ter 14:00 16:00",
+                    "sex 16:00 18:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302401",
+        "nome": "Mecânica Estatística",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Andre de Pinho Vieira"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "sex 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302305",
+        "nome": "Mecânica I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Eric de Castro e Andrade"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00",
+                    "qui 08:00 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302306",
+        "nome": "Mecânica II",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Airton Deppman"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4305001",
+        "nome": "Mecânica Quântica Avançada I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Renata Zukanovich Funchal"
+                ],
+                "horarios": [
+                    "seg 14:00 16:00",
+                    "qua 14:00 16:00",
+                    "qui 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4305002",
+        "nome": "Mecânica Quântica Avançada II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Matthew William Luzum"
+                ],
+                "horarios": [
+                    "seg 14:00 16:00",
+                    "qua 14:00 16:00",
+                    "qui 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302403",
+        "nome": "Mecânica Quântica I",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Alberto Martinez Torres"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00",
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302404",
+        "nome": "Mecânica Quântica II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Paulo Alberto Nussenzveig"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00",
+                    "qui 10:00 12:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4305205",
+        "nome": "Microscopia de Força Atômica e Tunelamento",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Maria Cecilia Barbosa da Silveira Salvadori"
+                ],
+                "horarios": [
+                    "qua 10:00 13:00"
+                ]
+            },
+            {
+                "codigo": "2026101",
+                "professores": [],
+                "horarios": [
+                    "qui 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026101",
+                "professores": [],
+                "horarios": [
+                    "qui 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300490",
+        "nome": "Monografia para Licenciatura em Física",
+        "turmas": [
+            {
+                "codigo": "2026101 (Disciplina Anual)",
+                "professores": [
+                    "(R) Valéria Silva Dias"
+                ],
+                "horarios": [
+                    "seg 12:00 14:00"
+                ]
+            },
+            {
+                "codigo": "2026102 (Disciplina Anual)",
+                "professores": [
+                    "Andre Machado Rodrigues"
+                ],
+                "horarios": [
+                    "ter 17:00 19:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300357",
+        "nome": "Oscilações e Ondas",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Greiciane de Jesus Cesário"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Pedro Eleutério Mendonça de Almeida"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300160",
+        "nome": "Ótica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Anne Louise Scarinci Peres"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "(R) Ivã Gurgel"
+                ],
+                "horarios": [
+                    "qua 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Joselaine Setlik"
+                ],
+                "horarios": [
+                    "qua 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Joselaine Setlik"
+                ],
+                "horarios": [
+                    "qui 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026148",
+                "professores": [
+                    "Joselaine Setlik"
+                ],
+                "horarios": [
+                    "qui 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300503",
+        "nome": "Perspectivas sobre diversidade em Física Médica: participação de mulheres e outros grupos sub-representados",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Edilaine Honório da Silva"
+                ],
+                "horarios": [
+                    "seg 14:00 17:00",
+                    "ter 14:00 17:00",
+                    "qua 14:00 17:00",
+                    "qui 14:00 17:00",
+                    "sex 14:00 17:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300390",
+        "nome": "Práticas em Ensino de Física e Ciências",
+        "turmas": [
+            {
+                "codigo": "2026101 (Disciplina Anual)",
+                "professores": [
+                    "Anne Louise Scarinci Peres"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102 (Disciplina Anual)",
+                "professores": [
+                    "Joselaine Setlik"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300223",
+        "nome": "Probabilidade",
+        "turmas": [
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Nestor Felipe Caticha Alfonso"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "sex 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300358",
+        "nome": "Propostas e Projetos para o Ensino de Física e Ciências",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Jose Luis Nami Adum Ortega"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qui 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Jose Luis Nami Adum Ortega"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "qui 19:00 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4302308",
+        "nome": "Termodinâmica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Silvio Roberto de Azevedo Salinas"
+                ],
+                "horarios": [
+                    "seg 16:00 18:00",
+                    "qua 16:00 18:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4305103",
+        "nome": "Tópicos avançados em tratamento estatístico de dados em física experimental",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Zwinglio de Oliveira Guimarães Filho"
+                ],
+                "horarios": [
+                    "ter 14:00 17:00",
+                    "sex 14:00 17:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300353",
+        "nome": "Tópicos de História da Física Clássica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Ivã Gurgel"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Ivã Gurgel"
+                ],
+                "horarios": [
+                    "seg 16:00 18:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Ivã Gurgel"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "4300464",
+        "nome": "Trabalho de Conclusão de Curso",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Alexandre Lima Correia"
+                ],
+                "horarios": [
+                    "sab 10:00 11:00"
+                ]
+            }
+        ]
+    }
+]

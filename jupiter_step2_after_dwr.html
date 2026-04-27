@@ -1,0 +1,1943 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<title>Jupiterweb</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+<meta http-equiv="Expires" content="-1">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/imagens/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/menuweb.css" type="text/css" rel="stylesheet">
+<style>
+#layout_principal {
+	width: 100%;
+}
+
+#layout_cabecalho {
+
+}
+
+#layout_menu {
+	width: 170px;
+	float: left;
+	padding-top: 10px;
+}
+
+#layout_conteudo {
+	padding-left: 181px;
+	padding-top: 10px;
+}
+</style><style>.cke{visibility:hidden;}</style></head>
+
+<!--[if IE]>
+	<style>
+		#layout_conteudo {
+			padding-left: 10px;
+			padding-right: 2px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			overflow:auto;
+		}
+	</style>
+	<![endif]-->
+<body>
+
+	<div id="layout_principal">
+		<div id="layout_cabecalho">
+			
+
+<style>
+	a.cabecalho_sair:active  {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:link    {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:visited {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:none;}
+	a.cabecalho_sair:hover   {font-family:verdana; font-weight:bold; color:#FFFFFF; text-decoration:underline;}
+
+	td.font_cabecalho1 {
+		font:bold 26px Tahoma;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho2 {
+		font:bold 10px Arial;
+		color: #FFFFFF;
+	}
+	td.font_cabecalho3 {
+		font:normal 9px Verdana;
+		color: #FFFFFF;
+	}
+</style>
+
+<table width="100%" height="60" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+		<td width="180" rowspan="3" align="center">
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo.png" width="122" height="49" alt="" border="0" style="position: relative; top: -3px;"></a>
+		</td>
+		<td>
+			<a href="http://www.usp.br" target="_blank"><img src="https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/usp-logo-texto.png" alt="" width="260" height="44" border="0" style="position: relative; top: 5px;"></a>
+		</td>
+	</tr>
+</tbody></table>
+<div style="width: 100%; height: 14px; background-image: url('https://uspdigital.usp.br/comumwebdev/imagens/cabecalho/bg-headtop.gif'); margin-bottom: 5px; text-align: right; color: white; padding-top: 12px; padding-right: 3px; font-family: Verdana; font-size: 10px;">
+	
+		15584107 - João Paulo Stangorlini de Carvalho |
+		Aluno |
+		<a href="alterarSenha?codmnu=0" class="cabecalho_sair" style="">Alterar Senha</a> |
+		<a href="sair" class="cabecalho_sair" style="">Sair</a>
+	
+</div>
+
+		</div>
+
+		<div id="layout_menu">
+			
+
+
+
+
+	
+
+<!-- FreeStyle Menu v1.0RC by Angus Turnbull http://www.twinhelix.com -->
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/fsmenu.js"></script>
+
+<!-- Demo CSS layouts for the list menu. Pick your favourite one and customise! -->
+<!-- Remove all but one and change "alternate stylesheet" to "stylesheet" to enable -->
+<link rel="stylesheet" type="text/css" id="listmenu-v" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_v.css" title="Vertical 'Earth'">
+
+<!-- Fallback CSS menu file allows list menu operation when JS is disabled. -->
+<!-- This is automatically disabled via its ID when the script kicks in. -->
+<link rel="alternate stylesheet" type="text/css" id="fsmenu-fallback" href="https://uspdigital.usp.br/comumwebdev/libs/javascript/fsmenu/1.0RC/listmenu_fallback.css" disabled="">
+
+
+<script type="text/javascript">
+	//<![CDATA[
+
+	var arrow = null;
+	if (document.createElement && document.documentElement) {
+		//arrow = document.createElement('span');
+		//arrow.appendChild(document.createTextNode('>'));
+		// Feel free to replace the above two lines with these for a small arrow image...
+		arrow = document.createElement('img');
+		arrow.src = 'https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif';
+		arrow.style.borderWidth = '0';
+		arrow.className = 'subind';
+	}
+
+	if ("[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != null && "[{codmnu=4525, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Calendário Escolar, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4525}, {codmnu=7920, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2025, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=8&anoprg=2025, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=8&anoprg=2025&codmnu=7920}, {codmnu=6863, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=2026, nomobtweb=jupArquivosPublicos.jsp, pmeobtweb=tiparq=9&anoprg=2026, dscmnu=null, codmnupai=4525, staabt=N, urlsie=null, numnivhie=2, linmnu=jupArquivosPublicos.jsp?tiparq=9&anoprg=2026&codmnu=6863}, {codmnu=8275, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Cursos de ingresso, nomobtweb=jupCarreira.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=jupCarreira.jsp?codmnu=8275}, {codmnu=4526, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Disciplina, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=4526}, {codmnu=6755, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Disciplinas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=D, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=D&codmnu=6755}, {codmnu=6756, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Busca por Turmas, nomobtweb=jupDisciplinaBusca, pmeobtweb=tipo=T, dscmnu=null, codmnupai=4526, staabt=N, urlsie=null, numnivhie=2, linmnu=jupDisciplinaBusca?tipo=T&codmnu=6756}, {codmnu=6757, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Editais, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=6757}, {codmnu=6758, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Programa Unificado de Bolsas(PUB), nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=index.jsp?codmnu=6758}, {codmnu=10872, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2024-2025, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2024&codm?codmnu=10872}, {codmnu=11502, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Edital 2025-2026, nomobtweb=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm, pmeobtweb=null, dscmnu=null, codmnupai=6758, staabt=N, urlsie=null, numnivhie=3, linmnu=https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&anoprg=2025&codm?codmnu=11502}, {codmnu=6762, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PEEG, nomobtweb=http://www.prg.usp.br/?page_id=399, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?page_id=399?codmnu=6762}, {codmnu=10838, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=PAP, nomobtweb=https://prg.usp.br/programas-e-bolsas/, pmeobtweb=null, dscmnu=null, codmnupai=6757, staabt=N, urlsie=null, numnivhie=2, linmnu=https://prg.usp.br/programas-e-bolsas/?codmnu=10838}, {codmnu=7951, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=index.jsp, pmeobtweb=null, dscmnu=null, codmnupai=null, staabt=N, urlsie=null, numnivhie=1, linmnu=index.jsp?codmnu=7951}, {codmnu=7952, codgrpweb=191, nomgrpweb=Público, stapai=S, stavrfnivseg=S, elmmnu=Matrícula Interativa, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=FAQ.jsp?codmnu=7952}, {codmnu=9326, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=FAQ, nomobtweb=FAQ.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=FAQ.jsp?codmnu=9326}, {codmnu=9327, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais, nomobtweb=grdMatriculainterativaInformacoes.jsp, pmeobtweb=null, dscmnu=null, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=grdMatriculainterativaInformacoes.jsp?codmnu=9327}, {codmnu=8946, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=TUTORIAL - NOVA MATRÍCULA, nomobtweb=graduacaoAjudaNovaMatricula, pmeobtweb=null, dscmnu=Liberar próximo da matricula, codmnupai=7952, staabt=N, urlsie=null, numnivhie=3, linmnu=graduacaoAjudaNovaMatricula?codmnu=8946}, {codmnu=6749, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Jupiterweb em Vídeos, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20746, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20746&codmnu=6749}, {codmnu=8063, codgrpweb=191, nomgrpweb=Público, stapai=N, stavrfnivseg=S, elmmnu=Informações gerais sobre a Graduação, nomobtweb=http://www.prg.usp.br/, pmeobtweb=p=20741, dscmnu=null, codmnupai=7951, staabt=N, urlsie=null, numnivhie=2, linmnu=http://www.prg.usp.br/?p=20741&codmnu=8063}]" != '') {
+		// Here's a menu object to control the above list of menu data:
+		var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+		listMenu.hideDelay = 800;
+		//listMenu.showDelay = 0;
+		//listMenu.switchDelay = 125;
+		//listMenu.cssLitClass = 'highlighted';
+		//listMenu.showOnClick = 0;
+		listMenu.hideOnClick = true;
+		listMenu.animInSpeed = 0.5;
+		listMenu.animOutSpeed = 0.5;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+		listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu.activateMenu("listMenuRoot", arrow)'));
+	}
+
+	if ("true" != "false") {
+		var listMenu2 = new FSMenu('listMenu2', true, 'display', 'block',
+				'none');
+		listMenu2.hideDelay = 800;
+		listMenu2.hideOnClick = true;
+		listMenu2.animInSpeed = 0.5;
+		listMenu2.animOutSpeed = 0.5;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animFade;
+		listMenu2.animations[listMenu2.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu2.activateMenu("listMenuRoot2", arrow)'));
+	} else {
+		var listMenu3 = new FSMenu('listMenu3', true, 'display', 'block',
+				'none');
+		listMenu3.hideDelay = 800;
+		listMenu3.hideOnClick = true;
+		listMenu3.animInSpeed = 0.5;
+		listMenu3.animOutSpeed = 0.5;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animFade;
+		listMenu3.animations[listMenu3.animations.length] = FSMenu.animSwipeDown;
+		addReadyEvent(new Function(
+				'listMenu3.activateMenu("listMenuRoot3", arrow)'));
+	}
+	//]]>
+</script>
+
+<!-- PUBLICO -->
+
+	
+	<ul class="menulist" id="listMenuRoot">
+		
+			
+				<li class="menuHeader">Público</li>
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Calendário Escolar</span></a>
+		<ul id="listMenu-id-1">
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=8&amp;anoprg=2025&amp;codmnu=7920" title="">2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupArquivosPublicos.jsp?tiparq=9&amp;anoprg=2026&amp;codmnu=6863" title="">2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="jupCarreira.jsp?codmnu=8275" title="">Cursos de ingresso</a></li>
+
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Disciplina</span></a>
+		<ul id="listMenu-id-2">
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=D&amp;codmnu=6755" title="">Busca por Disciplinas</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="jupDisciplinaBusca?tipo=T&amp;codmnu=6756" title="">Busca por Turmas</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Editais</span></a>
+		<ul id="listMenu-id-3">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Programa Unificado de Bolsas(PUB)</span></a>
+		<ul id="listMenu-id-4">
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2024&amp;codm?codmnu=10872" title="">Edital 2024-2025</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://uspdigital.usp.br/juno/bnfArquivosPublicos.jsp?tiparq=1&amp;anoprg=2025&amp;codm?codmnu=11502" title="">Edital 2025-2026</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?page_id=399?codmnu=6762" title="">PEEG</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="https://prg.usp.br/programas-e-bolsas/?codmnu=10838" title="">PAP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>FAQ</span></a>
+		<ul id="listMenu-id-5">
+
+
+
+
+			
+			
+
+
+	<li><a href="#" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Matrícula Interativa</span></a>
+		<ul id="listMenu-id-6">
+
+
+
+
+			
+			
+
+	<li><a href="FAQ.jsp?codmnu=9326" title="">FAQ</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="grdMatriculainterativaInformacoes.jsp?codmnu=9327" title="">Informações gerais</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="graduacaoAjudaNovaMatricula?codmnu=8946" title="Liberar próximo da matricula">TUTORIAL - NOVA MATRÍCULA</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+	<li><a href="http://www.prg.usp.br/?p=20746&amp;codmnu=6749" title="">Jupiterweb em Vídeos</a></li>
+
+
+
+
+
+			
+			
+
+	<li><a href="http://www.prg.usp.br/?p=20741&amp;codmnu=8063" title="">Informações gerais sobre a Graduação</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		
+	
+
+
+
+
+<div style="font-size: 7px">&nbsp;</div>
+
+
+<!-- NAO AUTENTICADO -->
+
+
+<!-- AUTENTICADO -->
+
+	
+	<ul class="menulist" id="listMenuRoot2">
+		
+			
+				<li class="menuHeader">Acesso Restrito</li>
+				
+			
+			
+
+
+
+	
+	<li><a href="graduacaoInscricaoAEX?codmnu=11425" title="">Atividades Extensionistas Curriculares (AEX)</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="graduacaoMatriculaIngressanteConfirm?codmnu=10627" title="">Etapa Virtual de Efetivação de Matrícula</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4556" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Matrícula</span></a>
+		<ul id="listMenu2-id-7">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="graduacaoMatricula?codmnu=8953" title="">Fazer Matrícula</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="identificacaoAlunoDadosPeriodoMatriculaTabs?codmnu=4734" title="">Período ideal calculado</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="listarResultadoConsolidacaoTabs?codmnu=4741" title="">Resultado das consolidações</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="grdRemoverOptLivres?codmnu=7998" title="">Remoção de matrículas do semestre atual</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+	
+	<li><a href="gradeHoraria?codmnu=4759" title="">Grade horária</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="historicoEscolar?codmnu=4538" title="">Histórico escolar</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4537" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Acompanhamentos</span></a>
+		<ul id="listMenu2-id-8">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="evolucaoCurso?codmnu=4752" title="">Evolução no curso</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="rendimentoAcademico?codmnu=4761" title="">Rendimento acadêmico</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4773" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Perfil</span></a>
+		<ul id="listMenu2-id-9">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="questionarioPortDeficienciasAlunoTabs?codmnu=4750" title="">De Deficiências</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+	
+	<li><a href="beneficioAlunoConsultaTab?codmnu=4737" title="">Meus benefícios e bolsas</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4542" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Dados pessoais</span></a>
+		<ul id="listMenu2-id-10">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="uspDadosPessoaisMostrar?codmnu=4543" title="">Consulta</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="uspPessoaEnderecoListar?codmnu=4544" title="">Alterar endereço</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="uspPessoaTelefoneListar?codmnu=4545" title="">Alterar telefone</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="uspPessoaContaBancariaListar?codmnu=4701" title="">Alterar conta bancária</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+	
+	<li><a href="CarteiraUSPSequenciaServidor?acessoMenu=I&amp;codmnu=4661" title="">Cartão USP</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+	
+	<li><a href="graduacaoBilheteUnicoSptrans?codmnu=9922" title="">Bilhete Único SPTrans</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4564" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Emissão de documentos</span></a>
+		<ul id="listMenu2-id-11">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="emissaoDocumentos?codmnu=4745" title="">Documentos</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="RendimentoObterAno?tipo=irpf&amp;codmnu=4695" title="">Informe de Rendimentos</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+	
+	<li><a href="jupCursoOpcoesVerificar?codmnu=4563" title="">Opção de curso</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4561" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Estágio pago pela USP</span></a>
+		<ul id="listMenu2-id-12">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="ConsultasEstagioSolicitacaoAluno?codmnu=4675" title="">Solicitações</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="ConsultasEstagioRHAluno?codmnu=4676" title="">Estágios</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="ConsultasRelatAuxTransp?codmnu=4671" title="">Auxílio Transporte</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=12439" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Estágio externo</span></a>
+		<ul id="listMenu2-id-13">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="ConsultasEstagioOcorrencia?codmnu=4672" title="">Ocorrências de Frequência</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="FolhaPagamentoListar?codmnu=4673" title="">Hollerith</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="estagioExterno?codmnu=12446" title="">Estágio externo</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="RendimentoObterAno?tipo=irpf&amp;codmnu=4674" title="">Informe de Rendimentos</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4547" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Programa de bolsas</span></a>
+		<ul id="listMenu2-id-14">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="beneficioBolsaUnificadaListar?codmnu=6684" title="">Programa Unificado de Bolsas</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="beneficioPeegOferecidoListar?codbnfalu=52&amp;nov=&amp;codmnu=4555" title="">Bolsa PEEG - Monitoria</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="paptutoriaInscricao?codmnu=10833" title="Aluno">Bolsa PAP-Tutoria</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="proiadInscricao?codmnu=10946" title="">Bolsa PROIAD - Docência</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=12601" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Bolsa SEDUC - Estágio</span></a>
+		<ul id="listMenu2-id-15">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="graduacaoAceiteTermoOutorgaEstagioSEDUC?codmnu=12602" title="">Aceite do termo de outorga</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+	</ul>
+	</li>
+	
+
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=11553" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Auxílios permanência/PRIP</span></a>
+		<ul id="listMenu2-id-16">
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=4686" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>PAPFE</span></a>
+		<ul id="listMenu2-id-17">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="BenefCoseasInscritoFormIncluir?codmnu=4549" title="">Inscrição</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="BenefCoseasProtocoloGerar?codmnu=10029" title="">Protocolo de inscrição</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="benpapfeinscrecursoFormIncluir?codmnu=10053" title="">Solicitar Reconsideração</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="QuestionarioAcompanhamentoPapfeForm?codqtn=3&amp;codmnu=11357" title="">Questionário de acompanhamento</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=11554" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Auxílio Provão Paulista</span></a>
+		<ul id="listMenu2-id-18">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="graduacaoAceiteTermoCompromissoAuxilioProvaoPaulista?codmnu=11555" title="">Aceite do termo de compromisso</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=12378" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Auxílio USP Diversa</span></a>
+		<ul id="listMenu2-id-19">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="graduacaoAceiteTermoOutorgaUspDiversa?codmnu=12379" title="">Aceite do termo de outorga</a></li>
+
+
+
+
+
+			
+			
+				
+	</ul>
+	</li>
+	
+	</ul>
+	</li>
+	
+
+
+
+
+	
+	<li><a href="iFriendsFormInscrever?codmnu=4704" title="">Programa USP iFriends</a></li>
+
+
+
+
+
+			
+			
+
+
+
+
+	
+	<li><a href="webMenuNavegacao.jsp?codmnu=6213" title=""><img src="https://uspdigital.usp.br/comumwebdev/imagens/icones/11/arrow_sub1.gif" class="subind" style="border-width: 0px;"><span>Requerimento</span></a>
+		<ul id="listMenu2-id-20">
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="graduacaoReqMatricula?codmnu=4546" title="">Requerimento de matrícula</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="atividadeAcademicaComplementar?codmnu=6214" title="">Atividades Acadêmicas Complementares - AAC</a></li>
+
+
+
+
+
+			
+			
+
+
+
+	
+	<li><a href="graduacaoReqDesistencia?codmnu=11263" title="">Desistência definitiva do curso</a></li>
+
+
+
+	
+		</ul>
+		</li>
+	
+		</ul>
+		
+	
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+		</div>
+
+		<div id="layout_conteudo">
+			
+
+			
+
+			
+			
+				
+			
+
+			
+				
+
+
+
+	
+		
+	
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/temas/ui-lightness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/ui.jqgrid.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.css">
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/jupiterweb.css">
+<link type="text/css" rel="stylesheet" href="/jupiterweb/css/comum.css">
+
+
+<!-- HTML 5 Tags para IE8 -->
+<!--[if lt IE 9]>
+	   <script>
+	      document.createElement('header');
+	      document.createElement('nav');
+	      document.createElement('section');
+	      document.createElement('article');
+	      document.createElement('aside');
+	      document.createElement('footer');
+	   </script>
+	<![endif]-->
+	
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jqueryui/1.8.24/jquery.ui.datepicker-pt-BR.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/blockUI/2.36/jquery.blockUI.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.fancybox.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/fancybox/1.3.4/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/validationEngine/2.6.2/jquery.validationEngine-pt.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/jquery.jqGrid.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/jqGrid/4.4.3/grid.locale-pt-br.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/simplemodal/1.4.4/jquery.simplemodal.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/exists/0.1/jquery.exists.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maskedInput/1.2.2/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.plugin.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/jquery/plugins/maxlength/2.0.1/jquery.maxlength.min.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/ckeditor.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/javascript/ckeditor/4.4.7/adapters/jquery.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/usp/util/1.0/util.js"></script>
+<script type="text/javascript" src="https://uspdigital.usp.br/comumwebdev/libs/messages/1.3.0-0/messages.min.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/engine.js"></script>
+<script type="text/javascript" src="/jupiterweb/dwr/util.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/usp-exception-dwr.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/comum.js"></script>
+<script type="text/javascript" src="/jupiterweb/javascript/jupiterweb.js"></script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-K1Y204Q919"></script>
+<script src="usp-ga4.js"></script>
+
+<style>
+#simplemodal-container a.modalCloseImg {
+	background:
+		url(images/jquery/jquery.simple.modal/x.png)
+		no-repeat; /* adjust url as required */
+}
+</style>
+
+
+
+<style>
+a.link_cabecalho:active {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:link {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:visited {
+	font-family: verdana;
+	font-size: 10px;
+	color: olive;
+	text-decoration: none
+}
+
+a.link_cabecalho:hover {
+	font-family: verdana;
+	font-size: 10px;
+	color: gray;
+	text-decoration: underline
+}
+
+#my_web_cabecalho {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	width: 90%;
+	border-bottom: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #666666;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+
+#my_web_cabecalho_descricao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+</style>
+
+
+	
+
+
+
+<div id="my_web_cabecalho">
+	<a href="/jupiterweb/webMenuNavegacao.jsp?codmnu=4537" class="link_cabecalho">Acompanhamentos</a> &gt; Evolução no curso
+</div>
+
+	
+
+
+
+	<!-- AUTENTICADO -->
+	
+	<table>
+	<tbody><tr><td>
+		<ul class="pureCssMenuH">
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					
+					
+																
+						<li><a href="evolucaoCurso?codmnu=4752">Evolução no curso</a></li>
+					
+					
+					
+				
+			
+				
+					
+					
+																
+						<li><a href="rendimentoAcademico?codmnu=4761">Rendimento acadêmico</a></li>
+					
+					
+					
+				
+			
+				
+					
+					
+					
+					
+						<li>
+							<a href="webMenuNavegacao.jsp?codmnu=4773" title=""><span>Perfil</span></a>
+							<ul>
+						
+                        
+                        
+                        
+                        
+					
+					
+				
+			
+				
+					
+					
+																
+						<li><a href="questionarioPortDeficienciasAlunoTabs?codmnu=4750">De Deficiências</a></li>
+					
+					
+					
+				
+			
+				
+					
+						
+							</ul>
+							</li>
+						
+					
+					
+																
+						<li><a href="beneficioAlunoConsultaTab?codmnu=4737">Meus benefícios e bolsas</a></li>
+					
+					
+					
+				
+			
+				
+					
+					
+					
+					
+						<li>
+							<a href="webMenuNavegacao.jsp?codmnu=4542" title=""><span>Dados pessoais</span></a>
+							<ul>
+						
+                        
+                        
+                        
+                        
+					
+					
+				
+			
+				
+					
+					
+																
+						<li><a href="uspDadosPessoaisMostrar?codmnu=4543">Consulta</a></li>
+					
+					
+					
+				
+			
+				
+					
+					
+																
+						<li><a href="uspPessoaEnderecoListar?codmnu=4544">Alterar endereço</a></li>
+					
+					
+					
+				
+			
+				
+					
+					
+																
+						<li><a href="uspPessoaTelefoneListar?codmnu=4545">Alterar telefone</a></li>
+					
+					
+					
+				
+			
+				
+					
+					
+																
+						<li><a href="uspPessoaContaBancariaListar?codmnu=4701">Alterar conta bancária</a></li>
+					
+					
+					
+				
+			
+				
+					
+						
+							</ul>
+							</li>
+						
+					
+					
+																
+						<li><a href="CarteiraUSPSequenciaServidor?acessoMenu=I&amp;codmnu=4661">Cartão USP</a></li>
+					
+					
+					
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+		</ul>
+	</td></tr>
+	</tbody></table>
+	
+
+
+
+
+
+	<br>
+
+	
+			
+		<script type="text/javascript" src="dwr/interface/ControleAutorizadoDWR.js"></script>
+		<script type="text/javascript" src="dwr/interface/EvolucaoCursoControleDWR.js"></script>
+		<script type="text/javascript" src="dwr/interface/PessoaControleDWR.js"></script>
+		<script type="text/javascript" src="dwr/interface/DisciplinaControleDWR.js"></script>
+		<script type="text/Javascript" src="javascript/evolucaocurso/evolucaocurso.js?version=20140411"></script>
+		<script type="text/Javascript" src="javascript/disciplina/disciplina.js?1774555968526"></script>
+		
+		
+		
+		 
+		<input type="hidden" id="nivsegusu" value="2">
+		<input type="hidden" id="codpesusu" value="15584107">
+		<style>
+			body {
+				overflow-y: scroll;
+			}
+			#grade_curricular {
+				cursor: pointer;
+			}
+			#grade_curricular td[role=gridcell].hover {
+				background-color: #1c94c4 !important;
+			}
+			#grade_curricular td[role=gridcell].selecionado {
+				background-color: #1c94c4 !important;
+			}
+			#tab_detalhes .cabecalho {
+				margin-top: 8px;
+				margin-bottom: 8px;
+			}
+			#tab_detalhes p {
+				margin-left: 3px;
+				margin-top: 3px;
+			}
+			#tab_detalhes table tr {
+				height: 18px;
+			}
+			#tab_detalhes .subtitulo {
+				font-weight: bold;
+				margin-top: 20px !important;
+				margin-bottom: 0px !important;
+			}
+			#tab_detalhes .deslocado {
+				margin-left: 20px;
+				margin-top: 3px !important;
+			}
+			div.espacador {
+				height: 20px;
+			}
+		</style>
+		<div id="tabs-local" style="margin-left: 20px; margin-bottom: 20px;">
+			<table width="99%">
+				<tbody><tr>
+					<td>
+						<div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all ui-tabs-collapsible">
+							<ul class="tabNavigation ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+								<li class="ui-state-default ui-corner-top"><a href="#step1" id="step1-tab">Buscar</a></li>
+								<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#step2" id="step2-tab">Evolução no Curso</a></li>
+							</ul>
+							<div id="step1" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+								<div id="formulario" class="dialog-box">
+									<p><font color="#990000">Os campos marcados com * são de preenchimento obrigatório.</font></p>
+									<form name="form1" id="form1" class="">
+										<span id="identificacaoAluno" style="display: none;">
+											<label><b>Aluno:</b></label>
+											<input type="text" name="codpes" id="codpes" size="10" maxlength="10" class="text ui-widget-content ui-corner-all validate[required]" disabled="disabled">
+				    						
+			        						<input name="nompes" id="nompes" class="label" value="" size="60" style="background-color: #eeeeee; border: 0;" readonly="">
+		        							<br>
+		        						</span>
+										<label><b>Programa:*</b></label>
+										<select id="codpgm" style="margin-top: 10px;" class="validate[required]">
+											
+										<option value=""></option><option value="1" selected="selected">1 - Física - Licenciatura</option><option value="1">1 - Física - Licenciatura</option></select>
+										<br>
+										<label><b>Curso:*</b></label>
+										<select id="codcur" style="margin-top: 10px;" class="validate[required]"><option value=""></option><option value="43031|0" selected="selected">Física - Licenciatura (início em: 08/03/2024)</option></select>
+									</form>
+									<input type="button" id="enviar" value="Buscar" style="margin-top: 10px;" class="ui-button ui-widget ui-state-default ui-corner-all" role="button" aria-disabled="false">&nbsp;
+									<input type="button" id="limpar" value="Limpar" style="margin-top: 10px;" class="ui-button ui-widget ui-state-default ui-corner-all" role="button" aria-disabled="false">
+									<br>
+								</div>
+							</div>
+							<div id="step2" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+								<div style="margin-bottom: 20px;">
+									<div style="float: left;">
+										<a href="#" class="mail_footer" onclick="abrirParaImpressao()">
+											<img src="images/print_edit.gif" width="16" height="16" border="0">
+											<font face="Arial, Helvetica, sans-serif" size="1" color="#666666">Preparar para impressão</font>
+										</a>
+										<br>
+										<br>
+										<b>Aluno: </b><span class="aluno">15584107 - João Paulo Stangorlini de Carvalho</span><br>
+										<br>
+										<b>Curso: </b><span class="curso">43031 - Física - Licenciatura</span><br>
+										<br>
+										<b>Ano de ingresso: </b><span class="anoIngresso">2024</span>
+									</div>
+									<div style="float: right;">
+										<table id="creditos">
+											<thead>
+												<tr style="background-color: #1c94c4; color: white;">
+													<th style="width: 220px;"></th>
+													<th style="padding: 3px; width: 90px;">Obrigatórios</th>
+													<th style="padding: 3px; width: 90px;">Eletivos</th>
+													<th style="padding: 3px; width: 90px;">Livres</th>
+													<th style="padding: 3px; width: 90px;">Estágio</th>
+													<th style="padding: 3px; width: 90px;">AAC</th>
+													<th style="padding: 3px; width: 90px;">AEX</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Créditos (ou CH) exigidos pelo currículo</td>
+													<td style="text-align: right;">142 (2490h)</td>
+													<td style="text-align: right;">48 (840h)</td>
+													<td style="text-align: right;">0 (0h)</td>
+													<td style="text-align: right;">400h</td>
+													<td style="text-align: right;">-</td>
+													<td style="text-align: right;">333h</td>
+												</tr>
+												<tr>
+													<td>Créditos Aula acumulados</td>
+													<td style="text-align: right;">26</td>
+													<td style="text-align: right;">12</td>
+													<td style="text-align: right;">4</td>
+													<td style="text-align: right;">-</td>
+													<td style="text-align: right;">-</td>
+													<td style="text-align: right;">-</td>
+												</tr>
+												<tr>
+													<td>Créditos Trabalho acumulados</td>
+													<td style="text-align: right;">2</td>
+													<td style="text-align: right;">0</td>
+													<td style="text-align: right;">2</td>
+													<td style="text-align: right;">-</td>
+													<td style="text-align: right;">-</td>
+													<td style="text-align: right;">-</td>
+												</tr>
+												<tr>
+													<td>Carga horária total acumulada</td>
+													<td style="text-align: right;">450h</td>
+													<td style="text-align: right;">180h</td>
+													<td style="text-align: right;">120h</td>
+													<td style="text-align: right;">-</td>
+													<td style="text-align: right;">0h</td>
+													<td style="text-align: right;">80h</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+									<div style="clear: both;"></div>
+								</div>
+								<div id="obscrl">
+									<b>Informações específicas do currículo</b><br>
+									<span><p>O (a) estudante deve cursar, obrigatoriamente, uma das disciplinas&nbsp;que compõe o bloco de Psicologia da Educação (EDF0292 ou EDF0294 ou&nbsp;EDF0296 ou EDF0298) oferecidas pela FEUSP.</p><p>O estudante deve cursar, obrigatoriamente, uma entre as disciplinas 4300378&nbsp;Introdução à Física Nuclear e de Partículas Elementares - Física Moderna IIA e 4300379&nbsp;Introdução à Física do Estado Sólido - Física Moderna IIB.</p></span>
+								</div>
+								<b>Observações importantes:</b><br>
+								1. este quadro ainda está em desenvolvimento, portanto não é válido como comprovante ou atestado de disciplinas cursadas. Caso encontre alguma falha, favor comunicar ao Serviço de Graduação, para providenciarmos a correção;<br>
+								2. o sistema opera sobre o currículo atual, e não pelo de ingresso; para cursos com alterações ano a ano, pode haver divergências, que devem ser esclarecidas no Serviço de Graduação.<br>
+								<table style="margin-top: 10px;" cellspacing="10" align="center">
+									<tbody><tr>
+										<td style="background-color: #00C000; padding: 5px; width: 145px; height: 14px; text-align: center; font-weight: bold;">Cumpridas</td>
+										<td style="background-color: #FFFF80; padding: 5px; width: 145px; height: 14px; text-align: center; font-style: italic;">Cursando</td>
+										<td style="background-color: #FFA060; padding: 5px; width: 145px; height: 14px; text-align: center; text-decoration: underline; ">Não cumpridas</td>
+										<td style="background-color: #C0C0C0; padding: 5px; width: 145px; height: 14px; text-align: center;">Eletivas disponíveis</td>
+									</tr>
+								</tbody></table>
+                                <table width="99%"><tbody><tr><td>
+								<p style="text-align: center; ">Clique na disciplina para visualizar informações disponíveis</p>
+								<div class="ui-jqgrid ui-widget ui-widget-content ui-corner-all" id="gbox_grade_curricular" dir="ltr" style="width: 992px;"><div class="ui-widget-overlay jqgrid-overlay" id="lui_grade_curricular"></div><div class="loading ui-state-default ui-state-active" id="load_grade_curricular" style="display: none;">Carregando...</div><div class="ui-jqgrid-view" id="gview_grade_curricular" style="width: 992px;"><div class="ui-jqgrid-titlebar ui-widget-header ui-corner-top ui-helper-clearfix" style="display: none;"><a role="link" href="javascript:void(0)" class="ui-jqgrid-titlebar-close HeaderButton" style="right: 0px;"><span class="ui-icon ui-icon-circle-triangle-n"></span></a><span class="ui-jqgrid-title"></span></div><div class="ui-state-default ui-jqgrid-hdiv" style="width: 992px;"><div class="ui-jqgrid-hbox"><table class="ui-jqgrid-htable" style="width:992px" role="grid" aria-labelledby="gbox_grade_curricular" cellspacing="0" cellpadding="0" border="0"><thead><tr class="ui-jqgrid-labels" role="rowheader"><th id="grade_curricular_coddis1" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis1" class="ui-jqgrid-sortable">1o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis2" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis2" class="ui-jqgrid-sortable">2o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis3" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis3" class="ui-jqgrid-sortable">3o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis4" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis4" class="ui-jqgrid-sortable">4o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis5" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis5" class="ui-jqgrid-sortable">5o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis6" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis6" class="ui-jqgrid-sortable">6o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis7" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis7" class="ui-jqgrid-sortable">7o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis8" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 105px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis8" class="ui-jqgrid-sortable">8o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="grade_curricular_coddis9" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 107px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_grade_curricular_coddis9" class="ui-jqgrid-sortable">9o.Per<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th></tr></thead></table></div></div><div class="ui-jqgrid-bdiv" style="height: 100%; width: 992px;"><div style="position:relative;"><div></div><table id="grade_curricular" class="ui-jqgrid-btable" cellpadding="0" cellspacing="0" tabindex="0" border="0" role="grid" aria-multiselectable="false" aria-labelledby="gbox_grade_curricular" style="width: 992px;"><tbody><tr class="jqgfirstrow" role="row" style="height:auto"><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:105px;"></td><td role="gridcell" style="height:0px;width:107px;"></td></tr><tr role="row" id="1" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Fundamentos de Mecânica" aria-describedby="grade_curricular_coddis1" data-background-color="#00C000">4300151</td><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Gravitação" aria-describedby="grade_curricular_coddis2" data-background-color="#00C000">4300156</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 255, 128); font-style: italic;" title="Física do Calor" aria-describedby="grade_curricular_coddis3" data-background-color="#FFFF80">4300159</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Termo-estatística" aria-describedby="grade_curricular_coddis4" data-background-color="#FFA060">4300259</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Eletricidade e Magnetismo II" aria-describedby="grade_curricular_coddis5" data-background-color="#FFA060">4300271</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Eletromagnetismo" aria-describedby="grade_curricular_coddis6" data-background-color="#FFA060">4300372</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 255, 128); font-style: italic;" title="Metodologia do Ensino de Física I" aria-describedby="grade_curricular_coddis7" data-background-color="#FFFF80">EDM0425</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Metodologia do Ensino de Física II" aria-describedby="grade_curricular_coddis8" data-background-color="#FFA060">EDM0426</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Evolução dos Conceitos da Física" aria-describedby="grade_curricular_coddis9" data-background-color="#C0C0C0">4300405</td></tr><tr role="row" id="2" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Ciência, Educação e Linguagem" aria-describedby="grade_curricular_coddis1" data-background-color="#00C000">4300157</td><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Cálculo para Funções de Uma Variável Real II" aria-describedby="grade_curricular_coddis2" data-background-color="#00C000">MAT1352</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 255, 128); font-style: italic;" title="Cálculo para Funções de Várias Variáveis I" aria-describedby="grade_curricular_coddis3" data-background-color="#FFFF80">MAT2351</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Eletricidade e Magnetismo I" aria-describedby="grade_curricular_coddis4" data-background-color="#FFA060">4300270</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Oscilações e Ondas" aria-describedby="grade_curricular_coddis5" data-background-color="#FFA060">4300357</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Relatividade" aria-describedby="grade_curricular_coddis6" data-background-color="#FFA060">4300374</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Introdução à Mecânica Quântica Ondulatória" aria-describedby="grade_curricular_coddis7" data-background-color="#FFA060">4300371</td><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Ciência e Cultura" aria-describedby="grade_curricular_coddis8" data-background-color="#00C000">4300380 (E)</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Tópicos de História da Física Moderna" aria-describedby="grade_curricular_coddis9" data-background-color="#C0C0C0">4300454</td></tr><tr role="row" id="3" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Ótica" aria-describedby="grade_curricular_coddis1" data-background-color="#00C000">4300160</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Introdução às Medidas em Física" aria-describedby="grade_curricular_coddis2" data-background-color="#FFA060">4300152</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Laboratório de Mecânica" aria-describedby="grade_curricular_coddis3" data-background-color="#FFA060">4300254</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Elementos e Estratégia para o Ensino de Física e Ciências" aria-describedby="grade_curricular_coddis4" data-background-color="#FFA060">4300356</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Propostas e Projetos para o Ensino de Física e Ciências" aria-describedby="grade_curricular_coddis5" data-background-color="#FFA060">4300358</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Evidências Experimentais da Natureza Quântica da Radiação e da Matéria" aria-describedby="grade_curricular_coddis6" data-background-color="#FFA060">4300377</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Projetos - ATPA" aria-describedby="grade_curricular_coddis7" data-background-color="#FFA060">4300415</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução ao Caos" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4300320</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="4" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Geometria Analítica" aria-describedby="grade_curricular_coddis1" data-background-color="#00C000">MAT0105</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Mecânica" aria-describedby="grade_curricular_coddis2" data-background-color="#FFA060">4300153</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Mecânica dos Corpos Rígidos e dos Fluidos" aria-describedby="grade_curricular_coddis3" data-background-color="#FFA060">4300255</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Política e Organização da Educação Básica no Brasil" aria-describedby="grade_curricular_coddis4" data-background-color="#FFA060">EDA0463</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Laboratório de Eletromagnetismo" aria-describedby="grade_curricular_coddis5" data-background-color="#FFA060">4300373</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Efeitos Biológicos das Radiações Ionizantes e Não Ionizantes" aria-describedby="grade_curricular_coddis6" data-background-color="#C0C0C0">4300436</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Complementos de Mecânica Clássica" aria-describedby="grade_curricular_coddis7" data-background-color="#FFA060">4300458</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Tópicos de História da Física Clássica" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4300353</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="5" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Cálculo para Funções de Uma Variável Real I" aria-describedby="grade_curricular_coddis1" data-background-color="#00C000">MAT1351</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Didática" aria-describedby="grade_curricular_coddis2" data-background-color="#FFA060">EDM0402</td><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Física no Ensino Fundamental" aria-describedby="grade_curricular_coddis3" data-background-color="#00C000">4300234 (E)</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Cálculo para Funções de Várias Variáveis II" aria-describedby="grade_curricular_coddis4" data-background-color="#FFA060">MAT2352</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Práticas em Ensino de Física e Ciências" aria-describedby="grade_curricular_coddis5" data-background-color="#FFA060">4300390</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução à Pesquisa em Ensino de Física" aria-describedby="grade_curricular_coddis6" data-background-color="#C0C0C0">4300491</td><td role="gridcell" style="text-align: center; background-color: rgb(255, 160, 96); text-decoration: underline;" title="Língua de Sinais para Profissionais da Saúde" aria-describedby="grade_curricular_coddis7" data-background-color="#FFA060">MFT0964</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução à Física Nuclear e de Partículas Elementares - Física Moderna IIA" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4300378</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="6" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(255, 255, 128); font-style: italic;" title="Introdução à Computação para Ciências Exatas e Tecnologia" aria-describedby="grade_curricular_coddis1" data-background-color="#FFFF80">MAC0115 (E)</td><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Processos Criativos em Ciências: da Imaginação à Divulgação Científica" aria-describedby="grade_curricular_coddis2" data-background-color="#00C000">4300220 (E)</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Geologia Geral" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">0440620</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Métodos da Fisica Teórica" aria-describedby="grade_curricular_coddis4" data-background-color="#C0C0C0">4300225</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Física do Meio Ambiente" aria-describedby="grade_curricular_coddis5" data-background-color="#C0C0C0">4300351</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Física Matemática I" aria-describedby="grade_curricular_coddis6" data-background-color="#C0C0C0">4302204</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Termodinâmica" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300308</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução à Física do Estado Sólido -  Física Moderna IIB" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4300379</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="7" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução à Epistemologia das Ciências" aria-describedby="grade_curricular_coddis1" data-background-color="#C0C0C0">4300231</td><td role="gridcell" style="text-align: center; background-color: rgb(0, 192, 0); font-weight: bold;" title="Introdução aos Estudos da Educação: Enfoque Filosófico" aria-describedby="grade_curricular_coddis2" data-background-color="#00C000">EDF0285 (E)</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução à Física Computacional II" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">4300318</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Partículas - a Dança da Matéria e dos Campos" aria-describedby="grade_curricular_coddis4" data-background-color="#C0C0C0">4300266</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Química Geral" aria-describedby="grade_curricular_coddis5" data-background-color="#C0C0C0">QFL0605</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Aceleradores de Partículas: Fundamentos e Aplicações" aria-describedby="grade_curricular_coddis6" data-background-color="#C0C0C0">4302360</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Física do Corpo Humano" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300325</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Cosmologia Física" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4300430</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="8" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução às Ciências Atmosféricas" aria-describedby="grade_curricular_coddis1" data-background-color="#C0C0C0">ACA0115</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução à Física Computacional" aria-describedby="grade_curricular_coddis2" data-background-color="#C0C0C0">4300218</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Fundamentos de Astronomia" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">AGA0215</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Experimentos de Astronomia" aria-describedby="grade_curricular_coddis4" data-background-color="#C0C0C0">AGA0317</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Mecânica Estatística" aria-describedby="grade_curricular_coddis6" data-background-color="#C0C0C0">4302401</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Física da Poluição do Ar" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300346</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Tecnologia de Ensino de Física II" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4300462</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="9" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Astronomia de Posição" aria-describedby="grade_curricular_coddis1" data-background-color="#C0C0C0">AGA0106</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução aos Estudos da Educação: Enfoque Histórico" aria-describedby="grade_curricular_coddis2" data-background-color="#C0C0C0">EDF0287</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Teorias do desenvolvimento, Práticas Escolares e Processos de Subjetivação" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">EDF0290</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Planetas e Sistemas Planetários" aria-describedby="grade_curricular_coddis4" data-background-color="#C0C0C0">AGA0502</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Mecânica Celeste" aria-describedby="grade_curricular_coddis6" data-background-color="#C0C0C0">AGA0309</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Detectores de Radiação" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300441</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Física Aplicada" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4300463</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="10" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis1"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução aos Estudos da Educação: Enfoque Sociológico" aria-describedby="grade_curricular_coddis2" data-background-color="#C0C0C0">EDF0289</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Psicologia Histórico-Cultural e Educação" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">EDF0292</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Educação especial, inclusão escolar e políticas de atendimento a alunos com deficiência, transtornos" aria-describedby="grade_curricular_coddis4" data-background-color="#C0C0C0">EDA0644</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis6"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Produção de Material Didático" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300456</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Física Experimental IV" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4302214</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="11" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis1"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Noções de Estatística" aria-describedby="grade_curricular_coddis2" data-background-color="#C0C0C0">MAE0116</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Psicologia da educação: constituição do sujeito, desenvolvimento e aprendizagem na escola,cultura e" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">EDF0294</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Currículo e Avaliação" aria-describedby="grade_curricular_coddis4" data-background-color="#C0C0C0">EDM0698</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis6"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Tecnologias da Informação e Comunicação no Ensino de Física" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300459</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Eletromagnetismo I" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4302303</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="12" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis1"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Álgebra Linear I" aria-describedby="grade_curricular_coddis2" data-background-color="#C0C0C0">MAT0122</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Psicologia da Educação : Uma Abordagem Psicossocial do Cotidiano Escolar" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">EDF0296</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis4"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis6"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Tecnologia de Ensino de Física I" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300461</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Mecânica Quântica I" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">4302403</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="13" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis1"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis2"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Psicologia da Educação, Desenvolvimento e Práticas Escolares" aria-describedby="grade_curricular_coddis3" data-background-color="#C0C0C0">EDF0298</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis4"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis6"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Monografia para Licenciatura em Física" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4300490</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Astrofísica de Altas Energias" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">AGA0315</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="14" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis1"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis2"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis3"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis4"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis6"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Mecânica I" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">4302305</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Introdução à Cosmologia" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">AGA0416</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="15" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis1"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis2"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis3"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis4"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis6"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Tópicos de Filosofia da Física" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">FLF0487</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Filosofia da Física" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">FLF0472</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr><tr role="row" id="16" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis1"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis2"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis3"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis4"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis5"></td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis6"></td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="Cálculo Numérico com Aplicações em Física" aria-describedby="grade_curricular_coddis7" data-background-color="#C0C0C0">MAP0214</td><td role="gridcell" style="text-align: center; background-color: rgb(192, 192, 192);" title="História da Matemática I" aria-describedby="grade_curricular_coddis8" data-background-color="#C0C0C0">MAT0341</td><td role="gridcell" style="text-align: center; background-color: rgb(238, 238, 238);" aria-describedby="grade_curricular_coddis9"></td></tr></tbody></table></div></div></div><div class="ui-jqgrid-resize-mark" id="rs_mgrade_curricular">&nbsp;</div></div>
+								<!-- <div id="div_retorno" class="scroll" style="text-align: center;"></div> -->
+								<div class="espacador"></div>
+								<div class="ui-jqgrid ui-widget ui-widget-content ui-corner-all" id="gbox_disciplinas_fora" dir="ltr" style="width: 992px;"><div class="ui-widget-overlay jqgrid-overlay" id="lui_disciplinas_fora"></div><div class="loading ui-state-default ui-state-active" id="load_disciplinas_fora" style="display: none;">Carregando...</div><div class="ui-jqgrid-view" id="gview_disciplinas_fora" style="width: 992px;"><div class="ui-jqgrid-titlebar ui-widget-header ui-corner-top ui-helper-clearfix"><a role="link" href="javascript:void(0)" class="ui-jqgrid-titlebar-close HeaderButton" style="right: 0px;"><span class="ui-icon ui-icon-circle-triangle-n"></span></a><span class="ui-jqgrid-title">Disciplinas fora da grade</span></div><div class="ui-state-default ui-jqgrid-hdiv" style="width: 992px;"><div class="ui-jqgrid-hbox"><table class="ui-jqgrid-htable" style="width:992px" role="grid" aria-labelledby="gbox_disciplinas_fora" cellspacing="0" cellpadding="0" border="0"><thead><tr class="ui-jqgrid-labels" role="rowheader"><th id="disciplinas_fora_coddis" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 193px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_disciplinas_fora_coddis" class="ui-jqgrid-sortable">Sigla<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="disciplinas_fora_nomdis" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 193px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_disciplinas_fora_nomdis" class="ui-jqgrid-sortable">Nome<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="disciplinas_fora_turma" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 193px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_disciplinas_fora_turma" class="ui-jqgrid-sortable">Turma<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="disciplinas_fora_tipdis" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 193px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_disciplinas_fora_tipdis" class="ui-jqgrid-sortable">Tipo<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th><th id="disciplinas_fora_sitdis" role="columnheader" class="ui-state-default ui-th-column ui-th-ltr" style="width: 195px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr" style="cursor: col-resize;">&nbsp;</span><div id="jqgh_disciplinas_fora_sitdis" class="ui-jqgrid-sortable">Situação<span class="s-ico" style="display:none"><span sort="asc" class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span sort="desc" class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span></div></th></tr></thead></table></div></div><div class="ui-jqgrid-bdiv" style="height: 100%; width: 992px;"><div style="position:relative;"><div></div><table id="disciplinas_fora" class="ui-jqgrid-btable" cellpadding="0" cellspacing="0" tabindex="0" border="0" role="grid" aria-multiselectable="false" aria-labelledby="gbox_disciplinas_fora" style="width: 992px;"><tbody><tr class="jqgfirstrow" role="row" style="height:auto"><td role="gridcell" style="height:0px;width:193px;"></td><td role="gridcell" style="height:0px;width:193px;"></td><td role="gridcell" style="height:0px;width:193px;"></td><td role="gridcell" style="height:0px;width:193px;"></td><td role="gridcell" style="height:0px;width:195px;"></td></tr><tr role="row" id="1" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr"><td role="gridcell" style="" title="IPN0024    " aria-describedby="disciplinas_fora_coddis">IPN0024    </td><td role="gridcell" style="" title="Física dos Materiais Estruturais" aria-describedby="disciplinas_fora_nomdis">Física dos Materiais Estruturais</td><td role="gridcell" style="" title="24/2" aria-describedby="disciplinas_fora_turma">24/2</td><td role="gridcell" style="" title="Optativa Livre" aria-describedby="disciplinas_fora_tipdis">Optativa Livre</td><td role="gridcell" style="" title="Cursada" aria-describedby="disciplinas_fora_sitdis">Cursada</td></tr><tr role="row" id="2" tabindex="-1" class="ui-widget-content jqgrow ui-row-ltr ui-priority-secondary"><td role="gridcell" style="" title="PRG0018    " aria-describedby="disciplinas_fora_coddis">PRG0018    </td><td role="gridcell" style="" title="Processamento de Linguagem Natural" aria-describedby="disciplinas_fora_nomdis">Processamento de Linguagem Natural</td><td role="gridcell" style="" title="26/1" aria-describedby="disciplinas_fora_turma">26/1</td><td role="gridcell" style="" title="Optativa Livre" aria-describedby="disciplinas_fora_tipdis">Optativa Livre</td><td role="gridcell" style="" title="Cursando" aria-describedby="disciplinas_fora_sitdis">Cursando</td></tr></tbody></table></div></div></div><div class="ui-jqgrid-resize-mark" id="rs_mdisciplinas_fora">&nbsp;</div></div>
+								<div class="espacador"></div>
+								<table id="atividadesExtensionistas" class="scroll" cellpadding="0" cellspacing="0"></table>
+								</td></tr></tbody></table>
+                            </div>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+		<div style="min-height: 800px; margin-left: 20px; margin-top: 10px; margin-bottom: 20px; display: none;" id="div_detalhes">
+			<table width="99%">
+				<tbody><tr>
+					<td>	
+						<div id="tab_detalhes" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+							<ul class="tabNavigation ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+								<li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="#div_disciplina">Disciplina</a></li>
+								<li class="ui-state-default ui-corner-top"><a href="#div_oferecimento">Oferecimento</a></li>
+								<li class="ui-state-default ui-corner-top"><a href="#div_requisitos">Requisitos</a></li>
+							</ul>
+							<div id="div_disciplina" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+								<div class="mensagem" style="display: none;"></div>
+								<div class="conteudo">
+									<p style="text-align: center; font-weight: bold; font-size: 10pt;" class="nomclg cabecalho"></p>
+									<p style="text-align: center; font-weight: bold; font-size: 10pt;" class="dscpfxdis cabecalho"></p>
+									<p style="text-align: center; font-weight: bold;" class="cabecalho">Disciplina: <span class="coddis"></span> - <span class="nomdis"></span></p>
+									<p style="text-align: center; font-style: italic;" class="nomdisigl cabecalho"></p>
+									<table stlye="margin-top: 50px;">
+										<tbody><tr>
+											<td style="font-weight: bold; width: 135px;">Créditos Aula:</td>
+											<td class="creaul"></td>
+										</tr>
+										<tr>
+											<td style="font-weight: bold;">Créditos Trabalho:</td>
+											<td class="cretrb"></td>
+										</tr>
+										<tr>
+											<td style="font-weight: bold;">Carga Horária Total:</td>
+											<td class="cargaHorariaTotal"></td>
+										</tr>
+										<tr>
+											<td style="font-weight: bold;">Tipo:</td>
+											<td class="tipdis"></td>
+										</tr>
+										<tr>
+											<td style="font-weight: bold;">Ativação:</td>
+											<td class="dtaatvdis"></td>
+										</tr>
+										<tr>
+											<td style="font-weight: bold;">Desativação:</td>
+											<td class="dtadtvdis"></td>
+										</tr>
+									</tbody></table>
+									<p class="subtitulo">Objetivos</p>
+									<p class="objdis"></p>
+									<p class="objdisigl" style="font-style: italic;"></p>
+									<p class="subtitulo" id="docentesResponsaveis">Docentes Responsáveis</p>
+									<p class="subtitulo">Programa Resumido</p>
+									<p class="pgmrsudis"></p>
+									<p class="pgmrsudisigl" style="font-style: italic;"></p>
+									<p class="subtitulo">Programa</p>
+									<p class="pgmdis"></p>
+									<p class="pgmdisigl" style="font-style: italic;"></p>
+									<p class="subtitulo" style="margin-bottom: 10px !important;">Avaliação</p>
+									<p class="subtitulo deslocado">Método</p>
+									<p class="deslocado dscmtdavl"></p>
+									<p class="subtitulo deslocado">Critério</p>
+									<p class="deslocado crtavl"></p>
+									<p class="subtitulo deslocado">Norma de Recuperação</p>
+									<p class="deslocado dscnorrcp"></p>
+									<p class="subtitulo">Bibliografia</p>
+									<p class="dscbbgdis"></p>
+								</div>
+							</div>
+							<div id="div_oferecimento" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+								<div class="mensagem" style="display: none;"></div>
+								<div class="conteudo">
+									<p style="text-align: center; font-weight: bold; font-size: 10pt;" class="nomclg cabecalho"></p>
+									<p style="text-align: center; font-weight: bold; font-size: 10pt;" class="dscpfxdis cabecalho"></p>
+									<p style="text-align: center; font-weight: bold;" class="cabecalho">Disciplina: <span class="coddis"></span> - <span class="nomdis"></span></p>
+									<div class="template" style="display: none; margin-top: 10px;">
+										<hr>
+										<table>
+											<tbody><tr>
+												<td style="font-weight: bold;">Código da Turma:</td>
+												<td class="codtur"></td>
+											</tr>
+											<tr>
+												<td style="font-weight: bold;">Início:</td>
+												<td class="dtainitur"></td>
+											</tr>
+											<tr>
+												<td style="font-weight: bold;">Fim:</td>
+												<td class="dtafimtur"></td>
+											</tr>
+											<tr>
+												<td style="font-weight: bold;">Tipo da Turma:</td>
+												<td class="tiptur"></td>
+											</tr>
+											<tr>
+												<td style="font-weight: bold;">Código da Turma Teórica:</td>
+												<td class="codturteo"></td>
+											</tr>
+											<tr>
+												<td style="font-weight: bold;">Observações:</td>
+												<td class="obstur"></td>
+											</tr>
+										</tbody></table>
+										<table class="horarios" style="margin-top: 10px;">
+											<thead style="background-color: #1c94c4; color: white;">
+												<tr><th style="text-align: left; width: 100px; padding: 3px;">Horário</th>
+												<th style="width: 100px; padding: 3px;"></th>
+												<th style="width: 100px; padding: 3px;"></th>
+												<th style="text-align: left; width: 300px; padding: 3px;">Prof(a).</th>
+											</tr></thead>
+											<tbody></tbody>
+										</table>
+										<table class="atividades" style="margin-top: 10px;">
+											<thead style="background-color: #1c94c4; color: white;">
+												<tr>
+													<th colspan="3">Atividades Didáticas</th>
+												</tr>
+												<tr>
+													<th style="text-align: left; width: 300px; padding: 3px;">Prof(a).</th>
+													<th style="width: 150px; padding: 3px;">Tipo de Atividade</th>
+													<th style="width: 150px; padding: 3px;">Carga horária (total)</th>
+												</tr>
+											</thead>
+											<tbody></tbody>
+										</table>
+										<table class="vagas" style="margin-top: 10px;">
+											<thead style="background-color: #1c94c4; color: white;">
+												<tr>
+													<th style="width: 300px; padding: 3px;"></th>
+													<th style="padding: 3px; width: 100px;">Vagas</th>
+													<th style="padding: 3px; width: 100px;">Inscritos</th>
+													<th style="padding: 3px; width: 100px;">Pendentes</th>
+													<th style="padding: 3px; width: 100px;">Matriculados</th>
+												</tr>
+											</thead>
+											<tbody></tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div id="div_requisitos" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+								<div class="mensagem" style="display: none;"></div>
+								<div class="conteudo">
+									<p style="text-align: center; font-weight: bold;" class="cabecalho">Disciplina: <span class="coddis"></span> - <span class="nomdis"></span></p>
+									<table style="width: 100%;"></table>
+								</div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</tbody></table>
+		</div>
+		
+
+
+
+	
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://uspdigital.usp.br/comumwebdev/libs/usp/main/1.0/home.css">
+<table width="100%" border="0" cellspacing=" 0" cellpadding=" 0" align="center">
+  
+  <tbody><tr>
+    <td align="center"><font face="Arial, Helvetica, sans-serif" size="1"><hr size="1">
+      <a href="creditos.jsp" class="link_olive" target="_self">Créditos</a>
+      | <a href="faleConosco" class="link_olive">Fale conosco</a><br>
+      © 1999 - 2026 - Superintendência de Tecnologia da Informação/USP</font>
+    </td>
+  </tr>
+</tbody></table>
+
+	
+
+
+			
+
+			
+		</div>
+	</div>
+
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div></body></html>

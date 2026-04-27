@@ -1,0 +1,9 @@
+﻿all	https://github.com/HUB-LabDiv/HUB-LabDiv-TESTES-.git (fetch)
+all	https://github.com/HUB-LabDiv/HUB-LabDiv-TESTES-.git (push)
+all	https://github.com/HUB-LabDiv/HUB-LabDiv.git (push)
+all	https://github.com/JoaoStangorlini/HUB-LabDiv.git (push)
+origin	https://github.com/HUB-LabDiv/HUB-LabDiv.git (fetch)
+origin	https://github.com/HUB-LabDiv/HUB-LabDiv.git (push)
+test	https://github.com/HUB-LabDiv/HUB-LabDiv-TESTES-.git (fetch)
+test	https://github.com/HUB-LabDiv/HUB-LabDiv-TESTES-.git (push)
+

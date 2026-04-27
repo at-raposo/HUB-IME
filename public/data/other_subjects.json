@@ -1,0 +1,226 @@
+[
+    {
+        "codigo": "MDR0635",
+        "nome": "Estatística Médica I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Marcos Amaku"
+                ],
+                "horarios": [
+                    "seg 19:00 22:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MDR0637",
+        "nome": "Diagnóstico por Imagens Médicas",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Edson Amaro Júnior"
+                ],
+                "horarios": [
+                    "ter 19:00 22:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MDR0639",
+        "nome": "Física do Diagnóstico por imagens I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Marcelo Tatit Sapienza"
+                ],
+                "horarios": [
+                    "sex 19:00 22:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MDR0640",
+        "nome": "Proteção Radiológica I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Daniele de Paula Faria"
+                ],
+                "horarios": [
+                    "qua 19:00 22:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MDR0645",
+        "nome": "Introdução à Saúde Ocupacional, Medicina Legal e Ética da Física Médica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Ivan Dieb Miziara"
+                ],
+                "horarios": [
+                    "ter 19:00 22:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MDR0646",
+        "nome": "Tópicos Avançados de Matemática e Física em Medicina",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Edilaine Honório da Silva"
+                ],
+                "horarios": [
+                    "qui 19:00 22:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MDR0647",
+        "nome": "Estágio Hospitalar Geral",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Roger Chammas"
+                ],
+                "horarios": [
+                    "qua 08:00 18:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "BMB0255",
+        "nome": "Fisiologia I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [],
+                "horarios": [
+                    "qui 08:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [],
+                "horarios": [
+                    "sex 19:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "HSP0141",
+        "nome": "Introdução à Saúde Pública",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Aylene Emilia Moraes Bousquat"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "QBQ0313",
+        "nome": "Bioquímica",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Bettina Malnic"
+                ],
+                "horarios": [
+                    "qui 08:00 11:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Ricardo José Giordano"
+                ],
+                "horarios": [
+                    "qui 19:00 22:00"
+                ]
+            },
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Paolo Di Mascio"
+                ],
+                "horarios": [
+                    "qui 11:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Ronaldo Bento Quaggio"
+                ],
+                "horarios": [
+                    "qui 22:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "QFL0606",
+        "nome": "Fundamentos de Química para Física",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Vera Regina Leopoldo Constantino",
+                    "Massuo Jorge Kato"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qua 14:00 18:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Vera Regina Leopoldo Constantino"
+                ],
+                "horarios": [
+                    "seg 21:00 23:00",
+                    "qua 19:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MSP4085",
+        "nome": "Princípios básicos de inteligência artificial e sáude",
+        "turmas": [
+            {
+                "codigo": "20261AB",
+                "professores": [
+                    "(R) Claudia da Costa Leite"
+                ],
+                "horarios": [
+                    "qui 14:00 18:00"
+                ]
+            }
+        ]
+    }
+]

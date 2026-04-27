@@ -1,0 +1,47 @@
+[
+  {
+    "id": "04d2c3e1-ffb7-410d-9c96-2d7114ef952e",
+    "course_code": "4300402",
+    "title": "Introdução à Física do Estado Sólido",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4300371"
+    ]
+  },
+  {
+    "id": "e7e44672-c55e-4e2b-b59d-550e370c2a51",
+    "course_code": "4302314",
+    "title": "Física Experimental VI",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4302313"
+    ]
+  },
+  {
+    "id": "4e5c4c25-5f97-4ec1-9166-195c37c9ea54",
+    "course_code": "4302313",
+    "title": "Física Experimental V",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4302214"
+    ]
+  },
+  {
+    "id": "1d8eb9eb-6bb6-4eae-83d5-54a097a35054",
+    "course_code": "4302214",
+    "title": "Física Experimental IV",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4300372"
+    ]
+  },
+  {
+    "id": "3d3cce48-04d3-49ae-925c-4b48436d01bc",
+    "course_code": "4300379",
+    "title": "Introdução à Física do Estado Sólido",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4300371"
+    ]
+  }
+]

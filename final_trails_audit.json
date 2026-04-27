@@ -1,0 +1,89 @@
+[
+  {
+    "id": "52582859-594b-4715-9187-c83a289704b7",
+    "course_code": "4300454",
+    "title": "Tópicos de História da Física Moderna",
+    "excitation_level": 9,
+    "prerequisites": []
+  },
+  {
+    "id": "e7e44672-c55e-4e2b-b59d-550e370c2a51",
+    "course_code": "4302314",
+    "title": "Física Experimental VI",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4302313"
+    ]
+  },
+  {
+    "id": "e0b993d0-d107-4933-9070-71acccda515f",
+    "course_code": "AGA0414",
+    "title": "Introdução à Cosmologia",
+    "excitation_level": 8,
+    "prerequisites": []
+  },
+  {
+    "id": "4e5c4c25-5f97-4ec1-9166-195c37c9ea54",
+    "course_code": "4302313",
+    "title": "Física Experimental V",
+    "excitation_level": 9,
+    "prerequisites": [
+      "4302214"
+    ]
+  },
+  {
+    "id": "34fe2bfd-0328-49f3-974f-5586ded5c159",
+    "course_code": "4300439",
+    "title": "Laboratório de Dosimetria das Radiações",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4300437"
+    ]
+  },
+  {
+    "id": "9a2791ce-5466-4b7f-ab02-d38ff8c345c3",
+    "course_code": "4300410",
+    "title": "Óptica Não-Linear",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4302303"
+    ]
+  },
+  {
+    "id": "041df28d-0f80-42ba-a70f-8163df7e6b4c",
+    "course_code": "4302451",
+    "title": "Evolução dos Conceitos da Física",
+    "excitation_level": 9,
+    "prerequisites": []
+  },
+  {
+    "id": "60691666-ca14-42bf-aac6-3c3d1a4434b3",
+    "course_code": "4300430",
+    "title": "Cosmologia da Física",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4300374"
+    ]
+  },
+  {
+    "id": "75951115-072a-446d-8e09-21511f2210c9",
+    "course_code": "4300465",
+    "title": "Evolução dos Conceitos da Física (Lic)",
+    "excitation_level": 6,
+    "prerequisites": []
+  },
+  {
+    "id": "bd610e9e-f87d-4bec-ace6-b57b34401b1e",
+    "course_code": "4305292",
+    "title": "Cosmologia Física I",
+    "excitation_level": 1,
+    "prerequisites": []
+  },
+  {
+    "id": "36d00fa9-d7ea-481b-8fce-526d96c2171f",
+    "course_code": "4305299",
+    "title": "Cosmologia Física II",
+    "excitation_level": 1,
+    "prerequisites": []
+  }
+]

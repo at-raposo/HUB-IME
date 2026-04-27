@@ -1,0 +1,236 @@
+{
+  "byCode": [
+    {
+      "id": "b8fc6f46-fe37-4b29-a6a0-5c33071de1d2",
+      "course_code": "MAC0115",
+      "title": "Introdução à Computação",
+      "excitation_level": 3,
+      "prerequisites": []
+    },
+    {
+      "id": "c5dc3290-63ce-4feb-bd59-39490525aa07",
+      "course_code": "AGA0215",
+      "title": "Fundamentos de Astronomia",
+      "excitation_level": 3,
+      "prerequisites": []
+    },
+    {
+      "id": "9344c1d3-c2e0-4ad3-9c5b-f6425aa889e9",
+      "course_code": "4302403",
+      "title": "Mecânica Quântica I",
+      "excitation_level": 8,
+      "prerequisites": [
+        "4302311",
+        "MAT0122",
+        "4302204"
+      ]
+    },
+    {
+      "id": "2a6974b9-553b-41f5-83c4-653932773dda",
+      "course_code": "4302220",
+      "title": "Introdução ao Caos",
+      "excitation_level": 8,
+      "prerequisites": []
+    },
+    {
+      "id": "fea730da-c122-410f-bb28-b32ea4a21433",
+      "course_code": "4300462",
+      "title": "Tecnologia de Ensino de Física II",
+      "excitation_level": 8,
+      "prerequisites": [
+        "4300372"
+      ]
+    },
+    {
+      "id": "3121d862-83db-449a-824a-0d34c985a0dd",
+      "course_code": "4302303",
+      "title": "Eletromagnetismo I",
+      "excitation_level": 8,
+      "prerequisites": [
+        "4302212",
+        "MAT0216"
+      ]
+    },
+    {
+      "id": "2a2b20cd-2b3b-400d-a180-3e0be6319241",
+      "course_code": "MAT2352",
+      "title": "Cálculo para Funções de Várias Variáveis II",
+      "excitation_level": 4,
+      "prerequisites": [
+        "MAT2351"
+      ]
+    },
+    {
+      "id": "6de55dca-92bf-4791-b6a4-e116fd5cb109",
+      "course_code": "4300372",
+      "title": "Eletromagnetismo",
+      "excitation_level": 6,
+      "prerequisites": [
+        "4300271",
+        "MAT2351",
+        "4300160",
+        "MAT0105"
+      ]
+    },
+    {
+      "id": "221df936-55ea-48f9-8d5a-64fd444da92b",
+      "course_code": "4300270",
+      "title": "Eletricidade e Magnetismo I",
+      "excitation_level": 4,
+      "prerequisites": [
+        "MAT1351"
+      ]
+    },
+    {
+      "id": "9d210ce6-04ca-4548-a7a1-b63c30bb0c33",
+      "course_code": "4300374",
+      "title": "Relatividade",
+      "excitation_level": 6,
+      "prerequisites": [
+        "4300153",
+        "4300156"
+      ]
+    },
+    {
+      "id": "9df2dc83-942b-4964-b1bc-ca9e5f36c547",
+      "course_code": "4300371",
+      "title": "Introdução à Mecânica Quântica Ondulatória",
+      "excitation_level": 7,
+      "prerequisites": [
+        "4300377"
+      ]
+    },
+    {
+      "id": "de47c240-3735-434a-810b-0ac7c974a988",
+      "course_code": "4300357",
+      "title": "Oscilações e Ondas",
+      "excitation_level": 7,
+      "prerequisites": [
+        "4300255"
+      ]
+    },
+    {
+      "id": "60691666-ca14-42bf-aac6-3c3d1a4434b3",
+      "course_code": "4300430",
+      "title": "Cosmologia Física",
+      "excitation_level": 8,
+      "prerequisites": [
+        "4302403"
+      ]
+    },
+    {
+      "id": "1d8eb9eb-6bb6-4eae-83d5-54a097a35054",
+      "course_code": "4302214",
+      "title": "Física Experimental IV",
+      "excitation_level": 4,
+      "prerequisites": [
+        "4302213"
+      ]
+    }
+  ],
+  "byTitle": [
+    {
+      "id": "293f64c3-a131-409c-8cd2-e356988c4ef2",
+      "course_code": "FLF0487",
+      "title": "Tópicos de Filosofia da Física",
+      "excitation_level": 7,
+      "prerequisites": []
+    },
+    {
+      "id": "e417eac2-03b0-427c-8a9a-832d0a0aa686",
+      "course_code": "4300353",
+      "title": "Tópicos de História da Física Clássica",
+      "excitation_level": 8,
+      "prerequisites": []
+    },
+    {
+      "id": "5a632bd8-8781-41f9-aa4c-cb405eebc694",
+      "course_code": "4300370",
+      "title": "Introdução à Física Nuclear e de Partículas",
+      "excitation_level": 8,
+      "prerequisites": []
+    },
+    {
+      "id": "a6a8cf95-1896-4a24-a817-cca48ad9d465",
+      "course_code": "4300463",
+      "title": "Física Aplicada",
+      "excitation_level": 8,
+      "prerequisites": []
+    },
+    {
+      "id": "860fdd34-b2a4-4024-8b88-be7ee9e33137",
+      "course_code": "AGA0316",
+      "title": "Astrofísica de Altas Energias",
+      "excitation_level": 8,
+      "prerequisites": []
+    },
+    {
+      "id": "93048e58-f076-463e-9c8e-92fa69f3e98e",
+      "course_code": "FLF0472",
+      "title": "Filosofia da Física",
+      "excitation_level": 8,
+      "prerequisites": []
+    },
+    {
+      "id": "2e3ed8cb-c057-492d-87b2-5d50951b6fd5",
+      "course_code": "MAT0349",
+      "title": "História da Matemática I",
+      "excitation_level": 8,
+      "prerequisites": []
+    },
+    {
+      "id": "62c0d5b8-d06e-4011-9599-2530543cb227",
+      "course_code": "4300378",
+      "title": "Introdução à Física Nuclear e de Partículas",
+      "excitation_level": 8,
+      "prerequisites": [
+        "4302403"
+      ]
+    },
+    {
+      "id": "04d2c3e1-ffb7-410d-9c96-2d7114ef952e",
+      "course_code": "4300402",
+      "title": "Introdução à Física do Estado Sólido",
+      "excitation_level": 8,
+      "prerequisites": [
+        "4302403",
+        "4302401"
+      ]
+    },
+    {
+      "id": "0e0bdfec-2c37-42b3-b229-c973a409a352",
+      "course_code": "4300408",
+      "title": "Introdução à Física Nuclear",
+      "excitation_level": 7,
+      "prerequisites": []
+    },
+    {
+      "id": "920530ea-d694-4bd8-a8c4-ab1ceb882b8c",
+      "course_code": "4305100",
+      "title": "Física de Partículas Elementares",
+      "excitation_level": 7,
+      "prerequisites": []
+    },
+    {
+      "id": "099de67e-5416-463d-a3e1-601ce0087100",
+      "course_code": "4300485",
+      "title": "Partículas Elementares para Leigos",
+      "excitation_level": 3,
+      "prerequisites": []
+    },
+    {
+      "id": "1a63fb77-311d-44ab-afdd-493f1db8ddea",
+      "course_code": "4305106",
+      "title": "Física de Partículas Elementares",
+      "excitation_level": 1,
+      "prerequisites": []
+    },
+    {
+      "id": "3d3cce48-04d3-49ae-925c-4b48436d01bc",
+      "course_code": "4300379",
+      "title": "Introdução à Física do Estado Sólido",
+      "excitation_level": 8,
+      "prerequisites": []
+    }
+  ]
+}

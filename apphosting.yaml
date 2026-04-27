@@ -1,0 +1,23 @@
+env:
+  - variable: NEXT_PUBLIC_SUPABASE_URL
+    value: "https://bqszadfunqgtfpaorwvx.supabase.co"
+  - variable: NEXT_PUBLIC_SUPABASE_ANON_KEY
+    value: "sb_publishable_xQINQGX7-gqwgXHqOF0RWw_ZebOhOoI"
+  - variable: NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME
+    value: "dgpulbaqq"
+  - variable: NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET
+    value: "ifusp_uploads"
+  - variable: ADMIN_PASSWORD
+    secret: ADMIN_PASSWORD
+  - variable: RESEND_API_KEY
+    secret: RESEND_API_KEY
+  - variable: ADMIN_EMAIL
+    secret: ADMIN_EMAIL
+  - variable: CLOUDINARY_API_KEY
+    secret: CLOUDINARY_API_KEY
+  - variable: CLOUDINARY_API_SECRET
+    secret: CLOUDINARY_API_SECRET
+  - variable: ADMIN_SECRET_KEY
+    secret: ADMIN_SECRET_KEY
+  - variable: SUPABASE_SERVICE_ROLE_KEY
+    secret: SUPABASE_SERVICE_ROLE_KEY

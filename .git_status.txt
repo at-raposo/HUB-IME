@@ -1,0 +1,33 @@
+﻿On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   entanglements_debug.log
+	modified:   src/app/actions/profiles.ts
+	modified:   src/app/admin/drops/page.tsx
+	modified:   src/app/arquivo-labdiv/page.tsx
+	modified:   src/app/drops/page.tsx
+	modified:   src/app/enviar/components/BasicDetailsStep.tsx
+	modified:   src/app/enviar/components/FormStep.tsx
+	modified:   src/app/enviar/components/FormatStep.tsx
+	modified:   src/app/enviar/components/OptionalDetailsStep.tsx
+	modified:   src/app/enviar/constants.ts
+	modified:   src/app/enviar/page.tsx
+	modified:   src/app/page.tsx
+	modified:   src/components/layout/BottomNavBar.tsx
+	modified:   src/components/layout/SidebarRight.tsx
+	modified:   src/components/profile/EditProfileModal.tsx
+	modified:   src/lib/notifications.ts
+	modified:   src/types/index.ts
+	modified:   src/types/navigation.ts
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.git_remotes.txt
+	src/app/actions/drops.ts
+	src/app/enviar/components/SelectedIndicators.tsx
+
+no changes added to commit (use "git add" and/or "git commit -a")
+

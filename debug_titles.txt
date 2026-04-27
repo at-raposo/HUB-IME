@@ -1,0 +1,244 @@
+[
+  {
+    "id": "545b9ca8-e179-4f1d-8c8e-15a844fe500b",
+    "course_code": "4300366",
+    "title": "Partículas - a Dança da Matéria e dos Campos",
+    "excitation_level": 4,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "5a632bd8-8781-41f9-aa4c-cb405eebc694",
+    "course_code": "4300370",
+    "title": "Introdução à Física Nuclear e de Partículas",
+    "excitation_level": 8,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "1001ff3c-5c06-4b07-9b38-7dcfe9af38a5",
+    "course_code": "4302260",
+    "title": "Aceleradores de Partículas: Fundamentos e Aplicações",
+    "excitation_level": 6,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "62c0d5b8-d06e-4011-9599-2530543cb227",
+    "course_code": "4300378",
+    "title": "Introdução à Física Nuclear e de Partículas",
+    "excitation_level": 8,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "920530ea-d694-4bd8-a8c4-ab1ceb882b8c",
+    "course_code": "4305100",
+    "title": "Física de Partículas Elementares",
+    "excitation_level": 7,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "099de67e-5416-463d-a3e1-601ce0087100",
+    "course_code": "4300485",
+    "title": "Partículas Elementares para Leigos",
+    "excitation_level": 3,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "1a63fb77-311d-44ab-afdd-493f1db8ddea",
+    "course_code": "4305106",
+    "title": "Física de Partículas Elementares",
+    "excitation_level": 1,
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "b873914e-29a7-4281-b579-cc06f871a495",
+    "course_code": "MDR0650",
+    "title": "Aceleradores de Partículas na Medicina",
+    "excitation_level": 9,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "7d2b3921-95f4-4d3f-a284-5b9db6c629a6",
+    "course_code": "AGA0100",
+    "title": "Astronomia de Posição",
+    "excitation_level": 1,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "c5dc3290-63ce-4feb-bd59-39490525aa07",
+    "course_code": "AGA0215",
+    "title": "Fundamentos de Astronomia",
+    "excitation_level": 3,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "3780a552-903d-4b42-9db4-c4e3f07ec9ac",
+    "course_code": "AGA0210",
+    "title": "Experimentos de Astronomia",
+    "excitation_level": 4,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "b7b64833-eebc-435f-b319-664bc3dd8539",
+    "course_code": "AGA0115",
+    "title": "Fundamentos de Astronomia",
+    "excitation_level": 3,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "84195996-5389-42da-9bf6-249fabc67640",
+    "course_code": "AGA0315",
+    "title": "Planetas e Sistemas Planetários",
+    "excitation_level": 4,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "3121d862-83db-449a-824a-0d34c985a0dd",
+    "course_code": "4302303",
+    "title": "Eletromagnetismo I",
+    "excitation_level": 5,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "9118115c-1fb0-45c4-ad33-1195b06617c8",
+    "course_code": "4302304",
+    "title": "Eletromagnetismo II",
+    "excitation_level": 6,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "d589a523-aa53-471e-b725-b4be945085b6",
+    "course_code": "4305004",
+    "title": "Eletrodinâmica II",
+    "excitation_level": 8,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "e8930fe0-b21f-45a9-ad3c-f8a79c705028",
+    "course_code": "4300373",
+    "title": "Laboratório de Eletromagnetismo",
+    "excitation_level": 5,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "6de55dca-92bf-4791-b6a4-e116fd5cb109",
+    "course_code": "4300372",
+    "title": "Eletromagnetismo",
+    "excitation_level": 6,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "38499359-c82c-496c-bbb6-3d4d2c09e43f",
+    "course_code": "4305003",
+    "title": "Eletrodinâmi ca I",
+    "excitation_level": 1,
+    "category_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "041df28d-0f80-42ba-a70f-8163df7e6b4c",
+    "course_code": "4300405",
+    "title": "Evolução dos Conceitos da Física",
+    "excitation_level": 5,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "75951115-072a-446d-8e09-21511f2210c9",
+    "course_code": "4300465",
+    "title": "Evolução dos Conceitos da Física (Lic)",
+    "excitation_level": 6,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "id": "e7280363-6dcf-4bdc-b04c-0af72bbbd41a",
+    "course_code": "MAP0214",
+    "title": "Cálculo Numérico com Aplicações em Física",
+    "excitation_level": 7,
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "9708f201-5244-4f1a-809f-cde56fb066f2",
+    "course_code": "4300436",
+    "title": "Efeitos Biológicos das Radiações",
+    "excitation_level": 6,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "prerequisites": [
+      "MDR0633"
+    ]
+  },
+  {
+    "id": "5a86ebf5-6735-4f6a-8359-f4a667b82ab9",
+    "course_code": "4300491",
+    "title": "Introdução à Pesquisa em Ensino de Física",
+    "excitation_level": 6,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "licenciatura": "eletiva"
+    },
+    "prerequisites": []
+  },
+  {
+    "id": "e9e76114-a7e3-463c-b2c4-20f012d12fc9",
+    "course_code": "4302204",
+    "title": "Física Matemática I",
+    "excitation_level": 6,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "licenciatura": "eletiva",
+      "fisica_medica": "obrigatoria"
+    },
+    "prerequisites": [
+      "MAT2454"
+    ]
+  },
+  {
+    "id": "dabc768b-b502-4a03-8198-47afd700f131",
+    "course_code": "4302401",
+    "title": "Mecânica Estatística",
+    "excitation_level": 8,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "obrigatoria",
+      "licenciatura": "eletiva"
+    },
+    "prerequisites": [
+      "4302112",
+      "4300208",
+      "MAT2454"
+    ]
+  },
+  {
+    "id": "bb17ca63-27e5-4f0f-b9fb-b1d1a64fa86a",
+    "course_code": "AGA0309",
+    "title": "Mecânica Celeste",
+    "excitation_level": 6,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    },
+    "course_map": {
+      "bacharelado": "eletiva",
+      "licenciatura": "eletiva"
+    },
+    "prerequisites": []
+  }
+]

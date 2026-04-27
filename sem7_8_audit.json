@@ -1,0 +1,159 @@
+[
+  {
+    "id": "9344c1d3-c2e0-4ad3-9c5b-f6425aa889e9",
+    "course_code": "4302403",
+    "title": "Mecânica Quântica I",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302311",
+      "MAT0122",
+      "4302204"
+    ]
+  },
+  {
+    "id": "b1c87e93-205f-4004-b714-1770177773a9",
+    "course_code": "4300308",
+    "title": "Termodinâmica",
+    "excitation_level": 7,
+    "prerequisites": []
+  },
+  {
+    "id": "0397cfee-819a-4fbe-ae64-7b53575b1eee",
+    "course_code": "4300329",
+    "title": "Física do Corpo Humano",
+    "excitation_level": 7,
+    "prerequisites": []
+  },
+  {
+    "id": "542cd855-ed92-4632-943f-499acc88adce",
+    "course_code": "4300346",
+    "title": "Física da Poluição do Ar",
+    "excitation_level": 7,
+    "prerequisites": []
+  },
+  {
+    "id": "c07328f3-a360-4be8-96fb-2b5a383f0b48",
+    "course_code": "4300375",
+    "title": "Detectores de Radiação",
+    "excitation_level": 7,
+    "prerequisites": []
+  },
+  {
+    "id": "5e1d426a-cb10-4c1d-9c93-b7032996cb78",
+    "course_code": "4300456",
+    "title": "Produção de Material Didático",
+    "excitation_level": 7,
+    "prerequisites": []
+  },
+  {
+    "id": "fb9960e8-bff1-4278-8ef8-295adf2c0d28",
+    "course_code": "4300490",
+    "title": "Monografia para Licenciatura em Física",
+    "excitation_level": 7,
+    "prerequisites": []
+  },
+  {
+    "id": "3121d862-83db-449a-824a-0d34c985a0dd",
+    "course_code": "4302303",
+    "title": "Eletromagnetismo I",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302212",
+      "MAT0216"
+    ]
+  },
+  {
+    "id": "baee90e0-11c6-4c44-92e8-96b7f9fc378b",
+    "course_code": "4300325",
+    "title": "Física do Corpo Humano",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302112",
+      "MAT2454"
+    ]
+  },
+  {
+    "id": "b00c6ffa-2ea0-4853-aeea-2e6e80923885",
+    "course_code": "4300208",
+    "title": "Introdução à Termodinâmica",
+    "excitation_level": 2,
+    "prerequisites": [
+      "4302111"
+    ]
+  },
+  {
+    "id": "9118115c-1fb0-45c4-ad33-1195b06617c8",
+    "course_code": "4302304",
+    "title": "Eletromagnetismo II",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4302303"
+    ]
+  },
+  {
+    "id": "eef9c7b6-8113-4c65-bb4b-9ff382daa4f6",
+    "course_code": "4302404",
+    "title": "Mecânica Quântica II",
+    "excitation_level": 8,
+    "prerequisites": [
+      "4302403"
+    ]
+  },
+  {
+    "id": "75e1acf8-33ca-4b99-bec0-cbbf619e7473",
+    "course_code": "4302306",
+    "title": "Mecânica II",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4302305"
+    ]
+  },
+  {
+    "id": "e7280363-6dcf-4bdc-b04c-0af72bbbd41a",
+    "course_code": "MAP0214",
+    "title": "Cálculo Numérico com Aplicações em Física",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4300218",
+      "MAT2453"
+    ]
+  },
+  {
+    "id": "77e812cf-b3d1-4d8f-99a0-e05c5e670133",
+    "course_code": "4300441",
+    "title": "Detectores de Radiação",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302212"
+    ]
+  },
+  {
+    "id": "58bb20ad-a0ee-40ea-8e66-4f7867edec7c",
+    "course_code": "4302305",
+    "title": "Mecânica I",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302112",
+      "MAT2454"
+    ]
+  },
+  {
+    "id": "e9eebda4-a856-4531-9788-ab72af6e9965",
+    "course_code": "4302305_MED",
+    "title": "Mecânica I (Física Médica)",
+    "excitation_level": 6,
+    "prerequisites": [
+      "4302112",
+      "MAT0216"
+    ]
+  },
+  {
+    "id": "487d2c8b-0e0b-4e85-a7eb-10caacc98dad",
+    "course_code": "4302308",
+    "title": "Termodinâmica",
+    "excitation_level": 7,
+    "prerequisites": [
+      "4302112"
+    ]
+  }
+]

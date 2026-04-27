@@ -1,0 +1,68 @@
+[
+  {
+    "course_code": "4300225",
+    "title": "Métodos da Física Teórica",
+    "excitation_level": 4,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "obrigatoria",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "course_code": "4300266",
+    "title": "Partículas - a Dança da Matéria e dos Campos",
+    "excitation_level": 4,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "obrigatoria",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "course_code": "4300351",
+    "title": "Fisica do Meio Ambiente",
+    "excitation_level": 5,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "obrigatoria",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "course_code": "AGA0317",
+    "title": "Experimentos de Astronomia",
+    "excitation_level": 4,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "obrigatoria",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "course_code": "AGA0502",
+    "title": "Planetas e Sistemas Planetários",
+    "excitation_level": 4,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "obrigatoria",
+      "fisica_medica": "nao_se_aplica"
+    }
+  },
+  {
+    "course_code": "QFL0605",
+    "title": "Química Geral",
+    "excitation_level": 5,
+    "category": "obrigatoria",
+    "category_map": {
+      "bacharelado": "nao_se_aplica",
+      "licenciatura": "nao_se_aplica",
+      "fisica_medica": "nao_se_aplica"
+    }
+  }
+]

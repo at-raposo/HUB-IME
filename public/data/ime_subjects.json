@@ -1,0 +1,3316 @@
+[
+    {
+        "codigo": "MAC0329",
+        "nome": "Álgebra Booleana e Aplicações no Projeto de Arquitetura de Computadores",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Roberto Hirata Junior"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0120",
+        "nome": "Álgebra I para Licenciatura",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Leila Maria Vasconcellos Figueiredo"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Juan Carlos Gutierrez Fernandez"
+                ],
+                "horarios": [
+                    "ter 21:10 22:50",
+                    "sex 19:20 21:00"
+                ]
+            },
+            {
+                "codigo": "2026148",
+                "professores": [
+                    "Juan Carlos Gutierrez Fernandez"
+                ],
+                "horarios": [
+                    "ter 19:20 21:00",
+                    "qui 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0231",
+        "nome": "Álgebra II para Licenciatura",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Felipe Yukihide Yasumura"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Felipe Yukihide Yasumura"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT3457",
+        "nome": "Álgebra Linear I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Vitor de Oliveira Ferreira"
+                ],
+                "horarios": [
+                    "ter 07:30 09:10",
+                    "sex 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Vitor de Oliveira Ferreira"
+                ],
+                "horarios": [
+                    "ter 09:20 11:00",
+                    "sex 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Valentin Raphael Henri Ferenczi"
+                ],
+                "horarios": [
+                    "ter 15:00 16:40",
+                    "sex 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Valentin Raphael Henri Ferenczi"
+                ],
+                "horarios": [
+                    "ter 13:10 14:50",
+                    "sex 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "Marcelo Sarkis Atallah"
+                ],
+                "horarios": [
+                    "ter 11:10 12:50",
+                    "qui 11:10 12:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0122",
+        "nome": "Álgebra Linear I",
+        "turmas": [
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Leonardo Pellegrini Rodrigues"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00",
+                    "qui 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Lucas Colucci Cavalcante de Souza"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "qua 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0222",
+        "nome": "Álgebra Linear II",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Flavio Ulhoa Coelho"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2116",
+        "nome": "Álgebra Linear para Química",
+        "turmas": [
+            {
+                "codigo": "2026113",
+                "professores": [
+                    "Flavio Ulhoa Coelho"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0323",
+        "nome": "Algoritmos e Estruturas de Dados II",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Maurício de Lemos Rodrigues Collares Neto"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2216",
+        "nome": "Análise Aplicada",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "André Salles de Carvalho"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "(R) Eduardo Colli"
+                ],
+                "horarios": [
+                    "ter 19:20 21:00",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0352",
+        "nome": "Análise de Dados Categorizados",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Gilberto Alvarenga Paula"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0111",
+        "nome": "Análise Exploratória de Dados",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Victor Fossaluza"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0334",
+        "nome": "Análise Funcional",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Leonardo Pellegrini Rodrigues"
+                ],
+                "horarios": [
+                    "ter 14:00 15:40",
+                    "qui 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0353",
+        "nome": "Análise Multivariada de Dados",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "(R) Lucia Pereira Barroso"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40",
+                    "sex 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0206",
+        "nome": "Análise Real",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Vinícius Morelli Cortes"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0264",
+        "nome": "Anéis e Corpos",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Leila Maria Vasconcellos Figueiredo"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2210",
+        "nome": "Aplicações de Álgebra Linear",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "(R) Nelson Mugayar Kuhl"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Nicholas Braun Rodrigues"
+                ],
+                "horarios": [
+                    "ter 21:20 23:00",
+                    "qui 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP1021",
+        "nome": "Atendimento de Dúvidas de Ensino Básico I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Claudia Monteiro Peixoto"
+                ],
+                "horarios": [
+                    "sab 10:00 10:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0213",
+        "nome": "Atividade Curricular em Comunidade",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "André Fujita"
+                ],
+                "horarios": [
+                    "sab 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0214",
+        "nome": "Atividade Curricular em Cultura e Extensão",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "André Fujita"
+                ],
+                "horarios": [
+                    "sab 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0215",
+        "nome": "Atividade Curricular em Pesquisa",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "André Fujita"
+                ],
+                "horarios": [
+                    "sab 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0465",
+        "nome": "Biologia Computacional",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Alan Mitchell Durham"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0217",
+        "nome": "Cálculo Diferencial",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Paulo Domingos Cordaro"
+                ],
+                "horarios": [
+                    "seg 17:30 19:10",
+                    "qua 17:30 19:10",
+                    "sex 17:30 19:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0111",
+        "nome": "Cálculo Diferencial e Integral I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Artur Hideyuki Tomita"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "ter 14:00 15:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2453",
+        "nome": "Cálculo Diferencial e Integral I",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Edson Vargas"
+                ],
+                "horarios": [
+                    "ter 09:20 11:00",
+                    "qua 07:30 09:20",
+                    "sex 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Edson Vargas"
+                ],
+                "horarios": [
+                    "ter 07:30 09:10",
+                    "qua 09:20 11:00",
+                    "sex 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Estefani Moraes Moreira"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "ter 13:10 14:50",
+                    "sex 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Estefani Moraes Moreira"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "ter 15:00 16:40",
+                    "sex 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "Odilon Otavio Luciano"
+                ],
+                "horarios": [
+                    "seg 17:00 18:40",
+                    "qua 17:00 18:40",
+                    "sex 17:00 18:40"
+                ]
+            },
+            {
+                "codigo": "2026113",
+                "professores": [
+                    "Rogerio Augusto dos Santos Fajardo"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "sex 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026116",
+                "professores": [
+                    "Orlando Stanley Juriaans"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026120",
+                "professores": [
+                    "Eduardo do Nascimento Marcos"
+                ],
+                "horarios": [
+                    "seg 21:00 22:40",
+                    "ter 21:00 22:40",
+                    "sex 19:00 20:40"
+                ]
+            },
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Pierluigi Benevieri"
+                ],
+                "horarios": [
+                    "seg 08:00 10:00",
+                    "qua 10:00 12:00",
+                    "sex 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Albert Meads Fisher"
+                ],
+                "horarios": [
+                    "ter 19:00 21:00",
+                    "qui 19:00 21:00",
+                    "sex 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026124",
+                "professores": [
+                    "João Henrique Santos de Andrade"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "qui 21:00 23:00",
+                    "sex 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026126",
+                "professores": [
+                    "José Luis Vilca Rodríguez"
+                ],
+                "horarios": [
+                    "seg 21:20 23:00",
+                    "ter 21:20 23:00",
+                    "qui 19:30 21:10"
+                ]
+            },
+            {
+                "codigo": "2026134",
+                "professores": [
+                    "Eloi Medina Galego"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Pierluigi Benevieri"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Eloi Medina Galego"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Lucia Satie Ikemoto Murakami"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "José Luis Vilca Rodríguez"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "ter 19:20 21:00",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0146",
+        "nome": "Cálculo Diferencial e Integral I para Economia",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Henrique Guzzo Junior"
+                ],
+                "horarios": [
+                    "seg 09:20 11:00",
+                    "qua 07:30 09:10",
+                    "sex 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "(R) Marcos Martins Alexandrino da Silva"
+                ],
+                "horarios": [
+                    "seg 21:20 23:00",
+                    "qua 19:30 21:10",
+                    "sex 19:30 21:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2454",
+        "nome": "Cálculo Diferencial e Integral II",
+        "turmas": [
+            {
+                "codigo": "2026120",
+                "professores": [
+                    "Raul Antonio Ferraz"
+                ],
+                "horarios": [
+                    "ter 21:00 22:40",
+                    "sex 19:00 20:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0205",
+        "nome": "Cálculo Diferencial e Integral III",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Salvador Addas Zanata"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0216",
+        "nome": "Cálculo Diferencial e Integral III",
+        "turmas": [
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Daniel Rodriguez Marroquin"
+                ],
+                "horarios": [
+                    "seg 10:00 12:00",
+                    "qua 08:00 10:00",
+                    "sex 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Alexandre Grichkov"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00",
+                    "qua 19:00 21:00",
+                    "sex 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026134",
+                "professores": [
+                    "Daniel Victor Tausk"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT3120",
+        "nome": "Cálculo Diferencial e Integral III",
+        "turmas": [
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Lucas Colucci Cavalcante de Souza"
+                ],
+                "horarios": [
+                    "seg 21:10 22:50",
+                    "qua 19:20 21:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2455",
+        "nome": "Cálculo Diferencial e Integral III",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Martha Patrícia Dussan Angulo"
+                ],
+                "horarios": [
+                    "ter 13:10 14:50",
+                    "qui 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Martha Patrícia Dussan Angulo"
+                ],
+                "horarios": [
+                    "ter 15:00 16:40",
+                    "qui 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Ricardo dos Santos Freire Junior"
+                ],
+                "horarios": [
+                    "ter 13:10 14:50",
+                    "qui 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Claudio Gorodski"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "Jaime Angulo Pava"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qui 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026106",
+                "professores": [
+                    "Jaime Angulo Pava"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qui 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026107",
+                "professores": [
+                    "Marcone Corrêa Pereira"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qua 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026108",
+                "professores": [
+                    "Ricardo dos Santos Freire Junior"
+                ],
+                "horarios": [
+                    "ter 15:00 16:40",
+                    "qui 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026109",
+                "professores": [
+                    "Nataliia Goloshchapova"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qua 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026110",
+                "professores": [
+                    "Eduardo Rosinato Longa"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qua 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "Nataliia Goloshchapova"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026112",
+                "professores": [
+                    "Eduardo Rosinato Longa"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 15:00 16:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0311",
+        "nome": "Cálculo Diferencial e Integral V",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Paulo Domingos Cordaro"
+                ],
+                "horarios": [
+                    "seg 17:30 19:10",
+                    "qua 17:40 19:20",
+                    "sex 17:30 19:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2219",
+        "nome": "Cálculo III para Química",
+        "turmas": [
+            {
+                "codigo": "2026113",
+                "professores": [
+                    "Orlando Stanley Juriaans"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0321",
+        "nome": "Cálculo Integral",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Alexandre Lymberopoulos"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0151",
+        "nome": "Cálculo Numérico e Aplicações",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Nicholas Braun Rodrigues"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Lucas Franceschini"
+                ],
+                "horarios": [
+                    "ter 21:10 22:50",
+                    "sex 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0125",
+        "nome": "Cálculo Numérico para Geociências",
+        "turmas": [
+            {
+                "codigo": "2026116",
+                "professores": [
+                    "Eduardo Colli"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT1351",
+        "nome": "Cálculo para Funções de Uma Variável Real I",
+        "turmas": [
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "(R) Antonio Carlos Brolezzi"
+                ],
+                "horarios": [
+                    "seg 08:00 10:00",
+                    "qua 10:00 12:00",
+                    "sex 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Mikhailo Dokuchaev"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "ter 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Lucia Renato Junqueira"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Leonardo Barichello"
+                ],
+                "horarios": [
+                    "seg 21:10 22:50",
+                    "ter 19:20 21:00",
+                    "qui 19:20 21:00"
+                ]
+            },
+            {
+                "codigo": "2026148",
+                "professores": [
+                    "Leonardo Barichello"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "ter 21:10 22:50",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2351",
+        "nome": "Cálculo para Funções de Várias Variáveis I",
+        "turmas": [
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Daniela Mariz Silva Vieira"
+                ],
+                "horarios": [
+                    "seg 19:00 21:00",
+                    "qui 21:00 23:00"
+                ]
+            },
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "David Pires Dias"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Vinicius de Oliveira Rodrigues"
+                ],
+                "horarios": [
+                    "seg 21:10 22:50",
+                    "qua 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0215",
+        "nome": "Cálculo Vetorial e Aplicações",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "Salvador Addas Zanata"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0102",
+        "nome": "Caminhos no Bacharelado em Ciência da Computação",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Paulo Roberto Miranda Meirelles"
+                ],
+                "horarios": [
+                    "qui 12:00 13:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0100",
+        "nome": "Conceitos Introdutórios de Matemática",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "(R) Eduardo Colli"
+                ],
+                "horarios": [
+                    "qui 14:00 15:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "(R) Eduardo Colli"
+                ],
+                "horarios": [
+                    "qui 17:30 19:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0336",
+        "nome": "Criptografia para Segurança de Dados",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Routo Terada"
+                ],
+                "horarios": [
+                    "seg 16:00 17:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0327",
+        "nome": "Desafios de Programação",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Maurício de Lemos Rodrigues Collares Neto"
+                ],
+                "horarios": [
+                    "ter 14:00 15:40",
+                    "sex 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0470",
+        "nome": "Desenvolvimento de Software Livre",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Paulo Roberto Miranda Meirelles"
+                ],
+                "horarios": [
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0523",
+        "nome": "Elementos da Teoria das Decisões",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Luís Gustavo Esteves"
+                ],
+                "horarios": [
+                    "seg 16:00 17:40",
+                    "qua 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0413",
+        "nome": "Equações de Derivadas Parciais",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "Orlando Francisco Lopes"
+                ],
+                "horarios": [
+                    "seg 16:00 17:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0316",
+        "nome": "Equações Diferenciais II",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "Salvador Addas Zanata"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40",
+                    "qua 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0413",
+        "nome": "Estatística Aplicada I",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "(R) Denise Aparecida Botter"
+                ],
+                "horarios": [
+                    "ter 14:00 17:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0331",
+        "nome": "Estatística Computacional",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "(R) Anatoli Iambartsev"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE1514",
+        "nome": "Estatística no Ensino Básico",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Silvia Nagib Elian"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE1511",
+        "nome": "Estatística para Licenciatura I",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "(R) Marcos Nascimento Magalhaes"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "(R) Marcos Nascimento Magalhaes"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qua 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0236",
+        "nome": "Funções Diferenciáveis e Séries",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Iuliia Petrova"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0105",
+        "nome": "Fundamentos de Matemática para a Computação",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Guilherme Oliveira Mota"
+                ],
+                "horarios": [
+                    "qua 14:00 15:40",
+                    "sex 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0105",
+        "nome": "Geometria Analítica",
+        "turmas": [
+            {
+                "codigo": "2026116",
+                "professores": [
+                    "Ricardo Bianconi"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Jorge Tadashi Hiratuka"
+                ],
+                "horarios": [
+                    "ter 10:00 12:00",
+                    "sex 08:00 10:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Albert Meads Fisher"
+                ],
+                "horarios": [
+                    "ter 21:00 23:00",
+                    "sex 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Jorge Tadashi Hiratuka"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Marcio Vieira de Almeida"
+                ],
+                "horarios": [
+                    "qua 19:20 21:00",
+                    "sex 21:10 22:50"
+                ]
+            },
+            {
+                "codigo": "2026148",
+                "professores": [
+                    "Marcio Vieira de Almeida"
+                ],
+                "horarios": [
+                    "qua 21:10 22:50",
+                    "sex 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0240",
+        "nome": "Geometria e Desenho Geométrico II",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Severino Toscano do Rego Melo"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Antonio de Padua Franco Filho"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0310",
+        "nome": "Geometria III",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Ricardo Bianconi"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Sergio Alves"
+                ],
+                "horarios": [
+                    "seg 21:10 22:50",
+                    "qui 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0302",
+        "nome": "Inferência Bayesiana",
+        "turmas": [
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "(R) Luís Gustavo Esteves"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qua 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0301",
+        "nome": "Inferência Estatística Frequentista",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Gisela Tunes da Silva"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0101",
+        "nome": "Integração na Universidade e na Profissão",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Paulo Roberto Miranda Meirelles"
+                ],
+                "horarios": [
+                    "ter 13:00 14:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0425",
+        "nome": "Inteligência Artificial",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Leliane Nunes de Barros"
+                ],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "qui 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0320",
+        "nome": "Introdução à Análise Complexa",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Yuri Gomes Lima"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0110",
+        "nome": "Introdução à Computação",
+        "turmas": [
+            {
+                "codigo": "2026141",
+                "professores": [
+                    "Benjamin Merlin Bumpus"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "(R) Leonidas de Oliveira Brandao"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Fábio Happ Botler"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026151",
+                "professores": [
+                    "(R) Carlos Hitoshi Morimoto"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "(R) Manoel Marcilio Sanches"
+                ],
+                "horarios": [
+                    "qua 21:10 22:50",
+                    "sex 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC2166",
+        "nome": "Introdução à Computação",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Yoshiharu Kohayakawa"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 15:00 16:40"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Guilherme Oliveira Mota"
+                ],
+                "horarios": [
+                    "ter 13:10 14:50",
+                    "qui 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Maurício de Lemos Rodrigues Collares Neto"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qui 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "(R) Paulo Andre Vechiatto de Miranda"
+                ],
+                "horarios": [
+                    "qua 10:10 11:50",
+                    "sex 10:10 11:50"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "(R) Paulo Andre Vechiatto de Miranda"
+                ],
+                "horarios": [
+                    "qua 14:00 15:40",
+                    "sex 14:00 15:40"
+                ]
+            },
+            {
+                "codigo": "2026106",
+                "professores": [
+                    "Kelly Rosa Braghetto"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "qui 10:10 11:50"
+                ]
+            },
+            {
+                "codigo": "2026107",
+                "professores": [
+                    "(R) Renata Wassermann"
+                ],
+                "horarios": [
+                    "seg 10:10 11:50",
+                    "qua 10:10 11:50"
+                ]
+            },
+            {
+                "codigo": "2026108",
+                "professores": [
+                    "(R) Renata Wassermann"
+                ],
+                "horarios": [
+                    "seg 08:20 10:00",
+                    "qua 08:20 10:00"
+                ]
+            },
+            {
+                "codigo": "2026109",
+                "professores": [
+                    "(R) Marcelo Finger"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "(R) Alan Mitchell Durham"
+                ],
+                "horarios": [
+                    "ter 08:20 10:00",
+                    "qui 08:20 10:00"
+                ]
+            },
+            {
+                "codigo": "2026112",
+                "professores": [
+                    "(R) Marcelo Finger"
+                ],
+                "horarios": [
+                    "seg 15:00 16:40",
+                    "ter 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026113",
+                "professores": [
+                    "(R) André Fujita"
+                ],
+                "horarios": [
+                    "seg 18:30 20:10",
+                    "sex 17:00 18:40"
+                ]
+            },
+            {
+                "codigo": "2026114",
+                "professores": [
+                    "(R) André Fujita"
+                ],
+                "horarios": [
+                    "ter 18:00 19:40",
+                    "qui 18:00 19:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0420",
+        "nome": "Introdução a Computação Gráfica",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Carlos Hitoshi Morimoto"
+                ],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0115",
+        "nome": "Introdução à Computação para Ciências Exatas e Tecnologia",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Ernesto Julian Goldberg Birgin"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026115",
+                "professores": [
+                    "Denis Deratani Mauá"
+                ],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0113",
+        "nome": "Introdução à Computação para Ciências Humanas",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Flavio Soares Correa da Silva"
+                ],
+                "horarios": [
+                    "qua 07:30 09:10",
+                    "sex 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "(R) Flavio Soares Correa da Silva"
+                ],
+                "horarios": [
+                    "qua 09:20 11:00",
+                    "sex 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Sinai Robins"
+                ],
+                "horarios": [
+                    "ter 19:30 21:10",
+                    "qui 21:20 23:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Sinai Robins"
+                ],
+                "horarios": [
+                    "ter 21:20 23:00",
+                    "qui 19:30 21:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2112",
+        "nome": "Introdução à Lógica de Programação e Modelagem Computacional",
+        "turmas": [
+            {
+                "codigo": "2026126",
+                "professores": [
+                    "Renato Vicente"
+                ],
+                "horarios": [
+                    "ter 19:30 21:10",
+                    "qui 21:20 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0219",
+        "nome": "Introdução à Probabilidade e a Estatística I",
+        "turmas": [
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Morgan Florian Thibault Andre"
+                ],
+                "horarios": [
+                    "ter 19:30 21:10",
+                    "qui 21:10 22:50"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Eduardo Jordao Neves"
+                ],
+                "horarios": [
+                    "ter 21:10 22:50",
+                    "qui 19:30 21:10"
+                ]
+            },
+            {
+                "codigo": "2026123",
+                "professores": [
+                    "Nikolai Valtchev Kolev"
+                ],
+                "horarios": [
+                    "qui 19:30 23:00"
+                ]
+            },
+            {
+                "codigo": "2026124",
+                "professores": [
+                    "Vladimir Belitsky"
+                ],
+                "horarios": [
+                    "qui 19:30 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0121",
+        "nome": "Introdução a Probabilidade e a Estatística I",
+        "turmas": [
+            {
+                "codigo": "2026141",
+                "professores": [
+                    "Alexandre Galvão Patriota"
+                ],
+                "horarios": [
+                    "qua 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Marcos Nascimento Magalhaes"
+                ],
+                "horarios": [
+                    "seg 21:10 22:50",
+                    "qua 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0229",
+        "nome": "Introdução à Probabilidade e a Estatística II",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Elisabeti Kira"
+                ],
+                "horarios": [
+                    "ter 07:30 09:10",
+                    "qui 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Antonio Carlos Pedroso de Lima"
+                ],
+                "horarios": [
+                    "ter 09:20 11:00",
+                    "qui 07:30 09:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0370",
+        "nome": "Introdução à Teoria das Categorias",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Hugo Luiz Mariano"
+                ],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0320",
+        "nome": "Introdução à Teoria dos Grafos",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Fábio Happ Botler"
+                ],
+                "horarios": [
+                    "ter 14:00 15:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0223",
+        "nome": "Introdução a Teoria dos Números",
+        "turmas": [
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Raul Antonio Ferraz"
+                ],
+                "horarios": [
+                    "ter 19:20 21:00",
+                    "sex 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0460",
+        "nome": "Introdução ao aprendizado de máquina",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Nina Sumiko Tomita Hirata"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0350",
+        "nome": "Introdução ao Desenvolvimento de Sistemas de Software",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Paulo Roberto Miranda Meirelles"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0148",
+        "nome": "Introdução ao Trabalho Científico",
+        "turmas": [
+            {
+                "codigo": "2026143 (Disciplina Anual)",
+                "professores": [
+                    "Alexandre Lymberopoulos"
+                ],
+                "horarios": [
+                    "sab 08:00 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2419",
+        "nome": "Introdução ao Trabalho de Formatura",
+        "turmas": [
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "(R) Claudia Monteiro Peixoto"
+                ],
+                "horarios": [
+                    "seg 18:00 18:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2110",
+        "nome": "Introdução aos Modelos Lineares",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "André Salles de Carvalho"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Rodrigo Bissacot Proença"
+                ],
+                "horarios": [
+                    "ter 21:10 22:50",
+                    "qui 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0312",
+        "nome": "Introdução aos Processos Estocásticos",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "(R) Luiz Renato Goncalves Fontes"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT1513",
+        "nome": "Laboratório de Matemática",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Lucilia Daruiz Borsari"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Rita Santos Guimarães"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qua 21:10 22:50"
+                ]
+            },
+            {
+                "codigo": "2026148",
+                "professores": [
+                    "Rita Santos Guimarães"
+                ],
+                "horarios": [
+                    "seg 21:10 22:50",
+                    "qua 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0472",
+        "nome": "Laboratório de Métodos Ágeis",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Alfredo Goldman Vel Lejbman"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0210",
+        "nome": "Laboratório de Métodos Numéricos",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Marcelo Gomes de Queiroz"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0321",
+        "nome": "Laboratório de Programação Orientada a Objetos",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "(R) Fabio Kon"
+                ],
+                "horarios": [
+                    "qui 08:20 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "(R) Fabio Kon"
+                ],
+                "horarios": [
+                    "sex 08:20 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2212",
+        "nome": "Laboratório de Simulação Estocástica",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "(R) Julio Michael Stern"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 16:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "(R) Julio Michael Stern"
+                ],
+                "horarios": [
+                    "ter 19:20 21:00",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0335",
+        "nome": "Leitura Dramática",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Alan Mitchell Durham"
+                ],
+                "horarios": [
+                    "qui 13:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0359",
+        "nome": "Lógica",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Francisco Miraglia Neto"
+                ],
+                "horarios": [
+                    "seg 16:00 17:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0103",
+        "nome": "Matemática para Administração e Contabilidade",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Wilson Albeiro Cuellar Carrera"
+                ],
+                "horarios": [
+                    "qua 09:20 11:00",
+                    "sex 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Wilson Albeiro Cuellar Carrera"
+                ],
+                "horarios": [
+                    "qua 07:30 09:10",
+                    "sex 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Claude Miguel Emmanuel Marrecas Marion"
+                ],
+                "horarios": [
+                    "ter 21:20 23:00",
+                    "qui 19:30 21:10"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Claude Miguel Emmanuel Marrecas Marion"
+                ],
+                "horarios": [
+                    "ter 19:30 21:10",
+                    "qui 21:20 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT1300",
+        "nome": "Matemática para Licenciatura em Geociências e Educação Ambiental",
+        "turmas": [
+            {
+                "codigo": "2026117",
+                "professores": [
+                    "Daciberg Lima Gonçalves"
+                ],
+                "horarios": [
+                    "qui 19:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0441",
+        "nome": "Mecânica",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP0327",
+        "nome": "Mecânica Analítica Clássica",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "Christian Dieter Jakel"
+                ],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP3121",
+        "nome": "Métodos Numéricos e Aplicações",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Nelson Mugayar Kuhl"
+                ],
+                "horarios": [
+                    "seg 09:20 11:00",
+                    "qua 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "João Guilherme Caldas Steinstraesser"
+                ],
+                "horarios": [
+                    "seg 09:20 11:00",
+                    "qua 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Lucas Franceschini"
+                ],
+                "horarios": [
+                    "seg 09:20 11:00",
+                    "qua 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Clodoaldo Grotta Ragazzo"
+                ],
+                "horarios": [
+                    "seg 13:10 14:50",
+                    "qua 13:10 14:50"
+                ]
+            },
+            {
+                "codigo": "2026105",
+                "professores": [
+                    "Clodoaldo Grotta Ragazzo"
+                ],
+                "horarios": [
+                    "ter 09:20 11:00",
+                    "qui 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026106",
+                "professores": [
+                    "Claudio Hirofume Asano"
+                ],
+                "horarios": [
+                    "ter 07:30 09:10",
+                    "qui 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026107",
+                "professores": [
+                    "Joaquin Ignacio Bonnecarrere Garcia"
+                ],
+                "horarios": [
+                    "seg 09:20 11:00",
+                    "sex 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026108",
+                "professores": [
+                    "Henrique Von Dreifus"
+                ],
+                "horarios": [
+                    "ter 09:20 11:00",
+                    "qui 09:20 11:00"
+                ]
+            },
+            {
+                "codigo": "2026109",
+                "professores": [
+                    "Henrique Von Dreifus"
+                ],
+                "horarios": [
+                    "ter 07:30 09:10",
+                    "qui 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026110",
+                "professores": [
+                    "Clodoaldo Grotta Ragazzo"
+                ],
+                "horarios": [
+                    "ter 07:30 09:10",
+                    "qui 07:30 09:10"
+                ]
+            },
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "Henrique Von Dreifus"
+                ],
+                "horarios": [
+                    "qua 07:30 09:10",
+                    "sex 09:20 11:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP3122",
+        "nome": "Métodos Numéricos e Aplicações",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Gabriel Haeser"
+                ],
+                "horarios": [
+                    "ter 08:20 10:00",
+                    "qui 08:20 10:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Gabriel Haeser"
+                ],
+                "horarios": [
+                    "seg 07:30 09:10",
+                    "qua 07:30 09:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2310",
+        "nome": "Métodos Numéricos em Equações Diferenciais I",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "Sonia Regina Leite Garcia"
+                ],
+                "horarios": [
+                    "qua 14:00 15:40",
+                    "sex 16:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Sonia Regina Leite Garcia"
+                ],
+                "horarios": [
+                    "qui 19:20 21:00",
+                    "sex 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0209",
+        "nome": "Modelagem e Simulação",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Roberto Marcondes Cesar Junior"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0517",
+        "nome": "Modelos Aleatórios em Finanças",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "(R) Vladimir Belitsky"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2225",
+        "nome": "Modelos em Atuária e Finanças",
+        "turmas": [
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Christian Dieter Jakel"
+                ],
+                "horarios": [
+                    "ter 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0149",
+        "nome": "Noções de Cálculo para Farmácia",
+        "turmas": [
+            {
+                "codigo": "2026101",
+                "professores": [
+                    "Kostiantyn Iusenko"
+                ],
+                "horarios": [
+                    "qui 16:00 18:00"
+                ]
+            },
+            {
+                "codigo": "2026102",
+                "professores": [
+                    "Kostiantyn Iusenko"
+                ],
+                "horarios": [
+                    "qui 21:00 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0110",
+        "nome": "Noções de Estatística",
+        "turmas": [
+            {
+                "codigo": "2026109",
+                "professores": [
+                    "Vanderlei da Costa Bueno"
+                ],
+                "horarios": [
+                    "qua 14:00 16:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0116",
+        "nome": "Noções de Estatística",
+        "turmas": [
+            {
+                "codigo": "2026103",
+                "professores": [
+                    "Nikolai Valtchev Kolev"
+                ],
+                "horarios": [
+                    "qua 19:20 23:00"
+                ]
+            },
+            {
+                "codigo": "2026104",
+                "professores": [
+                    "Julia Maria Pavan Soler"
+                ],
+                "horarios": [
+                    "qua 14:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026107",
+                "professores": [
+                    "Francisco Felipe de Queiroz"
+                ],
+                "horarios": [
+                    "qua 14:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026111",
+                "professores": [
+                    "Pablo Almeida Gomes"
+                ],
+                "horarios": [
+                    "qui 14:00 17:40"
+                ]
+            },
+            {
+                "codigo": "2026113",
+                "professores": [
+                    "(R) Lucia Pereira Barroso"
+                ],
+                "horarios": [
+                    "qui 19:20 23:00"
+                ]
+            },
+            {
+                "codigo": "2026120",
+                "professores": [
+                    "Florencia Graciela Leonardi"
+                ],
+                "horarios": [
+                    "qua 19:20 23:00"
+                ]
+            },
+            {
+                "codigo": "2026150",
+                "professores": [
+                    "Miguel Natalio Abadi"
+                ],
+                "horarios": [
+                    "ter 08:00 12:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0228",
+        "nome": "Noções de Probabilidade e Processos Estocásticos",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Eduardo Jordao Neves"
+                ],
+                "horarios": [
+                    "qua 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Vanderlei da Costa Bueno"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qua 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0427",
+        "nome": "Otimização Não Linear",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "(R) Ernesto Julian Goldberg Birgin"
+                ],
+                "horarios": [
+                    "ter 10:10 12:10",
+                    "qui 08:00 09:20"
+                ]
+            },
+            {
+                "codigo": "2026154",
+                "professores": [
+                    "Marcel Kenji de Carli Silva"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT1201",
+        "nome": "Práticas de Ensino de Álgebra I",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Leila Maria Vasconcellos Figueiredo"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Juan Carlos Gutierrez Fernandez"
+                ],
+                "horarios": [
+                    "ter 21:10 22:50",
+                    "sex 19:20 21:00"
+                ]
+            },
+            {
+                "codigo": "2026148",
+                "professores": [
+                    "Juan Carlos Gutierrez Fernandez"
+                ],
+                "horarios": [
+                    "ter 19:20 21:00",
+                    "qui 19:20 21:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP1151",
+        "nome": "Práticas de Ensino de Cálculo Numérico",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [],
+                "horarios": [
+                    "sab 12:00 13:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Lucas Franceschini"
+                ],
+                "horarios": [
+                    "sab 12:00 13:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2401",
+        "nome": "Práticas de Ensino de Geometria II",
+        "turmas": [
+            {
+                "codigo": "2026142",
+                "professores": [
+                    "Severino Toscano do Rego Melo"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "Antonio de Padua Franco Filho"
+                ],
+                "horarios": [
+                    "seg 19:20 21:00",
+                    "qui 21:10 22:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0222",
+        "nome": "Probabilidade",
+        "turmas": [
+            {
+                "codigo": "2026126",
+                "professores": [
+                    "José Carlos Simon de Miranda"
+                ],
+                "horarios": [
+                    "ter 19:30 23:00",
+                    "qui 19:30 21:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2324",
+        "nome": "Probabilidade Aplicada",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "(R) Claudia Monteiro Peixoto"
+                ],
+                "horarios": [
+                    "ter 17:40 19:20",
+                    "qui 17:40 19:20"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0127",
+        "nome": "Probabilidade I",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Adilson Simonis"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0227",
+        "nome": "Probabilidade II",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Aline Duarte de Oliveira"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0499",
+        "nome": "Processos Estocásticos",
+        "turmas": [
+            {
+                "codigo": "2026126",
+                "professores": [
+                    "Pablo Almeida Gomes"
+                ],
+                "horarios": [
+                    "qua 19:30 23:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0451",
+        "nome": "Projeto de Ensino de Matemática",
+        "turmas": [
+            {
+                "codigo": "2026142 (Disciplina Anual)",
+                "professores": [
+                    "Maria Elisa Esteves Lopes Galvao"
+                ],
+                "horarios": [
+                    "qua 17:40 19:20",
+                    "sab 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT1500",
+        "nome": "Projetos de Estágio",
+        "turmas": [
+            {
+                "codigo": "2026142 (Disciplina Anual)",
+                "professores": [
+                    "Rogerio Augusto dos Santos Fajardo"
+                ],
+                "horarios": [
+                    "sex 13:20 15:00"
+                ]
+            },
+            {
+                "codigo": "2026147 (Disciplina Anual)",
+                "professores": [
+                    "Barbara Corominas Valério"
+                ],
+                "horarios": [
+                    "ter 17:30 19:10"
+                ]
+            },
+            {
+                "codigo": "2026148 (Disciplina Anual)",
+                "professores": [
+                    "Rita Santos Guimarães"
+                ],
+                "horarios": [
+                    "sab 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026152 (Disciplina Anual)",
+                "professores": [
+                    "Marcio Vieira de Almeida"
+                ],
+                "horarios": [
+                    "sab 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0520",
+        "nome": "Psicometria",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Marcia D Elia Branco"
+                ],
+                "horarios": [
+                    "ter 14:00 15:40",
+                    "qui 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0352",
+        "nome": "Redes de Computadores e Sistemas Distribuídos",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Helder May Nunes da Silva Oliveira"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0521",
+        "nome": "Representações de Grupos",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Lucia Satie Ikemoto Murakami"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0450",
+        "nome": "Seminário de Resolução de Problemas",
+        "turmas": [
+            {
+                "codigo": "2026147",
+                "professores": [
+                    "(R) Barbara Corominas Valério"
+                ],
+                "horarios": [
+                    "ter 21:10 22:50",
+                    "sex 19:20 21:10"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT2465",
+        "nome": "Sequências, Séries e Equações Diferenciais",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Zara Issa Abud"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0325",
+        "nome": "Séries Temporais",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Maicon Josué Karling"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0426",
+        "nome": "Sistemas de Bancos de Dados",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Kelly Rosa Braghetto"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0405",
+        "nome": "Sistemas Dinâmicos",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Yuri Gomes Lima"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "sex 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0422",
+        "nome": "Sistemas Operacionais",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "(R) Daniel Macedo Batista"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0315",
+        "nome": "Tecnologia da Amostragem",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "(R) Airlane Pereira Alencar"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0364",
+        "nome": "Teoria de Galois",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Lucia Satie Ikemoto Murakami"
+                ],
+                "horarios": [
+                    "seg 08:00 09:40",
+                    "qua 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0330",
+        "nome": "Teoria dos Conjuntos",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Vinicius de Oliveira Rodrigues"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40",
+                    "qua 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2313",
+        "nome": "Tópicos de Matemática Aplicada",
+        "turmas": [
+            {
+                "codigo": "2026134",
+                "professores": [
+                    "Daniel Levcovitz"
+                ],
+                "horarios": [
+                    "qua 08:00 09:40",
+                    "sex 10:00 11:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0101",
+        "nome": "Tópicos de Matemática Elementar",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Cristina Cerri"
+                ],
+                "horarios": [
+                    "seg 14:00 15:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0462",
+        "nome": "Tópicos de Matemática III",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Claude Miguel Emmanuel Marrecas Marion"
+                ],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "sex 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAE0610",
+        "nome": "Tópicos Especiais de Estatística",
+        "turmas": [
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Nikolai Valtchev Kolev"
+                ],
+                "horarios": [
+                    "ter 16:00 17:40",
+                    "qui 16:00 17:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0317",
+        "nome": "Topologia",
+        "turmas": [
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Lucia Renato Junqueira"
+                ],
+                "horarios": [
+                    "seg 10:00 11:40",
+                    "qua 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAP2429",
+        "nome": "Trabalho de Formatura em Matemática Aplicada",
+        "turmas": [
+            {
+                "codigo": "2026144",
+                "professores": [
+                    "(R) Claudia Monteiro Peixoto"
+                ],
+                "horarios": [
+                    "seg 18:00 18:50"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0499",
+        "nome": "Trabalho de Formatura Supervisionado",
+        "turmas": [
+            {
+                "codigo": "2026145 (Disciplina Anual)",
+                "professores": [
+                    "(R) Nina Sumiko Tomita Hirata"
+                ],
+                "horarios": [
+                    "sab 07:00 08:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0500",
+        "nome": "Trabalho de Formatura Supervisionado Voltado à Extensão",
+        "turmas": [
+            {
+                "codigo": "2026145 (Disciplina Anual)",
+                "professores": [
+                    "(R) Nina Sumiko Tomita Hirata"
+                ],
+                "horarios": [
+                    "sab 09:00 10:00"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAT0112",
+        "nome": "Vetores e Geometria",
+        "turmas": [
+            {
+                "codigo": "2026121",
+                "professores": [
+                    "Mary Lilian Lourenço"
+                ],
+                "horarios": [
+                    "ter 08:00 10:00",
+                    "qui 10:00 12:00"
+                ]
+            },
+            {
+                "codigo": "2026122",
+                "professores": [
+                    "Odilon Otavio Luciano"
+                ],
+                "horarios": [
+                    "qua 21:00 23:00",
+                    "sex 19:00 21:00"
+                ]
+            },
+            {
+                "codigo": "2026134",
+                "professores": [
+                    "Christina Brech"
+                ],
+                "horarios": [
+                    "ter 08:00 09:40",
+                    "qui 10:00 11:40"
+                ]
+            },
+            {
+                "codigo": "2026143",
+                "professores": [
+                    "Christina Brech"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            },
+            {
+                "codigo": "2026146",
+                "professores": [
+                    "Mary Lilian Lourenço"
+                ],
+                "horarios": [
+                    "ter 10:00 11:40",
+                    "qui 08:00 09:40"
+                ]
+            }
+        ]
+    },
+    {
+        "codigo": "MAC0417",
+        "nome": "Visão e Processamento de Imagens",
+        "turmas": [
+            {
+                "codigo": "2026145",
+                "professores": [
+                    "Ronaldo Fumio Hashimoto"
+                ],
+                "horarios": [
+                    "seg 16:00 17:40",
+                    "qua 14:00 15:40"
+                ]
+            }
+        ]
+    }
+]

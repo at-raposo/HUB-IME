@@ -1,0 +1,444 @@
+import { supabase } from '@/lib/supabase';
+import { createServerSupabase } from '@/lib/supabase/server';
+import { MainLayoutWrapper } from '@/components/layout/MainLayoutWrapper';
+import React from 'react';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
+import { ShareButtons } from './ShareButtons';
+import { ExportPDFButton } from './ExportPDFButton';
+import { CommentsSection, Comment } from './CommentsSection';
+import { ImageCarouselClient } from './ImageCarouselClient';
+import { getDownloadUrl, parseMediaUrl, formatYoutubeUrl } from '@/lib/media-utils';
+import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import rehypeSanitize from 'rehype-sanitize';
+import { MarkdownImage } from '@/components/reading/MarkdownImageLightbox';
+import { ViewTracker } from '@/components/ViewTracker';
+import { ReadingExperienceProvider } from '@/components/reading/ReadingExperienceProvider';
+import { ReadingViewManager } from '@/components/reading/ReadingViewManager';
+import { ReadingHistoryTracker } from '@/components/history/ReadingHistoryTracker';
+import { FollowTagButton } from '@/components/engagement/FollowTagButton';
+import { PostQuiz } from '@/components/media/PostQuiz';
+import { ContentRating } from '@/components/feedback/ContentRating';
+
+interface PageProps {
+    params: Promise<{ id: string }>;
+}
+
+import { institutoData } from '@/data/institutoData';
+
+async function getSubmission(id: string) {
+    // 1. Try Supabase if ID is UUID-like
+    const isUUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
+    
+    if (isUUID) {
+        const { data, error } = await supabase
+            .from('submissions')
+            .select('*')
+            .eq('id', id)
+            .eq('status', 'aprovado')
+            .single();
+
+        if (data && !error) return data;
+    }
+
+    // 2. Fallback: Search in institutoData static winners
+    const allWinners = Object.values(institutoData).flatMap(dept => dept.postsGanhadores.map(w => ({ ...w, dept })));
+    const staticWinner = allWinners.find(w => w.postId === id || w.id === id);
+
+    if (staticWinner) {
+        return {
+            id: staticWinner.postId || staticWinner.id,
+            title: staticWinner.title,
+            authors: staticWinner.autor,
+            description: `Vencedor da Arena (${staticWinner.ano}) na categoria ${staticWinner.categoria}. Este material foi destaque no departamento ${staticWinner.dept.sigla} (${staticWinner.dept.nome}).`,
+            media_type: 'image',
+            media_url: staticWinner.mediaUrl,
+            category: 'Arena',
+            is_featured: true,
+            is_golden_standard: true,
+            tags: [staticWinner.ano, staticWinner.dept.sigla],
+            created_at: new Date().toISOString(),
+            status: 'aprovado',
+            user_id: 'system'
+        };
+    }
+
+    return null;
+}
+
+async function getRelatedSubmissions(categoryId: string, currentSubmissionId: string) {
+    if (!categoryId) return [];
+
+    const { data, error } = await supabase
+        .from('submissions')
+        .select('*')
+        .eq('status', 'aprovado')
+        .eq('category', categoryId)
+        .neq('id', currentSubmissionId)
+        .order('created_at', { ascending: false })
+        .limit(3);
+
+    if (error || !data) return [];
+    return data;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { id } = await params;
+    const submission = await getSubmission(id);
+
+    if (!submission) {
+        return { title: 'Submissão não encontrada' };
+    }
+
+    const urls = parseMediaUrl(submission.media_url);
+
+    // [I06] Robust SEO Fallback Logic
+    let previewImage = '';
+
+    if (submission.media_type === 'image' && urls[0]) {
+        previewImage = urls[0];
+    } else if (submission.media_type === 'video' && urls[0]) {
+        const vidId = urls[0].split('/').pop()?.split('?')[0]; // Simple extract
+        if (vidId && vidId.length === 11) {
+            previewImage = `https://img.youtube.com/vi/${vidId}/maxresdefault.jpg`;
+        }
+    }
+
+    // Final fallback to brand logo
+    const finalImage = previewImage || 'https://if-usp-ciencia.vercel.app/arquivo-logo.png';
+
+    const cleanDescription = submission.description
+        ? submission.description.replace(/[#*`$]/g, '').substring(0, 160).trim() + '...'
+        : `Contribuição de ${submission.authors} na categoria ${submission.category}.`;
+
+    return {
+        title: `${submission.title} — Hub Lab-Div`,
+        description: cleanDescription,
+        alternates: {
+            canonical: `https://if-usp-ciencia.vercel.app/arquivo/${id}`,
+        },
+        openGraph: {
+            title: submission.title,
+            description: cleanDescription,
+            images: [{ url: finalImage, width: 1200, height: 630, alt: submission.title }],
+            type: 'article',
+            publishedTime: submission.created_at,
+            authors: [submission.authors],
+            siteName: 'Hub de Comunicação Científica Lab-Div'
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: submission.title,
+            description: cleanDescription,
+            images: [finalImage],
+        },
+    };
+}
+
+// Utility functions moved to @/lib/media-utils.ts
+
+import { Breadcrumbs } from '@/components/ui/Breadcrumbs';
+
+export default async function ArquivoItemPage({ params }: PageProps) {
+    const { id } = await params;
+    const submission = await getSubmission(id);
+
+    if (!submission) {
+        notFound();
+    }
+
+    const urls = parseMediaUrl(submission.media_url);
+    const relatedSubmissions = await getRelatedSubmissions(submission.category, submission.id);
+
+    // Fetch likes for related submissions
+    let likeMap: Record<string, number> = {};
+    if (relatedSubmissions.length > 0) {
+        const subIds = relatedSubmissions.map(s => s.id);
+        const { data: likes } = await supabase
+            .from('curtidas')
+            .select('submission_id')
+            .in('submission_id', subIds);
+
+        if (likes) {
+            likes.forEach(l => {
+                likeMap[l.submission_id] = (likeMap[l.submission_id] || 0) + 1;
+            });
+        }
+    }
+
+    // [GRAFO] Fetch departments the submission is linked to (Graph Backlinks)
+    const { data: linkedDepts } = await supabase
+        .from('submission_departments')
+        .select(`
+            departments (
+                id,
+                sigla,
+                nome
+            )
+        `)
+        .eq('submission_id', submission.id);
+    const associatedDepartments = linkedDepts?.map((rel: any) => rel.departments).filter(Boolean) || [];
+
+    // Fetch comments
+    const { data: routeComments } = await supabase
+        .from('comments')
+        .select('*')
+        .eq('submission_id', submission.id)
+        .eq('status', 'aprovado')
+        .order('created_at', { ascending: false });
+
+    // Get user for history tracking — use cookie-aware server client
+    const serverSupabase = await createServerSupabase();
+    const { data: { user } } = await serverSupabase.auth.getUser();
+
+    const breadcrumbItems = [
+        { label: 'Arquivo Lab-Div', href: '/arquivo-labdiv' },
+        { label: submission.category, href: `/?collection=${encodeURIComponent(submission.category)}` },
+        { label: submission.title }
+    ];
+
+    return (
+        <ReadingExperienceProvider>
+            <MainLayoutWrapper focusMode={true}>
+                <ReadingViewManager submission={submission}>
+                    <main id="main-content" className="flex-1 max-w-5xl mx-auto w-full py-8 sm:py-12 px-4 outline-none">
+                        <ViewTracker submissionId={submission.id} />
+                        {user?.id && <ReadingHistoryTracker submissionId={submission.id} userId={user.id} />}
+                        
+                        <Breadcrumbs items={breadcrumbItems} />
+
+                        {/* ─── Card de Introdução ao Índice (Hierarquia: 2º após Fogo) ─── */}
+                        {submission.description && submission.description.length > 500 && (
+                            <div className="mb-6 bg-white dark:bg-card-dark rounded-2xl p-4 sm:p-5 border border-gray-100 dark:border-gray-800 shadow-sm flex items-center gap-4">
+                                <div className="w-12 h-12 flex items-center justify-center rounded-2xl bg-[#0055ff]/10 text-[#0055ff] shrink-0">
+                                    <span className="material-symbols-outlined text-2xl">format_list_bulleted</span>
+                                </div>
+                                <div className="min-w-0">
+                                    <h3 className="text-sm font-bold text-gray-900 dark:text-white">Este artigo possui um índice estruturado</h3>
+                                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">Use o botão <span className="inline-flex items-center align-middle mx-0.5 px-1.5 py-0.5 bg-[#0055ff]/10 text-[#0055ff] rounded text-[10px] font-bold">≡</span> no topo direito para navegar entre as seções.</p>
+                                </div>
+                            </div>
+                        )}
+
+                        <div className="bg-white dark:bg-card-dark rounded-2xl md:rounded-3xl overflow-hidden shadow-xl border border-gray-100 dark:border-gray-800">
+
+                            {/* Media Section - skip for text/zip/sdocx */}
+                            {submission.media_type !== 'text' && submission.media_type !== 'zip' && submission.media_type !== 'sdocx' && (
+                                <div className="bg-black flex items-center justify-center min-h-[300px] md:min-h-[500px]">
+                                    {submission.media_type === 'video' ? (
+                                        <div className="w-full h-full aspect-video">
+                                            {urls.length > 0 ? (
+                                                <iframe
+                                                    src={formatYoutubeUrl(urls[0])}
+                                                    className="w-full h-full"
+                                                    allowFullScreen
+                                                    frameBorder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                />
+                                            ) : (
+                                                <span className="text-white">Vídeo não encontrado</span>
+                                            )}
+                                        </div>
+                                    ) : (
+                                        <ImageCarouselClient
+                                            urls={urls}
+                                            title={submission.title}
+                                            slides={submission.slides}
+                                        />
+                                    )}
+                                </div>
+                            )}
+
+                            {/* Details Section */}
+                            <div className="p-6 md:p-10 space-y-6">
+                                <div className="flex flex-wrap items-center gap-2">
+                                    {submission.category && (
+                                        <span className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-full text-xs font-bold tracking-wide uppercase">
+                                            {submission.category}
+                                        </span>
+                                    )}
+                                    {submission.is_featured && (
+                                        <span className="px-3 py-1 bg-gradient-to-r from-brand-red to-brand-yellow text-white rounded-full text-xs font-bold tracking-wide uppercase">
+                                            Destaque
+                                        </span>
+                                    )}
+                                    {associatedDepartments.map((dept: any) => (
+                                        <Link
+                                            key={dept.id}
+                                            href={`/wiki/instituto/${dept.sigla.toLowerCase()}`}
+                                            className="px-3 py-1 bg-brand-yellow/10 text-brand-yellow hover:bg-brand-yellow/20 border border-brand-yellow/20 rounded-full text-[10px] font-black transition-all flex items-center gap-1 uppercase tracking-widest"
+                                            title={`Retornar ao Departamento: ${dept.nome}`}
+                                        >
+                                            <span className="material-symbols-outlined text-[14px]">account_balance</span>
+                                            {dept.sigla}
+                                        </Link>
+                                    ))}
+                                    {submission.tags?.map((tag: string, idx: number) => (
+                                        <div key={idx} className="flex items-center gap-2">
+                                            <Link
+                                                href={`/?tag=${tag.replace('#', '')}`}
+                                                className="px-3 py-1 bg-gray-50 dark:bg-gray-800 text-gray-500 hover:text-brand-blue border border-gray-100 dark:border-gray-700 rounded-full text-xs font-bold transition-all"
+                                            >
+                                                #{tag.replace('#', '')}
+                                            </Link>
+                                            <FollowTagButton tagName={tag.replace('#', '')} userId={user?.id} />
+                                        </div>
+                                    ))}
+                                </div>
+
+                                <h1 className="text-3xl md:text-4xl font-display font-bold text-gray-900 dark:text-white leading-tight">
+                                    {submission.title}
+                                </h1>
+
+                                <div className="flex flex-col py-4 border-y border-gray-100 dark:border-gray-800">
+                                    <div className="flex items-center justify-between gap-4">
+                                        <div className="flex items-center gap-3">
+                                            <div className="size-10 rounded-full bg-primary/20 flex items-center justify-center text-primary dark:text-blue-400 font-bold text-xs uppercase shrink-0">
+                                                {submission.authors.substring(0, 2)}
+                                            </div>
+                                            <div className="flex flex-col">
+                                                <span className="text-[10px] text-gray-500 font-medium uppercase tracking-wider">Autore(s)</span>
+                                                <span className="text-sm font-bold text-gray-900 dark:text-white">{submission.authors}</span>
+                                            </div>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <ExportPDFButton />
+                                            <ShareButtons title={submission.title} id={submission.id} />
+                                        </div>
+                                    </div>
+
+                                    {submission.co_authors && Array.isArray(submission.co_authors) && submission.co_authors.length > 0 && (
+                                        <div className="flex flex-wrap gap-2 mt-3 pl-[52px]">
+                                            {submission.co_authors.map((co: any, idx: number) => (
+                                                <span key={idx} className="text-[10px] bg-gray-50 dark:bg-gray-800/50 px-2 py-0.5 rounded text-gray-500 dark:text-gray-400 border border-gray-100 dark:border-gray-700/50">
+                                                    {co.full_name}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+
+                                {submission.description && (
+                                    <div id="submission-content" className="mt-8">
+                                        <h2 className="text-sm font-bold text-gray-900 dark:text-white mb-2 uppercase tracking-wide">Descrição</h2>
+                                        <div className="text-gray-600 dark:text-gray-400 leading-relaxed prose prose-lg dark:prose-invert max-w-none prose-headings:text-gray-800 dark:prose-headings:text-gray-200 prose-a:text-brand-blue prose-img:rounded-xl overflow-x-auto">
+                                            <ReactMarkdown
+                                                remarkPlugins={[remarkMath]}
+                                                rehypePlugins={[rehypeSanitize, rehypeKatex]}
+                                                components={{
+                                                    p: ({ node, ...props }) => {
+                                                        const id = `p-${node?.position?.start.line}`;
+                                                        return <p data-block-id={id} {...props} />;
+                                                    },
+                                                    h1: ({ node, ...props }) => <h1 data-block-id={`h1-${node?.position?.start.line}`} {...props} />,
+                                                    h2: ({ node, ...props }) => <h2 data-block-id={`h2-${node?.position?.start.line}`} {...props} />,
+                                                    h3: ({ node, ...props }) => <h3 data-block-id={`h3-${node?.position?.start.line}`} {...props} />,
+                                                    blockquote: ({ node, ...props }) => <blockquote data-block-id={`bq-${node?.position?.start.line}`} {...props} />,
+                                                    img: (props) => <MarkdownImage {...props} />,
+                                                }}
+                                            >
+                                                {submission.description}
+                                            </ReactMarkdown>
+                                        </div>
+                                    </div>
+                                )}
+
+                                {/* Download and Security Notice */}
+                                {(submission.media_type === 'image' || submission.media_type === 'pdf' || submission.media_type === 'zip' || submission.media_type === 'sdocx') && urls.length > 0 && (
+                                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-gray-50 dark:bg-background-dark/50 p-4 rounded-2xl border border-gray-100 dark:border-gray-800">
+                                        <a
+                                            href={getDownloadUrl(urls[0])}
+                                            className="px-6 py-2.5 bg-brand-blue hover:bg-brand-darkBlue text-white font-bold rounded-xl transition-all shadow-md hover:shadow-lg flex items-center gap-2 text-sm"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <span className="material-symbols-outlined text-[20px]">download</span>
+                                            Baixar arquivo
+                                        </a>
+                                        <div className="flex items-center gap-2">
+                                            <span className="material-symbols-outlined text-brand-green text-[20px]">verified_user</span>
+                                            <span className="text-xs text-gray-600 dark:text-gray-400 font-medium">
+                                                Segurança: Arquivo verificado contra vírus pela curadoria administrativa.
+                                            </span>
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+
+                        {/* Interactive Quiz Section */}
+                        {submission.quiz && Array.isArray(submission.quiz) && submission.quiz.length > 0 && (
+                            <div className="mt-8 mb-12">
+                                <PostQuiz
+                                    submissionId={submission.id}
+                                    quiz={submission.quiz}
+                                    authorId={submission.user_id}
+                                    currentUserId={user?.id}
+                                />
+                            </div>
+                        )}
+
+                        {/* Content Rating */}
+                        <div className="mt-8 mb-12 w-full">
+                            <ContentRating 
+                                postId={submission.id} 
+                                contentFormat={submission.content_format || (submission.media_type === 'video' ? 'video' : submission.media_type === 'image' ? 'image' : 'text')} 
+                            />
+                        </div>
+
+                        {/* Interactive Comments */}
+                        <CommentsSection
+                            submissionId={submission.id}
+                            submissionTitle={submission.title}
+                            initialComments={(routeComments as Comment[]) || []}
+                        />
+
+                        {/* Related Materials Section */}
+                        {relatedSubmissions.length > 0 && (
+                            <div className="mt-16 border-t border-gray-200 dark:border-gray-800 pt-12">
+                                <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-8">
+                                    <div>
+                                        <h3 className="text-2xl font-bold font-display text-gray-900 dark:text-white">Materiais Relacionados</h3>
+                                        <p className="text-gray-500 dark:text-gray-400">Outras submissões aprovadas na categoria <span className="font-semibold text-brand-blue">{submission.category}</span></p>
+                                    </div>
+                                </div>
+
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                    {relatedSubmissions.map(rel => {
+                                        const relUrls = parseMediaUrl(rel.media_url);
+                                        const thumb = rel.media_type === 'video' ? formatYoutubeUrl(relUrls[0] || '') : (relUrls[0] || ''); // fallback
+                                        return (
+                                            <a key={rel.id} href={`/arquivo/${rel.id}`} className="group block bg-white dark:bg-card-dark rounded-2xl border border-gray-100 dark:border-gray-800 overflow-hidden shadow-sm hover:shadow-xl transition-all hover:-translate-y-1">
+                                                <div className="aspect-video bg-gray-100 dark:bg-gray-800 overflow-hidden relative">
+                                                    {rel.media_type === 'video' ? (
+                                                        <div className="w-full h-full flex items-center justify-center bg-black">
+                                                            <span className="material-symbols-outlined text-4xl text-white/50">play_circle</span>
+                                                        </div>
+                                                    ) : rel.media_type === 'text' ? (
+                                                        <div className="w-full h-full flex items-center justify-center bg-blue-50 dark:bg-blue-900/20">
+                                                            <span className="material-symbols-outlined text-4xl text-brand-blue/50">article</span>
+                                                        </div>
+                                                    ) : (
+                                                        <img src={typeof thumb === 'string' && thumb ? thumb.replace(/\.pdf$/i, '.jpg') : '/placeholder.jpg'} alt={rel.alt_text || rel.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                                                    )}
+                                                </div>
+                                                <div className="p-4">
+                                                    <h4 className="font-bold text-gray-900 dark:text-white line-clamp-1 group-hover:text-brand-blue transition-colors">{rel.title}</h4>
+                                                    <p className="text-xs text-gray-500 mt-1 uppercase tracking-wide truncate">{rel.authors}</p>
+                                                </div>
+                                            </a>
+                                        )
+                                    })}
+                                </div>
+                            </div>
+                        )}
+                    </main>
+                </ReadingViewManager>
+            </MainLayoutWrapper>
+
+        </ReadingExperienceProvider>
+    );
+}
