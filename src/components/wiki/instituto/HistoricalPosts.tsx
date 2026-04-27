@@ -42,7 +42,7 @@ const archivePosts = [
     {
         year: '1970',
         title: 'Nasce o USP',
-        description: 'A Reforma Universitária transforma o Departamento de Física do FFCL no Instituto de Física da USP.',
+        description: 'A Reforma Universitária transforma o Departamento de Física do FFCL no Instituto de Matemática e Estatística da USP.',
         image: 'https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=600',
         tag: 'Acervo Histórico',
         category: 'Institucional'
@@ -82,9 +82,9 @@ const archivePosts = [
     {
         year: '2025',
         title: 'Hub HUB IME é Lançado',
-        description: 'Nasce o Hub de Comunicação Científica do Instituto de Física, conectando a comunidade através de um grafo semântico.',
-        image: '/HUB IME-logo.png',
-        tag: 'HUB IME',
+        description: 'Nasce o Hub de Comunicação Científica do Instituto de Matemática e Estatística, conectando a comunidade através de um grafo semântico.',
+        image: '/hub-ime-logo.png',
+        tag: 'hub-ime',
         category: 'Inovação'
     }
 ];
@@ -99,7 +99,7 @@ const categoryColors: Record<string, string> = {
     'Colaboração': 'bg-brand-blue/10 text-brand-blue border-brand-blue/20',
     'Adaptação': 'bg-brand-red/10 text-brand-red border-brand-red/20',
     'Inovação': 'bg-brand-yellow/10 text-brand-yellow border-brand-yellow/20',
-    'HUB IME': 'bg-brand-blue/10 text-brand-blue border-brand-blue/20',
+    'hub-ime': 'bg-brand-blue/10 text-brand-blue border-brand-blue/20',
 };
 
 export function HistoricalPosts() {

@@ -14,7 +14,7 @@ const creators = [
     {
         name: 'Carlos Mendes',
         role: 'Bolsista do Arquivo',
-        bio: 'Catalogando e digitalizando os documentos históricos do Instituto de Física da USP.',
+        bio: 'Catalogando e digitalizando os documentos históricos do Instituto de Matemática e Estatística da USP.',
         imagePlaceholder: 'C',
         color: 'brand-yellow'
     },
@@ -34,7 +34,7 @@ const creators = [
     }
 ];
 
-export function HUB IMETeam() {
+export function HubImeTeam() {
     const scrollContainerRef = useRef<HTMLDivElement>(null);
 
     const scroll = (direction: 'left' | 'right') => {

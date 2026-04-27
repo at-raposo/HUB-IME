@@ -9,7 +9,7 @@ interface USPLogoProps {
 }
 
 /**
- * USPLogo - Logotipo Oficial do Instituto de Física da USP.
+ * USPLogo - Logotipo Oficial do Instituto de Matemática e Estatística da USP.
  * Reconstrução SVG fiel ao manual de identidade visual.
  */
 export function USPLogo({ className, size = 32 }: USPLogoProps) {

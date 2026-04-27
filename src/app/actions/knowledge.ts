@@ -38,7 +38,7 @@ export async function submitKnowledgeSuggestion(payload: {
         type: 'question',
         title: `Nova Sugestão: ${payload.tipo.replace('_', ' ')}`,
         authors: user.email || 'Usuário Anônimo',
-        category: 'HUB IME'
+        category: 'hub-ime'
     });
 
     return { success: true, data };

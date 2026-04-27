@@ -9,8 +9,8 @@ import { Star, Users, Trophy } from 'lucide-react';
 import { institutoData } from '@/data/institutoData';
 import { PostDTO } from '@/dtos/media';
 
-export function HUB IMECatalogExplorer() {
-    const [HUB IMEItems, setHUB IMEItems] = useState<MediaCardProps[]>([]);
+export function HubImeCatalogExplorer() {
+    const [HubImeItems, setHubImeItems] = useState<MediaCardProps[]>([]);
     const [mentoredItems, setMentoredItems] = useState<MediaCardProps[]>([]);
     const [isLoading, setIsLoading] = useState(true);
 
@@ -54,15 +54,15 @@ export function HUB IMECatalogExplorer() {
             setIsLoading(true);
             try {
                 // Fetch HUB IME produced material
-                const HUB IMERes = await fetchSubmissions({
+                const HubImeRes = await fetchSubmissions({
                     page: 1,
                     limit: 10,
                     query: '',
-                    categories: ['HUB IME'],
+                    categories: ['hub-ime'],
                     sort: 'recentes'
                 });
                 // Force golden standard on ALL HUB IME catalog items
-                setHUB IMEItems(HUB IMERes.items.map(item => ({
+                setHubImeItems(HubImeRes.items.map(item => ({
                     ...item,
                     post: { ...item.post, isGoldenStandard: true }
                 })));
@@ -120,8 +120,8 @@ export function HUB IMECatalogExplorer() {
                         <p className="text-xs font-bold text-gray-500 uppercase tracking-tighter">Produzido pelo HUB IME: Conteúdo proprietário e oficial</p>
                     </div>
                 </div>
-                {HUB IMEItems.length > 0 ? (
-                    <FeaturedCarousel items={HUB IMEItems} hideTitle={true} />
+                {HubImeItems.length > 0 ? (
+                    <FeaturedCarousel items={HubImeItems} hideTitle={true} />
                 ) : (
                     <div className="px-4 py-12 border-2 border-dashed border-gray-100 dark:border-gray-800 rounded-[40px] flex flex-col items-center justify-center text-center opacity-50">
                         <p className="text-gray-400 font-bold uppercase tracking-widest">Nenhum rastro detectado com #HUB IME</p>

@@ -86,7 +86,7 @@ function LoginContent() {
 
                     <div className="flex flex-col items-center text-center space-y-4 mb-10">
                         <div className="mb-6">
-                            <img src="/HUB IME-logo.png" alt="Hub HUB IME" className="w-16 h-16 object-contain rounded-2xl mx-auto shadow-lg" />
+                            <img src="/hub-ime-logo.png" alt="Hub HUB IME" className="w-16 h-16 object-contain rounded-2xl mx-auto shadow-lg" />
                         </div>
                         <h1 className="text-3xl font-display font-bold text-gray-900 dark:text-white tracking-tight">
                             Bem-vindo à <span className="text-brand-blue">Comunidade</span>

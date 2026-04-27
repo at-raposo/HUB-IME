@@ -9,7 +9,7 @@ import { Megaphone, ArrowRight, UserPlus, Award, Star, ExternalLink, BookOpen, R
 import { SobreFeedbackCard } from './SobreFeedbackCard';
 import { Profile } from '@/types';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { HUB IMEView } from '@/components/HUB IME/HUB IMEView';
+import { HubImeView } from '@/components/hub-ime/HubImeView';
 import { useTelemetry } from '@/hooks/useTelemetry';
 
 interface SobreClientProps {
@@ -25,21 +25,21 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
     const { trackEvent } = useTelemetry();
     const scrollContainerRef = React.useRef<HTMLDivElement>(null);
     const [activePersonaOverride, setActivePersonaOverride] = React.useState<PersonaType | null>(null);
-    const [activeTab, setActiveTab] = React.useState<'sobre' | 'HUB IME'>('HUB IME');
+    const [activeTab, setActiveTab] = React.useState<'sobre' | 'hub-ime'>('hub-ime');
 
     // Sync state with URL
     React.useEffect(() => {
         const tab = searchParams.get('tab');
-        if (tab === 'sobre' || tab === 'HUB IME') {
+        if (tab === 'sobre' || tab === 'hub-ime') {
             setActiveTab(tab);
         }
     }, [searchParams]);
 
-    const handleTabChange = (tab: 'sobre' | 'HUB IME') => {
+    const handleTabChange = (tab: 'sobre' | 'hub-ime') => {
         setActiveTab(tab);
         const params = new URLSearchParams(searchParams);
         params.set('tab', tab);
-        router.push(`/HUB IME?${params.toString()}`, { scroll: false });
+        router.push(`/hub-ime?${params.toString()}`, { scroll: false });
         trackEvent('TAB_CHANGE', { tab, hub: 'institucional' });
     };
 
@@ -73,9 +73,9 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                 <div className="flex justify-center mb-12 sticky top-16 z-40 py-2">
                     <div className="bg-white/80 dark:bg-[#1e1e1e]/80 backdrop-blur-xl p-1 rounded-2xl border border-gray-200/50 dark:border-white/5 flex gap-1 shadow-lg">
                         <button
-                            onClick={() => handleTabChange('HUB IME')}
+                            onClick={() => handleTabChange('hub-ime')}
                             className={`flex items-center gap-2 px-8 py-3 rounded-xl text-xs font-black uppercase tracking-widest transition-all ${
-                                activeTab === 'HUB IME'
+                                activeTab === 'hub-ime'
                                     ? 'bg-brand-blue text-white shadow-lg shadow-brand-blue/20'
                                     : 'text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-white/5'
                             }`}
@@ -254,7 +254,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     <p className="text-gray-600 dark:text-gray-400 flex-1 leading-relaxed">
                         O coração do projeto é a construção de um grande Arquivo visual. Capturamos o cotidiano dos laboratórios, o maquinário e os bastidores das pesquisas de forma profissional. Nosso objetivo é ter um banco de imagens institucionais de alta qualidade, pronto para suprir demandas de jornalistas, designers e pesquisadores.
                     </p>
-                    <Link href="/arquivo-HUB IME" className="mt-6 text-brand-yellow font-semibold hover:underline flex items-center gap-1">
+                    <Link href="/arquivo-ime" className="mt-6 text-brand-yellow font-semibold hover:underline flex items-center gap-1">
                         Explore o acervo <ArrowRight className="w-4 h-4" />
                     </Link>
                 </div>
@@ -367,12 +367,12 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                         <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                             O projeto nasceu com a ideia de apenas criar material de divulgação, mas evoluiu para uma nova categoria de plataforma digital: um <strong>Hub Acadêmico</strong> que transforma a simples divulgação em comunicação viva. Unificamos alunos, curiosos e pesquisadores através de um fluxo com dinâmicas de rede social e ferramentas que auxiliam o dia a dia, como a Wiki, as Trilhas e o Cronograma inteligente.
                         </p>
-                        <Link href="/arquivo-HUB IME" className="inline-flex items-center text-brand-blue font-black hover:text-brand-blue/80 transition-colors mt-8 group uppercase text-xs tracking-widest">
+                        <Link href="/arquivo-ime" className="inline-flex items-center text-brand-blue font-black hover:text-brand-blue/80 transition-colors mt-8 group uppercase text-xs tracking-widest">
                             Conhecer o trabalho <ArrowRight className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" />
                         </Link>
                     </div>
                     <div className="hidden md:flex w-48 h-48 rounded-2xl items-center justify-center flex-shrink-0 overflow-hidden bg-white/50 dark:bg-white/5 p-8">
-                        <Image src="/HUB IME-logo.png" alt="Logo do HUB IME" width={192} height={192} className="object-contain" />
+                        <Image src="/hub-ime-logo.png" alt="Logo do HUB IME" width={192} height={192} className="object-contain" />
                     </div>
                 </div>
             </div>
@@ -420,7 +420,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
                         O núcleo criativo do Hub. Aqui você acessa o catálogo Padrão Ouro, agenda mentorias de comunicação científica, conhece o KitDiv e explora a utilização do Espaço Novo Milênio.
                     </p>
-                    <Link href="/arquivo-HUB IME" className="text-[10px] font-black uppercase tracking-widest text-brand-yellow flex items-center gap-1 md:gap-2 group/link mt-auto">
+                    <Link href="/arquivo-ime" className="text-[10px] font-black uppercase tracking-widest text-brand-yellow flex items-center gap-1 md:gap-2 group/link mt-auto">
                         <span className="hidden sm:inline">Ver </span>Portfólio <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
                     </Link>
                 </div>
@@ -496,7 +496,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
                     </div>
                     <h4 className="text-sm md:text-xl font-black uppercase italic tracking-tight mb-2 md:mb-4">Wiki do USP</h4>
                     <p className="text-gray-500 text-[10px] md:text-sm leading-relaxed mb-4 md:mb-6 flex-1">
-                        A enciclopédia colaborativa do Instituto de Física. Uma base de conhecimento construída pela comunidade com anotações, guias de sobrevivência, explicações sobre o funcionamento do instituto, seus departamentos, laboratórios e a vida acadêmica no dia a dia.
+                        A enciclopédia colaborativa do Instituto de Matemática e Estatística. Uma base de conhecimento construída pela comunidade com anotações, guias de sobrevivência, explicações sobre o funcionamento do instituto, seus departamentos, laboratórios e a vida acadêmica no dia a dia.
                     </p>
                     <Link href="/wiki" className="text-[10px] font-black uppercase tracking-widest text-brand-blue flex items-center gap-1 md:gap-2 group/link mt-auto">
                         <span className="hidden sm:inline">Explorar </span>Wiki <ArrowRight className="size-3 group-hover/link:translate-x-1 transition-transform" />
@@ -901,7 +901,7 @@ export function SobreClient({ initialTestimonials, profile }: SobreClientProps) 
             </div>
                     </div>
                 ) : (
-                    <HUB IMEView />
+                    <HubImeView />
                 )}
             </div>
         </MainLayoutWrapper>

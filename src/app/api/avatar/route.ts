@@ -11,7 +11,7 @@ export async function GET(request: Request) {
     try {
         const response = await fetch(url, {
             headers: {
-                'User-Agent': 'IF-USP-Ciencia/1.0',
+                'User-Agent': 'IME USP-Ciencia/1.0',
             }
         });
 

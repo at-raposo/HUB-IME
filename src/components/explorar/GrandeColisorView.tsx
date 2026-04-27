@@ -134,10 +134,10 @@ export function GrandeColisorView({ oportunidades, mapItems }: GrandeColisorView
                     </motion.div>
                     <div>
                         <h1 className="text-4xl md:text-7xl font-black italic uppercase tracking-tighter mb-4">
-                            Grande <span className="text-brand-blue-accent">Colisor</span> do IF (GCIF)
+                            Grande <span className="text-brand-blue-accent">Colisor</span> do IF (GCIME)
                         </h1>
                         <p className="text-gray-500 max-w-2xl text-lg font-medium leading-relaxed">
-                            O hub unificado de conhecimento, iniciativas e oportunidades da Física USP. Onde a radiação da criatividade encontra a precisão da pesquisa.
+                            O hub unificado de conhecimento, iniciativas e oportunidades da IME USP. Onde a radiação da criatividade encontra a precisão da pesquisa.
                         </p>
                     </div>
                 </div>
@@ -244,11 +244,11 @@ export function GrandeColisorView({ oportunidades, mapItems }: GrandeColisorView
                                 <Landmark className="w-32 h-32 text-gray-900 dark:text-white" />
                             </div>
                             <div className="size-20 bg-gray-100 dark:bg-white rounded-3xl p-4 mb-8">
-                                <img src="/HUB IME-logo.png" alt="HUB IME" className="w-full h-full object-contain" />
+                                <img src="/hub-ime-logo.png" alt="hub-ime" className="w-full h-full object-contain" />
                             </div>
                             <h3 className="text-2xl font-black italic uppercase mb-4 text-brand-blue">HUB IME</h3>
                             <p className="text-gray-600 dark:text-gray-400 font-medium leading-relaxed mb-8">Comunicação científica inspirada no MIT. Tutoria entre pares, escrita e design.</p>
-                            <Link href="/arquivo-HUB IME" className="mt-auto px-8 py-4 bg-brand-blue text-white rounded-2xl font-black uppercase tracking-widest text-[10px] text-center group-hover:scale-105 transition-transform">Explorar Acervo</Link>
+                            <Link href="/arquivo-ime" className="mt-auto px-8 py-4 bg-brand-blue text-white rounded-2xl font-black uppercase tracking-widest text-[10px] text-center group-hover:scale-105 transition-transform">Explorar Acervo</Link>
                         </div>
 
                         {/* Boletim Supernova */}

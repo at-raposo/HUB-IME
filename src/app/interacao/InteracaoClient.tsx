@@ -36,7 +36,7 @@ export default function InteracaoClient() {
                         Central de <span className="text-brand-blue">Interações</span>
                     </h1>
                     <p className="text-gray-500 dark:text-gray-400 mt-4 text-sm font-medium max-w-2xl leading-relaxed">
-                        Pesquisa pessoal, conexão neural entre membros e canal direto com a equipe científica do Instituto de Física.
+                        Pesquisa pessoal, conexão neural entre membros e canal direto com a equipe científica do Instituto de Matemática e Estatística.
                     </p>
                 </header>
 

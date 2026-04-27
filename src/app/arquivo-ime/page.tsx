@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
-export default function ArquivoHUB IMERedirect() {
-    redirect('/HUB IME?tab=HUB IME');
+export default function ArquivoHubImeRedirect() {
+    redirect('/hub-ime?tab=hub-ime');
 }

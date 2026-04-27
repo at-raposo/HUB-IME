@@ -1,6 +1,6 @@
 export const CATEGORIES = [
     'Todos',
-    'HUB IME',
+    'hub-ime',
     'Mentorados HUB IME',
     'Laboratórios',
     'Pesquisadores',
@@ -25,7 +25,7 @@ export const CATEGORY_STYLES: Record<string, {
     filterInactive: string;
     cardBadge: string;
 }> = {
-    'HUB IME': {
+    'hub-ime': {
         bg: 'bg-brand-blue',
         hover: 'hover:bg-brand-darkBlue',
         text: 'text-white',

@@ -162,7 +162,7 @@ export const HomeClientView = ({
         }
     };
 
-    const categories = ['Todos', 'HUB IME', 'Mentorados HUB IME', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
+    const categories = ['Todos', 'hub-ime', 'Mentorados HUB IME', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
     const currentYear = 2026; // Fixed for Hub 3.1.5 context
     const years = ['Todos', ...Array.from({ length: currentYear - 1934 + 1 }, (_, i) => (currentYear - i).toString())];
 
@@ -280,7 +280,7 @@ export const HomeClientView = ({
                         className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-in-up"
                         style={{ animationDelay: '0.2s' }}
                     >
-                        Hub de Comunicação Científica do HUB IME - Um projeto para melhorar a comunicação do IF-USP e reunir em um FLUXO interativo o arquivo de material de divulgação do HUB IME e de toda a comunidade — de dentro e fora do instituto.
+                        Hub de Comunicação Científica do HUB IME - Um projeto para melhorar a comunicação do IME USP e reunir em um FLUXO interativo o arquivo de material de divulgação do HUB IME e de toda a comunidade — de dentro e fora do instituto.
                     </p>
                 </div>
             </header>

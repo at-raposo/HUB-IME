@@ -72,7 +72,7 @@ const wikiEntries = [
         content: 'em desenvolvimento Projetos Político-Pedagógicos PPPs manual habilitação créditos necessários grade matérias semestres horas Atividades Extensão AEx formar',
     },
     {
-        title: 'O Instituto de Física',
+        title: 'O Instituto de Matemática e Estatística',
         href: '/wiki/instituto',
         desc: 'História, departamentos, espaços e organização do USP.',
         keywords: ['USP', 'instituto', 'física', 'departamento', 'auditório', 'história', 'mapa'],
@@ -91,7 +91,7 @@ const wikiEntries = [
 const navRoutes = [
     { label: 'Grade Horária / Cronograma', href: '/ferramentas', icon: 'calendar_month', color: 'text-brand-blue-accent', desc: 'Monte seu cronograma semestral do Júpiter' },
     { label: 'Trilhas de Aprendizado', href: '/trilhas', icon: 'auto_stories', color: 'text-brand-yellow', desc: 'Descubra a ordem ideal de matérias' },
-    { label: 'GCIF (Grande Colisor do IF)', href: '/gcime', icon: 'hub', color: 'text-brand-blue-accent', desc: 'Oportunidades de pesquisa e projetos' },
+    { label: 'GCIME (Grande Colisor do IF)', href: '/gcime', icon: 'hub', color: 'text-brand-blue-accent', desc: 'Oportunidades de pesquisa e projetos' },
     { label: 'Meu Laboratório / Perfil', href: '/lab', icon: 'science', color: 'text-brand-red', desc: 'XP, conquistas e painel pessoal' },
     { label: 'Comunidade & Interações', href: '/', icon: 'forum', color: 'text-brand-red', desc: 'Mural público e networking' },
     { label: 'Submeter ou Editar Wiki', href: '/interacao', icon: 'edit_square', color: 'text-brand-blue-accent', desc: 'Colabore criando novas páginas' },

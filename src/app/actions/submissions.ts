@@ -546,7 +546,7 @@ export async function createSubmission(formData: z.infer<typeof SubmissionSchema
     // Determinar status inicial: HUB IME aprovado automaticamente se for do time
     const { data: profile } = await serverSupabase.from('profiles').select('role').eq('id', user.id).single();
     const isAuthorized = ['admin', 'labdiv', 'moderator', 'labdiv adm'].includes(profile?.role || '');
-    const initialStatus = (validated.data.category === 'HUB IME' && isAuthorized) ? 'aprovado' : 'pendente';
+    const initialStatus = (validated.data.category === 'hub-ime' && isAuthorized) ? 'aprovado' : 'pendente';
 
     const insertPayload = {
         ...insertData,

@@ -131,8 +131,8 @@ export function Header() {
                         <div className="bg-[#A51C30] rounded-b-[24px] px-8 py-3 flex items-center gap-1.5 shadow-[0_8px_32px_rgba(0,0,0,0.5)] border-x border-b border-white/10 backdrop-blur-xl">
                             {[
                                 { label: 'Comunidade', href: '/', color: '#F14343' },
-                                { label: 'GCIF', href: '/gcime', color: '#C00000' },
-                                { label: 'HUB IME', href: '/HUB IME', color: '#FFCC00' },
+                                { label: 'GCIME', href: '/gcime', color: '#C00000' },
+                                { label: 'hub-ime', href: '/hub-ime', color: '#FFCC00' },
                                 { label: 'Ferramentas', href: '/ferramentas', color: '#F14343' },
                                 { label: 'Interações', href: '/interacao', color: '#C00000' },
                             ].map((tab) => {

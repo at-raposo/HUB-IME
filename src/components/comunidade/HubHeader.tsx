@@ -24,7 +24,7 @@ export function HubHeader() {
                 </h1>
 
                 <p className="text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed font-medium animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-                    Hub de Comunicação Científica do HUB IME — Um projeto para melhorar a comunicação do IF-USP e reunir em um <span className="text-brand-blue-accent font-bold">FLUXO</span> interativo o arquivo de material de divulgação do HUB IME e de toda a comunidade — de dentro e fora do instituto.
+                    Hub de Comunicação Científica do HUB IME — Um projeto para melhorar a comunicação do IME USP e reunir em um <span className="text-brand-blue-accent font-bold">FLUXO</span> interativo o arquivo de material de divulgação do HUB IME e de toda a comunidade — de dentro e fora do instituto.
                 </p>
             </div>
         </section>

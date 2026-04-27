@@ -114,7 +114,7 @@ const pageContent: Record<string, any> = {
                 content: 'Dica de Ouro: Professores são pesquisadores. A melhor forma de conseguir uma Iniciação Científica é a proatividade: mande um email formal, apresente seu interesse e pergunte quando pode ir à sala dele para conversar brevemente.'
             },
             {
-                title: 'Conheça o Instituto de Física',
+                title: 'Conheça o Instituto de Matemática e Estatística',
                 fullWidth: true,
                 content: (
                     <div className="p-8 rounded-[40px] border-2 border-[#17739A]/30 bg-gradient-to-br from-[#17739A]/15 via-[#17739A]/5 to-transparent group hover:border-[#17739A]/50 transition-all duration-500 overflow-hidden relative">
@@ -125,7 +125,7 @@ const pageContent: Record<string, any> = {
                                     <div className="p-2.5 rounded-2xl bg-[#17739A]/20 border border-[#17739A]/30">
                                         <Landmark className="w-6 h-6 text-[#17739A]" />
                                     </div>
-                                    <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#17739A]">Física USP</span>
+                                    <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#17739A]">IME USP</span>
                                 </div>
                                 <h5 className="text-gray-900 dark:text-white text-lg font-black uppercase italic mb-3">O seu Instituto por Dentro</h5>
                                 <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed mb-6">
@@ -374,7 +374,7 @@ const pageContent: Record<string, any> = {
                 title: 'Física Acolhe',
                 content: (
                     <div className="space-y-4">
-                        <p>Iniciativa dedicada ao suporte direto e acolhimento dos alunos do Instituto de Física, promovendo um ambiente acadêmico mais saudável e integrado.</p>
+                        <p>Iniciativa dedicada ao suporte direto e acolhimento dos alunos do Instituto de Matemática e Estatística, promovendo um ambiente acadêmico mais saudável e integrado.</p>
                         <ActionButton label="Conhecer Física Acolhe" icon={<HeartHandshake className="w-4 h-4" />} href="https://portal.ime.usp.br/ad/pt-br/node/380" variant="secondary" />
                     </div>
                 )
@@ -543,7 +543,7 @@ const pageContent: Record<string, any> = {
         actions: []
     },
     'instituto': {
-        title: 'O Instituto de Física',
+        title: 'O Instituto de Matemática e Estatística',
         subtitle: 'Estrutura, História e Espaços USP',
         icon: <Landmark className="w-12 h-12" />,
         color: '#17739A',
@@ -551,7 +551,7 @@ const pageContent: Record<string, any> = {
             {
                 title: 'Em Desenvolvimento',
                 fullWidth: true,
-                content: 'Esta aba está em construção. No futuro, teremos aqui um guia completo focado na organização atual do Instituto de Física (Diretoria, Conselhos e Comissões), sua história de pioneirismo e excelência, e a estrutura de seus departamentos e centros de pesquisa. Outras informações práticas do cotidiano já podem ser encontradas nas demais seções da Wiki.'
+                content: 'Esta aba está em construção. No futuro, teremos aqui um guia completo focado na organização atual do Instituto de Matemática e Estatística (Diretoria, Conselhos e Comissões), sua história de pioneirismo e excelência, e a estrutura de seus departamentos e centros de pesquisa. Outras informações práticas do cotidiano já podem ser encontradas nas demais seções da Wiki.'
             }
         ],
         dates: [],
@@ -604,7 +604,7 @@ export default function WikiSubPage() {
         const renderTextWithUSP = (rawText: string) => {
             if (!rawText) return rawText;
             // Force strict canonical USP (remove spaces/dashes)
-            const standardized = rawText.replace(/IF-USP|IF USP/gi, 'USP');
+            const standardized = rawText.replace(/IME USP|IF USP/gi, 'USP');
             const parts = standardized.split(/(USP)/gi);
             return parts.map((part, i) => {
                 if (part.toUpperCase() === 'USP') {

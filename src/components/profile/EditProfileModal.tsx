@@ -146,7 +146,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
     const formEmail = watch('email');
     const isUspUser = formEmail ? (formEmail.endsWith('@usp.br') || formEmail.endsWith('@ime.usp.br')) : false;
 
-    const institutes = ['IF-USP', 'IME-USP', 'IQ-USP', 'FFLCH-USP', 'Outros'];
+    const institutes = ['IME USP', 'IME-USP', 'IQ-USP', 'FFLCH-USP', 'Outros'];
     const ifCourses = ['Bacharelado', 'Licenciatura', 'Física Médica'];
 
     useEffect(() => {
@@ -202,7 +202,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
             setValue('education_level', profile.education_level || '');
             setValue('external_institution', profile.external_institution || '');
 
-            if (profile.institute && ['IF-USP', 'IME-USP', 'IQ-USP', 'FFLCH-USP'].includes(profile.institute)) {
+            if (profile.institute && ['IME USP', 'IME-USP', 'IQ-USP', 'FFLCH-USP'].includes(profile.institute)) {
                 setValue('institute', profile.institute);
                 setValue('other_institute', '');
             } else if (profile.institute) {
@@ -756,7 +756,7 @@ export function EditProfileModal({ isOpen, onClose, onSuccess, adminMode = false
                                         </div>
                                     <div className="space-y-2">
                                         <label className="text-[10px] font-black uppercase tracking-widest text-gray-400 ml-1">Curso</label>
-                                        {selectedInstitute === 'IF-USP' ? (
+                                        {selectedInstitute === 'IME USP' ? (
                                             <select
                                                 {...register('course')}
                                                 className="w-full bg-gray-50 dark:bg-black/20 border border-gray-100 dark:border-white/5 rounded-2xl px-4 py-3 text-sm focus:border-brand-blue/50 outline-none transition-all appearance-none cursor-pointer font-bold"

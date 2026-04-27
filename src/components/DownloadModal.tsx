@@ -278,7 +278,7 @@ export const DownloadModal = ({ id, title, authors, avatarUrl, description, medi
                         <div className="h-10 w-32 bg-brand-blue/10 rounded flex items-center justify-center shrink-0">
                             <span className="text-brand-blue font-black text-xs uppercase tracking-tighter" style={{ fontFamily: '"Inter", sans-serif' }}>HUB IME HUB</span>
                         </div>
-                        <img src="/HUB IME-logo.png" crossOrigin="anonymous" alt="Hub HUB IME" className="h-10 w-10 object-contain rounded-lg opacity-90 shadow-2xl" />
+                        <img src="/hub-ime-logo.png" crossOrigin="anonymous" alt="Hub HUB IME" className="h-10 w-10 object-contain rounded-lg opacity-90 shadow-2xl" />
                     </div>
 
                     {mediaUrl && (
@@ -323,10 +323,10 @@ export const DownloadModal = ({ id, title, authors, avatarUrl, description, medi
                     <div className="flex items-center justify-between border-b-[6px] border-brand-blue pb-8 mb-12">
                         <div className="flex items-center gap-6">
                             <div className="h-16 w-16 bg-blue-50/50 rounded-2xl flex items-center justify-center shadow-lg border border-brand-blue/10 overflow-hidden p-1 shrink-0">
-                                <img src="/HUB IME-logo.png" crossOrigin="anonymous" alt="Hub HUB IME" className="w-full h-full object-contain drop-shadow" />
+                                <img src="/hub-ime-logo.png" crossOrigin="anonymous" alt="Hub HUB IME" className="w-full h-full object-contain drop-shadow" />
                             </div>
                             <div>
-                                <h1 className="text-3xl font-black text-brand-blue tracking-tight uppercase" style={{ fontFamily: '"Inter", sans-serif' }}>Instituto de Física | USP</h1>
+                                <h1 className="text-3xl font-black text-brand-blue tracking-tight uppercase" style={{ fontFamily: '"Inter", sans-serif' }}>Instituto de Matemática e Estatística | USP</h1>
                                 <p className="text-sm font-bold text-gray-500 tracking-widest uppercase mt-1" style={{ fontFamily: '"Inter", sans-serif' }}>Acervo do Laboratório de Divulgação (HUB IME)</p>
                             </div>
                         </div>

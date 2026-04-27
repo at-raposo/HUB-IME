@@ -81,14 +81,14 @@ export default function SubmitPage() {
                         {/* Branding */}
                         <Link href="/" className="flex items-center gap-3 group hover:opacity-80 transition-all">
                             <div className="relative group-hover:scale-105 transition-transform">
-                                <Image src="/HUB IME-logo.png" alt="Hub HUB IME" width={32} height={32} className="relative w-8 h-8 object-contain rounded-lg" priority />
+                                <Image src="/hub-ime-logo.png" alt="Hub HUB IME" width={32} height={32} className="relative w-8 h-8 object-contain rounded-lg" priority />
                             </div>
                             <div className="flex flex-col leading-none">
                                 <div className="text-lg font-[900] tracking-tighter uppercase flex items-center gap-0.5">
                                     <span className="text-gray-900 dark:text-white">HUB</span>
                                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">HUB IME</span>
                                 </div>
-                                <span className="text-[8px] font-bold text-gray-400 uppercase tracking-widest">Instituto de Física</span>
+                                <span className="text-[8px] font-bold text-gray-400 uppercase tracking-widest">Instituto de Matemática e Estatística</span>
                             </div>
                         </Link>
 

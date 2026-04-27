@@ -95,7 +95,7 @@ export function PerguntasTabContent() {
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 bg-white dark:bg-white/5 p-8 rounded-3xl border border-gray-200 dark:border-white/10 shadow-sm dark:shadow-none">
                 <div className="max-w-xl">
                     <h2 className="text-2xl font-black text-gray-900 dark:text-white uppercase tracking-tight mb-2">Pergunte a um <span className="text-brand-blue">Cientista</span></h2>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">Tem uma dúvida sobre ciência? Envie sua pergunta e nossos pesquisadores do IF-USP responderão!</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">Tem uma dúvida sobre ciência? Envie sua pergunta e nossos pesquisadores do IME USP responderão!</p>
                 </div>
                 <button
                     onClick={() => setShowModal(true)}
@@ -143,7 +143,7 @@ export function PerguntasTabContent() {
                                     </div>
                                     <div className="flex-1 min-w-0">
                                         <div className="flex items-center gap-2 mb-2">
-                                            <span className="text-[10px] font-black uppercase tracking-widest text-brand-yellow">{p.respondido_por || 'Cientista IF-USP'}</span>
+                                            <span className="text-[10px] font-black uppercase tracking-widest text-brand-yellow">{p.respondido_por || 'Cientista IME USP'}</span>
                                             <span className="px-2 py-0.5 bg-brand-yellow/10 text-brand-yellow rounded-full text-[8px] font-black uppercase tracking-widest">Resposta</span>
                                         </div>
                                         <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed whitespace-pre-line group-hover:text-gray-700 dark:group-hover:text-gray-300 transition-colors">{p.resposta}</p>

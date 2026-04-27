@@ -155,7 +155,7 @@ export const FluxoView = ({
         }
     };
 
-    const categories = ['Todos', 'HUB IME', 'Mentorados HUB IME', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
+    const categories = ['Todos', 'hub-ime', 'Mentorados HUB IME', 'Laboratórios', 'Pesquisadores', 'Bastidores da Ciência', 'Eventos', 'Nossa História', 'Uso Didático', 'Convivência', 'Central de Anotações', 'Mural do Deu Ruim', 'Outros'];
     const currentYear = 2026;
     const years = ['Todos', ...Array.from({ length: currentYear - 1934 + 1 }, (_, i) => (currentYear - i).toString())];
 

@@ -141,7 +141,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                     <h1 className="text-3xl md:text-5xl font-black tracking-tighter uppercase italic">O Grande Colisor</h1>
                 </div>
                 <p className="text-gray-500 dark:text-gray-400 text-lg max-w-2xl leading-relaxed">
-                    O repositório técnico de conhecimento estruturado do Instituto de Física e da USP. Explore a conexão entre iniciativas e oportunidades.
+                    O repositório técnico de conhecimento estruturado do Instituto de Matemática e Estatística e da USP. Explore a conexão entre iniciativas e oportunidades.
                 </p>
             </div>
 
@@ -200,7 +200,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                             <span className="material-symbols-outlined text-4xl md:text-6xl text-brand-blue">science</span>
                         </div>
                         <div className="w-12 h-12 md:w-16 md:h-16 rounded-2xl flex items-center justify-center mb-4 md:mb-6 overflow-hidden">
-                            <img src="/HUB IME-logo.png" alt="Logo do HUB IME" className="w-full h-full object-contain" />
+                            <img src="/hub-ime-logo.png" alt="Logo do HUB IME" className="w-full h-full object-contain" />
                         </div>
                         <h2 className="text-xl md:text-2xl font-black tracking-tight mb-2 md:mb-3">
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">HUB IME</span>
@@ -208,7 +208,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         <p className="text-[10px] md:text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 md:mb-6">
                             Inspirada no CommLab do MIT, foca na comunicação científica no USP. Oferece tutoria entre pares para escrita científica, apresentações e design.
                         </p>
-                        <Link href="/HUB IME?tab=HUB IME" className="text-brand-blue font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
+                        <Link href="/hub-ime?tab=hub-ime" className="text-brand-blue font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
                             Explorar <span className="hidden sm:inline">Acervo</span> <span className="material-symbols-outlined text-sm md:text-base">arrow_forward</span>
                         </Link>
                     </div>
@@ -257,7 +257,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         </div>
                         <h2 className="text-xl md:text-2xl font-black text-gray-900 dark:text-white tracking-tight mb-2 md:mb-3">BUSP</h2>
                         <p className="text-[10px] md:text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-4 md:mb-6">
-                            A Biblioteca do Instituto de Física. Um acervo vasto de livros, periódicos e teses, oferecendo suporte essencial para o estudo e a pesquisa acadêmica de excelência.
+                            A Biblioteca do Instituto de Matemática e Estatística. Um acervo vasto de livros, periódicos e teses, oferecendo suporte essencial para o estudo e a pesquisa acadêmica de excelência.
                         </p>
                         <a href="https://portal.ime.usp.br/biblioteca/" target="_blank" rel="noopener noreferrer" className="text-brand-blue font-black flex items-center gap-1 md:gap-2 group-hover:underline text-[10px] md:text-sm mt-auto w-fit whitespace-nowrap">
                             Acessar <span className="hidden sm:inline">Biblioteca</span> <span className="material-symbols-outlined text-sm md:text-base">arrow_forward</span>
@@ -324,7 +324,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         <div className="flex items-center gap-3 justify-center md:justify-start">
                             <span className="material-symbols-outlined text-brand-blue text-3xl">record_voice_over</span>
                             <h2 className="text-2xl font-black uppercase tracking-tight">
-                                Influenciadores do <span className="text-brand-yellow">IF-USP</span>
+                                Influenciadores do <span className="text-brand-yellow">IME USP</span>
                             </h2>
                         </div>
                         <p className="text-sm text-gray-500 dark:text-gray-400">

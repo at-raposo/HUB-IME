@@ -13,7 +13,7 @@ const milestones = [
     {
         year: '1970',
         event: 'Institucionalização',
-        description: 'Transformação do departamento no Instituto de Física da USP (USP).',
+        description: 'Transformação do departamento no Instituto de Matemática e Estatística da USP (USP).',
         color: 'brand-red'
     },
     {

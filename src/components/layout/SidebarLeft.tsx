@@ -33,7 +33,7 @@ import { useNavigationStore } from '@/store/useNavigationStore';
 const mainLinks = [
     { name: 'Comunidade', href: '/', icon: <span className="material-symbols-outlined text-2xl">groups</span>, color: 'brand-red' },
     { name: 'GCIME', href: '/gcime', icon: <ColisorIcon className="w-6 h-6" />, color: 'brand-blue' },
-    { name: 'HUB IME', href: '/HUB IME', icon: <span className="material-symbols-outlined text-2xl">info</span>, color: 'brand-yellow' },
+    { name: 'hub-ime', href: '/hub-ime', icon: <span className="material-symbols-outlined text-2xl">info</span>, color: 'brand-yellow' },
 ];
 
 const categoryLinks = [

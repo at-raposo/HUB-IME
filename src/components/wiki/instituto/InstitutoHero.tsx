@@ -37,7 +37,7 @@ export function InstitutoHero() {
                     <div className="glass-card p-8 rounded-[40px] border-gray-100 dark:border-white/5 bg-white/50 dark:bg-[#1E1E1E]/50 backdrop-blur-sm">
                         <h2 className="text-sm font-black text-gray-900 dark:text-white uppercase italic mb-4 tracking-wider">Sobre o Instituto</h2>
                         <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                            Fundado in 1934 como parte da Faculdade de Filosofia, Ciências e Letras, o Instituto de Física da USP consolidou-se como uma das instituições de pesquisa mais produtivas do país. Atualmente, abriga centenas de laboratórios de ponta e pesquisadores empenhados em desvendar desde as partículas subatômicas até a vasta estrutura do universo, mantendo um compromisso inabalável com a formação de excelência e a divulgação científica.
+                            Fundado in 1934 como parte da Faculdade de Filosofia, Ciências e Letras, o Instituto de Matemática e Estatística da USP consolidou-se como uma das instituições de pesquisa mais produtivas do país. Atualmente, abriga centenas de laboratórios de ponta e pesquisadores empenhados em desvendar desde as partículas subatômicas até a vasta estrutura do universo, mantendo um compromisso inabalável com a formação de excelência e a divulgação científica.
                         </p>
                     </div>
 

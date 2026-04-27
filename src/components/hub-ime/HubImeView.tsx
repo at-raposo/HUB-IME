@@ -1,12 +1,12 @@
 'use client';
 
 import React from 'react';
-import { HUB IMECatalogExplorer } from "@/components/HUB IMECatalogExplorer";
-import { HUB IMETeam } from "@/components/HUB IME/HUB IMETeam";
+import { HubImeCatalogExplorer } from "@/components/HubImeCatalogExplorer";
+import { HubImeTeam } from "@/components/hub-ime/HubImeTeam";
 import Link from "next/link";
-import { HUB IMEFeedbackCard } from "@/app/arquivo-HUB IME/HUB IMEFeedbackCard";
+import { HubImeFeedbackCard } from "@/app/arquivo-HUB IME/HubImeFeedbackCard";
 
-export function HUB IMEView() {
+export function HubImeView() {
     return (
         <div className="flex-1 w-full animate-in fade-in duration-700 pt-8 pb-12">
             {/* Hero */}
@@ -50,7 +50,7 @@ export function HUB IMEView() {
                         <p className="text-sm text-gray-600 dark:text-gray-400 mb-8 max-w-sm">
                             Ferramentas exclusivas, templates de design, guias de linguagem e assets audiovisuais da marca do USP para acelerar suas produções.
                         </p>
-                        <a href="https://HUB IME.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
+                        <a href="https://hub-ime.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
                             Explorar Kit Div
                             <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                         </a>
@@ -104,7 +104,7 @@ export function HUB IMEView() {
                         <p className="text-sm text-gray-600 dark:text-gray-400 mb-8 max-w-sm relative z-10">
                             Um espaço multimídia do USP disponível para gravações, reuniões e eventos acadêmicos. Agende a utilização e transforme suas ideias em produções profissionais.
                         </p>
-                        <a href="https://HUB IME.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto relative z-10 px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
+                        <a href="https://hub-ime.notion.site" target="_blank" rel="noopener noreferrer" className="mt-auto relative z-10 px-6 py-3 bg-brand-red text-white text-sm font-bold rounded-xl flex items-center gap-2 hover:scale-105 transition-transform group-hover:shadow-lg group-hover:shadow-brand-red/20">
                             Agendar Espaço
                             <span className="material-symbols-outlined text-[16px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
                         </a>
@@ -121,7 +121,7 @@ export function HUB IMEView() {
                     <div className="h-1.5 w-24 rounded-full mb-2 bg-brand-yellow"></div>
                 </div>
 
-                <HUB IMECatalogExplorer />
+                <HubImeCatalogExplorer />
             </section>
 
             <section id="equipe" className="py-12 max-w-7xl mx-auto px-4 border-t border-gray-100 dark:border-gray-800">
@@ -132,7 +132,7 @@ export function HUB IMEView() {
                     <div className="h-1.5 w-24 rounded-full mb-2 bg-brand-blue-accent"></div>
                 </div>
 
-                <HUB IMETeam />
+                <HubImeTeam />
             </section>
         </div>
     );

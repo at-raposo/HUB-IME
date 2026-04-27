@@ -54,7 +54,7 @@ export async function GET(request: Request) {
                         {title}
                     </div>
                     <div style={{ display: 'flex', color: '#94a3b8', fontSize: '28px', fontWeight: 600 }}>
-                        Instituto de Física • USP
+                        Instituto de Matemática e Estatística • USP
                     </div>
                 </div>
             ),

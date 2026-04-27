@@ -1,7 +1,7 @@
 export const CATEGORIES = [
     {
-        id: 'HUB IME',
-        title: 'HUB IME',
+        id: 'hub-ime',
+        title: 'hub-ime',
         description: 'Conteúdos oficiais, comunicados e projetos do Laboratório de Divulgação Científica.',
         icon: 'science',
         color: 'brand-blue',
@@ -50,7 +50,7 @@ export const CATEGORIES = [
     {
         id: 'Nossa História',
         title: 'Nossa História',
-        description: 'Relíquias, fotos antigas e marcos da história do Instituto de Física.',
+        description: 'Relíquias, fotos antigas e marcos da história do Instituto de Matemática e Estatística.',
         icon: 'history_edu',
         color: 'brand-blue',
         examples: 'Fotos de 1934, antigos laboratórios, grandes descobertas.'

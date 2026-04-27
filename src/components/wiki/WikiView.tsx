@@ -53,7 +53,7 @@ export const wikiCells = [
             'Guia Visual HUB IME (Azul Elétrico) e MIT Style',
             'Toolkit de design para posters e redes sociais'
         ],
-        keywords: ['divulgação', 'design', 'HUB IME', '360', 'vr', 'poster', 'mídia', 'comunicação', 'impacto', 'toolkit'],
+        keywords: ['divulgação', 'design', 'hub-ime', '360', 'vr', 'poster', 'mídia', 'comunicação', 'impacto', 'toolkit'],
         cta: 'Gerar Impacto'
     },
     {
@@ -176,7 +176,7 @@ export const wikiCells = [
 
 export const institutoCell = {
     id: 'instituto',
-    title: 'O Instituto de Física',
+    title: 'O Instituto de Matemática e Estatística',
     subtitle: 'Estrutura, História e Espaços.',
     icon: <Landmark className="w-8 h-8" />,
     color: 'brand-blue-USP',
@@ -211,7 +211,7 @@ const quizCell = {
 
 const renderUSP = (text: string) => {
     if (!text) return text;
-    const standardized = text.replace(/IF-USP|IF USP/gi, 'USP');
+    const standardized = text.replace(/IME USP|IF USP/gi, 'USP');
     const parts = standardized.split(/(USP)/gi);
     return parts.map((part, i) => {
         if (part.toUpperCase() === 'USP') {

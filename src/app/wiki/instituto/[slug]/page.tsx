@@ -61,7 +61,7 @@ export default function DepartmentWikiPage({ params }: { params: Promise<{ slug:
                         className="flex items-center gap-2 text-sm font-bold text-gray-500 hover:text-brand-blue transition-colors w-fit mb-6 group"
                     >
                         <ChevronLeftIcon className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
-                        Instituto de Física / {department.sigla}
+                        Instituto de Matemática e Estatística / {department.sigla}
                     </Link>
 
                     <motion.div 

@@ -12,7 +12,7 @@ import { ColisorIcon } from '../icons/ColisorIcon';
 
 const drawerLinks: (NavItem & { color?: string })[] = [
     { name: 'Central de Interações', href: '/interacao?tab=emaranhamento', icon: 'hub', isPrimary: true, color: 'brand-blue' },
-    { name: 'HUB IME', href: '/HUB IME', icon: 'info', color: 'brand-blue' },
+    { name: 'hub-ime', href: '/hub-ime', icon: 'info', color: 'brand-blue' },
     { name: 'Admin', href: '/admin', icon: 'analytics', color: 'brand-blue' },
 ];
 
@@ -58,7 +58,7 @@ export const BottomNavBar = () => {
 
     const dynamicNavItems = [
         { name: 'Comunidade', href: '/', icon: 'groups', color: 'brand-red' },
-        { name: 'GCIF', href: '/gcime', icon: 'colisor', color: 'brand-blue' },
+        { name: 'GCIME', href: '/gcime', icon: 'colisor', color: 'brand-blue' },
         { name: 'Lançar à Órbita', href: AppRoutes.ENVAR, icon: 'rocket_launch', isAction: true, color: 'brand-blue' },
         ...(userCategory === 'pesquisador' 
             ? [{ name: 'Pesquisa', href: '/arena', icon: 'visibility', color: 'brand-red' }]

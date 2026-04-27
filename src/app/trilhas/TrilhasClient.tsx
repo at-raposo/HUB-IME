@@ -227,8 +227,8 @@ export default function TrilhasClient({
     const stats = useMemo(() => {
         if (!userProfile) return null;
 
-        // Fallback e Verificação Estrita: Apenas IF-USP e com curso definido
-        const isUSP = userProfile.institute?.toUpperCase() === 'USP' || userProfile.institute?.toUpperCase() === 'IF-USP';
+        // Fallback e Verificação Estrita: Apenas IME USP e com curso definido
+        const isUSP = userProfile.institute?.toUpperCase() === 'USP' || userProfile.institute?.toUpperCase() === 'IME USP';
         if (!isUSP || !userProfile.course) return {
             percentage: 0,
             totalMandatory: 0,

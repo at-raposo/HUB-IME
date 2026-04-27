@@ -276,7 +276,7 @@ export function BasicDetailsStep() {
                     <label className="text-sm font-black uppercase tracking-widest flex items-center gap-2 text-brand-blue">
                         <span className="material-symbols-outlined text-xl">event</span>
                         Ano do Trabalho *
-                        <HelpTooltip text="Ajuda a organizar a linha do tempo histórica do Instituto de Física." />
+                        <HelpTooltip text="Ajuda a organizar a linha do tempo histórica do Instituto de Matemática e Estatística." />
                     </label>
                     <select
                         {...register('event_year')}

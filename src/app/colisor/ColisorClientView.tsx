@@ -303,7 +303,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                         <span className="material-symbols-outlined text-6xl text-brand-blue">science</span>
                     </div>
                     <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 overflow-hidden bg-white">
-                        <img src="/HUB IME-logo.png" alt="Logo do HUB IME" className="w-full h-full object-contain" />
+                        <img src="/hub-ime-logo.png" alt="Logo do HUB IME" className="w-full h-full object-contain" />
                     </div>
                     <h2 className="text-2xl font-black tracking-tight mb-3">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red via-brand-blue to-brand-yellow">HUB IME</span>
@@ -311,7 +311,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
                         Inspirada no CommLab do MIT, foca na comunicação científica no USP. Oferece tutoria entre pares para escrita científica e design.
                     </p>
-                    <Link href="/arquivo-HUB IME" className="text-brand-blue font-black flex items-center gap-2 group-hover:underline text-sm mt-auto w-fit">
+                    <Link href="/arquivo-ime" className="text-brand-blue font-black flex items-center gap-2 group-hover:underline text-sm mt-auto w-fit">
                         Explorar Acervo <span className="material-symbols-outlined text-base">arrow_forward</span>
                     </Link>
                 </div>
@@ -383,7 +383,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
                     </div>
                     <h2 className="text-2xl font-black text-gray-900 dark:text-white tracking-tight mb-3">BUSP</h2>
                     <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-6">
-                        A Biblioteca do Instituto de Física. Um acervo vasto oferecendo suporte essencial para o estudo e a pesquisa acadêmica.
+                        A Biblioteca do Instituto de Matemática e Estatística. Um acervo vasto oferecendo suporte essencial para o estudo e a pesquisa acadêmica.
                     </p>
                     <a href="https://portal.ime.usp.br/biblioteca/" target="_blank" rel="noopener noreferrer" className="text-brand-blue font-black flex items-center gap-2 group-hover:underline text-sm mt-auto w-fit">
                         Acessar Biblioteca <span className="material-symbols-outlined text-base">arrow_forward</span>
@@ -427,7 +427,7 @@ export function ColisorClientView({ oportunidades }: ColisorClientViewProps) {
 
             {/* --- SEÇÃO INFLUENCIADORES (Netflix Feed) --- */}
             <NetflixFeed 
-                title="Influenciadores do IF-USP" 
+                title="Influenciadores do IME USP" 
                 icon={<span className="material-symbols-outlined text-brand-blue text-3xl">record_voice_over</span>}
             >
                 {influencers.map((influencer, index) => (

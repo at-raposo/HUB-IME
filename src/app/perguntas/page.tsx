@@ -112,7 +112,7 @@ export default function PerguntasPage() {
                         <PergunteFeedbackCard className="block lg:hidden mb-8" />
 
                         <p className="text-lg text-gray-600 dark:text-gray-400">
-                            Tem uma dúvida sobre ciência? Envie sua pergunta e nossos pesquisadores do IF-USP responderão!
+                            Tem uma dúvida sobre ciência? Envie sua pergunta e nossos pesquisadores do IME USP responderão!
                         </p>
                     </div>
                     <button
@@ -167,7 +167,7 @@ export default function PerguntasPage() {
                                         </div>
                                         <div className="flex-1">
                                             <div className="flex items-center gap-2 mb-1">
-                                                <span className="font-bold text-gray-900 dark:text-white text-sm">{p.respondido_por || 'Cientista IF-USP'}</span>
+                                                <span className="font-bold text-gray-900 dark:text-white text-sm">{p.respondido_por || 'Cientista IME USP'}</span>
                                                 <span className="px-2 py-0.5 bg-brand-blue/10 text-brand-blue rounded-full text-[10px] font-bold uppercase tracking-wider">Resposta</span>
                                             </div>
                                             <p className="text-gray-700 dark:text-gray-300 leading-relaxed whitespace-pre-line">{p.resposta}</p>
