@@ -20,7 +20,7 @@ export function Footer() {
                             <div className="flex flex-col -space-y-0.5">
                                 <div className="flex items-baseline gap-1.5">
                                     <span className="font-bukra font-bold text-xl text-white uppercase leading-tight">HUB</span>
-                                    <span className="font-bukra font-black text-xl text-white leading-tight">HUB IME</span>
+                                    <span className="font-bukra font-black text-xl text-white leading-tight">IME</span>
                                     <div className="flex flex-col items-center opacity-70">
                                         <span className="text-[7px] font-black px-1.5 py-0.5 rounded bg-white/15 text-white/70 ml-1">V3.2.0</span>
                                         <span className="text-[8px] font-black uppercase tracking-tighter ml-1 text-white/40">(BETA)</span>
@@ -43,7 +43,7 @@ export function Footer() {
                         <h4 className="font-bold text-white mb-6 uppercase text-xs tracking-wider border-l-4 border-white/40 pl-3">Navegação</h4>
                         <ul className="space-y-3">
                             <li><Link href="/" className="flex items-center gap-3 text-sm text-white/60 hover:text-white transition-colors"><span className="material-symbols-outlined text-[20px] w-5 h-5 flex items-center justify-center flex-shrink-0">groups</span> Comunidade</Link></li>
-                            <li><Link href="/gcime" className="flex items-center gap-3 text-sm text-white/60 hover:text-white transition-colors"><ColisorIcon size={20} animate={false} className="w-5 h-5 flex-shrink-0" /> O Grande Colisor do IF</Link></li>
+                            <li><Link href="/gcime" className="flex items-center gap-3 text-sm text-white/60 hover:text-white transition-colors"><ColisorIcon size={20} animate={false} className="w-5 h-5 flex-shrink-0" /> O Grande Colisor do IME</Link></li>
                             <li><Link href="/ferramentas" className="flex items-center gap-3 text-sm text-white/60 hover:text-white transition-colors"><span className="material-symbols-outlined text-[20px] w-5 h-5 flex items-center justify-center flex-shrink-0">construction</span> Ferramentas acadêmicas</Link></li>
                             <li><Link href="/perguntas" className="flex items-center gap-3 text-sm text-white/60 hover:text-white transition-colors"><span className="material-symbols-outlined text-[20px] w-5 h-5 flex items-center justify-center flex-shrink-0">help_outline</span> Interação (Pergunte/Lab)</Link></li>
 
